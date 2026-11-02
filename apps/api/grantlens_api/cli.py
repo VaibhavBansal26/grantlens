@@ -15,11 +15,14 @@ def register(app: Flask) -> None:
     @click.option("--query", default=None, help="Keyword filter (NIH/NSF/Grants.gov)")
     @click.option("--since", type=click.DateTime(["%Y-%m-%d"]), default=None)
     @click.option("--until", type=click.DateTime(["%Y-%m-%d"]), default=None)
+    @click.option("--statuses", default=None, help="Grants.gov only, e.g. 'closed|archived'")
     @click.option("--limit", type=int, default=None, help="Max records (for trial runs)")
-    def sync(source, query, since, until, limit) -> None:
+    def sync(source, query, since, until, statuses, limit) -> None:
         """Pull opportunities from a source and upsert them."""
         kwarg = {"grants_gov": "keyword", "nih_reporter": "text", "nsf": "keyword"}[source]
         kwargs = {kwarg: query} if query else {}
+        if source == "grants_gov" and statuses:
+            kwargs["statuses"] = statuses
         if source != "grants_gov":
             kwargs |= {k: v.date() for k, v in (("since", since), ("until", until)) if v}
         src = SOURCES[source](**kwargs)
