@@ -1,0 +1,5 @@
+# Copy to queries.yaml. relevant: {opportunity external_id: grade}, grade 1 = relevant, 2 = ideal.
+queries:
+  - id: q001
+    text: early-career funding for AI in cancer imaging
+    relevant: {}   # fill in after reviewing candidates
