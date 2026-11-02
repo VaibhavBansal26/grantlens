@@ -28,3 +28,10 @@ def register(app: Flask) -> None:
             f"{source}: inserted={stats.inserted} updated={stats.updated} "
             f"unchanged={stats.unchanged}"
         )
+
+    @app.cli.command("quality")
+    def quality() -> None:
+        """Print null rates and duplicate-title counts per source."""
+        from .quality import report
+
+        click.echo("\n".join(report()))
