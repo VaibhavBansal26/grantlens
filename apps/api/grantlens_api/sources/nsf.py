@@ -1,9 +1,10 @@
 from collections.abc import Iterator
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 import httpx
 
 from .base import NormalizedAward
+from .windows import windows
 
 API = "https://api.nsf.gov/services/v1/awards.json"
 PAGE = 25  # NSF returns at most 25 per request
@@ -49,25 +50,31 @@ def normalize(r: dict) -> NormalizedAward:
 class NsfSource:
     name = "nsf"
 
-    def __init__(self, keyword: str = "", date_start: str | None = None):
-        self.keyword, self.date_start = keyword, date_start  # date_start: MM/DD/YYYY
+    def __init__(self, keyword: str = "", since: date | None = None, until: date | None = None):
+        self.keyword = keyword
+        self.until = until or date.today()
+        self.since = since or self.until - timedelta(days=365)
 
     def fetch(self, limit: int | None = None) -> Iterator[NormalizedAward]:
-        params = {"printFields": FIELDS, "rpp": PAGE, "offset": 1}
-        if self.keyword:
-            params["keyword"] = self.keyword
-        if self.date_start:
-            params["dateStart"] = self.date_start
-        seen = 0
+        seen: set[str] = set()
         with httpx.Client(timeout=60) as client:
-            while True:
-                res = client.get(API, params=params).raise_for_status().json()
-                awards = res.get("response", {}).get("award") or []
-                for r in awards:
-                    if limit is not None and seen >= limit:
-                        return
-                    yield normalize(r)
-                    seen += 1
-                if len(awards) < PAGE:
-                    return
-                params["offset"] += PAGE
+            for start, end in windows(self.since, self.until, days=1):
+                params = {
+                    "printFields": FIELDS, "rpp": PAGE, "offset": 1,
+                    "dateStart": start.strftime("%m/%d/%Y"), "dateEnd": end.strftime("%m/%d/%Y"),
+                }
+                if self.keyword:
+                    params["keyword"] = self.keyword
+                while True:
+                    res = client.get(API, params=params).raise_for_status().json()
+                    awards = res.get("response", {}).get("award") or []
+                    for r in awards:
+                        if str(r["id"]) in seen:
+                            continue
+                        if limit is not None and len(seen) >= limit:
+                            return
+                        seen.add(str(r["id"]))
+                        yield normalize(r)
+                    if len(awards) < PAGE:
+                        break
+                    params["offset"] += PAGE

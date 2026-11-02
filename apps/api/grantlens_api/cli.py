@@ -13,11 +13,16 @@ def register(app: Flask) -> None:
     @app.cli.command("sync")
     @click.option("--source", type=click.Choice(sorted(SOURCES)), default="grants_gov")
     @click.option("--query", default=None, help="Keyword filter (NIH/NSF/Grants.gov)")
+    @click.option("--since", type=click.DateTime(["%Y-%m-%d"]), default=None)
+    @click.option("--until", type=click.DateTime(["%Y-%m-%d"]), default=None)
     @click.option("--limit", type=int, default=None, help="Max records (for trial runs)")
-    def sync(source: str, query: str | None, limit: int | None) -> None:
+    def sync(source, query, since, until, limit) -> None:
         """Pull opportunities from a source and upsert them."""
         kwarg = {"grants_gov": "keyword", "nih_reporter": "text", "nsf": "keyword"}[source]
-        src = SOURCES[source](**({kwarg: query} if query else {}))
+        kwargs = {kwarg: query} if query else {}
+        if source != "grants_gov":
+            kwargs |= {k: v.date() for k, v in (("since", since), ("until", until)) if v}
+        src = SOURCES[source](**kwargs)
         stats = upsert(src.fetch(limit=limit))
         click.echo(
             f"{source}: inserted={stats.inserted} updated={stats.updated} "

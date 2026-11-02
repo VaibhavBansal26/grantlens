@@ -1,3 +1,5 @@
+import itertools
+
 import pytest
 
 from grantlens_api import create_app
@@ -48,3 +50,14 @@ def test_award_upsert_idempotent(app):
     assert upsert([nih_reporter.normalize(NIH), nsf.normalize(NSF)]).inserted == 2
     assert upsert([nih_reporter.normalize(NIH), nsf.normalize(NSF)]).unchanged == 2
     assert Award.query.count() == 2
+
+
+def test_weekly_windows_cover_range_without_overlap():
+    from datetime import date, timedelta
+
+    from grantlens_api.sources.windows import windows
+
+    wins = list(windows(date(2025, 1, 1), date(2025, 1, 20)))
+    assert wins[0] == (date(2025, 1, 1), date(2025, 1, 7))
+    assert wins[-1][1] == date(2025, 1, 20)
+    assert all(b[0] == a[1] + timedelta(days=1) for a, b in itertools.pairwise(wins))

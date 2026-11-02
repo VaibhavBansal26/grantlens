@@ -13,6 +13,7 @@ HASHED = (
     "project_number", "organization", "investigators", "keywords", "amount", "fiscal_year",
     "start_date", "end_date",
 )
+BATCH = 500
 MODELS = {NormalizedOpportunity: Opportunity, NormalizedAward: Award}
 
 
@@ -30,7 +31,9 @@ def content_hash(item: NormalizedOpportunity | NormalizedAward) -> str:
 
 def upsert(items: Iterable[NormalizedOpportunity | NormalizedAward]) -> SyncStats:
     stats = SyncStats()
-    for item in items:
+    for n, item in enumerate(items, 1):
+        if n % BATCH == 0:
+            db.session.commit()
         digest = content_hash(item)
         model = MODELS[type(item)]
         row = model.query.filter_by(source=item.source, external_id=item.external_id).first()
