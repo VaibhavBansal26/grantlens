@@ -1,0 +1,613 @@
+queries:
+- id: q006
+  text: opioid use disorder treatment and recovery research
+  candidates:
+  - id: '363686'
+    title: Rural Communities Opioid Response Program - Overdose Response
+    abstract: <p>The purpose of the Rural Communities Opioid Response Program (RCORP) - Overdose Response is to support improving health care in rural areas by addressing their immediate and short-term
+      needs related to the provision of substance use disorder services. RCORP Overdose Response aims to reduce and prevent the risk of overdoses in rural areas.</p>
+  - id: '363058'
+    title: Improving Linkage to Care for People with Opioid Use Disorder (U01)
+    abstract: "<p>The Centers for Disease Control and Prevention\u2019s (CDC) National Center for Injury Prevention and Control (NCIPC, Injury Center) is soliciting investigator-initiated research to develop,\
+      \ implement, and rigorously evaluate strategies to address and overcome barriers to implementing evidence-based linkage to care services in health care settings. Strategies should focus on individuals\
+      \ with opioid use disorder (OUD) or who meet criteria consistent with an OUD and are at risk of an opioid overdose"
+  - id: '363687'
+    title: Rural Communities Opioid Response Program - Child and Adolescent Behavioral Health
+    abstract: <p>The RCORP-Child and Adolescent Behavioral Health Program provides funding to rural communities to establish and expand behavioral health care services, including mental health and substance
+      use disorder for rural children and adolescents.&nbsp;</p>
+  - id: '363813'
+    title: Emergency Department Alternatives to Opioids Program
+    abstract: <p>The purpose of the program is to establish and implement practices which will help your organization develop alternatives to pharmacological opioid interventions, reduce the potential harmful
+      consequences of opioid use for pain care in hospitals and emergency departments, thereby promoting safer pain treatment and reducing the risk of future opioid misuse and possible opioid overdose.</p>
+  - id: '153713'
+    title: 'Misuse and Abuse of DEA Schedule II-V Opioid Analgesic Drugs: Researching Strategies to Ensure Safe Use and Re'
+    abstract: As part of the FDA's Safe Use Initiative's mission to seek solutions to reduce preventable harm from suboptimal use (e.g., misuse and abuse) of medications, CDER is seeking to support a limited
+      number of research projects aimed at examining interventions and strategies that can be used by prescribers to increase the safe use and reduce misuse and abuse of opioid analgesic drugs. This funding
+      opportunity announcement (FOA), issued by the FDA, will provide resources for research to further def
+  - id: '364173'
+    title: First Responders-Comprehensive Addiction and Recovery Act
+    abstract: <p>The purpose of this program is to train first responders and communities in administering and distributing opioid overdose reversal medications (OORM).</p>
+  - id: '364041'
+    title: OJJDP FY 2026 Family Treatment Court Program
+    abstract: This is a notice of funding opportunity (NOFO) for the OJJDP FY 2026 Family Treatment Court Program. This opportunity will support state and local courts, units of local government, and federally
+      recognized Tribal governments to establish new, or enhance existing, family treatment courts to ensure the provision of substance use treatment and other services that improve child, parent, and family
+      outcomes. Family treatment courts serve parents who require treatment for a substance use disorder and
+  - id: '358991'
+    title: Avant Garde/Avenir Awards for Investigators Conducting High Risk/High Reward Research on HIV and Substance Use
+    abstract: The purpose of this notice of funding opportunity (NOFO) is to support innovative basic, clinical, translational, and implementation science research relevant to HIV and substance use. This
+      initiative encourages high risk high impact transformative studies that advance knowledge and strategies for HIV prevention, diagnosis, treatment and virus suppression in people who use substances
+      and/or have a substance use disorder.
+  - id: '357573'
+    title: 'Pilot Health Services and Economic Research on the Treatment of Drug, Alcohol, and Tobacco Use Disorders (R34 '
+    abstract: <p>This Notice of Funding Opportunity (NOFO) encourages pilot and preliminary research in preparation for larger-scale services research effectiveness trials. Relevant trials may test a wide
+      range of approaches, including interventions, practices, and policies designed to optimize access to, and the quality, effectiveness, affordability and utilization of drug, tobacco, or alcohol use
+      disorder treatments and related services, as well as services for comorbid medical and mental disorder condition
+  - id: '237953'
+    title: NIDCD Clinical Research Center Grant (P50)
+    abstract: The National Institute on Deafness and Other Communication Disorders (NIDCD) invites applications for Clinical Research Center Grants designed to advance the diagnosis, prevention, treatment,
+      and amelioration of human communication disorders. For this announcement, Clinical Research is defined as research involving individuals with communication disorders or data/tissues from individuals
+      with a communication disorder. Examples of such research include but are not limited to, studies of the prev
+  - id: '56395'
+    title: Treatment of Co-Occurring Alcohol Use Disorders and Depression/Anxiety Disorders (R21)
+    abstract: Purpose. The National Institute on Alcohol Abuse and Alcoholism (NIAAA), National Institutes of Health (NIH), invites applications to support research on the treatment of individuals with
+      co-occurring alcohol use disorders and depression/anxiety. Anxiety disorders include generalized anxiety disorder, social phobia, and posttraumatic stress disorder. The scope of interest includes
+      innovative pharmacological and behavioral treatments based on biological, psychological, behavioral, and social/cu
+  - id: '363891'
+    title: BJA FY 2026 Comprehensive Opioid, Stimulant, and Substance Use Program (COSSUP) Training and Technical Assista
+    abstract: This is a notice of funding opportunity (NOFO) for the Comprehensive Opioid Stimulant and Substance Use Program (COSSUP) Training and Technical Assistance (TTA). This opportunity will provide
+      training and technical assistance to BJA COSSUP grantees to address technical operational challenges to improve responses to overdose deaths, illicit opioids, stimulants, and other substances.
+  - id: '56396'
+    title: Treatment of Co-Occurring Alcohol Use Disorders and Depression/Anxiety Disorders (R01)
+    abstract: Purpose. The National Institute on Alcohol Abuse and Alcoholism (NIAAA), National Institutes of Health (NIH), invites applications to support research on the treatment of individuals with
+      co-occurring alcohol use disorders and depression/anxiety. Anxiety disorders include generalized anxiety disorder, social phobia, and posttraumatic stress disorder. The scope of interest includes
+      innovative pharmacological and behavioral treatments based on biological, psychological, behavioral, and social/cu
+  - id: '357974'
+    title: Substance Use/Substance Use Disorder Dissertation Research Award (R36 Clinical Trials Not Allowed)
+    abstract: <p>The goal of this NOFO is to support doctoral candidates from a variety of academic disciplines for up to two years for the completion of the doctoral dissertation research project. Research
+      projects should align with NIDA funding priorities detailed here (https://www.drugabuse.gov/funding/funding-priorities). This award will facilitate the entry of promising new investigators into the
+      field of substance use/substance use disorder (SU(D) research, enhancing the pool of highly talented SU(D) re
+  - id: '49866'
+    title: Behavioral and Integrative Treatment Development Program (R34)
+    abstract: Purpose. The purpose of this R34 Funding Opportunity Announcement (FOA) is to advance evidence-based treatment research through 1) the development, manualization, standardization, early-stage
+      efficacy and/or pilot testing of novel or adapted treatments and/or interventions (i.e. Stage 1 treatment research, see below), 2) the refinement, modification, adaptation and/or pilot testing of
+      interventions with demonstrated efficacy for use in broader scale efficacy or effectiveness trials, or 3) novel
+  - id: '236161'
+    title: HIV/AIDS and Substance Use Among the Homeless and Unstably Housed (R01)
+    abstract: To improve understanding of the intersection of HIV/AIDS and drug abuse, this Funding Opportunity Announcement (FOA) is part of a multipronged 2014 expansion of HIV and AIDS-related research
+      within the context of drug and alcohol abuse among understudied populations and in understudied settings that show promise for the development of effective prevention and treatment efforts. In addition
+      to this funding opportunity, others included in the 2014 expansion address substance use, HIV, and Black/Af
+  - id: '49855'
+    title: Behavioral and Integrative Treatment Development Program (R01)
+    abstract: Purpose.The purpose of this FOA for R03s is to encourage early career investigators or investigators who are striving to make a shift in their research to propose discrete, well-defined projects
+      that can be completed within two years with limited resources.Projects of interest fall within the research domain of behavioral, combined, sequential, or integrated (behavioral/pharmacological) (1)
+      drug abuse treatment interventions, including interventions for patients with comorbidities, in diverse se
+  - id: '50041'
+    title: Accelerating the Pace of Drug Abuse Research Using Existing Epidemiology, Prevention, and Treatment Research D
+    abstract: Purpose. The National Institute on Drug Abuse (NIDA) and the National Cancer Institute (NCI) invite applications to support the innovative analysis of existing social science and behavioral
+      data to study the etiology and epidemiology of drug using behaviors (defined as alcohol, tobacco, and other drug), HIV risk behaviors, related disorders, prevention and treatment of these behaviors,
+      and health service utilization including quality, access, and costs. NIDA and NCI encourage coordinated analy
+  - id: '49862'
+    title: Behavioral and Integrative Treatment Development Program (R03)
+    abstract: Purpose. The purpose of this FOA for R03s is to encourage early career investigators or investigators who are striving to make a shift in their research to propose discrete, well-defined projects
+      that can be completed within two years with limited resources. Projects of interest fall within the research domain of behavioral, combined, sequential, or integrated (behavioral/pharmacological)
+      (1) drug abuse treatment interventions, including interventions for patients with comorbidities, in divers
+  - id: '356049'
+    title: Cooperative Agreement to Support Activities Related to Analgesics, Anesthetics, and Addiction (U01) Clinical T
+    abstract: '<p>To develop, disseminate, implement, and evaluate research needed in Anesthesia, Addiction Medicine and Pain Medicine in various fields of research.&nbsp;Specifically, research is needed
+      in the following fields: function as a clinical trial endpoint and measurement of function in patients with chronic pain, outcome measures for clinical trials in stimulant use disorders, assessment
+      of opioid clinical trials with active control in addition to placebo, neurodevelopmental outcome assessment of vu'
+  - id: '50601'
+    title: Cognitive Remediation Approaches to Improve Drug Abuse Treatment Outcomes (R21)
+    abstract: Purpose. There is a significant public health need to improve the outcome of treatments of substance use disorders (SUDs). SUDs are often associated with cognitive changes that may negatively
+      impact drug abuse treatment outcomes. The purpose of this FOA is to solicit exploratory/developmental research project applications that design and/or develop cognitive remediation strategies that
+      enhance the outcome of SUD treatments. Mechanism of Support. This FOA will utilize the R21 grant mechanism and
+  - id: '50600'
+    title: Cognitive Remediation Approaches to Improve Drug Abuse Treatment Outcomes (R01)
+    abstract: Purpose. There is a significant public health need to improve the outcome of treatments of substance use disorders (SUDs). SUDs are often associated with cognitive changes that may negatively
+      impact drug abuse treatment outcomes. The purpose of this FOA is to solicit clinical research project applications that design and/or develop cognitive remediation strategies that enhance the outcome
+      of SUD treatments. Mechanism of Support. This FOA will utilize the R01 grant mechanism and runs in parallel
+  - id: '363680'
+    title: 'Single Cell Opioid Responses in the Context of HIV (SCORCH) Program: Phase 2'
+    abstract: <p>NIDA seeks to further advance its mission in the area of single cell biology.&nbsp; Since 2020, the NIDA-funded Single Cell Opioid Responses in the Context of HIV (SCORCH) consortium has
+      generated single-nucleus datasets from human and animal postmortem brain tissue under conditions of HIV infection, antiretroviral therapy (ART), and/or substance exposure (e.g. opioids, cocaine, methamphetamine,
+      and cannabinoids).&nbsp; Building on this Phase 1 foundation, NIDA will encourage research address
+  - id: '170294'
+    title: Identifying Health Outcomes Associated with Changes in Use of Illicit Drugs (R01)
+    abstract: The National Institute on Drug Abuse (NIDA) is soliciting grant (R01) applications to test the hypothesis that reductions in illicit drug use are associated with improved health outcomes in
+      patients. This FOA will support both prospective and retrospective studies, which may include, but not limited to, identification and characterization of beneficial health outcomes that are associated
+      with reduced levels of drug use. Such studies may focus on identification and or validation of strategies, me
+  - id: '44203'
+    title: Central Nervous System Intersections of Drug Addiction, Chronic Pain and Analgesia (R03)
+    abstract: -Purpose. The purpose of this Funding Opportunity Announcement (FOA) issued by the National Institute on Drug Abuse (NIDA) and the National Institute of Neurological Disorders and Stroke (NINDS)
+      is to issue a Request for Applications (RFA) to investigate CNS changes that occur with chronic pain, and how these changes parallel those that occur with drug addiction. Of interest will be how chronic
+      pain changes the CNS, how analgesics of various classes impact pain-induced CNS changes, and how analg
+  - id: '106754'
+    title: Mechanistic Studies of Pain and Alcohol Dependence (R21)
+    abstract: This Funding Opportunity Announcement (FOA) encourages applications that propose to conduct mechanistic studies on the relationship between alcohol drinking, alcohol dependence and pain. An
+      association between chronic pain conditions and alcohol dependence has been revealed in numerous studies with episodes of alcohol abuse antedating chronic pain in some people and alcohol dependence
+      emerging after the onset of chronic pain in others. Pain transmission and alcohols reinforcing effects share ove
+  - id: '358230'
+    title: National Cooperative Drug/Device Discovery/Development Groups (NCDDG) for the Treatment of Mental Disorders (U
+    abstract: Reissue of PAR-20-119. This FOA encourages applications to advance the discovery, preclinical development, and proof of concept (PoC) testing of new, rationally based candidate agents and
+      neurostimulation approaches to treat mental disorders, substance use disorders (SUDs) or alcohol use disorder (AUD), and to develop novel ligands and circuit-engagement devices as tools to further
+      characterize existing or to validate new drug/device targets. Partnerships between academia and industry are strong
+  - id: '106755'
+    title: Mechanistic Studies of Pain and Alcohol Dependence (R01)
+    abstract: This Funding Opportunity Announcement (FOA) encourages applications that propose to conduct mechanistic studies on the relationship between alcohol drinking, alcohol dependence and pain. An
+      association between chronic pain conditions and alcohol dependence has been revealed in numerous studies with episodes of alcohol abuse antedating chronic pain in some people and alcohol dependence
+      emerging after the onset of chronic pain in others. Pain transmission and alcohols reinforcing effects share ove
+  - id: '351679'
+    title: NIDA Mentored Clinical Scientist Development Program Award in Substance Use and Substance Use Disorder Researc
+    abstract: This funding opportunity announcement (FOA) encourages applications for institutional research career development (K12) programs that propose to support intensive supervised research training
+      and career development experiences for clinician scientists (Scholars) leading to research independence in the area of substance use and substance use disorder research.
+- id: q007
+  text: health disparities and health equity community interventions
+  candidates:
+  - id: '357371'
+    title: 'Notice of Intent to Publish a Funding Opportunity Announcement for NIDA REI: Reaching Equity at the Intersecti'
+    abstract: '<p>The National Institute on Drug Abuse (NIDA) intends to promote the reissue of an initiative by publishing a notice of funding opportunity (NOFO) to solicit applications for research on
+      NIDA REI: Reaching Equity at the Intersection of HIV and Substance Use: Novel Approaches to Address HIV Related Health Disparities in Underserved Racial and/or Ethnic Populations.This Notice is being
+      provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive proje'
+  - id: '357365'
+    title: 'Notice of Intent to Publish a Funding Opportunity Announcement for NIDA REI: Reaching Equity at the Intersecti'
+    abstract: '<p>The National Institute on Drug Abuse (NIDA) intends to promote the reissue of an initiative by publishing a notice of funding opportunity (NOFO) to solicit applications for research on
+      NIDA REI: Reaching Equity at the Intersection of HIV and Substance Use: Novel Approaches to Address HIV Related Health Disparities in Underserved Racial and/or Ethnic Populations.This Notice is being
+      provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive proje'
+  - id: '144054'
+    title: NIMHD Social, Behavioral, Health Services, and Policy Research on Minority Health and Health Disparities (R01)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) is to solicit innovative social, behavioral, health services, and policy research that can directly and demonstrably contribute to
+      the elimination of health disparities. Projects may involve primary data collection or secondary analysis of existing datasets. Projects that examine understudied health conditions; examine the effectiveness
+      of interventions, services, or policies for multiple health disparity populations; and/or directly mea
+  - id: '359865'
+    title: Notice of Intent to Publish a Forecast for EmbraceHealth Clinical Research Network to Reduce Health Disparitie
+    abstract: <p>The National Institute on Minority Health and Health Disparities (NIMHD) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications&nbsp;for the EmbraceHealth Clinical
+      Research Network. The overarching goals of the EmbraceHealth Clinical Research Network are to establish and maintain an efficient and nimble infrastructure to conduct research to address emerging,
+      urgent, or chronic health needs among populations that experience health disparities. Each site or consortium
+  - id: '353790'
+    title: 'Understanding the Intersection of Social Inequities to Optimize Health and Reduce Health Disparities: The Axes'
+    abstract: <p>Not available</p>
+  - id: '41392'
+    title: Continuation of Existing Project for Health Disparities for Minority Populations
+    abstract: Continuation of Existing Project.
+  - id: '52945'
+    title: Behavioral and Social Science Research on Understanding and Reducing Health Disparities (R01)
+    abstract: 'Purpose. To encourage behavioral and social science research on the causes and solutions to health and disabilities disparities in the U. S. population. Health disparities between, on the
+      one hand, racial/ethnic populations, lower socioeconomic classes, and rural residents and, on the other hand, the overall U.S. population are major public health concerns. Emphasis is placed on research
+      in and among three broad areas of action: 1) public policy, 2) health care, and 3) disease/disability prevent'
+  - id: '93873'
+    title: 'Public Prevention Health Fund: Community Transformation Grant'
+    abstract: The purpose of this program is to create healthier communities by 1) building capacity to implement broad evidence and practice-based policy, environmental, programmatic and infrastructure
+      changes, as appropriate, in large counties, and in states, tribes and territories, including in rural and frontier areas and 2) supporting implementation of such interventions in five strategic areas
+      (Strategic Directions) aligning with Healthy People 2020 focus areas and achieving demonstrated progress in the
+  - id: '50617'
+    title: NCMHD Health Disparities Research on Minority and Underserved Populations (R01)
+    abstract: Purpose. The overarching goal of this FOA is to solicit innovative research addressing elements that eliminates health disparities. Research focused on disease and/or conditions that disproportionately
+      affect racial/ethnic minorities is a growing field and has been employed lately in understanding dynamics contributing to health disparities. Funding for this FOA will support investigators who propose
+      to conduct health disparities research using its principles to improve health inequities. The
+  - id: '134794'
+    title: 'Healthy Start Initiative: Eliminating Disparities in Perinatal Health (General Population)'
+    abstract: The purpose of this program is to address significant disparities in Perinatal health including disparities experienced by Hispanics, American Indians, African-Americans, Asian/Pacific Islanders,
+      and immigrant populations. Differences in perinatal health indicators may occur by virtue of education, age of mother, income, disability, or living in rural/isolated areas. To address disparities
+      and the factors contributing to them in these indicators, it is anticipated that the proposed scope of pr
+  - id: '48989'
+    title: FY09 Hispanic Physicians Leadership Development Initiative
+    abstract: Racial and ethnic groups in the United States continue to experience major health disparities compared to the majority of the non-Hispanic white population. The health status of Hispanics
+      and other underserved populations is a function of several factors including language barriers, insurance coverage, socioeconomic conditions, and access to health care. Although mortality is a crude
+      indication of health status, it demonstrates the critical disparities that exist for racial and ethnic minoritie
+  - id: '356052'
+    title: REACHing Communities (REACH) Consortium (U01) Clinical Trials Optional
+    abstract: '<p>This purpose of this notice of funding opportunity (NOFO) is for FDA Office of Minority Health and Health Equity''s (OMHHE) Health Equity Innovation Award: Racial &amp; Ethnic Minority
+      Acceleration Consortium for Health Equity (REACH). The consortium will consist of multiple cooperative agreement (U01) recipients that will strengthen and advance minority health and health equity
+      focused research, outreach, and communications as well as support training and mentoring of diverse students, fellow'
+  - id: '181873'
+    title: Advancing Community-level Approaches to Reduce HIV Infection in Highly Impacted Communities (R01)
+    abstract: This Funding Opportunity Announcement (FOA) seeks research to advance our understanding of community-level HIV-prevention and care interventions within geographic locations and specific populations
+      highly impacted by HIV. In targeting communities, this FOA invites applications to address the need for efficacious interventions that simultaneously impact a large number of individuals. These interventions
+      can target communities highly impacted by HIV based on geographic, social, or demographic crit
+  - id: '181875'
+    title: Advancing Community-level Approaches to Reduce HIV Infection in Highly Impacted Communities (R34)
+    abstract: This Funding Opportunity Announcement (FOA) seeks research to advance our understanding of community-level HIV-prevention and care interventions within geographic locations and specific populations
+      highly impacted by HIV. In targeting communities, this FOA invites applications to address the need for efficacious interventions that simultaneously impact a large number of individuals. These interventions
+      can target communities highly impacted by HIV based on geographic, social, or demographic crit
+  - id: '181874'
+    title: Advancing Community-level Approaches to Reduce HIV Infection in Highly Impacted Communities (R21)
+    abstract: This Funding Opportunity Announcement (FOA) seeks research to advance our understanding of community-level HIV-prevention and care interventions within geographic locations and specific populations
+      highly impacted by HIV. In targeting communities, this FOA invites applications to address the need for efficacious interventions that simultaneously impact a large number of individuals. These interventions
+      can target communities highly impacted by HIV based on geographic, social, or demographic crit
+  - id: '79873'
+    title: The Effect of Racial and Ethnic Discrimination/Bias on Health Care Delivery (R03)
+    abstract: 'This funding opportunity announcement (FOA) encourages the submission of research project grant applications from institutions/organizations that proposed to: (1) improve the measurement
+      of racial/ethnic discrimination in health care delivery systems through improved instrumentation, data collection, and statistical/analytical techniques; (2) to enhance understanding of the influence
+      of racial/ethnic discrimination in health care delivery and its association with disparities in disease incidence'
+  - id: '44508'
+    title: NIH-Supported Centers for Population Health and Health Disparities (CPHHD) (P50)
+    abstract: Purpose. This funding opportunity announcement (FOA), sponsored jointly by the National Cancer Institute (NCI), the National Heart, Lung and Blood Institute (NHLBI), and Office of Behavioral
+      and Social Sciences (OBSSR) of the National Institutes of Health, solicits grant applications for Centers for Population Health and Health Disparities (CPHHD) Program.The CPHHD Program is designed
+      to promote transdisciplinary research in the area of health inequities with the purpose of contributing directly
+  - id: '54600'
+    title: National Program to Eliminate Diabetes-Related Disparities in Vulnerable Populations
+    abstract: The purpose of the program is to reduce morbidity, premature mortality, and eliminate health disparities associated with diabetes. This will be done by funding organizations to mobilize community
+      partners and assist them to effectively plan, develop, implement, and evaluate community-based interventions to reduce the risk factors that influence the disproportionate burden of diabetes in vulnerable
+      populations borne by many communities in regions across the country. This program is intended t
+  - id: '79854'
+    title: The Effect of Racial and Ethnic Discrimination/Bias on Health Care Delivery (R21)
+    abstract: 'This funding opportunity announcement (FOA) encourages the submission of research project grant applications from institutions/organizations that propose to: (1) improve the measurement of
+      racial/ethnic discrimination in health care delivery systems through improved instrumentation, data collection, and statistical/analytical techniques; (2) to enhance understanding of the influence
+      of racial/ethnic discrimination in health care delivery and its association with disparities in disease incidence,'
+- id: q008
+  text: maternal and infant health outcomes
+  candidates:
+  - id: '363210'
+    title: Elucidation and Validation of the role of Transporters in the Placenta, Lactating Mammary Gland, Developing Gu
+    abstract: <p>The <i>Eunice Kennedy Shriver </i>National Institute of Child Health and Human Development seeks to advance its mission of supporting maternal, fetal, and child health by continuing to
+      enhance the understanding of maternal, fetal, and child exposure to nutrients, metabolites, medications, supplements, microbiome-derived products, and environmental chemicals. This will be done by
+      supporting a second phase of the Transporter Elucidation Network (TEN). This phase of the TEN will establish perina
+  - id: '100775'
+    title: 'Limited Competition: Addressing Health Disparities in Maternal and Child Health through Community-Based Partic'
+    abstract: The Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD), requests applications to implement developmental community-based participatory research (CBPR)
+      projects planned and developed by recipients of the Phase I Academic-Community Partnerships Conference Series awards under PAR-08-106 and RFA-HD-06-019. This FOA provides support for community based
+      participatory research (CBPR) projects that were identified and planned during the Phase I grant award. Only one
+  - id: '54179'
+    title: Increase Awareness of Alveolar Capillary Dysplasia (ACD) Among Health Care Providers
+    abstract: "The purpose of the program is to develop and distribute awareness materials on alveolar capillary dysplasia (ACD) to neonatologists and intensive care pediatricians to assist in increased\
+      \ recognition and timely diagnosis of ACD. This program addresses the \x93Healthy People 2010\x94 focus area(s) of Maternal, Infant and Child Health."
+  - id: '96333'
+    title: Global Network for Womens and Childrens Health Research (U10)
+    abstract: The purpose of this solicitation is to recompete the Global Network for Womens and Childrens Health Research. The NICHD invites applications from investigators willing to participate under
+      a cooperative agreement in an ongoing multicenter international research network designed to perform randomized clinical trials and intervention studies focused on reducing the major risks to maternal,
+      neonatal, infant, and early childhood health in the low and lower-middle income countries. This FOA solic
+  - id: '95733'
+    title: Craniofacial Malformations Information for Affected Families, Health Care Providers, and School Professionals
+    abstract: "The purposes are to develop and disseminate information on strategies to increase access to health care services and eliminate any disparities in access to services and to develop and disseminate\
+      \ up-to-date educational materials on craniofacial malformations to affected families, relevant health care providers, and school professionals.This program addresses the \xEF\xBF\xBDHealthy People\
+      \ 2020\xEF\xBF\xBD focus areas of Maternal, Infant, and Child Health; Access to Health Services; and Oral Health."
+  - id: '57016'
+    title: National Spina Bifida Patient Registry - Clinic Demonstration Project (U01)
+    abstract: "The National Center on Birth Defects and Developmental Disabilities (NCBDDD) of CDC within HHS is committed to achieving the health promotion and disease prevention objectives of \"Healthy\
+      \ People 2010\" and to measuring program performance as stipulated by the Government Performance and Review Act (GPRA). This RFA addresses \x93Healthy People 2010\x94 priority area(s) of Disability\
+      \ and Secondary Conditions; Maternal, Infant, and Child Health; and to Prevent Birth Defects and Developmental Disabilities,"
+  - id: '56949'
+    title: MCH Research
+    abstract: The Maternal and Child Health Research Program will award grants to support applied research relating to maternal and child health services, which show promise of substantial contribution
+      to the advancement of the current knowledge pool. Findings of this research should result in health and health services improvements in States and communities. Research proposals should address critical
+      MCH questions such as public health systems and infrastructure, health disparities, quality of care, and pr
+  - id: '237934'
+    title: Perinatal &amp; Infant Oral Health Quality Improvement (PIOHQI) Pilot Grant Program
+    abstract: The Maternal and Child Health Bureau (MCHB) is accepting applications for a four-year pilot grant program, the Perinatal and Infant Oral Health Quality Improvement (PIOHQI) Pilot. The purpose
+      of the project is to integrate a successful community-based approach into a health care system with statewide reach, accomplishing statewide availability and increased utilization of quality preventive
+      dental care and restorative services for pregnant women and infants most at risk. The long-term goal of
+  - id: '105054'
+    title: R40 Maternal and Child Health Research Program (MCHR)
+    abstract: 'R40 MCHR and R40 SDAS: The Maternal and Child Health Research Program will award grants to support applied research relating to maternal and child health services, which show promise of substantial
+      contribution to the advancement of the current knowledge pool. Findings of this research should result in health and health services improvements in States and communities. Research proposals should
+      address critical MCH questions such as public health systems and infrastructure, health disparities,'
+  - id: '47007'
+    title: Women's Mental Health in Pregnancy and the Postpartum Period (R01)
+    abstract: Purpose. In this Funding Opportunity Announcement (FOA), the National Institute of Mental Health (NIMH), the National Institute on Drug Abuse (NIDA), the Eunice Kennedy Shriver National Institute
+      of Child Health and Human Development (NICHD), and the Agency for Healthcare Research and Quality, encourage research on women's mental health in relation to pregnancy and the postpartum period. As
+      illustrated by a few highly publicized cases, the consequences of severe untreated postpartum depression
+  - id: '191313'
+    title: 'Limited Competition: Pregnancy as a Window to Future Cardiovascular Health:  Adverse Pregnancy Outcomes as Pre'
+    abstract: 'This Limited Competition Funding Opportunity Announcement (FOA) encourages applications from the current Nulliparous Pregnancy Outcomes Study: Monitoring Mothers-to-be (NuMoM2b) clinical
+      research sites and Data Coordinating and Analysis Center (DCAC) to propose a prospective follow-up study of the existing NuMoM2b cohort to examine the cardiovascular (CV) risk profile of women with
+      a history of preeclampsia and other adverse pregnancy outcomes (APOs) at approximately two years postpartum.'
+  - id: '360585'
+    title: Maternal Medications and Human Milk Research Center (M2HMRC)
+    abstract: "<p>The&nbsp;<i>Eunice Kennedy Shriver</i>&nbsp;National Institute of Child Health and Human Development (NICHD) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications\
+      \ to establish a Maternal Medication and Human Milk Research Center (M2HMRC) as part of the NICHD\u2019s Maternal and Pediatric Precision in Therapeutics (MPRINT)&nbsp;Hub. The M2HMRC will advance\
+      \ research on how maternal medications affect human milk composition and neonatal/infant health outcomes by: (1) Ident"
+  - id: '178874'
+    title: Women's Mental Health During Pregnancy and the Postpartum Period (R01)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) is to outline priority areas for research related to womens mental health during pregnancy and the postpartum period.Priority areas
+      include basic and clinical neuroscience, studies of clinical course, epidemiological factors and risk factors, as well as interventions and services research.The NIMH, NICHD, and NIDA are committed
+      to supporting research that will increase scientific understanding of and treatments for mental disorders exper
+  - id: '178873'
+    title: Women's Mental Health During Pregnancy and the Postpartum Period (R21)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) is to outline priority areas for research related to womens mental health during pregnancy and the postpartum period.Priority areas
+      include basic and clinical neuroscience, studies of clinical course, epidemiological factors and risk factors, as well as interventions and services research.The NIMH, NICHD, and NIDA are committed
+      to supporting research that will increase scientific understanding of and treatments for mental disorders exper
+  - id: '363330'
+    title: 'Statewide Perinatal Quality Collaboratives: Improving Perinatal Care and Outcomes'
+    abstract: <p>The purpose of this multi-component NOFO is to improve the health of pregnant and postpartum women and their newborns through quality improvement.&nbsp; CDC will fund two components.&nbsp;</p><p>Component
+      A will support state Perinatal Quality Collaboratives (PQCs).&nbsp; PQCs are state-based organizations that support quality improvement (QI) efforts in health facilities and whose approach has been
+      successful in improving outcomes for moms and their babies.&nbsp; Key expected strategies for
+  - id: '134794'
+    title: 'Healthy Start Initiative: Eliminating Disparities in Perinatal Health (General Population)'
+    abstract: The purpose of this program is to address significant disparities in Perinatal health including disparities experienced by Hispanics, American Indians, African-Americans, Asian/Pacific Islanders,
+      and immigrant populations. Differences in perinatal health indicators may occur by virtue of education, age of mother, income, disability, or living in rural/isolated areas. To address disparities
+      and the factors contributing to them in these indicators, it is anticipated that the proposed scope of pr
+  - id: '60253'
+    title: Disparities in Perinatal Health-Border, Alaska and Hawaii
+    abstract: Under this program, grants will be awarded to address significant disparities in perinatal health indicators in communities within 62 miles of the U.S. Mexico border or in Alaska and Hawaii.
+      Communities must provide a scope of project services that will cover pregnancy and interconceptional phases for women and infants residing in the proposed project area. Services are to be given to
+      both mother and infant for two years following delivery to promote longer interconceptional periods and preven
+  - id: '58902'
+    title: Maternal Vitamin D Status and Preterm Birth
+    abstract: "CDC\x92s Procurement and Grants Office has published a funding opportunity announcement entitled, \x93Maternal Vitamin D Status and Preterm Birth\x94. Approximately $450,000 will be available\
+      \ in fiscal year 2011 to fund 1 to 3 awards. The purpose of this announcement is to improve scientific understanding of the relationship between maternal vitamin D status and preterm birth among racially\
+      \ and ethnically diverse women. For complete program details, please see the full announcement on the Grants.gov"
+  - id: '166633'
+    title: Maternal and Child Health Doctoral Training Program
+    abstract: The purpose of this funding opportunity is to solicit applications for the Maternal and Child Health (MCH) Doctoral Training Program. This program meets the Maternal and Child Health Bureau
+      (MCHB) goals of training the MCH workforce, and especially to enhance the epidemiologic capacity for assessment, planning, and delivery of health services to the MCH population. The Office of Epidemiology
+      and Research (OER) is continuing support of this training grant under the Special Projects of Regional
+  - id: '47008'
+    title: Women's Mental Health in Pregnancy and the Postpartum Period (R21)
+    abstract: Purpose. In this Funding Opportunity Announcement (FOA), the National Institute of Mental Health (NIMH), the National Institute on Drug Abuse (NIDA), and the Eunice Kennedy Shriver National
+      Institute of Child Health and Human Development (NICHD), and the Agency for Healthcare Research and Quality, encourage research on women's mental health in relation to pregnancy and the postpartum
+      period. As illustrated by a few highly publicized cases, the consequences of severe untreated postpartum depres
+  - id: '97455'
+    title: Affordable Care Act (ACA) Maternal, Infant and Early Childhood Home Visiting Program
+    abstract: The goal of the Maternal, Infant, and Early Childhood Home Visiting (MIECHV) competitive grant program is to award additional funding to states that have sufficiently demonstrated the interest
+      and capacity to expand and/or enhance their evidence-based home visiting programs to improve outcomes for children and families who reside in at-risk communities. Successful applicants will be awarded
+      federal fiscal year (FY) 2011 competitive grant funds, in addition to the FY 2011 MIECHV formula based fun
+- id: q009
+  text: cardiovascular disease prevention in minority populations
+  candidates:
+  - id: '157193'
+    title: Cardiovascular Risk Reduction in Underserved Rural Communities (R01)
+    abstract: The overall objective is to build the evidence base and accelerate the implementation and translation of evidence- or practice-based interventions into practice in rural communities. To accomplish
+      this objective, NHLBI invites applications that will plan and execute well-designed controlled trials that maximize the opportunities available in rural communities to reduce cardiovascular disease
+      risk factors. The long-term goal is to foster sustainable interventions and scientific research that wil
+  - id: '169198'
+    title: T32 Training Program for Institutions That Promote Diversity (T32)
+    abstract: The purpose of this funding opportunity announcement (FOA) is to increase the participation of individuals from diverse backgrounds underrepresented in cardiovascular, pulmonary, hematologic
+      and sleep disorders research across the career development continuum. The NHLBIs T32 Training Program for Institutions That Promote Diversity is a Ruth L. Kirschstein National Research Service Award
+      Program intended to support training of predoctoral and health professional students and individuals in postdo
+  - id: '88754'
+    title: Data Coordinating Center for the Cardiovascular Cell Therapy Research Network (CCTRN) (UM1)
+    abstract: The purpose of this FOA is to request applications for participation as a Data Coordinating Center (DCC) in a continuation of the Cardiovascular Cell Therapy Research Network (CCTRN). A separate
+      solicitation (RFA-HL-12-026) seeks applications for network Regional Clinical Centers (RCCs). The goal of the CCTRN is to promote evaluation of novel cell-based treatment strategies for individuals
+      with cardiovascular disease. The network provides support to maintain an infrastructure to develop, coord
+  - id: '88755'
+    title: Regional Clinical Centers for the Cardiovascular Cell Therapy Research Network (CCTRN) (UM1)
+    abstract: The purpose of this FOA is to request applications for participation as a Regional Clinical Center (RCC) in a continuation of the Cardiovascular Cell Therapy Research Network (CCTRN). A separate
+      solicitation (RFA-HL-12-025) seeks applications for a network Data Coordinating Center (DCC). The goal of the CCTRN is to promote evaluation of novel stem cell-based treatment strategies for individuals
+      with cardiovascular disease. The network provides support to maintain an infrastructure to develop,
+  - id: '144053'
+    title: NIMHD Basic and Applied Biomedical Research on Minority Health and Health Disparities (R01)
+    abstract: 'This funding opportunity announcement (FOA) is issued by the National Institute on Minority Health and Health Disparities (NIMHD) to solicit innovative grant applications on: 1. Biological
+      and genetic research to explore disease mechanisms or pathways that influence health outcomes in minority and health disparity populations. 2. Clinical and translational research linking basic science
+      discovery with effective treatment or clinical practice. The overall goal of this initiative is to enhance'
+  - id: '47134'
+    title: Minority-Based Community Clinical Oncology Program (U10)
+    abstract: Purpose. The Division of Cancer Prevention (DCP), National Cancer Institute (NCI), announces the continuation of the established program known as Minority-Based Community Clinical Oncology
+      Program (Minority-Based CCOP). This program allows practicing oncologists who serve large minority populations to participate in the NCI-sponsored clinical trials. The purpose of this program is to
+      support, as a national resource, research activities of physicians involved in the care of minorities who are el
+  - id: '360626'
+    title: Continuation of the Cardiovascular Repository for-Type 1 Diabetes (CARE-T1D) Consortium U01 (Open Competition)
+    abstract: "The NIH Cardiovascular Repository for Type 1 Diabetes (CaRe-T1D) was created to improve research on type 1 diabetes (T1D) and cardiovascular disease (CVD). Cardiovascular complications remain\
+      \ the top cause of death among people with T1D and greatly shorten lifespan. The mechanisms underlying atherosclerosis, cardiomyopathy, endothelial dysfunction, and cardiac autonomic neuropathy in\
+      \ T1D remain poorly understood. While managing traditional risk factors\u2014such as high blood glucose, high blood pres"
+  - id: '44225'
+    title: Promoting Careers In Aging and Health Disparities Research (K01)
+    abstract: The goals of NIH-supported career development programs are to help ensure that diverse pools of highly trained scientists are available in adequate numbers and in appropriate research areas
+      to address the Nation's biomedical, behavioral, and clinical research needs.The focus of this FOA is limited to health disparities related to aging.For purposes of this funding opportunity, eligible
+      individuals are applicants who have been determined by the grantee institution to be committed to a career in h
+  - id: '96315'
+    title: Minority-Based Community Clinical Oncology Program Groups (U10)
+    abstract: This funding opportunity announcement (FOA) solicits applications for the program known as Minority-Based Community Clinical Oncology Program (Minority-Based CCOP/MBCCOP). This program allows
+      practicing oncologists who serve large racial/ethnic minority populations to participate in NCI-sponsored clinical trials. The purpose of this program is to support, as a national resource, research
+      activities of physicians involved in the care of minorities who are eligible to participate in NCI-sponsored
+  - id: '190295'
+    title: Lymphatics in Health and Disease in the Digestive, Cardiovascular and Pulmonary Systems (R21)
+    abstract: This FOA is to encourage Exploratory/Developmental Grant (R21) applications for research into aspects of lymphatic vessel physiology and pathophysiology related to health and disease of digestive,
+      cardiovascular and pulmonary system organs and resolution of thromboembolic events, and inflammation and immune responses as they relate to these diseases. However, studies with the major focus on
+      immune mechanisms will not be considered responsive. Studies to understand the factors that control loca
+  - id: '190294'
+    title: Lymphatics in Health and Disease in the Digestive, Urinary, Cardiovascular and Pulmonary Systems (R01)
+    abstract: This FOA is to encourage Research Project Grant (R01) applications for research into aspects of lymphatic vessel physiology and pathophysiology related to health and disease of digestive system
+      and urinary tract organs, and cardiovascular and pulmonary systems; in resolution of thromboembolic events; and inflammation and immune responses as they relate to these diseases. However, studies
+      with the major focus on immune mechanisms will not be considered responsive. Studies to understand the fact
+  - id: '191313'
+    title: 'Limited Competition: Pregnancy as a Window to Future Cardiovascular Health:  Adverse Pregnancy Outcomes as Pre'
+    abstract: 'This Limited Competition Funding Opportunity Announcement (FOA) encourages applications from the current Nulliparous Pregnancy Outcomes Study: Monitoring Mothers-to-be (NuMoM2b) clinical
+      research sites and Data Coordinating and Analysis Center (DCAC) to propose a prospective follow-up study of the existing NuMoM2b cohort to examine the cardiovascular (CV) risk profile of women with
+      a history of preeclampsia and other adverse pregnancy outcomes (APOs) at approximately two years postpartum.'
+  - id: '56562'
+    title: SDPI Diabetes Prevention and Healthy Heart Initiatives
+    abstract: The primary purpose of this Cooperative Agreement is to provide funding to selected SDPI grantees to continue or newly implement one of the two programs and to document activities and outcomes.
+      One program is called the Diabetes Prevention Program with primary prevention of diabetes as its goal. The other program, the Healthy Heart Project, is aimed at cardiovascular disease risk reduction
+      in AI/ANs with diabetes. Another purpose of this Cooperative Agreement is to disseminate information a
+  - id: '95774'
+    title: Capacity Building Assistance (CBA) To Improve The Delivery And Effectiveness Of Human Immunodeficiency Virus (
+    abstract: 'CDC announces the non-competitive availability of fiscal year (FY) 2011 funds to supplement the provision of information, training, technical assistance, and technology transfer as currently
+      funded under funding opportunity announcement (FOA) PS09-906: Capacity Building Assistance (CBA) to Improve the Delivery and Effectiveness of Human Immunodeficiency Virus (HIV) Prevention Services
+      for High-risk and/or Racial/Ethnic Minority Populations, Category C: CBA for Health Departments. This expanded p'
+  - id: '41392'
+    title: Continuation of Existing Project for Health Disparities for Minority Populations
+    abstract: Continuation of Existing Project.
+  - id: '147253'
+    title: State Heart Disease and Stroke Prevention Programs
+    abstract: The purpose of the program is to allow grantees to effectively complete objectives for heart disease and stroke prevention in DP07-704 by strengthening coordination around control of high
+      blood pressure and high blood cholesterol, improving quality of care, and eliminating disparities, focusing on the health care and worksite settings.
+  - id: '48989'
+    title: FY09 Hispanic Physicians Leadership Development Initiative
+    abstract: Racial and ethnic groups in the United States continue to experience major health disparities compared to the majority of the non-Hispanic white population. The health status of Hispanics
+      and other underserved populations is a function of several factors including language barriers, insurance coverage, socioeconomic conditions, and access to health care. Although mortality is a crude
+      indication of health status, it demonstrates the critical disparities that exist for racial and ethnic minoritie
+  - id: '95753'
+    title: Addressing Immunization Disparities in Minority Populations
+    abstract: 'The purpose of the program will be to implement effective approaches for improving immunization rates among one or more minority groups for whom studies show evidence of under-immunization
+      or other disparities in vaccine coverage. For the purpose of this project, minority groups are defined as in the 2000 census: American Indian or Alaskan Native, Asian American, Black or African American,
+      Hispanic or Latino, and Native Hawaiian or other Pacific Islander.'
+  - id: '56070'
+    title: Health Promotion Among Racial and Ethnic Minority Males (R01)
+    abstract: 'Purpose. This Funding Opportunity Announcement (FOA) encourages Research Project (R01) grant applications from applicants that propose to stimulate and expand research in the health of minority
+      men. Specifically, this initiative is intended to: 1) enhance our understanding of the numerous factors (e.g., sociodemographic, community, societal, personal) influencing the health promoting behaviors
+      of racial and ethnic minority males and their subpopulations across the life cycle, and 2) encourage a'
+  - id: '98534'
+    title: 'Prevention and Public Health Fund Pacific Islands Coordinated Chronic Disease Prevention and Health Promotion '
+    abstract: The purpose of the program is to establish or strengthen Chronic Disease Prevention and Health Promotion Programs within Territory Health Departments, to provide leadership and coordination,
+      support development, implementation and evaluation of CDC funded Chronic Disease Prevention and Health Promotion programs, focusing on the top five leading chronic disease causes of death and disability
+      (e.g. heart disease, cancer, stroke, diabetes, and arthritis) and their associated risk factors, in order
+  - id: '175473'
+    title: Secretarys Minority AIDS Initiative Funding for Care and Prevention in the United States (CAPUS) Demonstration
+    abstract: 'The purpose of this FOA is to reduce HIV-related morbidity, mortality, and related health disparities among racial and ethnic minorities in the United States. Grantees will focus on developing
+      and implementing a demonstration project to address the following goals: 1) increase the proportion of racial and ethnic minorities with HIV who have diagnosed infection by expanding and improving
+      HIV testing capacity, and 2) optimize linkage to, retention in, and re-engagement with care, treatment, and p'
+  - id: '355824'
+    title: Making America Healthy Again by Addressing Dementia Disparities
+    abstract: "The Office of Minority Health announces the anticipated availability of funds for Fiscal Year (FY) 2025 under the authority of 42 U.S.C. \xA7 300u-6 (Section 1707 of the Public Health Service\
+      \ Act) for demonstration projects to support innovative evidence-based/informed and community-focused approaches that reduce disparities impacting brain health as people age. Demonstration projects\
+      \ are time-limited projects for the purpose of assessing the effectiveness of an approach or intervention toward reac"
+  - id: '124173'
+    title: Interventions for Health Promotion and Disease Prevention in Native American Populations (R01)
+    abstract: The purpose of this funding opportunity announcement (FOA) is to develop, adapt, and test the effectiveness of health promotion and disease prevention interventions in Native American (NA)
+      populations. NA populations are exposed to considerable risk factors that significantly increase their likelihood of chronic disease, substance abuse, mental illness, and HIV-infection. The intervention
+      program should be culturally appropriate and promote the adoption of healthy lifestyles, improve behaviors a
+  - id: '98533'
+    title: Prevention and Public Health Fund Coordinated Chronic Disease Prevention and Health Promotion Program
+    abstract: The purpose of the program is to establish or strengthen Chronic Disease Prevention and Health Promotion Programs within State Health Departments, to provide leadership and coordination, support
+      development, implementation and evaluation of CDC funded Chronic Disease Prevention and Health Promotion programs, focusing on the top five leading chronic disease causes of death and disability (e.g.
+      heart disease, cancer, stroke, diabetes, and arthritis) and their associated risk factors, in order to i
+  - id: '132913'
+    title: Stroke Prevention/Intervention Research Program (SPIRP) (U54)
+    abstract: 'The National Institute of Neurological Disorders and Stroke (NINDS) invites applications for participation in the Stroke Prevention/Intervention Research Program (SPIRP). The goal of the
+      program is to develop high-impact stroke disparities interventions and research projects that have the ability to reduce stroke disparities in minority communities in the United States using effective
+      and culturally appropriate methods. Required components include: (1) an intervention or prevention project to'
+  - id: '56071'
+    title: Health Promotion Among Racial and Ethnic Minority Males (R21)
+    abstract: 'Purpose. This Funding Opportunity Announcement (FOA) encourages Exploratory/Developmental (R21) grant applications from applicants that propose to stimulate and expand research in the health
+      of minority men. Specifically, this initiative is intended to: 1) enhance our understanding of the numerous factors (e.g., sociodemographic, community, societal, personal) influencing the health promoting
+      behaviors of racial and ethnic minority males and their subpopulations across the life cycle, and 2) enc'
+  - id: '355825'
+    title: Innovative Approaches for Reducing Disparities in Kidney Health
+    abstract: "The Office of Minority Health announces the anticipated availability of funds for Fiscal Year (FY) 2025 under the authority of 42 U.S.C. \xA7 300u-6 (Section 1707 of the Public Health Service\
+      \ Act) for demonstration projects that support adaptations of evidence-based/informed approaches to reduce disparities in chronic kidney disease (CKD) and related risk factors. Demonstration projects\
+      \ are time-limited projects for the purpose of assessing the effectiveness of an approach or intervention toward re"
+  - id: '58760'
+    title: Minority HIV/AIDS Research Initiative (MARI) to Build Capacity in Black and Hispanic Communities and Among Bla
+    abstract: The MARI program was established in 2003 to build capacity for HIV epidemiologic and prevention research in mostly Black and Hispanic communities and among Black and Hispanic investigators
+      working in highly affected communities. The MARI program supports the CDC's overarching goal to promote health and reduce disease and disability by funding research that has the potential to reduce
+      burden and to result in high public health impact.The goals of the MARI program are:1. To build HIV prevention r
+  - id: '52970'
+    title: Heart Disease and Stroke Prevention Projects
+    abstract: "Component A: To develop a heart disease prevention program. Component B: To develop a stroke prevention program. This program addresses the \x93Healthy People 2010\x94 focus area of: Chapter\
+      \ 12, Heart Disease and Stroke."
+  - id: '50617'
+    title: NCMHD Health Disparities Research on Minority and Underserved Populations (R01)
+    abstract: Purpose. The overarching goal of this FOA is to solicit innovative research addressing elements that eliminates health disparities. Research focused on disease and/or conditions that disproportionately
+      affect racial/ethnic minorities is a growing field and has been employed lately in understanding dynamics contributing to health disparities. Funding for this FOA will support investigators who propose
+      to conduct health disparities research using its principles to improve health inequities. The
+  - id: '50915'
+    title: 'Healthy Passages: A Community-based Longitudinal Study of Adolescent Health (U19)'
+    abstract: "The National Center for Chronic Disease Prevention and Health Promotion of CDC within HHS is committed to achieving the health promotion and disease prevention objectives of \"Healthy People\
+      \ 2010\" and to measuring program performance as stipulated by the Government Performance and Review Act (GPRA). This FOA addresses \x93Healthy People 2010\x94 priority area(s) of increasing quality\
+      \ and years of healthy life and eliminating health disparities in the focus areas of Access to Quality Health Services, E"
+  - id: '54258'
+    title: 'Teenage Pregnancy Prevention: Integrating Services, Programs, and Strategies through Community-wide Initiative'
+    abstract: The purpose of this FOA is to demonstrate the effectiveness of innovative, multi-component, community-wide initiatives in preventing teen pregnancy and reducing rates of teen births in communities
+      with the highest rates, with a focus on reaching African American and Latino youth aged 15-19. All adolescents shall be eligible to participate in program services without regard to race, ethnicity
+      or sexual identity. Nationally, African American and Latino youth are a significant portion of the yout
+  - id: '173114'
+    title: 'PPHF 2012: Community Transformation Grants - Small Communities Programs financed solely by 2012 Prevention and'
+    abstract: The overarching purpose of this program is to prevent heart attack, stroke, cancer, diabetes and other leading chronic disease causes of death or disability through implementation of a variety
+      of evidence based programs, policies, and infrastructure improvements to promote healthy lifestyles in small communities that improve health and health behaviors among an intervention population.
+      The program aims to achieve this goal by supporting governmental and nongovernmental agencies and organization
+  - id: '56183'
+    title: 'Minority AIDS Initiative Project::Targeting Youth at Highest Risk for HIV, Other STD, and Teen PregnancyAmong '
+    abstract: The purpose of this supplemental solicitation is to increase the availability of school-based HIV, other sexually transmitted disease (STD), and teen pregnancy prevention communication programs
+      targeting youth at highest risk that leverage the expertise and reach of schools but are delivered outside the traditional health education classroom.
+- id: q010
+  text: diabetes self-management digital health intervention
+  candidates:
+  - id: '173753'
+    title: Limited Competition for the Continuation of Look AHEAD (Action for Health in Diabetes) Consortium (U01)
+    abstract: This Funding Opportunity Announcement (FOA) issued by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the National Heart, Lung, and Blood Institute (NHLBI),
+      National Institutes of Health is a limited competition RFA inviting cooperative agreement (U01) applications from investigators currently participating as part of the Look AHEAD (Action for Health
+      in Diabetes) Consortium. Look AHEAD is a clinical trial that will examine the long-term health effects of an inte
+  - id: '163273'
+    title: Pilot and Feasibility Clinical Research Grants in Diabetes, and Endocrine and Metabolic Diseases (R21)
+    abstract: This FOA, issued by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) of the National Institutes of Health, encourages pilot and feasibility clinical and behavioral
+      studies related to the prevention or treatment of diabetes and endocrine and genetic metabolic diseases. The Pilot and Feasibility Clinical Research Grants Program is for exploratory, short-term clinical
+      studies, so that new ideas may be investigated without stringent requirements for preliminary data. The
+  - id: '363360'
+    title: Implementation Research on Multi-component Community-Clinical Linkage Approaches for Diabetes Prevention and M
+    abstract: <p>Diabetes causes illness and death in the United States. It leads to high health care costs. People who use Federally Qualified Health Centers (FQHCs) and other safety-net clinics face greater
+      risks. Many community-clinical linkage (CCL) strategies show benefits when used alone. We know less about how several strategies can be combined and coordinated. Using multiple strategies together
+      may improve diabetes prevention and management in primary care.</p><p>This NOFO aims to find what helps or b
+  - id: '228375'
+    title: 'Using Traditional Foods and Sustainable Ecological Approaches for Health Promotion and Diabetes Prevention in '
+    abstract: 'The purpose of this one year funding application is for successful applicants to: a) demonstrate that their culturally based traditional foods activities are sustainable and/or institutionalized
+      in their respective communities; b) evaluate already established sustainable strategies and/or emerging strategies (environmental, health practice/policy, self-sustaining activities, etc.) based on
+      continued program activities; and c) complete existing activities that would not otherwise be done because'
+  - id: '173114'
+    title: 'PPHF 2012: Community Transformation Grants - Small Communities Programs financed solely by 2012 Prevention and'
+    abstract: The overarching purpose of this program is to prevent heart attack, stroke, cancer, diabetes and other leading chronic disease causes of death or disability through implementation of a variety
+      of evidence based programs, policies, and infrastructure improvements to promote healthy lifestyles in small communities that improve health and health behaviors among an intervention population.
+      The program aims to achieve this goal by supporting governmental and nongovernmental agencies and organization
+  - id: '59085'
+    title: Chronic Illness Self-Management in Children and Adolescents (R03)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) issued by the National Institute of Nursing Research (NINR) and the National Institute of Child Health and Human Development (NICHD)
+      is to encourage research to improve self-management and quality of life in children and adolescents with chronic illnesses. Children diagnosed with a chronic illness and their families have a life-long
+      responsibility for self-management, to maintain and promote health and prevent complications. Biobehaviora
+  - id: '46071'
+    title: Pilot and Feasibility Clinical Research Grants in Diabetes, Endocrine and Metabolic Diseases (R21)
+    abstract: Purpose. This FOA, issued by National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the Office of Dietary Supplements (ODS) of the National Institutes of Health, encourages
+      exploratory/developmental clinical research related to the prevention or treatment of diabetes, obesity and endocrine and genetic metabolic diseases. The Pilot and Feasibility Clinical Research Grants
+      Program is designed to allow initiation of exploratory, short-term clinical studies, so that new ideas m
+  - id: '59086'
+    title: Chronic Illness Self-Management in Children and Adolescents (R21)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) issued by the National Institute of Nursing Research (NINR), the National Institute of Arthritis and Musculoskeletal and Skin Diseases
+      (NIAMS), the National Institute of Child Health and Human Development (NICHD), and the National Heart, Lung, and Blood Institute (NHLBI) is to encourage research to improve self-management and quality
+      of life in children and adolescents with chronic illnesses.Children diagnosed with a chronic illness and
+  - id: '54600'
+    title: National Program to Eliminate Diabetes-Related Disparities in Vulnerable Populations
+    abstract: The purpose of the program is to reduce morbidity, premature mortality, and eliminate health disparities associated with diabetes. This will be done by funding organizations to mobilize community
+      partners and assist them to effectively plan, develop, implement, and evaluate community-based interventions to reduce the risk factors that influence the disproportionate burden of diabetes in vulnerable
+      populations borne by many communities in regions across the country. This program is intended t
+  - id: '68413'
+    title: Feasibility Studies for Clinical Trials in Type 1 Diabetes (R03)
+    abstract: This FOA provides for feasibility studies for clinical trials related to type 1 diabetes. It is expected that these studies will lead to clinical trials to test interventions designed to improve
+      glycemic control and/or to treat or reduce diabetes complications. The intent of this initiative is to improve the management and treatment of individuals with type 1 diabetes in the United States.
+      If successful, the results of the future clinical trials should be of practical importance to clinical mana
+  - id: '91033'
+    title: Clinical Trial Planning Grants in Type 1 Diabetes (R34)
+    abstract: This FOA provides for planning grants for clinical trials related to type 1 diabetes. It is expected that these planning grants will lead to clinical trials to test interventions designed
+      to improve glycemic control and/or to treat or reduce diabetes complications. The intent of this initiative is to improve the management and treatment of individuals with type 1 diabetes in the United
+      States. If successful, the results of the future clinical trials should be of practical importance to clinical
+  - id: '44206'
+    title: 'Closed Loop Technologies: Pilot and Exploratory Clinical and Behavioral Approaches to Improve Type 1 Diabetes '
+    abstract: -Purpose . The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) of the
+      National Institutes of Health solicit Research Project Grant (R01) applications for human studies to develop a highly reliable, easy to operate system linking continuous glucose monitoring to insulin
+      delivery in a closed loop system.The goal is to address barriers that limit progress toward a closed loop sys
+  - id: '44205'
+    title: 'Closed Loop Technologies: Clinical and Behavioral Approaches to Improve Type 1 Diabetes Outcomes (R01)'
+    abstract: Purpose. The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) of the
+      National Institutes of Health solicit Research Project Grant (R01) applications for human studies to develop a highly reliable, easy to operate system linking continuous glucose monitoring to insulin
+      delivery in a closed loop system.The goal is to address barriers that limit progress toward a closed loop syste
+  - id: '47059'
+    title: Translational Research for the Prevention and Control of Diabetes and Obesity (R18)
+    abstract: Purpose. The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) and the
+      Office of Behavioral and Social Sciences Research (OBSSR) encourage NIH Research Demonstration and Dissemination Project grant (R18) applications from institutions/ organizations to test the effectiveness
+      of interventions for the prevention and control of diabetes and obesity that have a high potential to be
+  - id: '54672'
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    abstract: Purpose. This FOA solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for funding to perform research leading to the development of innovative
+      technologies that may advance progress toward an integrated long term glucose regulated insulin delivery system (artificial pancreas). Mechanism of Support. This FOA will utilize the SBIR (R43/R44)
+      grant mechanisms for Phase I, Phase II, and Fast-Track applications. Funds Available and Anticipated N
+  - id: '47060'
+    title: Planning Grants for Translational Research for the Prevention and Control of Diabetes and Obesity (R34)
+    abstract: Purpose. The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) and the
+      Office of Behavioral and Social Sciences Research (OBSSR) encourage NIH Clinical Trial Planning Grant Program grant (R34) applications from institutions/ organizations to develop and pilot test translational
+      interventions for the prevention and control of diabetes and obesity that have a high potential to be
+  - id: '123733'
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    abstract: This FOA solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for funding to perform research leading to the development of innovative
+      technologies that may advance progress toward an integrated long term glucose regulated insulin delivery system (artificial pancreas).
+  - id: '361213'
+    title: Single Source for the Continuation of the Epidemiology of Diabetes Interventions and Complications (EDIC) Stud
+    abstract: This is a Notice of Funding Opportunity (NOFO) for a Single Source that will invite an application from the eligible organization to apply. Please see Section III. Eligibility for additional
+      information. In accordance with NIH standard peer-review processes, applications will be peer-reviewed, and only meritorious applications will be considered for funding. Through this NOFO, the National
+      institute of Diabetes and Digestive and Kidney Diseases (NIDDK) invites an application to continue to follo
+  - id: '166854'
+    title: Planning Grants for Translational Research to Improve Obesity and Diabetes Outcomes (R34)
+    abstract: The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the National Institute of Mental Health (NIMH) encourage NIH Clinical Trial Planning Grant Program grant (R34)
+      applications from institutions/ organizations to develop and pilot test practical, sustainable, acceptable, and cost efficient adaptations of efficacious strategies or approaches prevent and treat
+      diabetes and/or obesity. Research must target the prevention or reversal of obesity, prevention of type 2 diabe
+  - id: '357273'
+    title: Personal Health Informatics for Delivering Actionable Insights to Individuals (R01 Clinical Trial Optional)
+    abstract: The purpose of this Notice of Funding Opportunity (NOFO) is to advance the development of novel informatics and data science approaches that can help individuals understand and improve their
+      health through actionable insights. NLM seeks applications that further the science of personal health informatics by providing meaningful and actionable insights to individuals through innovative
+      personal health data collection, integration, analysis, and personalized risk assessments and interpretation. Ap

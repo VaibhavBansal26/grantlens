@@ -13,11 +13,25 @@ queries:
     '357909': 1
     '363169': 1
     '135573': 1
+    '357002': 1
+    '59073': 1
+    '78553': 1
+    '357003': 1
+    '229373': 1
+    '357018': 1
+    '53821': 1
+    '49066': 1
+    '51008': 1
+    '359892': 1
   label_source: llm_pregrade
 - id: q002
   text: machine learning for medical image segmentation
   relevant:
     '176313': 1
+    '359003': 1
+    '361318': 1
+    '78553': 1
+    '51813': 1
   label_source: llm_pregrade
 - id: q003
   text: postdoctoral fellowship in computational neuroscience
@@ -28,6 +42,12 @@ queries:
     '358830': 1
     '53715': 1
     '164053': 1
+    '58196': 1
+    '45708': 1
+    '58715': 1
+    '350135': 1
+    '51861': 1
+    '361249': 1
   label_source: llm_pregrade
 - id: q004
   text: grants for Alzheimer's disease biomarker discovery
@@ -37,6 +57,10 @@ queries:
     '81533': 1
     '59853': 1
     '58168': 1
+    '170573': 1
+    '357368': 1
+    '356874': 1
+    '360453': 1
   label_source: llm_pregrade
 - id: q005
   text: mental health services for rural and underserved communities
@@ -49,6 +73,18 @@ queries:
     '363812': 1
     '363601': 2
     '358145': 1
+    '54158': 2
+    '355860': 1
+    '355859': 1
+    '363686': 1
+    '357524': 2
+    '359138': 1
+    '124153': 1
+    '44283': 1
+    '146213': 1
+    '355857': 1
+    '363600': 1
+    '52094': 1
   label_source: llm_pregrade
 - id: q006
   text: opioid use disorder treatment and recovery research
@@ -65,6 +101,24 @@ queries:
     '362672': 2
     '364057': 1
     '363810': 1
+    '363686': 1
+    '363058': 2
+    '363813': 1
+    '153713': 1
+    '364173': 1
+    '358991': 1
+    '357573': 1
+    '363891': 1
+    '357974': 1
+    '49866': 1
+    '49855': 1
+    '49862': 1
+    '356049': 1
+    '50601': 1
+    '50600': 1
+    '44203': 1
+    '358230': 1
+    '351679': 1
   label_source: llm_pregrade
 - id: q007
   text: health disparities and health equity community interventions
@@ -88,6 +142,23 @@ queries:
     '133533': 1
     '48755': 2
     '357572': 1
+    '357371': 1
+    '357365': 1
+    '144054': 2
+    '359865': 1
+    '353790': 1
+    '52945': 2
+    '93873': 1
+    '50617': 1
+    '134794': 1
+    '356052': 2
+    '181873': 1
+    '181875': 1
+    '181874': 1
+    '79873': 1
+    '44508': 1
+    '54600': 2
+    '79854': 1
   label_source: llm_pregrade
 - id: q008
   text: maternal and infant health outcomes
@@ -111,6 +182,23 @@ queries:
     '138273': 1
     '137213': 1
     '237473': 1
+    '363210': 1
+    '100775': 1
+    '96333': 2
+    '56949': 1
+    '237934': 1
+    '105054': 1
+    '47007': 1
+    '191313': 1
+    '360585': 1
+    '178874': 1
+    '178873': 1
+    '363330': 2
+    '134794': 2
+    '60253': 2
+    '58902': 1
+    '47008': 1
+    '97455': 1
   label_source: llm_pregrade
 - id: q009
   text: cardiovascular disease prevention in minority populations
@@ -120,6 +208,18 @@ queries:
     '131095': 1
     '47774': 1
     '358870': 1
+    '157193': 2
+    '144053': 1
+    '56562': 2
+    '147253': 1
+    '56070': 1
+    '98534': 1
+    '124173': 1
+    '98533': 1
+    '132913': 1
+    '56071': 1
+    '52970': 1
+    '173114': 1
   label_source: llm_pregrade
 - id: q010
   text: diabetes self-management digital health intervention
@@ -136,6 +236,17 @@ queries:
     '357034': 1
     '59084': 1
     '167553': 1
+    '163273': 1
+    '363360': 1
+    '59085': 1
+    '46071': 1
+    '59086': 1
+    '44206': 1
+    '44205': 1
+    '47059': 1
+    '47060': 1
+    '166854': 1
+    '357273': 1
   label_source: llm_pregrade
 - id: q011
   text: infectious disease surveillance and pandemic preparedness
@@ -159,6 +270,21 @@ queries:
     '52473': 1
     '116553': 2
     '61333': 1
+    '82153': 2
+    '109133': 1
+    '47049': 1
+    '56597': 1
+    '47189': 2
+    '51063': 2
+    '76493': 2
+    '123013': 1
+    '75493': 1
+    '133994': 1
+    '50878': 1
+    '360199': 1
+    '74953': 2
+    '162755': 1
+    '63093': 1
   label_source: llm_pregrade
 - id: q012
   text: antimicrobial resistance new therapeutics
@@ -173,6 +299,14 @@ queries:
     '48837': 2
     '363448': 1
     '97014': 1
+    '56007': 1
+    '56262': 1
+    '351204': 1
+    '70313': 2
+    '138013': 1
+    '362954': 1
+    '362948': 1
+    '54217': 2
   label_source: llm_pregrade
 - id: q013
   text: climate change and public health adaptation
@@ -188,6 +322,14 @@ queries:
     '143194': 1
     '40790': 1
     '56718': 1
+    '56026': 2
+    '357175': 1
+    '357176': 1
+    '44238': 2
+    '363844': 1
+    '362978': 2
+    '47292': 1
+    '47291': 1
   label_source: llm_pregrade
 - id: q014
   text: STEM education for undergraduate research experiences
@@ -210,6 +352,16 @@ queries:
     '135173': 2
     '344124': 1
     '334326': 1
+    '50786': 1
+    '45635': 1
+    '54567': 1
+    '348985': 2
+    '177715': 2
+    '48795': 2
+    '45613': 2
+    '115153': 1
+    '162133': 1
+    '148155': 1
   label_source: llm_pregrade
 - id: q015
   text: broadening participation of women in engineering
@@ -224,6 +376,21 @@ queries:
     '50319': 1
     '166435': 1
     '151877': 1
+    '90994': 1
+    '45736': 2
+    '56518': 2
+    '45696': 1
+    '51392': 1
+    '50843': 1
+    '45640': 1
+    '183054': 2
+    '168553': 1
+    '350230': 1
+    '353413': 1
+    '152433': 1
+    '361952': 1
+    '53899': 1
+    '77935': 1
   label_source: llm_pregrade
 - id: q016
   text: quantum computing algorithms and hardware research
@@ -239,12 +406,31 @@ queries:
     '360149': 1
     '54084': 2
     '148153': 1
+    '363613': 1
+    '332894': 2
+    '170774': 1
+    '42526': 2
+    '355196': 1
+    '364165': 1
+    '50182': 1
+    '84113': 1
   label_source: llm_pregrade
 - id: q017
   text: cybersecurity and privacy research for critical infrastructure
   relevant:
     '357554': 2
     '358004': 1
+    '191473': 1
+    '237689': 1
+    '56278': 1
+    '107373': 1
+    '58174': 1
+    '128895': 1
+    '51311': 1
+    '357464': 1
+    '134993': 1
+    '53381': 2
+    '141973': 1
   label_source: llm_pregrade
 - id: q018
   text: renewable energy storage battery materials
@@ -257,6 +443,14 @@ queries:
     '57200': 1
     '80133': 1
     '173654': 1
+    '50712': 2
+    '52379': 1
+    '236019': 1
+    '231435': 1
+    '103913': 1
+    '59653': 1
+    '363618': 1
+    '58929': 1
   label_source: llm_pregrade
 - id: q019
   text: sustainable agriculture and food security
@@ -272,6 +466,19 @@ queries:
     '46629': 1
     '51643': 1
     '42964': 1
+    '65353': 1
+    '41883': 1
+    '78773': 1
+    '47594': 1
+    '123893': 1
+    '193593': 1
+    '40790': 1
+    '136074': 2
+    '51216': 1
+    '54314': 1
+    '360205': 1
+    '182413': 1
+    '120593': 1
   label_source: llm_pregrade
 - id: q020
   text: water quality and environmental justice
@@ -290,6 +497,17 @@ queries:
     '66093': 1
     '115073': 1
     '66113': 1
+    '48851': 1
+    '49599': 1
+    '169780': 1
+    '133553': 1
+    '56549': 1
+    '95933': 1
+    '102493': 1
+    '134173': 1
+    '66953': 1
+    '41212': 1
+    '50014': 1
   label_source: llm_pregrade
 - id: q021
   text: small business innovation research biotechnology
@@ -313,12 +531,35 @@ queries:
     '359757': 2
     '123854': 1
     '173453': 1
+    '117398': 1
+    '358144': 1
+    '77093': 1
+    '197077': 1
+    '156933': 1
+    '189753': 1
+    '54672': 2
+    '44323': 2
+    '49085': 1
+    '176753': 1
+    '98875': 2
   label_source: llm_pregrade
 - id: q022
   text: veterans health and PTSD treatment
   relevant:
     '48806': 1
     '54158': 2
+    '237336': 1
+    '229454': 1
+    '44586': 1
+    '87476': 1
+    '87474': 1
+    '48807': 1
+    '87475': 1
+    '132493': 1
+    '181833': 1
+    '356163': 1
+    '163673': 1
+    '56396': 1
   label_source: llm_pregrade
 - id: q023
   text: tribal communities cultural preservation and language
@@ -334,6 +575,17 @@ queries:
     '44180': 2
     '167033': 1
     '96915': 1
+    '44179': 2
+    '52452': 2
+    '355562': 2
+    '51637': 2
+    '185413': 1
+    '181453': 1
+    '47784': 1
+    '363775': 2
+    '45812': 1
+    '56576': 1
+    '56248': 1
   label_source: llm_pregrade
 - id: q024
   text: arts and humanities digital scholarship
@@ -355,6 +607,19 @@ queries:
     '171733': 1
     '40102': 2
     '104994': 2
+    '42673': 2
+    '44662': 2
+    '49836': 1
+    '58550': 1
+    '99094': 1
+    '49873': 1
+    '58520': 1
+    '48278': 2
+    '40241': 2
+    '43391': 1
+    '41245': 2
+    '129473': 1
+    '204616': 1
   label_source: llm_pregrade
 - id: q025
   text: rare disease gene therapy clinical trials
@@ -370,6 +635,17 @@ queries:
     '132073': 1
     '88633': 1
     '359985': 1
+    '360007': 1
+    '88754': 1
+    '91074': 1
+    '356879': 1
+    '83853': 1
+    '91073': 1
+    '57180': 2
+    '56100': 2
+    '360223': 1
+    '361287': 1
+    '362850': 1
   label_source: llm_pregrade
 - id: q026
   text: nursing workforce training and retention
@@ -383,12 +659,32 @@ queries:
     '133353': 1
     '52746': 1
     '144693': 1
+    '50104': 2
+    '59020': 2
+    '103773': 1
+    '120373': 1
+    '70573': 1
+    '52190': 1
+    '42913': 1
+    '364153': 1
+    '58907': 1
+    '50161': 1
+    '120633': 1
   label_source: llm_pregrade
 - id: q027
   text: artificial intelligence ethics and responsible innovation
   relevant:
     '361238': 1
     '358687': 1
+    '45709': 1
+    '59774': 1
+    '362666': 1
+    '106673': 1
+    '60053': 1
+    '52600': 1
+    '50442': 1
+    '358176': 1
+    '106053': 1
   label_source: llm_pregrade
 - id: q028
   text: research infrastructure and core facilities for universities
@@ -408,6 +704,30 @@ queries:
     '360613': 1
     '75413': 1
     '80033': 1
+    '45774': 2
+    '131113': 1
+    '356129': 2
+    '57599': 1
+    '63513': 1
+    '46774': 1
+    '60293': 1
+    '50479': 1
+    '275109': 1
+    '60074': 1
+    '359325': 1
+    '123293': 1
+    '190733': 1
+    '45623': 1
+    '169375': 1
+    '85233': 1
+    '363481': 1
+    '346203': 1
+    '359701': 2
+    '148154': 1
+    '47294': 2
+    '50973': 1
+    '347680': 1
+    '138093': 1
   label_source: llm_pregrade
 - id: q029
   text: aging and long-term care in older adults
@@ -428,6 +748,23 @@ queries:
     '111573': 1
     '160115': 1
     '41185': 2
+    '176333': 1
+    '176334': 1
+    '356236': 1
+    '166755': 1
+    '166753': 1
+    '166754': 1
+    '106273': 1
+    '63893': 1
+    '183473': 1
+    '361214': 1
+    '155693': 1
+    '156973': 1
+    '364120': 1
+    '74134': 1
+    '157013': 1
+    '50755': 2
+    '47607': 1
   label_source: llm_pregrade
 - id: q030
   text: housing stability and homelessness prevention
@@ -446,4 +783,19 @@ queries:
     '159993': 1
     '229053': 1
     '358753': 2
+    '42623': 2
+    '41541': 1
+    '49628': 2
+    '361994': 1
+    '45922': 1
+    '362014': 1
+    '54264': 1
+    '150273': 1
+    '86413': 1
+    '89893': 1
+    '41535': 1
+    '41536': 1
+    '61814': 1
+    '46142': 1
+    '362077': 1
   label_source: llm_pregrade

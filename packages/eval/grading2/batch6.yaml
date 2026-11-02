@@ -1,0 +1,615 @@
+queries:
+- id: q026
+  text: nursing workforce training and retention
+  candidates:
+  - id: '50104'
+    title: Nurse Education, Practice and Retention
+    abstract: Grants are awarded to eligible institutions for projects to strengthen and enhance the capacity for nurse education, practice and retention to address the nursing shortage. Applicants must
+      select and focus on one of the nine purposes in the grant application. The Education priority area includes Purpose E1) expanding enrollment in baccalaureate nursing programs; Purpose E2)developing
+      and implementing internship and residency programs to encourage mentoring and the development of specialties;
+  - id: '59020'
+    title: Affordable Care Act (ACA) Nurse Education, Practice, Quality and Retention (NEPQR) Program
+    abstract: Grants are awarded to eligible institutions for projects to strengthen and enhance the capacity for nurse education, practice and retention to address the nursing shortage. Applicants must
+      select and focus on one of the nine purposes in the grant application. The Education priority area includes Purpose E1) expanding enrollment in baccalaureate nursing programs; Purpose E2)developing
+      and implementing internship and residency programs to encourage mentoring and the development of specialties;
+  - id: '235977'
+    title: Employment Retention Inventory Validation
+    abstract: The National Institute of Corrections (NIC) is soliciting proposals from organizations, groups, or individuals to enter into a cooperative agreement for a 24-month period to begin no later
+      than September 15, 2013. Work under this cooperative agreement will involve the evaluation of the Employment Retention Inventory (ERI), which supports the case management efforts of workforce development
+      practitioners. Specifically, the goal of this project is to determine whether the ERI effectively identifi
+  - id: '103773'
+    title: ARRA - State Primary Care Offices
+    abstract: The purpose of this funding opportunity announcement is to assist State Primary Care Offices (PCOs) in the coordination and conduct of activities within their State/U.S. Territory as it relates
+      to the retention of primary care providers as a result of the National Health Service Corps (NHSC) initiative under the American Recovery and Reinvestment Act (ARRA or Recovery Act). The NHSC consists
+      of a Scholarship Program, a Loan Repayment Program, and a State Loan Repayment Program (SLRP). As part
+  - id: '120373'
+    title: CDC's Collaboration with Academia to Strengthen Public Health Workforce Capacity
+    abstract: The purpose of this FOA is to advance the educational preparation of public health, medical, and baccalaureate and higher degree nursing students and provide opportunities that strengthen
+      public health practice competencies through innovative approaches
+  - id: '70573'
+    title: NINR Ruth L. Kirschstein National Research Service Awards for Individual Predoctoral Fellows In Nursing Resear
+    abstract: The purpose of the Ruth L. Kirschstein National Research Service Award (NRSA) for Individual Predoctoral Fellows in Nursing Research (F31) program is to train future generations of outstanding
+      nurse scientists who are committed to research careers in scientific health-related fields relevant to the programmatic interests of the National Institute of Nursing Research (NINR). This FOA encourages
+      Individual Predoctoral Fellowship (F31) applications from institutions/organizations that propose to in
+  - id: '52190'
+    title: ARRA - Equipment to Enhance Training for Health Professionals- Advanced Education Nursing Program
+    abstract: This funding opportunity is one of many for the Equipment to Enhance Training for Health Professionals (EETHP) program, hereby known as EETHP Equipment Initiative. Twenty-one health professionals
+      training programs comprise this initiative. As defined by this program, a Health Professional Training Program is a program authorized under Titles III, VII and VIII of the Public Health Service (PHS)
+      Act which focuses all or in part on the training of health professionals. HRSA is announcing the av
+  - id: '50511'
+    title: Employment Retention
+    abstract: The National Institute of Corrections (NIC) is soliciting proposals from organizations, groups, or individuals who would like to enter into an eighteen-month cooperative agreement to develop
+      a competency-based curriculum to train Employment Retention Specialists, as well as, develop an assessment instrument to address both the strengths and risks of offenders in danger of job loss.
+  - id: '50054'
+    title: A Systems Approach for Workforce Performance - Curriculum Development
+    abstract: The National Institute of Corrections (NIC) is soliciting proposals from organizations, groups or individuals to enter into a cooperative agreement to develop and field test a 36-hour curriculum
+      to train a multi-disciplinary staff in state correctional agencies and prison systems. The time of the cooperative agreement is for a twelve month period. Two training pilots at sites selected by
+      NIC will be completed ideally no later than September 30, 2010, with a final curriculum delivered to NIC no l
+  - id: '42913'
+    title: Advanced Education Nursing Traineeship
+    abstract: Grants are awarded to eligible institutions to provide financial support through traineeships for registered nurses enrolled in advanced education nursing programs to prepare nurse practitioners,
+      clinical nurse specialists, nurse- midwives, nurse anesthetists, nurse administrators, nurse educators, public health nurses and nurses in other specialties requiring advanced education. The traineeship
+      program is a formula program so all approved applicants will receive funds.
+  - id: '364153'
+    title: 'Strengthening the Direct Care Workforce: A Technical Assistance and Capacity Building Initiative'
+    abstract: <p>The Administration for Community Living (ACL) intends to fund one (1) three-year cooperative agreement to maintain and expand the Direct Care Workforce Strategies Center. The primary goal
+      of this initiative is to support cross-sector efforts to address the current shortage and high turnover rate of direct care workers. By strengthening this workforce, ACL aims to ensure that older
+      adults, people with disabilities, and family caregivers can safely live, work, and fully participate in their com
+  - id: '237444'
+    title: Researcher Training and Workforce Development in Methods and Standards for Conducting Patient-Centered Outcome
+    abstract: This funding opportunity announcement (FOA) invites applications for grants to develop, implement, and evaluate an education program for researchers on methodologies and methodological standards
+      used to conduct comparative clinical effectiveness and/or patient-centered outcomes research (CER/PCOR). The purpose of this initiative is to build capacity in the national scientific workforce to
+      conduct high quality CER/PCOR studies. Applicants will develop innovative programs that accommodate the ed
+  - id: '58907'
+    title: Advanced Education Nursing Traineeship
+    abstract: Grants are awarded to eligible institutions to provide financial support through traineeships for registered nurses enrolled in advanced education nursing programs to prepare nurse practitioners,
+      clinical nurse specialists, nurse- midwives, nurse anesthetists, nurse administrators, nurse educators, public health nurses and nurses in other specialties requiring advanced education. The traineeship
+      program is a formula program. Applications are submitted via a two-phase process. -- Phase I is
+  - id: '50161'
+    title: Advanced Education Nursing Traineeship
+    abstract: Grants are awarded to eligible institutions to provide financial support through traineeships for registered nurses enrolled in advanced education nursing programs to prepare nurse practitioners,
+      clinical nurse specialists, nurse- midwives, nurse anesthetists, nurse administrators, nurse educators, public health nurses and nurses in other specialties requiring advanced education. The traineeship
+      program is a formula program. Applications are submitted via a two-phase process. -- Phase I is due
+  - id: '232213'
+    title: Maternal and Child Health Workforce Development Centers
+    abstract: 'This announcement solicits applications for the Maternal and Child Health (MCH) Workforce Development Centers Program. The purpose of the MCH Workforce Development Centers Program is to support
+      workforce development for State Title V program leaders and staff to meet current public health MCH policy and programmatic imperatives in four key topic areas around implementation of the Affordable
+      Care Act (ACA): (1) access to care; (2) quality improvement; (3) systems integration; and (4) population'
+  - id: '183174'
+    title: Susan Harwood Training Grant Program, FY 2012 - Capacity Building Development grants
+    abstract: The U.S. Department of Labor (DOL), Occupational Safety and Health Administration (OSHA) awards funds to nonprofit organizations to provide training and educational programs for workers and/or
+      employers. Nonprofit organizations, including qualifying labor unions, community-based and faith-based organizations and employer associations, that are not an agency of a state or local government,
+      are eligible to apply. Additionally, state or local government-supported institutions of higher education
+  - id: '120633'
+    title: 'Scholars Training for the Advancement of Research (STAR): Competitive Revision to NINR T32 Training Grants (T3'
+    abstract: The purpose of the Scholars Training for the Advancement of Research (STAR) institutional research training program is to increase the number of nurse scientists who are prepared to undertake
+      a career in interdisciplinary clinical or basic research. NINR invites competitive revision applications from NINR funded T32 Institutional training grants to support the fast track training of up
+      to two students in an innovative integrated interdisciplinary Bachelor of Science in Nursing (BSN) to PhD progr
+  - id: '145741'
+    title: ENVIRONMENTAL WORKFORCE DEVELOPMENT AND JOB TRAINING GRANTS
+    abstract: This notice announces the availability of funds and solicits proposals from eligible entities, including non-profit organizations, to deliver environmental workforce development and job training
+      programs that recruit, train, and place local, unemployed and under-employed residents with the skills needed to secure full-time employment in the environmental field, with a focus on solid and hazardous
+      waste remediation, environmental health and safety, and wastewater-related training.While Environmen
+- id: q027
+  text: artificial intelligence ethics and responsible innovation
+  candidates:
+  - id: '344017'
+    title: Science of Artificial Intelligence &ndash; Basic and Applied Research for the Naval Domain&rdquo;
+    abstract: <p>This announcement is a BAA Call against the ONR FY23 Long Range Broad Agency Announcement (N00014-23-S-B001).</p><p>The submission of white papers, proposals, their evaluation(s) and the
+      subsequent awards will be carried</p><p>out as described in the aforementioned Long Range BAA.</p><p><br></p><p>ONR is interested in receiving white papers and proposals in support of advancing artificial
+      intelligence for future naval applications. Work under this program will consist of basic and applied res
+  - id: '53197'
+    title: Mind's Eye
+    abstract: "The Mind\x92s Eye program seeks to develop in machines a capability that currently exists only in animals: visual intelligence. Humans in particular perform a wide range of visual tasks with\
+      \ ease, which no current artificial intelligence can do in a robust way. Humans have inherently strong spatial judgment and are able to learn new spatiotemporal concepts directly from the visual experience.\
+      \ Humans can visualize scenes and objects, as well as the actions involving those objects. Humans possess"
+  - id: '320753'
+    title: Science of Learning and Augmented Intelligence (SL)
+    abstract: <p>Science of Learning and Augmented Intelligence (SL) supports potentially transformative research that develops basic theoretical insights and fundamental knowledge about principles, processes
+      and mechanisms of learning, and about augmented intelligence &mdash; how human cognitive function can be augmented through interactions with others or with technology, or through variations in context.&nbsp;</p>
+      <p>The program supports&nbsp;research addressing learning in individuals and in groups, acros
+  - id: '77353'
+    title: Off Highway Vehicle Ethics Training
+    abstract: "The Federal Highway Administration (FHWA) hereby requests applications from all interested organizations to result in the award of a Cooperative Agreement (Agreement) for Off Highway Vehicle\
+      \ (OHV) Ethics Training in order to complete the following tasks:\x95 Develop and operate an off highway vehicle (OHV) ethics training program.\x95 Identify, coordinate, and enhance OHV ethics training\
+      \ opportunities nationwide.\x95 Convene and coordinate training programs and courses that focus on outdoor ethics for mo"
+  - id: '54672'
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    abstract: Purpose. This FOA solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for funding to perform research leading to the development of innovative
+      technologies that may advance progress toward an integrated long term glucose regulated insulin delivery system (artificial pancreas). Mechanism of Support. This FOA will utilize the SBIR (R43/R44)
+      grant mechanisms for Phase I, Phase II, and Fast-Track applications. Funds Available and Anticipated N
+  - id: '45709'
+    title: Ethics Education in Science and Engineering
+    abstract: The Ethics Education in Science and Engineering (EESE) program accepts proposals for research and educational projects to improve ethics education in all of the fields of science and engineering
+      that NSF supports, especially in interdisciplinary or inter-institutional contexts. Proposals must focus on improving ethics education for graduate students in those fields, although the proposed
+      programs may benefit advanced undergraduates in addition to graduate students.
+  - id: '59774'
+    title: Ethics Education in Science and Engineering
+    abstract: The Ethics Education in Science and Engineering (EESE) program funds research and educational projects that improve ethics education in all fields of science and engineering that NSF supports,
+      with priority consideration given to interdisciplinary, inter-institutional, and international contexts. Although the primary focus is on improving ethics education for graduate students in NSF-funded
+      fields, the proposed programs may benefit advanced undergraduates as well.
+  - id: '137613'
+    title: FY 12 FUNDING OPPORTUNITY FOR THE NATIONAL CONSORTIUM FOR MEASUREMENT AND SIGNATURE INTELLIGENCE (MASINT) RESE
+    abstract: Measurement and Signature Intelligence (MASINT) is an intelligence Discipline that employs a broad range of scientific developments to gather foreign intelligence. MASINT oversight and direction
+      is provided by the National MASINT Office (NMO). The National Consortium for MASINT Research (NCMR) as the focal point for MASINT innovation provides cutting-edge MASINT research for the Intelligence
+      Community (IC). A formal consortium of laboratories, academia, and industry forms the core of the advance
+  - id: '363942'
+    title: Immune Drivers of Autoimmune Disease
+    abstract: <p>The National Institute of Allergy and Infectious Diseases (NIAID) seeks to advance its mission through the continued support of the Immune Drivers of Autoimmune Disease (IDAD) network.
+      This network aims to understand the earliest steps and triggers leading to autoimmunity and flare in humans, with the vision of ultimately preventing autoimmune disease. Priorities include discovering
+      pre-clinical immune mechanisms, developing autoimmunity risk and staging prediction tools and biomarkers, build
+  - id: '236276'
+    title: Great Lakes Law Enforcement Task Force
+    abstract: The Illinois DNR will participate on the Great Lakes Enforcement Task Force in coordination with the States of Wisconsin, Minnesota, and Michigan. The recipient intends to work with partner
+      agencies to effectively and efficiently investigate and enforce State and Federal wildlife laws. These actions will help conserve and protect aquatic species native to the area, not only for their
+      benefit but also for the general public good to be derived from such conservation. The USFWS, Office of Law Enfor
+  - id: '324456'
+    title: Expeditions in Computing
+    abstract: The far-reaching impact and rate of innovation in the computer and information science and engineering &#64257;elds has been remarkable, generating economic prosperity and enhancing the quality
+      of life for people throughout the world. More than a decade ago, the National Science Foundation&rsquo;s (NSF) Directorate for Computer and Information Science and Engineering (CISE) established the
+      Expeditions in Computing (Expeditions) program to build on past successes and provide the CISE research a
+  - id: '362666'
+    title: Research on the Ethical, Legal and Social Implications (ELSI) of Genomics
+    abstract: <p>The National Human Genome Research Institute (NHGRI) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications related to the ethical, legal, and social implications
+      (ELSI) of genomics.&nbsp;Genomics has the potential to improve human health and well-being. Driven by advances in technology and analysis, genomics is being integrated into large swaths of biomedical
+      research and medical practice and is impacting society more broadly than ever.</p><p>The wide reach of geno
+  - id: '324369'
+    title: Foundational Research in Robotics
+    abstract: The Foundational Research in Robotics (FRR) program, jointly led by the CISE and ENG Directorates, supports research on robotic systems that exhibit significant levels of both computational
+      capability and physical complexity. For the purposes of this program, a robot is defined as intelligence embodied in an engineered construct, with the ability to process information, sense, plan,
+      and move within or substantially alter its working environment. Here intelligence includes a broad class of method
+  - id: '58509'
+    title: Cyber-Enabled Discovery and Innovation
+    abstract: Cyber-Enabled Discovery and Innovation (CDI) is NSF's bold five-year initiative to create revolutionary science and engineering research outcomes made possible by innovations and advances
+      in computational thinking. Computational thinking is defined comprehensively to encompass computational concepts, methods, models, algorithms, and tools. Applied in challenging science and engineering
+      research and education contexts, computational thinking promises a profound impact on the Nation's ability t
+  - id: '106673'
+    title: Research on Research Integrity (R21)
+    abstract: 'This Funding Opportunity Announcement (FOA), issued by NIEHS and ORI, encourages applications for research that will improve understanding of the basic mechanisms of research integrity by
+      bridging work in the laboratory and the field. This understanding will advance several goals, including: the identification of the optimal targets and time points in the life course for Responsible
+      Conduct of Research (RCR) education and the identification of common mechanisms of behavior change related to rese'
+  - id: '45630'
+    title: Cyber-Enabled Discovery and Innovation
+    abstract: Cyber-Enabled Discovery and Innovation (CDI) is NSF&rsquo;s bold five-year initiative to create revolutionary science and engineering research outcomes made possible by innovations and advances
+      in computational thinking. Computational thinking is defined comprehensively to encompass computational concepts, methods, models, algorithms, and tools. Applied in challenging science and engineering
+      research and education contexts, computational thinking promises a profound impact on the Nation&rsquo
+  - id: '60053'
+    title: Research on Research Integrity (R21)
+    abstract: 'This FOA, issued by NIEHS, NIDCR, and ORI, encourages applications for research that will improve understanding of the basic mechanisms of research integrity by bridging work in the laboratory
+      and the field. This understanding will advance several goals, including: the identification of the optimal targets and time points in the life course for Responsible Conduct of Research (RCR) education
+      and the identification of common mechanisms of behavior change related to research integrity. This initia'
+  - id: '50274'
+    title: Cyber-Enabled Discovery and Innovation
+    abstract: Cyber-Enabled Discovery and Innovation (CDI) is NSF&rsquo;s bold five-year initiative to create revolutionary science and engineering research outcomes made possible by innovations and advances
+      in computational thinking. Computational thinking is defined comprehensively to encompass computational concepts, methods, models, algorithms, and tools. Applied in challenging science and engineering
+      research and education contexts, computational thinking promises a profound impact on the Nation&rsquo
+  - id: '52600'
+    title: Ethics in Science, Mathematics, and Engineering Online Resource Center
+    abstract: The Ethics in Science, Mathematics, and Engineering Online Resource Center competition proposes to fund one award to support a multidisciplinary team of researchers who will create an online
+      resource center that develops, compiles, and maintains resources related to ethics in science, mathematics, and engineering. The research team's focus will be to gather existing information, generate
+      new knowledge, and create interactive tools that will help scientists and engineers incorporate ethical issue
+  - id: '50442'
+    title: Research on Integrity in Collaborative Research (R21)
+    abstract: Purpose. This FOA issued by NCRR, FIC, NIBIB ORI and OHRP encourages research grant applications from institutions/organizations that propose to study research integrity as it relates to collaborative
+      interactions and/or activities. The R21 exploratory/developmental mechanism will be used to foster research where there are few published data and where problem areas that would benefit from further
+      investigation could be identified. Applications must address the influence of collaborative interac
+  - id: '361526'
+    title: 'The Genesis Mission:  Transforming Science and Energy with AI'
+    abstract: '<p><span style="color: black;">The DOE Office of Science (SC), Office of Critical Minerals and Energy Innovation (CMEI), Office of Environmental Management (EM), Office of Nuclear Energy
+      (NE), Office of Electricity (OE), and Hydrocarbons and Geothermal Office (HGEO) hereby announce interest in receiving applications from interdisciplinary teams addressing the </span><a href="https://www.energy.gov/documents/genesis-mission-science-and-technology-challenges?utm_medium=email&amp;utm_source=govdeli'
+  - id: '155593'
+    title: Developing Innovative Methodologies and Device-Specific Infrastructure through the Medical Device Epidemiology
+    abstract: 1. Advance and apply innovative methodological solutions to bridge premarket and postmarket evidence of medical countermeasures (MCM)-related device safety and effectiveness, including evidence
+      synthesis, and evaluation of medical device patient-centered outcomes across the total product life cycle (TPLC). 2. Conduct highest quality independent research to contribute to medical device regulatory
+      decision-making for MCM-priority medical devices and radiological health. 3. Advance develop
+  - id: '350730'
+    title: 'Request for Information (RFI): Community Influence on Human Judgment During  Information Processing Tasks'
+    abstract: <p><strong>This is a Request for Information (RFI) issued solely for information and planning purposes and does not constitute a solicitation.&nbsp;<u>Respondents are advised that the Army
+      Research Lab (ARL) is under no obligation to acknowledge receipt of the information received or provide feedback to respondents with respect to any information submitted under this RFI.</u></strong></p><p><br></p><p>Responses
+      to this notice are not offers and cannot be accepted by the Government to form a bind
+  - id: '363049'
+    title: Digital Health Technology and Reciprocal Innovation to Improve Clinical and Public Health Outcomes
+    abstract: <p>This initiative will support research on the development, validation, feasibility, and effectiveness of innovative digital health interventions or tools (including mobile health) specifically
+      suited for underserved settings in the U.S. and globally. Research should utilize new or emerging technologies, platforms, systems, and/or analytics to address high priority health problems, expand
+      the evidence base for the use of digital health technology to improve clinical and public health outcomes,
+  - id: '166197'
+    title: 'Limited Competition:  Revision Applications to Advance Evidence-Based Research Related to Protections for Huma'
+    abstract: 'The purpose of this FOA is to seek revision applications to cooperative agreements that are supporting networks or consortia of researchers who conduct or will be interested in conducting
+      research in the following areas: The effectiveness of current human subjects protections and the development of tools and methods to examine evolving, evidence-based approaches to improve human subjects
+      protections. The feasibility, costs, benefits, and impacts of requiring consent for research on deidentifi'
+  - id: '358176'
+    title: Ethical, Legal and Social Implications (ELSI) Exploratory/Developmental Research Grant (R21 Clinical Trial Opt
+    abstract: <p>The purpose of this NOFO is to invite Exploratory/Developmental Research Grant (R21) applications that propose to study the ethical, legal, and social implications (ELSI) of human genetics
+      and genomics. Applications may propose studies using either single or mixed methods. Approaches may include but are not limited to empirical qualitative and quantitative methods, as well as conceptual,
+      legal, and normative analyses. Direct involvement of key stakeholders where appropriate is encouraged. Of
+  - id: '353055'
+    title: 'BRAIN Initiative: Preclinical Proof of Concept for Novel Recording and Modulation Technologies in the Human CN'
+    abstract: Awarded activities will facilitate the translation of novel recording and modulation technologies that can be used to treat and/or diagnose central nervous system (CNS) diseases and disorders
+      and to better understand the human CNS, from proof of concept up to the stage of readiness for first in human (FIH) studies. Technologies may incorporate any signal modality (e.g., electrical, optical,
+      magnetic, acoustic) or a combination thereof. Diverse team-based applications that integrate appropriate d
+  - id: '106053'
+    title: Ethical, Legal, and Social Implications (ELSI) of Genomic Research Small Research Grant Program (R03)
+    abstract: This Funding Opportunity Announcement (FOA) encourages Small Research Grant (R03) applications to study the ethical, legal and social implications (ELSI) of human genome research. These applications
+      should be for small, self-contained research projects. Of particular interest are projects that propose focused legal, economic, philosophical or historical analyses of new or emerging issues.
+  - id: '351125'
+    title: Utilizing Real-World Data and Algorithmic Analyses to Assess Post-Market Clinical Outcomes in Patients Switchi
+    abstract: '<p><span style="color: black;">Complex generic drug products represent an increasing share of the generic marketplace and may have distinct user interface differences compared to reference
+      listed drug (RLD) products. A modernized post-market surveillance approach is needed to compare clinical outcomes between complex generic products and their corresponding RLD products to monitor for
+      potential issues with therapeutic equivalence and to inform regulatory decision making. Real-world data (RWD) co'
+  - id: '205815'
+    title: Software Infrastructure for Sustained Innovation - S2I2
+    abstract: NSF's vision of a Cyberinfrastructure Framework for 21st Century Science and Engineering (CIF21) identifies advancing new computational infrastructure as a priority for driving innovation
+      in science and engineering. Software is an integral enabler of computation, experiment and theory and a central component of the new computational infrastructure. Scientific discovery and innovation
+      are advancing along fundamentally new pathways opened by the development of increasingly sophisticated software.
+  - id: '123253'
+    title: Software Infrastructure for Sustained Innovation
+    abstract: NSF's vision of a Cyberinfrastructure Framework for 21st Century Science and Engineering (CIF21) identifies advancing new computational infrastructure as a priority for driving innovation
+      in science and engineering. Software is an integral enabler of computation, experiment and theory and a central component of the new computational infrastructure. Scientific discovery and innovation
+      are advancing along fundamentally new pathways opened by the development of increasingly sophisticated software.
+  - id: '363481'
+    title: 'U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:'
+    abstract: <p>The NSF State and Regional AI Infrastructure Hubs program aims to expand access to the compute required for AI-enabled scientific discovery and to transform the research, education, and
+      training opportunities offered by institutions of higher education. AI Infrastructure Hubs will connect researchers to new compute infrastructure that leverages contributions from state governments,
+      research institutions, industry, and philanthropy, accelerating AI-enabled discovery across science and engineer
+  - id: '89414'
+    title: Software Infrastructure for Sustained Innovation
+    abstract: Computation is accepted as the third pillar supporting innovation and discovery in science and engineering and is central to NSF's vision of a Cyberinfrastructure Framework for 21st Century
+      Science and Engineering (CIF21) (as described in http://www.nsf.gov/pubs/2010/nsf10015/nsf10015.jsp).Software is an integral enabler of computation, experiment and theory and a primary modality for
+      realizing the CIF21 vision. Scientific discovery and innovation are advancing along fundamentally new pathways o
+- id: q028
+  text: research infrastructure and core facilities for universities
+  candidates:
+  - id: '45774'
+    title: 'Recovery Act Limited Competition: Core Facility Renovation, Repair, and Improvement (G20)'
+    abstract: Purpose. This FOA issued by the National Center for Research Resources, National Institutes of Health, solicits applications from institutions that propose to renovate, repair, or improve
+      core facilities. For the purpose of this FOA, a core facility is defined as a centralized shared resource that provides access to instruments or technologies or services, as well as expert consultation
+      to investigators supported by the core. The major objective of this FOA is to upgrade core facilities to sup
+  - id: '131113'
+    title: Rheumatic Diseases Research Core Centers (P30)
+    abstract: The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) invites applications for Research Core Centers (P30s) in rheumatic diseases. The Rheumatic Diseases Research
+      Core Centers (RDCCs) will provide shared facilities and services to groups of established, currently funded investigators addressing scientific problems in rheumatic diseases, in order to improve
+      efficiency, accelerate the pace of research, and ensure greater productivity.
+  - id: '356129'
+    title: Mid-scale Research Infrastructure-1
+    abstract: NSF-supported science and engineering research increasingly relies on cutting-edge infrastructure. With its Major Research Instrumentation (MRI) program and Major Multi-user Facilities ("Major
+      Facilities") projects, NSF supports infrastructure projects at the lower and higher range of infrastructure project costs, Foundation-wide, across science and engineering research disciplines. The
+      Foundation-wide Mid-scale Research Infrastructure opportunity is intended to provide NSF with an agile, Founda
+  - id: '57599'
+    title: Core Infrastructure and Methodological Research for Cancer Epidemiology Cohorts (U01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), invites grant applications to provide targeted infrastructure support for the core functions
+      of Cancer Epidemiology Cohorts (CECs) and methodological research. This infrastructure can support existing or new CECs. This FOA will support core functions for CECs currently funded through other
+      grant mechanisms by the Epidemiology and Genetics Program (EGRP) and other components of the Division of Can
+  - id: '63513'
+    title: Intellectual and Developmental Disabilities Research Centers 2011 (P30)
+    abstract: The Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) invites applications for Center Core Grants designed to advance the diagnosis, prevention, treatment,
+      and amelioration of intellectual and developmental disabilities (IDD). This Funding Opportunity Announcement (FOA) seeks applications from institutions that meet the qualifications for a program of
+      IDD research. The grants fund core resources to support interdisciplinary research and research training. Fu
+  - id: '46774'
+    title: NCMHD Exploratory Centers of Excellence (P20)
+    abstract: Purpose. This FOA issued by the National Center on Minority Health and Health Disparities (NCMHD), National Institutes of Health solicits grant applications from institutions/organizations
+      that propose to establish an Exploratory NCMHD Center of Excellence (COE) to support infrastructure and capacity building, building and sustaining novel partnerships, training, innovative basic biomedical
+      and behavioral clinical, or population-based research and intervention and prevention studies contributing
+  - id: '60293'
+    title: Environmental Health Sciences Core Center Grants (P30)
+    abstract: The National Institute of Environmental Health Sciences (NIEHS) invites applications from qualified institutions for support of Environmental Health Sciences (EHS) Core Centers. These Centers
+      are designed to establish innovative programs of excellence in the field of environmental health sciences by providing scientific and programmatic support for promising investigators and areas of
+      research. A Core Center Grant is an institutional award to support centralized scientific resources and faciliti
+  - id: '42611'
+    title: Boating Infrastructure Grant Program Request for Proposals - FY 2009
+    abstract: The U.S. Fish and Wildlife Service is accepting applications for the Boating Infrastructure Grant Program (BIG) for Fiscal Year 2009. The BIG provides funding for all States, the District
+      of Columbia, Commonwealths, and territories that construct, renovate, and maintain either publicly or privately owned boating infrastructure tie-up facilities for transient, nontrailerable recreational
+      vessels. These facilities must provide public access to get BIG funding.
+  - id: '45637'
+    title: Partnerships for Research and Education in Materials
+    abstract: The objective of PREM is to broaden participation and enhance diversity in materials research and education by stimulating the development of formal, long-term, multi-investigator, collaborative
+      research and education partnerships between minority-serving colleges and universities, women's colleges, and colleges and universities dedicated to educating a majority of students with disabilities,
+      groups that are underrepresented in science, technology, engineering, and mathematics (STEM) and the NS
+  - id: '45693'
+    title: Cooperative Studies Of The Earth's Deep Interior
+    abstract: The Division of Earth Sciences (EAR) invites the submission of proposals for collaborative, interdisciplinary studies of the Earth's interior within the framework of the community-based initiative
+      known as Cooperative Studies of the Earth's Deep Interior (CSEDI). Funding will support basic research on the character and dynamics of the Earth's mantle and core, their influence on the evolution
+      of the Earth as a whole, and on processes operating within the deep interior that affect or are expressed
+  - id: '50479'
+    title: Intellectual and Developmental Disabilities Research Centers 2010 (P30)
+    abstract: Purpose. The Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) invites applications for Center Core Grants designed to advance the diagnosis, prevention,
+      treatment, and amelioration of intellectual and developmental disabilities (IDD). This Funding Opportunity Announcement (FOA) seeks applications from institutions that meet the qualifications for
+      a program of IDD research. The grants fund core resources to support interdisciplinary research and research tra
+  - id: '275109'
+    title: National Facilities
+    abstract: 'The National Facilities program supports the operation of national user facilities: National Facilities areresearch facilities with specialized instrumentation available to the scientific
+      research community in general and the materials research community in particular.These facilities provide unique research capabilities that can be located at only a few highly specialized laboratories
+      in the Nation. They provide open user service for scientists and engineers from a broad range of disciplines in'
+  - id: '60074'
+    title: Research Infrastructure for Demographic and Behavioral Population Science  (R24)
+    abstract: 'This FOA issued by the NICHD, National Institutes of Health, solicits grant applications from institutions to provide research infrastructure support that will enhance the research capabilities
+      of established population science centers doing research in areas within the mission of the NICHD Demographic and Behavioral Sciences Branch. This FOA allows for three types of research infrastructure
+      support: (1) Research Support Cores; (2) Developmental Infrastructure Cores; and (3) Public Infrastructu'
+  - id: '359325'
+    title: Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC)
+    abstract: <p>The Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC) program drives discovery and learning in the core disciplines of the three participating
+      CISE divisions [Computing and Communication Foundations (CCF), Computer and Network Systems (CNS), and Information and Intelligent Systems (IIS)] of the Directorate for Computer and Information Science
+      and Engineering (CISE) by funding the creation and enhancement of world-class research infrastructure. Th
+  - id: '123293'
+    title: Research Infrastructure for Demographic and Behavioral Population Science (R24)
+    abstract: 'The purpose of this FOA is to promote science within the mission of the NICHD Demographic and Behavioral Sciences Branch by providing research infrastructure to population science research
+      centers. Types of research infrastructure provided include administrative and technical research support, developmental infrastructure, and public infrastructure. This FOA supports three types of
+      applications: (1) General Research Infrastructure, for centers with three to six signature population science resea'
+  - id: '190733'
+    title: Research Infrastructure for Demographic and Behavioral Population Science (R24)
+    abstract: 'The purpose of this funding opportunity announcement (FOA) is to promote science within the mission of the NICHD Demographic and Behavioral Sciences Branch by providing research infrastructure
+      to population science research centers. Types of research infrastructure provided include administrative and technical research support, developmental infrastructure, and public infrastructure. This
+      FOA supports three types of applications: (1) General Center applications, for centers with three to six sig'
+  - id: '45623'
+    title: CISE Computing Research Infrastructure
+    abstract: 'The CISE Computing Research Infrastructure (CRI) program drives discovery and learning in the computing disciplines by supporting the creation, enhancement and operation of world-class computing
+      research infrastructure. Further, through the CRI program CISE seeks to ensure that individuals from a diverse range of academic institutions, including minority-serving and predominantly undergraduate
+      institutions, have access to such infrastructure. The CRI program supports two classes of awards:'
+  - id: '169375'
+    title: Data Infrastructure Building Blocks
+    abstract: 'Science and engineering research and education are increasingly digital and increasingly data-intensive. Digital data are not only the output of research but their analysis provide input
+      to new hypotheses, enabling new scientific insights, driving innovation and informing education. Therein lies one of the major challenges of this scientific generation: how to develop, implement and
+      support the new methods, management structures and technologies to store and manage the diversity, size, and com'
+  - id: '85233'
+    title: CISE Computing Research Infrastructure
+    abstract: 'The CISE Computing Research Infrastructure (CRI) program drives discovery and learning in the computing disciplines by supporting the creation, enhancement and operation of world-class computing
+      research infrastructure. Further, through the CRI program CISE seeks to ensure that individuals from a diverse range of academic institutions, including minority-serving and predominantly undergraduate
+      institutions, have access to such infrastructure. The CRI program supports two classes of awards: Ins'
+  - id: '363481'
+    title: 'U.S. National Science Foundation State and Regional Artificial Intelligence Infrastructure Hubs:'
+    abstract: <p>The NSF State and Regional AI Infrastructure Hubs program aims to expand access to the compute required for AI-enabled scientific discovery and to transform the research, education, and
+      training opportunities offered by institutions of higher education. AI Infrastructure Hubs will connect researchers to new compute infrastructure that leverages contributions from state governments,
+      research institutions, industry, and philanthropy, accelerating AI-enabled discovery across science and engineer
+  - id: '346203'
+    title: Growing Research Access for Nationally Transformative Economic Development (GRANTED)
+    abstract: <p>NSF GRANTED supports innovative models of research enterprise administrative development and workforce training infrastructure that promote sustainable research capacity and opportunities
+      for economic impact&nbsp;in U.S. organizations. The research enterprise, broadly defined, includes research development and administration, research analytics, technology transfer and commercialization,
+      corporate relations/public-private partnerships, research integrity, compliance and security, research pol
+  - id: '359701'
+    title: Development of Collaborative Research Facilities or Research-Resource Facilities (C06 Clinical Trial Not Allow
+    abstract: 'This Notice of Funding Opportunity (NOFO) solicits applications to develop shared-use research facilities or research-supporting facilities that enable collaborative research and benefit
+      broad research communities at large. The NOFO supports two existing construction programs: the Biomedical Research Facilities (BRF) program and the HIV/AIDS Research Facilities (HRF) program.The BRF
+      program supports the construction or modernization of biomedical research facilities that advance basic, translati'
+  - id: '146455'
+    title: Building Community and Capacity for Data-Intensive Research in the Social, Behavioral, and Economic Sciences a
+    abstract: As part of NSF's Cyberinfrastructure Framework for 21st Century Science and Engineering (CIF21) activity, the Directorate for Social, Behavioral, and Economic Sciences (SBE), the Directorate
+      for Education and Human Resources (EHR), and the Office of Cyberinfrastructure seek to enable research communities to develop visions, teams, and capabilities dedicated to creating new, large-scale,
+      next-generation data resources and relevant analytic techniques to advance fundamental research for the SBE an
+  - id: '148154'
+    title: Campus Cyberinfrastructure - Network Infrastructure and Engineering Program
+    abstract: The &quot;Campus Cyberinfrastructure - Network Infrastructure and Engineering (CC-NIE)&quot; program invests in improvements and re-engineering at the campus level to leverage dynamic network
+      services to support a range of scientific data transfers and movement. The program also supports Network Integration activities tied to achieving higher levels of performance, reliability and predictability
+      for science applications and distributed research projects. Two types of CC-NIE awards will be made.
+  - id: '106773'
+    title: Network Infrastructure Support for Emerging Areas of Research in the Basic Biology of Aging (R24)
+    abstract: The purpose of this FOA is to provide infrastructure support to foster further development and integration in emerging interdisciplinary areas of research in basic biology of aging. This FOA
+      will use the NIH Resource-Related Research Project (R24) mechanism to facilitate research networks that will advance specific scientific goals through meetings, conferences, small scale pilots, short
+      term training opportunities (such as intensive workshops, summer institutes, or visiting scholar programs) an
+  - id: '47294'
+    title: 'Academic Research Infrastructure Program:  Recovery and Reinvestment  (ARI-R??)'
+    abstract: Scientific discoveries are emerging at an accelerated pace, presenting new frontiers for exploration, stimulating innovation and economic growth, and driving the development of new tools and
+      systems to support research. Likewise, the convergence of disciplines and the cross-fertilization that characterized contemporary science and engineering have made collaboration a centerpiece of the
+      21st century science and engineering enterprise. As new scientific opportunities and processes have emerged, t
+  - id: '50973'
+    title: NIDCD Research Core Centers (P30)
+    abstract: Purpose. The NIDCD P30 Core Center grant contains one or more research-serving cores, providing centralized resources and facilities for funded R01 research projects. Although no funds are
+      provided for direct support of research projects, a P30 helps to integrate and promote research in existing funded projects, and may include multi-disciplinary and regional collaborations. A Core
+      Center must be an identifiable organizational unit either within a single grantee institution or representing a con
+  - id: '347680'
+    title: Infrastructure Innovation for Biological Research (Innovation)
+    abstract: '<p>The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology
+      in any research area supported by the Directorate for&nbsp;Biological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three
+      programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this pro'
+  - id: '138093'
+    title: NINDS Institutional Center Core Grants to Support Neuroscience Research (P30)
+    abstract: NINDS invites new and competing renewal applications for Center Core Grants that provide resources and facilities shared by a minimum of six NINDS-supported investigators. The proposed Centers
+      will offer services and expertise that would be difficult or impractical to support in individual labs. The Centers are expected to capitalize on economies and synergies associated with shared resources,
+      and to foster a collaborative environment among neuroscientists at host institutions.
+- id: q029
+  text: aging and long-term care in older adults
+  candidates:
+  - id: '176333'
+    title: Renal Function and Chronic Kidney Disease in Aging (R21)
+    abstract: This Funding Opportunity Announcement (FOA) issued by the National Institute on Aging (NIA), National Institutes of Health, invites applications that propose basic, clinical, and translational
+      research on chronic kidney disease (CKD) and its consequences in aging and in older persons. Applications should focus on the 1) biology and pathophysiology of CKD in animal models; 2) etiology and
+      pathophysiology of CKD in older adults; 3) epidemiology and risk factors for the development of CKD with adva
+  - id: '176334'
+    title: Renal Function and Chronic Kidney Disease in Aging (R01)
+    abstract: This Funding Opportunity Announcement (FOA) issued by the National Institute on Aging (NIA) and the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes
+      of Health, invites applications that propose basic, clinical, and translational research on chronic kidney disease (CKD) and its consequences in aging and in older persons. Applications should focus
+      on the 1) biology and pathophysiology of CKD in animal models; 2) etiology and pathophysiology of CKD in ol
+  - id: '356236'
+    title: Advancing Healthcare for Older Adults from Populations that Experience Health Disparities (R01 - Clinical Tria
+    abstract: The purpose of this initiative is to advance the science and implementation of innovative multi-level health care research for older adults from populations that experience health disparities.
+      The initiative will support research designed to (1) gain a better understanding of appropriate screening, diagnostic, and clinical care guidelines in a primary care setting, (2) explore shared decision-making
+      that is needed to enhance care planning and patient agency between clinicians and care teams with
+  - id: '166755'
+    title: Multidisciplinary Studies of HIV/AIDS and Aging (R03)
+    abstract: This FOA invites applications proposing to study HIV infection, HIV-associated conditions, HIV treatment, and/or biobehavioral or social factors associated with HIV/AIDS in the context of
+      aging and/or in older adults. Research approaches of interest include clinical translational, observational, and intervention studies in domestic and international settings.
+  - id: '166753'
+    title: Multidisciplinary Studies of HIV/AIDS and Aging (R21)
+    abstract: This FOA invites applications proposing to study HIV infection, HIV-associated conditions, HIV treatment, and/or biobehavioral or social factors associated with HIV/AIDS in the context of
+      aging and/or in older adults. Research approaches of interest include clinical translational, observational, and intervention studies in domestic and international settings.
+  - id: '166754'
+    title: Multidisciplinary Studies of HIV/AIDS and Aging (R01)
+    abstract: This FOA invites applications proposing to study HIV infection, HIV-associated conditions, HIV treatment, and/or biobehavioral or social factors associated with HIV/AIDS in the context of
+      aging and/or in older adults. Research approaches of interest include clinical translational, observational, and intervention studies in domestic and international settings.
+  - id: '102873'
+    title: National Hispanic Senior Medicare Patrol
+    abstract: 'The overall NHSPM goals for the cooperative agreement will be to: (1) enhance the skills, knowledge, and capacity of the SMP network to enable SMP projects to: effectively reach Hispanic
+      older adults with the message of health care fraud prevention, identification and reporting; and respond to complaints from Hispanic older adults, their families and caregivers, of potential Medicare
+      and other health care fraud identified as a results of this increased awareness; (2) provide in-depth research'
+  - id: '106273'
+    title: Leveraging Existing Data or Longitudinal Studies to Evaluate Safety and Effectiveness of Pharmacological Manag
+    abstract: This FOA solicits Small Research Grant (R03) projects that aim to leverage existing data or longitudinal studies in order to evaluate the safety and/or effectiveness of pharmacological management
+      for chronic pain in older adults. Applicants are invited to submit innovative proposals using administrative databases, health care records, clinical trial datasets, patient registries, cohort studies,
+      or other resources to further our understanding of treatment outcomes from pharmacologic or combinatio
+  - id: '63893'
+    title: Acute Life Threatening Conditions and Opportunities for Palliative and End of Life Care Research (R01)
+    abstract: The purpose of this research initiative is to (a) Examine predictors of progression to life threatening illness, End of Life (EOL) issues, and death among individuals diagnosed with acute
+      illnesses in the presence of underlying chronic diseases, adverse health risk factors, or other negative variables; (b) Develop algorithms for such adverse progressions to life limiting disease or
+      EOL; (c) Examine the burden of illness imposed by acute illnesses when superimposed on individuals with underlying
+  - id: '183473'
+    title: Addressing Needs of Informal Caregivers of Individuals with Alzheimers Disease in the Context of Sociodemograp
+    abstract: The National Institute of Nursing Research seeks research to address the needs of informal caregivers of individuals with Alzheimers Disease and other dementias in the context of different
+      sociodemographic factors. Research has demonstrated that sociodemographic factors (such as geography, socioeconomic status, education, culture, race, ethnicity, gender, and age) play a role in informal
+      caregivers experiences in providing care for their loved one as well as in managing their own health and well
+  - id: '361214'
+    title: Controlled Clinical Trials on Long-Term Effects of Nutritional Interventions on the Progression of Risk Factor
+    abstract: <p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications for randomized controlled clinical trials on long-term effects of
+      nutritional interventions&nbsp;on the progression of risk factors for age-related chronic conditions over the life span and their age of onset.</p><p>Although considerable information is available
+      on health benefits and risks of a variety of nutritional factors (e.g., macronutrients, overall caloric intake, di
+  - id: '155693'
+    title: Research to Assist Informal Caregivers in Assessing and Managing Symptoms in Individuals with Alzheimers Disea
+    abstract: The purpose of this funding opportunity announcement is to develop tools and techniques for informal caregivers to assess adverse symptoms in individuals with Alzheimers Disease and related
+      dementias, and to develop interventions to improve the management of these symptoms.
+  - id: '156973'
+    title: Translational Research at the Aging/Cancer Interface (TRACI) (R21)
+    abstract: This Funding Opportunity Announcement (FOA) encourages translational research proposals in the overlapping areas of human aging and cancer, linking basic and clinical research relevant to
+      the care of older cancer patients through both bench-to-bedside and bedside-to-bench approaches. Ultimately, information from the research supported by this initiative should improve the health and
+      well-being of elderly patients at risk for, or diagnosed with, cancer and decrease the functional impairment and m
+  - id: '364120'
+    title: Evaluating Innovative Community Based Nutrition Models that Improve Health Outcomes for Older Adults in Senior
+    abstract: <p>The purpose of this Notice of Funding Opportunity is to support innovative, community-based nutrition and healthy aging models that improve the health, well-being, and quality of life of
+      participants in the Older Americans Act (OAA) Senior Nutrition Program. Projects are expected to develop, implement, and evaluate promising approaches that strengthen nutrition services through community
+      partnerships, increase access to healthy foods, promote healthy aging and chronic disease prevention, and
+  - id: '74134'
+    title: Family and Interpersonal Relationships in an Aging Context (R01)
+    abstract: The National Institute on Aging invites researchers to submit innovative R01 research grant applications on aging and the family. The objective of this research program is to expand understanding
+      of the role of families and interpersonal relationships in the health and wellbeing of older people. This will be accomplished through increasing scientific knowledge on the effects of family and
+      interpersonal relationships on behavioral and social processes of relevance to aging; and on how these proc
+  - id: '157013'
+    title: Translational Research at the Aging/Cancer Interface (TRACI) (R01)
+    abstract: This Funding Opportunity Announcement (FOA) encourages translational research proposals in the overlapping areas of human aging and cancer, linking basic and clinical research relevant to
+      the care of older cancer patients through both bench-to-bedside and bedside-to-bench approaches. Ultimately, information from the research supported by this initiative should improve the health and
+      well-being of elderly patients at risk for, or diagnosed with, cancer and decrease the functional impairment and m
+  - id: '50755'
+    title: 'Active Aging: Supporting Individuals and Enhancing Community-based Care through Health Information Technology '
+    abstract: Purpose. This FOA issued by AHRQ solicits applications from organizations that propose to develop a specialized center (P50 grant mechanism) to carry out community-based participatory research
+      on the use of communication and information focused technologies (IT) on improving the health status of, and health-related services provided to, older adults and to focus on applied research with
+      the objective of developing sustainable and reproducible strategies to translate research into practice effect
+  - id: '47607'
+    title: 'Mechanisms, Measurement, and Management of Pain in Aging: from Molecular to Clinical (R21)'
+    abstract: Purpose. This FOA encourages Exploratory/Developmental Research Project Grant (R21) applications from institutions/organizations that propose to (1) study biological, neurobiological, psychosocial,
+      and clinical mechanisms and processes by which aging and/or age-related diseases affect the experience of pain, (2) examine biological, neurobiological, psychosocial, and clinical factors that impact
+      pain experience and prevalence in older people, (3) evaluate existing pain assessment and/or managemen
+- id: q030
+  text: housing stability and homelessness prevention
+  candidates:
+  - id: '42623'
+    title: Notice of Funding Availability for Continuum of Care (CoC) Homeless Assistance Programs
+    abstract: The purpose of the CoC Homeless Assistance Program is to reduce the incidence of homelessness in CoC communities by assisting homeless individuals and families to move to self sufficiency
+      and permanent housing.CoCs that sustain current successfulinterventions and advance the goal of ending chronic homelessness will receive higher scores.
+  - id: '41541'
+    title: Housing Opportunities for Persons with AIDS
+    abstract: Purpose of the Program. To provide states and localities with the resources and incentives to devise long-term comprehensive strategies for meeting the housing needs of low-income persons
+      with Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome (HIV/AIDS). Grant recipients will measure client outcomes to assess how housing assistance creates or maintains stable housing,
+      reduces risks of homelessness, and improves access to health care and other needed support. States, units of gen
+  - id: '49628'
+    title: Continuum of Care Homeless Assistance Program
+    abstract: 'On October 26, 2009 HUD posted a technical correction to the 2009 Continuum of Care NOFA on the Homelessness Resource Exchange located at http://www.hudhre.info/esnaps/index.cfm?do=viewEsnapsIssuances.
+      On this page you can find two documents related to the technical correction: a Notice that details the technical corrections, and a redline version of the NOFA that clearly shows the technical corrections
+      in red. This Notice of Funding Availability (NOFA) establishes the funding criteria fo'
+  - id: '361994'
+    title: Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026
+    abstract: "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing\
+      \ self-sufficiency by addressing the educational, professional and health barriers they face. Self-sufficiency is defined as an individual\u2019s ability to support their household by maintaining\
+      \ financial, housing, and personal/family stability. To achieve self-sufficiency, an individual moves along a continuum"
+  - id: '128933'
+    title: Agricultural Career and Employment Grants Program (ACE)
+    abstract: "The ACE grants program is intended to improve the supply of skilled agricultural workers and bring greater stability to the workforce in this sector. This stability will be realized through\
+      \ services specifically designed to assist farmworkers in securing, retaining, upgrading or returning from agricultural jobs. Such services include the following: \x95 agricultural labor skills development;\
+      \ \x95 the provision of agricultural labor market information; \x95 transportation; \x95 short-term housing wh"
+  - id: '45922'
+    title: Assisted Housing Stability and Energy and Green Retrofit
+    abstract: "Grants and loans will be made available through HUD\x92s Office of Affordable Housing Preservation (OAHP) for eligible property owners to make energy and green retrofit investments in the\
+      \ property, to ensure the maintenance and preservation of the property, the continued operation and maintenance of energy efficiency technologies, and the timely expenditure of funds. Physical and\
+      \ financial analyses of the properties will be conducted to determine the size of each grant and loan. Incentives will be"
+  - id: '362014'
+    title: Comprehensive Housing Counseling (CHC) and the Housing Counseling Training (HCT) NOFO (FY2026)
+    abstract: "<p>The purpose of HUD\u2019s Housing Counseling Grant Program is to provide funds to HUD-approved housing counseling agencies that provide counseling and advice to tenants and homeowners,\
+      \ with respect to property maintenance, financial management and literacy, and other matters as may be appropriate to assist program clients in improving their housing conditions, meeting their financial\
+      \ needs, and fulfilling the responsibilities of tenancy or homeownership. This NOFO plays an integral role in helping"
+  - id: '56795'
+    title: A HOME AWAY FROM HOMELESSNESS
+    abstract: The continuation of this Agreement with the Partner, establisged in 1994, offers educational, recreational and personal development opportunities by providing programs developed around the
+      Golden Gate National Recreation Area'a natural environment.
+  - id: '54264'
+    title: Incarcerated Veterans Transition Program (IVTP)
+    abstract: "EXECUTIVE SUMMARY (Applicants for grant funds should read this notice in its entirety.) The U.S. Department of Labor, Veterans' Employment and Training Service (VETS), announces a grant competition\
+      \ to fund at least twelve (12) Incarcerated Veterans Transition Program (IVTP) grants designed to support incarcerated Veterans \x93at risk\x94 of homelessness. These grants are being funded under\
+      \ the authority of 38 U.S.C. Section 2021 and 2023 as amended by PL 110-387, Sec. 602, titled the Expansion"
+  - id: '98076'
+    title: Child Welfare -- Education System Collaborations to Increase Educational Stability
+    abstract: The purpose of thisFOA is to build collaborations between child welfare systems and Education systems to increase the educational stability of children in or at risk of entering the child
+      welfare system. Child welfare systems may identify the neighborhoods or school districts that serve the highest number of children involved in the child welfare system, and develop collaborative policies,
+      procedures, and programs that will increase the educational stability and school success for those children
+  - id: '150273'
+    title: Building a Medical Home for Multiply Diagnosed HIV positive Homeless Populations &#150; Demonstration Sites
+    abstract: This funding opportunity announcement solicits applications for a new Special Project of National Significance (SPNS) multi-site initiative entitled Building a Medical Home for Multiply Diagnosed
+      HIV positive Homeless Populations - Demonstration Sites. This initiative will award funds for up to five years to support organizations that will design, implement and evaluate innovative interventions
+      to improve timely entry, engagement and retention in HIV care and supportive services for HIV positiv
+  - id: '86413'
+    title: Section 811 Supportive Housing for Persons with Disabilities
+    abstract: This program provides funding for the development and operation of supportive housing for very low-income persons with disabilities who are at least 18 years old. If you receive funding through
+      this program, you must assure that supportive services are identified and available. HUD provides capital advances and contracts for project rental assistance in accordance with 24 CFR part 891. Refer
+      to Section IV. E .3 in the NOFA for additional information on calculating the capital advance amount.
+  - id: '53930'
+    title: Recovery Act - Communities Putting Prevention to Work
+    abstract: The purpose of the supplement is to provide State Health Departments with resources to collect BRFSS baseline and follow up data from communities funded under Communities Putting Prevention
+      to Work (CPPW), CDC-RFA-DP09-912ARRA09. The amount of funding for individual states will be determined through a competitive evaluation.
+  - id: '89893'
+    title: Street Outreach Program
+    abstract: This announcement is modified. A correction has been made to Section VIII. Other Information.Every day, in communities across the country, young people run from or are asked to leave homes
+      characterized by abuse, neglect, or parental drug and alcohol abuse. Once on the streets, these young people often lose touch with the caring adults in their extended families, schools, and communities
+      that can help and protect them. As a result, they frequently fall victim to exploitation and abuse. They
+  - id: '49606'
+    title: Healthy Homes Demonstration Program
+    abstract: 'The overall goals are to: mobilize public and private resources to develop the most promising, cost-effective methods for identifying and controlling key housing-related environmental health
+      and safety hazards; build local capacity to operate sustainable programs that will prevent and control housing-related environmental health and safety hazards in low- and very low-income residences
+      when HUD funding is exhausted; and affirmatively further fair housing and environmental justice.'
+  - id: '50738'
+    title: 'American Recovery and Reinvestment Act: Chronic Disease Self Management Program'
+    abstract: American Recovery and Reinvestment Act (Recovery Act)Communities Putting Prevention to WorkChronic Disease Self-Management Program
+  - id: '41535'
+    title: Section 202 Supportive Housing for the Elderly Program
+    abstract: HUD provides capital advances and contracts for project rental assistance in accordance with 24 CFR part 891. Capital advances may be used for the construction or rehabilitation of a structure,
+      or acquisition of a structure with or without rehabilitation. Capital advance funds bear no interest and are based on development cost limits in Section IV.E.3. Repayment of the capital advance is
+      not required as long as the housing remains available for occupancy by very low-income elderly persons for
+  - id: '41536'
+    title: Section 811 Supportive Housing for Persons with Disabilities
+    abstract: HUD provides capital advances and contracts for project rental assistance in accordance with 24 CFR part 891. Capital advances may be used for the construction or rehabilitation of a structure
+      or acquisition of a structure with or without rehabilitation, to be developed into a variety of housing options described in Section III.C. Capital advance funds bear no interest and are based on
+      development cost limits in Section IV.E.3. Repayment of the capital advance is not required as long as the h
+  - id: '61814'
+    title: Homeless Families Demonstration Small Grant Research Program
+    abstract: 'The purpose of this NOPI is to enhance the demonstration project conducted by the Office of Policy Development and Research (PD&R) that focuses on Homeless Families by providing a vehicle
+      for conducting a number of small research projects aimed at collecting additional/supplemental information and analyses. PD&R is also conducting several other major demonstrations in the following
+      areas: Family Self-Sufficiency; Pre-Purchase Homeownership Counseling; and Sustainable Building Practices in Indi'
+  - id: '46142'
+    title: OVW - Recovery Act Transitional Housing Assistance for Victims of Domestic Violence, Dating Violence, Stalking
+    abstract: Program Overview The OVW Recovery Act Transitional Housing Assistance Grants for Victims of Domestic Violence, Dating Violence, Stalking, or Sexual Assault Program (Recovery Act Transitional
+      Housing Assistance Program) focuses on a holistic, victim-centered approach to provide transitional housing services that move individuals into permanent housing. Grants made under this grant program
+      support programs that provide assistance to victims of domestic violence, dating violence, sexual assault, a
+  - id: '362077'
+    title: Preservation and Reinvestment Initiative for Community Enhancement (PRICE)
+    abstract: <p>HUD is issuing the Preservation and Reinvestment Initiative for Community Enhancement (PRICE) competition NOFO to preserve long-term housing affordability for residents of manufactured
+      housing or an MHC, to redevelop MHCs, and to primarily benefit low- and moderate-income (LMI) residents. Congress appropriated in FY2025 these competitive grants to preserve and revitalize manufactured
+      housing and eligible manufactured housing communities and directed HUD to undertake a competition under title
+  - id: '47188'
+    title: Building Strategic Alliances for Healthy Housing Pilot
+    abstract: "CDC\x92s Procurement and Grants Office has published a program announcement entitled, \x93Building Strategic Alliances for Healthy Housing.\x94 Approximately $650,000 will be available to\
+      \ fund up to 6 awards. The purpose of the program is to reduce or eliminate housing-related health hazards and to promote housing that is safe, healthy, accessible and affordable. For complete program\
+      \ details, please see the full announcement on the CDC website at www.grants.gov. The estimated funding date is August 31,"
+  - id: '58909'
+    title: Capacity Building for Community Development and Affordable Housing Grants
+    abstract: Through funding of national intermediaries, the Section 4 capacity building program enhances the capacity and ability of community development corporations (CDCs) and community housing development
+      organizations (CHDOs) to carry out community development and affordable housing activities that benefit low-income families.
+  - id: '92513'
+    title: Capacity Building for Community Development and Affordable Housing Grants
+    abstract: Through funding of national intermediaries, the Section 4 capacity building program enhances the capacity and ability of community development corporations (CDCs) and community housing development
+      organizations (CHDOs) to carry out community development and affordable housing activities that benefit low-income families.
+  - id: '164233'
+    title: Capacity Building for Community Development and Affordable Housing Grants
+    abstract: Through funding of national intermediaries, the Section 4 capacity building program enhances the capacity and ability of community development corporations (CDCs) and community housing development
+      organizations (CHDOs) to carry out community development and affordable housing activities that benefit low-income families.

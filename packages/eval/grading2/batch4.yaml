@@ -1,0 +1,626 @@
+queries:
+- id: q016
+  text: quantum computing algorithms and hardware research
+  candidates:
+  - id: '363613'
+    title: 'Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)'
+    abstract: <p>The U.S. National Science Foundation Directorate for Engineering (NSF ENG) supports foundational research for electrical, communications and computing systems through the following programs:&nbsp;</p><ul><li><p>The
+      <a target="_blank" rel="noopener noreferrer" href="https://www.nsf.gov/funding/opportunities/epmqd-electronic-photonic-magnetic-quantum-devices"><strong>Electronic, Photonic, Magnetic, and Quantum
+      Devices (EPMQD) program</strong></a>&nbsp;supports foundational engineering research
+  - id: '46232'
+    title: Operations Research
+    abstract: The OR program supports research leading to advances in the science of models and algorithms that are applicable to the operation and optimization of large-scale systems.?? Topic areas include
+      advances in the theory of optimization and heuristic approaches to NP-hard optimization problems, simulation and stochastic modeling, and on the development of novel, enterprise-wide models requiring
+      advanced high-end computing.
+  - id: '73533'
+    title: Scientific Discovery through Advanced Computing Institutes
+    abstract: The Office of Advanced Scientific Computing Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), hereby announces its interest in receiving grant applications to
+      the Scientific Discovery through Advanced Computing (SciDAC) program for SciDAC Institutes. A companion Program Announcement to DOE Laboratories (LAB 11-505) will be posted on the Office of Science
+      Grants and Contracts web site at http://www.science.doe.gov/grants/ The mission of the SciDAC Institutes is to
+  - id: '363623'
+    title: Expeditions in Computing (Expeditions)
+    abstract: "<p>The far-reaching impact and rate of innovation in the computer and information science and engineering \uFB01elds has been remarkable, generating economic prosperity, and enhancing the\
+      \ quality of life for people.</p><p>More than a decade ago, the NSF Directorate for Computer and Information Science and Engineering (NSF CISE) established the NSF&nbsp;<em>Expeditions</em> program\
+      \ to provide the NSF CISE research community with the opportunity to pursue ambitious, foundational research agendas that p"
+  - id: '51442'
+    title: Advanced Architectures and Critical Technologies for Exascale Computing
+    abstract: The Office of Advanced Scientific Computing Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), hereby announces its interest in receiving applications from interdisciplinary
+      teams of Computer Science/Computer Engineering researchers in the areas of Advanced Architectures and Critical Technologies for Exascale Computing. Multi institutional applications with cohesive emphasis
+      on transformational discoveries that address key barriers on the path to exascale computing a
+  - id: '126995'
+    title: 'Scientific Discovery through Advanced Computing Institutes: Scientific Data Management, Analysis and Visualiza'
+    abstract: The Office of Advanced Scientific Computing Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), hereby announces its interest in receiving Applications to the Scientific
+      Discovery through Advanced Computing (SciDAC) program for SciDAC Institutes and specifically in the topic area of Scientific Data Management, Analysis and Visualization. The mission of the SciDAC
+      Institutes is to provide intellectual resources in applied mathematics and computer science, expertise in
+  - id: '332894'
+    title: LPS Qubit Collaboratory (LQC)
+    abstract: "<p>The U.S. Army Research Office (ARO) in partnership with NSA\u2019s Laboratory for Physical Science (LPS) is soliciting Incubator, Collaboration, and Fellowship research proposals for participation\
+      \ in the LPS Qubit Collaboratory (LQC). The mission of the LQC can be captured in three broad goals: 1) pursue disruptive fundamental research and enabling technologies with a focus on qubit development\
+      \ for quantum computing and other applications (such as sensing); 2) grow deep, collaborative partnerships"
+  - id: '170774'
+    title: 'Quiness: Macroscopic Quantum Communications'
+    abstract: DARPA is soliciting innovative research proposals in the area of macroscopic quantum communications (proposals which can combine the security of quantum communications with the distances/rates
+      of macroscopic telecommunications). Proposed research should investigate innovative approaches that enable revolutionary advances in secure quantum communications. Specifically excluded is research
+      that primarily results in evolutionary improvements to the existing state of practice.
+  - id: '42526'
+    title: Advanced Materials and Fabrication for Coherent Superconducting Qubits -
+    abstract: A. Program OverviewInnovative solutions are sought for the Coherent Superconducting Qubits Programwithin the Intelligence Advanced Research Projects Activity (IARPA). The Program is envisioned
+      to begin May 1, 2009 and end by June 1, 2014. The U.S.Army Research Office (ARO) and IARPA will conduct this BAA in closepartnership. This BAA solicits proposals that will lead to substantially extended
+      coherence times in superconducting qubits.Two Levels of proposals are sought, with particular interest i
+  - id: '229094'
+    title: Uncertainty Quantification Methodologies for Enabling Extreme-Scale Science
+    abstract: The Advanced Scientific Computing Research (ASCR) program of the Office of Science (SC), U.S. Department of Energy (DOE), hereby invites proposals for basic mathematical, statistical and computational
+      research that significantly advances uncertainty quantification methodologies for enabling extreme-scale science. The purpose of this FOA is to invite proposals in ASCR Applied Mathematics basic research
+      that significantly advance uncertainty quantification (UQ) methodologies as an enabling techno
+  - id: '355196'
+    title: NSF National Quantum Virtual Laboratory (NQVL)
+    abstract: <p>The National Quantum Initiative (NQI) Act<sup>1</sup>&nbsp;aims to ensure the continuing leadership of the United States (U.S.) in quantum information science and technology. In conformance
+      with the NQI goals, an argument<sup>2-5</sup>&nbsp;was set forth for a renewed emphasis on identifying and fostering early adoption of quantum technologies to transform the field of Quantum Information
+      Science and Engineering (QISE) and to accelerate broader impacts on society. A systematic approach to mat
+  - id: '127013'
+    title: 'Scientific Discovery through Advanced Computing: Computational High Energy Physics'
+    abstract: 'Scientific Discovery through Advanced Computing: Computational High Energy Physics - The specific areas of interest under this Funding Opportunity Announcement (FOA) are Cosmic Frontier Scientific
+      Simulations (CFSS), Lattice Gauge Theory Research (LGTR), and Accelerator Science Modeling and Simulation (ASMS) http://science.energy.gov/hep .'
+  - id: '364165'
+    title: 'AFRL/AFOSR-Taiwan NSTC Frontiers in Materials and Nanostructures: AI-Driven Discovery, Quantum Geometry, and E'
+    abstract: "<p>This is a special Notice of Funding Opportunity Announcement (NOFO) sponsored by the Air Force Office of Scientific Research (AFOSR) and Taiwan\u2019s National Science and Technology Council\
+      \ (NSTC), which will hereafter generally be referred to as \u201Cwe, us, our, or AFOSR.\u201D We announce the solicitation for a three-year program entitled \u201CFrontiers in Materials and Nanostructures:\
+      \ AI-Driven Discovery, Quantum Geometry, and Energy-Efficient Information Technologies.\u201D</p><p><br></p><p>The US Air Force-T"
+  - id: '50182'
+    title: 'NIBIB Quantum Projects: Implementation Phase II (U01)'
+    abstract: Purpose. This FOA solicits Phase II applications for the Quantum Program at the National Institute of Biomedical Imaging and Bioengineering. The goal is to achieve a profound (quantum) impact
+      on the prevention, diagnosis, or treatment of a major disease or national public health problem through the development and implementation of biomedical technologies. Mechanism of Support. This FOA
+      will utilize the U01 Research Project Cooperative Agreement grant mechanism. Funds Available and Anticipat
+  - id: '186593'
+    title: Co-Prime Sensor Array Signal Processing
+    abstract: "Background: This Basic Research Challenge will establish the theoretical foundations of co-prime signal processing \x96 a new waveform sampling strategy that offers the promise of simplified\
+      \ sensor array design, streamlined signal processing, and efficient image formation techniques. In the spatial domain, co-prime array designs have been used to extend the concept of minimally redundant\
+      \ sensor arrays, which span large apertures using far few elements than classical antenna theory dictates. For"
+  - id: '301478'
+    title: 'Scientific Discovery through Advanced Computing: Runaway Electron Avoidance and Mitigation in Tokamak Plasmas'
+    abstract: The Office of Fusion Energy Sciences (FES) and the Office of Advanced Scientific Computing Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), announce their interest
+      in receiving applications from multi-institutional interdisciplinary teams to establish a scientific application partnership under the Scientific Discovery through Advanced Computing (SciDAC) program
+      in the area of runaway electron physics in magnetically confined plasmas. The goal of this FOA is to sele
+  - id: '45616'
+    title: Petascale Computing Resource Allocations
+    abstract: In 2012, a new NSF-funded petascale computing system, Blue Waters, will go online at the University of Illinois. The goal of this facility is to open up new possibilities in science and engineering
+      by providing computational capability that makes it possible for investigators to tackle much larger and more complex research challenges across a wide spectrum of domains. The purpose of this solicitation
+      is to invite research groups that have a compelling science or engineering challenge that will
+  - id: '52812'
+    title: Advancing Uncertainty Quantification (UQ) in Modeling, Simulation, and Analysis of Complex Systems
+    abstract: The Office of Advanced Scientific Computing Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), hereby announces its interest in receiving applications for research
+      addressing the mathematical and computational challenges of uncertainty quantification in the modeling and simulation of complex natural and engineered systems.
+  - id: '84113'
+    title: Request for Application - Joint Quantum Institute
+    abstract: "This request for application is presented to the University of Maryland College Park, a constituent institution of the University System of Maryland, itself a public agency and instrumentality\
+      \ of the State of Maryland, located in College Park, Maryland, (hereinafter referred to as the \xEF\xBF\xBDUniversity\xEF\xBF\xBD or \xEF\xBF\xBDUMCP\xEF\xBF\xBD). The National Institute of Standards\
+      \ and Technology (\xEF\xBF\xBDNIST\xEF\xBF\xBD) has a long history of collaboration with the University in research areas such as Atomic, Molecular, and Optical (AM"
+  - id: '51444'
+    title: X-Stack Software Research
+    abstract: The Office of Advanced Scientific Computing Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), hereby announces its interest in receiving applications from Computer
+      Science (CS) researchers in the area of X-Stack Software Research. The X-Stack refers to the scientific software stack that supports extreme scale scientific computing, from operating systems to development
+      environments. Multi-Institutional applications with cohesive emphasis on transformational computer
+- id: q017
+  text: cybersecurity and privacy research for critical infrastructure
+  candidates:
+  - id: '188916'
+    title: 'CyberCorps:  Scholarship for Service'
+    abstract: 'Cyberspace has transformed the daily lives of people for the better. The rush to adopt cyberspace, however, has exposed its fragility and vulnerabilities: corporations, agencies, national
+      infrastructure and individuals have been victims of cyber-attacks. In December 2011 the National Science and Technology Council with the cooperation of the NSF advanced a broad, coordinated federal
+      strategic plan for cybersecurity research and education to &quot;change the game,&quot; check the misuses of cyber'
+  - id: '191473'
+    title: Secure and Trustworthy Cyberspace
+    abstract: 'Cyberspace has transformed the daily lives of people for the better. The rush to adopt cyberspace, however, has exposed its fragility and vulnerabilities: corporations, agencies, national
+      infrastructure and individuals have been victims of cyber-attacks. In December 2011, the National Science and Technology Council with the cooperation of NSF has advanced a broad, coordinated federal
+      strategic plan for cybersecurity research and development to &quot;change the game,&quot; check the misuses of cy'
+  - id: '237689'
+    title: Secure and Trustworthy Cyberspace
+    abstract: 'Cyberspace has transformed the daily lives of people for the better. The rush to adopt cyberspace, however, has exposed its fragility and vulnerabilities: corporations, agencies, national
+      infrastructure and individuals have been victims of cyber-attacks. In December 2011, the National Science and Technology Council (NSTC) with the cooperation of NSF issued a broad, coordinated federal
+      strategic plan for cybersecurity research and development to &quot;change the game,&quot; minimize the misuses o'
+  - id: '104393'
+    title: Cybersecurity Awareness Program
+    abstract: The primary objective of this funding opportunity announcement is to promote cybersecurity awareness through a variety of programs, initiatives, and activities, including the conduct of the
+      National Cybersecurity Awareness Month campaign. DHS seeks to amplify the message about cybersecurity, and to reach a broad audience on the issue of cybersecurity. This announcement represents a continuation
+      of project funding on a short-term basis to facilitate the use of a financial assistance instrument to
+  - id: '97175'
+    title: Upstate New York Cyber Initiative
+    abstract: DHS has an interest in promoting cybersecurity education at the higher education level and in developing national interest in the cybersecurity career field. This program would support a coordinated
+      effort to engage students early in their academic careers with a cybersecurity research group, as well as connect these students to the industry/government in which they will eventually work.
+  - id: '103614'
+    title: Cybersecurity Education and Training Assistance Program (CETAP)
+    abstract: The Department of Homeland Security (DHS) Cybersecurity Education Office (CEO) is seeking to make an investment in summer camps that promote cybersecurity training and awareness for high school
+      aged students and their teachers. By investing in high school teachers, the number of young people who will benefit from cybersecurity education and awareness will be multiplied. It is well established
+      that increasing the number of graduates to the Science, Technology, Engineering, and Mathematics (STE
+  - id: '46063'
+    title: 'NIST Recovery Act Measurement Science and Engineering Research Grants Program:  Providing the Technology Infra'
+    abstract: 'In response to the American Reinvestment and Recovery Act (P.L. 111-5, 123 Stat. 115), the National Institute of Standards and Technology (NIST) will provide grants and cooperative agreements
+      for measurement science and engineering research in the following six focus areas of critical national importance: energy, environment and climate change, information technology/cybersecurity, biosciences/healthcare,
+      manufacturing, and physical infrastructure, with priority funding in areas of special inte'
+  - id: '174413'
+    title: National Cyber Security Awareness
+    abstract: "DHS/NPPD/CS&C/NCSD seeks to implement Cyberspace Policy Review Near Term Action #6 and Action Recommended 3-1 of the President\x92s National Strategy to Secure Cyberspace. Accordingly, DHS/NPPD/CS&C/NCSD\
+      \ aims to enhance coordination and collaboration among appropriate private sector and non-profit organizations as well as federal, state, and local government entities to facilitate a comprehensive\
+      \ national cybersecurity awareness campaign including specific programs, activities, audience-specific a"
+  - id: '361238'
+    title: Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
+    abstract: <p>Government and the nation face a talent shortfall in artificial intelligence (AI) and cybersecurity. The CyberAICorps Scholarship for Service (<strong>CyberAI SFS</strong>) program welcomes
+      proposals that address AI and cybersecurity education and workforce development. CyberAI refers to using AI in cybersecurity as well as providing security and resilience for AI systems.</p> <ul> <li>The
+      <strong>Scholarship Track</strong> provides funding to establish, or to continue, scholarship for servic
+  - id: '56278'
+    title: Philadelphia Critical Infrastructure Protection Program
+    abstract: The Philadelphia Critical Infrastructure Protection Program (PCIPP) is a grant program that continues one part of hte Department of Homeland Security's (DHS) focus on infrastructure protection
+      activities. The PCIPP is one among a comprehensive set of measures authorized by Congress and implemented by DHS to help strengthen the nation's critical infrastructure against risks associated with
+      potential terrorist attacks.
+  - id: '107373'
+    title: Automated Program Analysis for Cybersecurity (APAC)
+    abstract: 'Amendment 1: Please see Amendment 1, with changes highlighted in yellow. Note that the closing date has been changed to September 14, 2011. Original Synopsis: The Defense Advanced Research
+      Projects Agency (DARPA) is soliciting innovative research proposals in the area of automated program analysis for cybersecurity. Proposed research should investigate innovative approaches that enable
+      revolutionary advances in science, devices, or systems. Specifically excluded is research that primarily re'
+  - id: '138754'
+    title: 'Federal Cyber Service:  Scholarship for Service'
+    abstract: 'The Federal Cyber Service: Scholarship for Service (SFS) program seeks to increase the number of qualified students entering the fields of information assurance and cybersecurity and to increase
+      the capacity of the United States higher education enterprise to continue to produce professionals in these fields to meet the needs of our increasingly technological society. The SFS program is composed
+      of two tracks:The Scholarship Track provides funding to colleges and universities to award schola'
+  - id: '58174'
+    title: Virginia Operational Integration Cyber Center of Excellence
+    abstract: "CFDA Number 97.125. This program supports the creation of a \x93Municipal Cyber Lab\x94. The Lab will focus on raising awareness of cybersecurity issues among local government officials,\
+      \ and incorporating cybersecurity planning into the mainstream of emergency operations at the local level. The concept encourages the development of capabilities, processes and procedures that will\
+      \ better equip local officials to cope with a cyber incident."
+  - id: '347707'
+    title: 2023 Emerging Voices Small Grants Program
+    abstract: "<p><span style=\"color: black;\">The U.S. Embassy&nbsp;in the Philippines\u2019&nbsp;Public Affairs Section (PAS&nbsp;Philippines) of the U.S. Department of State is pleased to announce that&nbsp;we\
+      \ are considering proposals&nbsp;for&nbsp;the 2023 Emerging Voices (EV) Small Grants Program.&nbsp;Our funding goals, strategic themes, and processes for submitting grant proposals are all outlined\
+      \ in this notice.&nbsp;Please read carefully and follow all instructions.&nbsp;</span><strong style=\"color: black;"
+  - id: '146455'
+    title: Building Community and Capacity for Data-Intensive Research in the Social, Behavioral, and Economic Sciences a
+    abstract: As part of NSF's Cyberinfrastructure Framework for 21st Century Science and Engineering (CIF21) activity, the Directorate for Social, Behavioral, and Economic Sciences (SBE), the Directorate
+      for Education and Human Resources (EHR), and the Office of Cyberinfrastructure seek to enable research communities to develop visions, teams, and capabilities dedicated to creating new, large-scale,
+      next-generation data resources and relevant analytic techniques to advance fundamental research for the SBE an
+  - id: '128895'
+    title: Secure and Trustworthy Cyberspace
+    abstract: 'Cybersecurity is an important challenge in today''s world. Corporations, agencies, national infrastructure and individuals have been victims of cyber-attacks. Addressing this problem requires
+      multi-disciplinary expertise in human, statistical, mathematical, computational, and computer sciences and ultimately the transition of new concepts and technologies to practice.The SaTC program seeks
+      proposals that address cybersecurity from one or more of three perspectives: Trustworthy Computing Systems,'
+  - id: '359325'
+    title: Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC)
+    abstract: <p>The Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC) program drives discovery and learning in the core disciplines of the three participating
+      CISE divisions [Computing and Communication Foundations (CCF), Computer and Network Systems (CNS), and Information and Intelligent Systems (IIS)] of the Directorate for Computer and Information Science
+      and Engineering (CISE) by funding the creation and enhancement of world-class research infrastructure. Th
+  - id: '45614'
+    title: Sustainable Digital Data Preservation and Access Network Partners
+    abstract: 'Science and engineering research and education are increasingly digital and increasingly data-intensive. Digital data are not only the output of research but provide input to new hypotheses,
+      enabling new scientific insights and driving innovation. Therein lies one of the major challenges of this scientific generation: how to develop the new methods, management structures and technologies
+      to manage the diversity, size, and complexity of current and future data sets and data streams. This solici'
+  - id: '56361'
+    title: Civil Infrastructure Systems
+    abstract: The CIS program supports research leading to the intelligent engineering of distributed infrastructure systems. Areas of interest include intra- and inter-dependencies in infrastructure design
+      and operation for resilience and sustainability, infrastructure protection, and advanced information technologies for health monitoring, condition assessment, deterioration and asset management. Special
+      emphasis is on risk analysis, life-cycle frameworks, cyber-enabled simulation, and technologies for de
+  - id: '46245'
+    title: Civil Infrastructure Systems
+    abstract: The CIS program supports research leading to the intelligent engineering of distributed infrastructure systems.?? Areas of interest include intra- and inter-dependencies in infrastructure
+      design and operation for resilience and sustainability, infrastructure protection, and advanced information technologies for health monitoring, condition assessment, deterioration and asset management.??
+      Special emphasis is on risk analysis, life-cycle frameworks, cyber-enabled simulation, and technologies for
+  - id: '169375'
+    title: Data Infrastructure Building Blocks
+    abstract: 'Science and engineering research and education are increasingly digital and increasingly data-intensive. Digital data are not only the output of research but their analysis provide input
+      to new hypotheses, enabling new scientific insights, driving innovation and informing education. Therein lies one of the major challenges of this scientific generation: how to develop, implement and
+      support the new methods, management structures and technologies to store and manage the diversity, size, and com'
+  - id: '188395'
+    title: EXPEDITIONARY WARFARE C4 TECHNOLOGIES
+    abstract: 'The Office of Naval Research (ONR) is interested in receiving proposals for innovative Command, Control, Computers and Communication technologies that will enhance the warfighting capabilities
+      of Naval Expeditionary forces. These technology areas include: Basic Research (phenomenology: TRL 1-2)Mathematical Trust Models:Certificate-based, especially centrally-managed, authentication of mobile
+      users is often not practical in tactical networks when through put is at a premium, central authenticati'
+  - id: '344608'
+    title: Training-based Workforce Development for Advanced Cyberinfrastructure
+    abstract: <p>This program seeks to prepare, nurture, and grow the national scientific <em>research </em>workforce for <em>creating, utilizing, </em>and <em>supporting </em>advanced cyberinfrastructure
+      (CI) to enable and potentially transform fundamental science and engineering (S&amp;E) research and education and contribute to the Nation's overall economic competitiveness and security. The goals
+      of this solicitation are to <strong>(i) </strong><strong>ensure</strong><strong> <em>broad adoption </em>of CI
+  - id: '51311'
+    title: Future Internet Architectures
+    abstract: Continuing its long-standing commitment to support groundbreaking research through Network Science and Engineering (NetSE), the Directorate for Computer and Information Science and Engineering
+      (CISE) invites research teams to submit innovative and creative proposals that describe projects to conceive, design, and evaluate trustworthy Future Internet architectures. Proposing teams should
+      include individuals with expertise in a range of relevant disciplines and/or different research methods, fro
+  - id: '357464'
+    title: FOUNDATIONS OF TRUSTED SYSTEMS
+    abstract: <p>https://sam.gov/opp/6a5d1f379ee34a0395eeb98e220c730c/view</p>
+  - id: '42672'
+    title: National Risk Management Research Laboratory Advanced Decentralized Water/Energy Network Design for Sustainabl
+    abstract: The objective of this research effort is to produce, evaluate, and summarize the cost, performance, and long-term reliability of coupling energy and water conservation technologies, modeling
+      capabilities, and decision-support tools to reduce and optimize energy consumption in the treatment, conveyance, and use of water while utilizing water in the most efficient manner possible and in
+      turn, increasing water supplies by virtue of reusing wastewater, stormwater, and preventing excess runoff. Outpu
+  - id: '134993'
+    title: Cyber-Physical Systems
+    abstract: Cyber-physical systems (CPS) are engineered systems that are built from and depend upon the synergy of computational and physical components. Emerging CPS will be coordinated, distributed,
+      and connected, and must be robust and responsive. The CPS of tomorrow will need to far exceed the systems of today in capability, adaptability, resiliency, safety, security, and usability. Examples
+      of the many CPS application areas include the smart electric grid, smart transportation, smart buildings, smar
+  - id: '148154'
+    title: Campus Cyberinfrastructure - Network Infrastructure and Engineering Program
+    abstract: The &quot;Campus Cyberinfrastructure - Network Infrastructure and Engineering (CC-NIE)&quot; program invests in improvements and re-engineering at the campus level to leverage dynamic network
+      services to support a range of scientific data transfers and movement. The program also supports Network Integration activities tied to achieving higher levels of performance, reliability and predictability
+      for science applications and distributed research projects. Two types of CC-NIE awards will be made.
+  - id: '53623'
+    title: Research on Edge Organizations in the Context of Network-Centric Operations
+    abstract: The Naval Postgraduate School (NPS) has established and currently manages the Center for Edge Power to conduct research and educational activities proposed on behalf of the OASD (NII)/DoD
+      CIO. The Edge Center focuses on research pertaining to Defense command, control and organization in general and on Edge Organizations in the context of Network Centric Operations in particular. The
+      research will be performed by faculty and students at NPS and other top-tier research institutions, and it will be
+  - id: '123253'
+    title: Software Infrastructure for Sustained Innovation
+    abstract: NSF's vision of a Cyberinfrastructure Framework for 21st Century Science and Engineering (CIF21) identifies advancing new computational infrastructure as a priority for driving innovation
+      in science and engineering. Software is an integral enabler of computation, experiment and theory and a central component of the new computational infrastructure. Scientific discovery and innovation
+      are advancing along fundamentally new pathways opened by the development of increasingly sophisticated software.
+  - id: '205815'
+    title: Software Infrastructure for Sustained Innovation - S2I2
+    abstract: NSF's vision of a Cyberinfrastructure Framework for 21st Century Science and Engineering (CIF21) identifies advancing new computational infrastructure as a priority for driving innovation
+      in science and engineering. Software is an integral enabler of computation, experiment and theory and a central component of the new computational infrastructure. Scientific discovery and innovation
+      are advancing along fundamentally new pathways opened by the development of increasingly sophisticated software.
+  - id: '53381'
+    title: National Electric Sectory Cyber Security Organization
+    abstract: The Department of Energy's (DOE) National Energy Technology Laboratory (NETL) on behalf of the DOE, Office of Electricity Delivery and Energy Reliability (OE), is seeking applications that
+      illustrate the expertise, capabilities, and experience of the applicant, in the electric-sector critical infrastructure, that will lead to the formation, governance and implementation of a National
+      Electric Sector Cyber Security Organization. This organization is envisioned as a partnership between the federa
+  - id: '89414'
+    title: Software Infrastructure for Sustained Innovation
+    abstract: Computation is accepted as the third pillar supporting innovation and discovery in science and engineering and is central to NSF's vision of a Cyberinfrastructure Framework for 21st Century
+      Science and Engineering (CIF21) (as described in http://www.nsf.gov/pubs/2010/nsf10015/nsf10015.jsp).Software is an integral enabler of computation, experiment and theory and a primary modality for
+      realizing the CIF21 vision. Scientific discovery and innovation are advancing along fundamentally new pathways o
+  - id: '141973'
+    title: National Strategy for Trusted Identities in Cyberspace (NSTIC) Pilot Grant Program
+    abstract: 'NIST is soliciting proposals from eligible proposers to pilot on-line identity solutions that embrace and advance the NSTIC vision: that individuals and organizations utilize secure, efficient,
+      easy-to-use, and interoperable identity credentials to access online services in a manner that promotes confidence, privacy, choice, and innovation. Specifically, the Federal government seeks to initiate
+      and support pilots that address the needs of individuals, private sector organizations and all levels'
+  - id: '85233'
+    title: CISE Computing Research Infrastructure
+    abstract: 'The CISE Computing Research Infrastructure (CRI) program drives discovery and learning in the computing disciplines by supporting the creation, enhancement and operation of world-class computing
+      research infrastructure. Further, through the CRI program CISE seeks to ensure that individuals from a diverse range of academic institutions, including minority-serving and predominantly undergraduate
+      institutions, have access to such infrastructure. The CRI program supports two classes of awards: Ins'
+- id: q018
+  text: renewable energy storage battery materials
+  candidates:
+  - id: '50712'
+    title: Batteries for Electrical Energy Storage in Transportation (BEEST)
+    abstract: The Advanced Research Projects Agency-Energy (ARPA-E) is a new agency of the Department of Energy. ARPA-E was authorized by the America COMPETES Act (PL 110-69) and charged with the mission
+      to fund projects that will develop transformational technologies that reduce Americas dependence on foreign energy imports; reduce U.S. energy related emissions, including greenhouse gases; improve
+      energy efficiency across all sectors of the U.S. economy; and ensure that the United States maintains its leader
+  - id: '52379'
+    title: Gridscale Rampable Intermittently Dispatchable Storage (GRIDS)
+    abstract: The purpose of this amendment is to request full applications to the Funding Opportunity Announcement(FOA) DE-FOA-0000290 with a deadline for submission of Monday, May 24, 2010 at 5:00 PM
+      Eastern Time. Earlier submissions are encouraged. The Advanced Research Projects Agency-Energy (ARPA-E) is a new agency of the department of Energy. ARPA-E was authorized by the America COMPETES Act
+      (PL 110-69) and charged with the mission to fund projects that will develop transformational technologies that r
+  - id: '97054'
+    title: Improve Conditions for Ongoing Storage Use in Battery Wallace Phase II
+    abstract: The objective of this Task Agreement is for the National Park Service and the Golden Gate National Parks Conservancy to collaborate together for the continued research, interpretation and
+      care for the park's museum collections with joint programs that engage youth and the public in on-going resource stewardship.
+  - id: '236019'
+    title: 'Notice of Intent: Research and Development for Hydrogen Storage'
+    abstract: The purpose of this Notice is to provide potential applicants advance notice that the Fuel Cell Technologies Office (FCTO), on behalf of the DOE Office of Energy Efficiency and Renewable Energy
+      (EERE), intends to issue a FOA titled "Research and Development for Hydrogen Storage" (DE-FOA-0000827). The Notice of Intent is posted on the EERE eXCHANGE website at https://eere-exchange.energy.gov.
+      NO APPLICATIONS WILL BE ACCEPTED THROUGH THIS NOTICE. Please do not submit questions or respond to this N
+  - id: '54175'
+    title: Renewable Energy Systems and Energy Efficiency Improvements
+    abstract: The Rural Energy for America Program will provide funds to agricultural producers and rural small businesses to purchase and install renewable energy systems and make energy efficiency improvements.
+      The grants are awarded on a competitive basis and can be up to 25% of total eligible project costs. Grants are limited to $500,000 for renewable energy systems and $250,000 for energy efficiency improvements.
+      Grant requests as low as $2,500 for renewable energy systems and $1,500 for energy efficien
+  - id: '47639'
+    title: Renewable Energy Systems and Energy Efficiency Improvements
+    abstract: The Rural Energy for America Program will provide funds to agricultural producers and rural small businesses to purchase and install renewable energy systems and make energy efficiency improvements.
+      The grants are awarded on a competitive basis and can be up to 25% of total eligible project costs. Grants are limited to $500,000 for renewable energy systems and $250,000 for energy efficiency improvements.
+      Grant requests as low as $2,500 for renewable energy systems and $1,500 for energy efficien
+  - id: '66193'
+    title: First Steps Toward Developing Renewable Energy and Energy Efficiency on Tribal Lands
+    abstract: The purpose of Amendment 001 to Funding Opportunity Announcement DE-FOA-0000422 is to further clarify the definition of Tribal Lands and the Statements of Commitment and Cost Sharing File.
+      The Department of Energy's (DOE's) Tribal Energy Program under the Office of Energy Efficiency and Renewable Energy is soliciting applications to initiate the First Steps Toward Developing Renewable
+      Energy and Energy Efficiency on Tribal Lands. Under this announcement, DOE is soliciting applications for stra
+  - id: '47628'
+    title: Renewable Energy Feasibility Grants
+    abstract: "The Rural Energy for America Program will provide funds to agricultural producers and rural small businesses to conduct feasibility studies for renewable energy systems. The Rural Energy\
+      \ for America Program is designed to help agricultural producers and rural small businesses reduce energy costs and consumption and help meet the nation\x92s critical energy needs. The grants are\
+      \ awarded on a competitive basis and can be up to 25% of total eligible project costs. Grants are limited to $50,000 for r"
+  - id: '56574'
+    title: Renewable Energy Feasibility Grants
+    abstract: "The Rural Energy for America Program will provide funds to agricultural producers and rural small businesses to conduct feasibility studies for renewable energy systems. The Rural Energy\
+      \ for America Program is designed to help agricultural producers and rural small businesses reduce energy costs and consumption and help meet the nation\x92s critical energy needs. The grants are\
+      \ awarded on a competitive basis and can be up to 25% of total eligible project costs. Grants are limited to $50,000 for r"
+  - id: '66195'
+    title: Renewable Energy Development and Deployment in Indian Country
+    abstract: 'The purposes of Amendment 003 are to: 1) Extend the Application due date. In Part IV.E, the Application due date is extended to May 11, 2011, 11:59 PM Eastern Time. 2) Change the name of
+      the "Energy Use and Energy Audit File" to "Energy Use and Savings File," and further clarify the requirements of the file. All other references to the "Energy Use and Energy Audit File" are hereby
+      changed to "Energy Use and Savings File". 3) Define "Tribal or Inter-tribal Organizations" and allow authorized'
+  - id: '58708'
+    title: Renewable Energy Microfinance and Microenterprise Program (REMMP)
+    abstract: "*** New deadline is 12/20/10***The purpose of USAID\x92s Renewable Energy Microfinance and Microenterprise Program (REMMP) is to improve access to modern energy services in underserved communities.\
+      \ This will be achieved by focusing on household and community scale renewable technologies and promoting activities that foster an enterprise based approach to increasing energy access."
+  - id: '231435'
+    title: 'Concentrating Solar Power: Efficiently Leveraging Equilibrium Mechanisms for Engineering New Thermochemical St'
+    abstract: 'The purpose of this Amendment 002 is to: a. Clarify the units of measurement on pages 33 and 57 for proposed systems; and b. Clarify that the ?state of the art? comparisons should be made
+      to other Thermochemical Energy Storage (TCES) systems, rather than two-tank molten salt storage systems. The Concentrating Solar Power: Efficiently Leveraging Equilibrium Mechanisms for Engineering
+      New Thermochemical Storage (CSP: ELEMENTS) Funding Opportunity Announcement (FOA) that is being issued by the U'
+  - id: '103913'
+    title: Defense Production Act Title III for Lithium Ion Battery Production for Military Applications Project
+    abstract: The scope of this project is to establish a long-term, viable, world-class domestic manufacturer of high energy density lithium ion (Li-ion) batteries that is responsive to customer requirements
+      with respect to performance, reliability, quality, delivery, and price. These batteries will be designed to provide power for U.S. military long endurance Unmanned Aerial Vehicles (UAV) for dismount
+      soldier, long endurance autonomous systems, and tactical vehicles. For the purpose of this project, the L
+  - id: '169993'
+    title: Hydrogen Storage Targets for Early Market Applications
+    abstract: Please note, the RFI submission deadline has been extended to June 30, 2012. The U.S. Department of Energy (DOE), Fuel Cell Technologies Program, is issuing a Request for Information (RFI)
+      seeking input from stakeholders on the proposed performance, durability, and cost targets for hydrogen storage subsystems designed for material handling and portable power fuel cell applications.
+      Comments on the relevance and appropriateness of the suggested target values, including recommendations and justif
+  - id: '128533'
+    title: 'Special Program Announcement for 2012 Office of Naval Research  Research Opportunity:  &#147;Energetic Materia'
+    abstract: 'In order to further explore the technical areas of energy per volume, safety, and affordability, the Aerospace Science Research Division of ONR (Code 351), invites the submission of white
+      papers from all those involved in related research activities. Offerors are invited to present related work, on-going research activities and proposed future activities associated with the following
+      areas: A. Energetic Ingredients (HMX performance with TATB sensitivity) B. Propulsion (AP Replacement, SR'
+  - id: '59653'
+    title: 'Defense Production Act Title III: High Performance Thermal Batteries Project'
+    abstract: DPA Title III High Performance Thermal Battery Project. The DPA, Title III Program Office, Air Force Research Laboratory, Manufacturing Technology Division (AFRL/RXM) is seeking to improve
+      both the technical capabilities and the business viability of a domestic CoS2 thermal battery supplier to the DoD. The United States Government (USG) is seeking to ensure that a domestic source of
+      CoS2 thermal batteries continues to be accessible for meeting the requirements of both the current and the next
+  - id: '54725'
+    title: Defense Production Act Title III, Satellite Communication (SATCOM) Transceiver Production Project
+    abstract: 'Project Title: DPA Title III Conductive Composite Nano-Materials Scale-Up Project. Nickel based CVD conductive composite nano-materials impart electrical conductivity to materials that normally
+      have a dielectric behavior. Structural materials such as nickel-coated powder, fiber, and woven/non-woven sheet, as well as high aspect ratio nickel nano-filaments are being widely implemented in
+      military systems such as electronics, satellites, and aircraft in order to meet the need for systems to be l'
+  - id: '53668'
+    title: Computational Capabilities to Develop materials for Advanced Fossil Energy Power Systems
+    abstract: The objective of this activity is to competitively solicit projects in the Materials area of the U.S. Department of Energy's National Energy Technology Laboratory's (NETL's) Advanced Research
+      (AR) Program that will enable the next generation Fossil Energy (FE) power systems. The goal of the AR Materials Program is to conduct research leading to a scientific understanding of high-performance
+      materials compatible with hostile environments associated with advanced FE production. This includes
+  - id: '363618'
+    title: MPS Materials Research Programs (MPS Materials)
+    abstract: <p>The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple materials research programs that advance fundamental understanding of
+      materials, their properties, and their potential applications.</p><p>The programs covered by this solicitation are:</p><ul><li><p>Biomaterials</p></li><li><p>Ceramics</p></li><li><p>Condensed Matter
+      and Materials Theory</p></li><li><p>Condensed Matter Physics</p></li><li><p>Electronic and Photonic Materials</p
+  - id: '58929'
+    title: Energy for Sustainability
+    abstract: The Energy for Sustainability program supports fundamental research and education that will enable innovative processes for the sustainable production of electricity and transportation fuels.
+      Processes for sustainable energy production must be environmentally benign, reduce greenhouse gas production, and utilize renewable or bio-based resources that are abundant in the United States. The
+      most abundant and sustainable source of renewable energy is the sun. The Energy for Sustainability progra
+  - id: '47721'
+    title: Critical Agricultural Materials
+    abstract: In FY 2009, the Critical Agricultural Materials Program will support the development and demonstration of novel, environmentally friendly technologies for use in paints and coatings, and adhesives
+      for composites. The program will also support and give priority to proposals that include a life cycle analysis objective, comparing the biobased product with a fossil-based counterpart using the
+      Building for Environmental and Economic Sustainability model (BEES) developed by the National Institute for
+  - id: '50284'
+    title: Solid State and Materials Chemistry
+    abstract: This multidisciplinary program supports basic research in solid state and materials chemistry comprising the elucidation of the atomic and molecular basis for material development and properties
+      in the solid state from the nanoscale to the bulk. General areas of interest include but are not limited to innovative approaches to design, synthesis, bulk crystal and/or film growth, and characterization
+      of novel organic, inorganic, and hybrid materials, as well as liquid crystal materials and multi-c
+  - id: '190433'
+    title: 'Materials World Network: Cooperative Activity in Materials Research between US Investigators and their Counter'
+    abstract: The National Science Foundation (NSF) is working jointly with counterpart national, regional and multinational funding organizations worldwide to enhance opportunities for collaborative activities
+      in materials research and education between US investigators and their colleagues abroad. This solicitation promotes joint activities between the NSF Division of Materials Research (DMR)and funding
+      organizations in Africa, Asia, the Americas and Europe.Proposals submitted to NSF in response to this sol
+- id: q019
+  text: sustainable agriculture and food security
+  candidates:
+  - id: '65353'
+    title: Request for Information Agriculture-Led Economic Growth &amp; Food Security Program in Angola
+    abstract: 'Announcement: THIS IS NOT A REQUEST FOR APPLICATIONS. The United States Government, represented by the United States Agency for International Development (USAID) Mission in Angola, invites
+      comments, suggestions and questions on its Statement of Objectives (attached) for a program for Agriculture-Led Economic Growth and Food Security Program. The intent of this Request for Information
+      (RFI) is to enhance the quality of an anticipated Request for Applications (RFA) for this program. Interested par'
+  - id: '41883'
+    title: 'Strategic Agricultural Initiative Grant Program:  FY 2008 Request for Proposals'
+    abstract: "EPA Region 3 is soliciting proposals to help implement the Food Quality Protection Act (FQPA) and to support efforts by the agricultural community to \x93transition\x94 away from high risk\
+      \ pesticides to the use of less and reduced risk pesticides, alternative methods of pest control and sustainable practices in food production. The program supports grants for education, extension,\
+      \ demonstration, and field projects for FQPA transition and reduced risk practices for pest management in agriculture."
+  - id: '77935'
+    title: Women And Minorities In Science, Technology, Engineering And Mathematics Fields Program (WAMS)
+    abstract: 'This grant program supports research and extension projects that have robust collaborations to increase the participation of women and underrepresented minorities from rural areas in science,
+      technology, engineering and mathematics fields that are relevant to USDA priorities identified by the Secretary: (i) Promotion of a safe, sufficient, and nutritious food supply for all Americans and
+      for people around the world; (ii) Sustainable agricultural policies that foster economic viability for small'
+  - id: '78773'
+    title: Graduation with Resilience to Achieve Sustainable Development (GRAD)
+    abstract: This request for applications (RFA) elicits proposals for a five year cooperative agreement designed to support and enhance livelihood options of the chronically food insecure households by
+      promoting and supporting on-and off-farm income generating activities, facilitating output and input market linkages, increasing access to microfinance services, improving nutritional status of communities
+      and assisting communities to adapt to climate change.
+  - id: '42007'
+    title: Promoting Sustainable Business Initiatives while Conserving Biodiversity
+    abstract: 'Promoting Sustainable Business Initiatives while Conserving Biodiversity by Fighting Poverty in Paraguay: The overall objective of this program is to contribute with the improvement of the
+      economic and social wellbeing of families in and adjacent to significant importance ecological areas in Paraguay (terrestrial or water) through a Global Development Alliance mechanism. The recipient
+      of this award will propose a method for assisting poor farmers and communities in areas of Paraguay throu'
+  - id: '47594'
+    title: Projects Leading to Design and Development of Sustainable Farmer or Community Seed Storage Models in Africa
+    abstract: USAID/OFDA has allocated US $1 million to support pilot projects or basic research programs that can lead to the design and development of seed storage models in Africa. These seed storage
+      systems should a) be sustainable after the supporting NGO leaves the region, b) be replicable across many different areas in similar agro-ecological zones, and c) significantly reduce post-harvest
+      losses to insects and diseases. This effort will be implemented over an eighteen (18) month period.
+  - id: '228375'
+    title: 'Using Traditional Foods and Sustainable Ecological Approaches for Health Promotion and Diabetes Prevention in '
+    abstract: 'The purpose of this one year funding application is for successful applicants to: a) demonstrate that their culturally based traditional foods activities are sustainable and/or institutionalized
+      in their respective communities; b) evaluate already established sustainable strategies and/or emerging strategies (environmental, health practice/policy, self-sustaining activities, etc.) based on
+      continued program activities; and c) complete existing activities that would not otherwise be done because'
+  - id: '51180'
+    title: Water Sustainability and Climate
+    abstract: One of the most urgent challenges facing the world today is ensuring an adequate supply and quality of water in light of both burgeoning human needs and climate variability and change. Despite
+      its importance to life on Earth, there are major gaps in our basic understanding of water availability, quality and dynamics, and the impact of both a changing and variable climate, and human activity,
+      on the water system. The goal of the Water Sustainability and Climate (WSC) solicitation is to understan
+  - id: '123893'
+    title: 'Agriculture and Food Research Initiative: Agriculture and Natural Resources Science for Climate Variability an'
+    abstract: The Agriculture and Natural Resources Science for Climate Variability and Change Challenge Area RFA focuses on the societal challenge to adapt agroecosystems and natural resource systems to
+      climate variability and change and implement mitigation strategies in those systems. In the Agriculture and Natural Resources Science for Climate Variability and Change Challenge Area RFA, specific
+      program areas are designed to achieve the long-term outcome of reducing the use of energy, nitrogen, reducing GH
+  - id: '193593'
+    title: Draft Fiscal Year 2013 Request for Applications for Title II Development Food Aid Programs
+    abstract: "This Request for Applications (RFA) for Zimbabwe, specifically, provides information on funding opportunities for multi-year development food aid programs. Food security is the cornerstone\
+      \ of the Title II program because \x93 enhancing food security in the developing world through the use of agricultural commodities \x94 is a policy of the United States as stated in the Food for Peace\
+      \ Act, which authorizes Title II food aid. Thus, FFP\x92s goal for multi-year development programming is to reduce risks an"
+  - id: '179614'
+    title: 'Agriculture and Food Research Initiative: Food Safety'
+    abstract: This AFRI Challenge Area promotes and enhances the scientific discipline of food safety, with an overall aim of protecting consumers from microbial and chemical contaminants that may occur
+      during all stages of the food chain, from production to consumption. This requires an understanding of the interdependencies of human, animal, and ecosystem health as it pertains to foodborne pathogens.
+      The long-term outcome for this program is to reduce foodborne illnesses and deaths by improving the safety o
+  - id: '40790'
+    title: Global Livestock Climate Change CRSP DRAFT
+    abstract: This Concept Paper describes a proposed Livestock-Climate Change (LCC) Collaborative Research Support Program (CRSP) that will research the impacts of climate change on livestock production
+      systems and target its direct and indirect challenges to livestock, human and environmental health. Livestock, humans, and the environment form three synergistic, interactive and integrated sectors
+      on a pyramidal base and overarching climate change impacts the three conjoined sector nodes. The association of
+  - id: '124453'
+    title: Sustainable Energy Pathways
+    abstract: A sustainable world is one in which human needs are met equitably without harm to the environment, and without sacrificing the ability of future generations to meet their needs. Growing evidence
+      for the role of energy use in global change and awareness of limitations in our energy choices are motivating a search for pathways that are technologically innovative as well as environmentally and
+      economically sustainable at all scales of energy usage. This is a grand challenge to the scientific commu
+  - id: '136074'
+    title: GDA APS Addendum for BFS - CLIMATE RESILIENT CEREALS
+    abstract: "Through this Addendum to the FY 2011 Global Development Alliance (GDA) Annual Program Statement (APS) No. M/OAA/GRO/EGAS-11-002011 (the GDA APS), USAID/Bureau for Food Security (BFS), Research\
+      \ Division is making a special call for the submission of concept papers related to the Feed the Future (FTF) Initiative\x92s Global Hunger and Food Security Research Strategy. The specific objective(s)\
+      \ are to: 1) Develop new climate resilient cereal varieties with enhanced abiotic stress tolerance and improved"
+  - id: '51216'
+    title: Strategic Agricultural Initiative (SAI) Grant Program FY2010
+    abstract: EPA Region 9 is seeking applications from eligible organizations that will promote the transition to reduced-risk pest management practices in agriculture to protect human health and the environment.
+  - id: '54314'
+    title: Addressing Short-Term Stabilization and Long-Term Development Objectives through Revitalization of Afghan Agri
+    abstract: The goal of this activity is to support the Government of the Islamic Republic of Afghanistan (GIRoA) and the United States Government (USG) priorities to increase employment and income in
+      the agricultural and livestock sectors. Activities undertaken should reflect an integrated approach to these goals taking advantage of ongoing and past work of other USAID programs in Infrastructure,
+      Agriculture and Economic Growth. Activities should account for, but are not limited to, opportunities such as
+  - id: '53899'
+    title: Women And Minorities In Science, Technology, Engineering And Mathematics Fields Program (WAMS)
+    abstract: 'This grant program supports research and extension projects that have robust collaborations to increase the participation of women and underrepresented minorities from rural areas in science,
+      technology, engineering and mathematics fields that are relevant to USDA priorities identified by the Secretary: (i) Promotion of a safe, sufficient, and nutritious food supply for all Americans and
+      for people around the world; (ii) Sustainable agricultural policies that foster economic viability for small'
+  - id: '360205'
+    title: Agriculture and Food Research Initiative Competitive Grants Program Foundational and Applied Science Program
+    abstract: '<p><span style="color: rgb(49, 37, 28);">The AFRI Foundational and Applied Science Program supports grants in six AFRI priority areas to advance knowledge in both fundamental and applied
+      sciences important to agriculture. The six priority areas are: Plant Health and Production and Plant Products; Animal Health and Production and Animal Products; Food Safety, Nutrition, and Health;
+      Bioenergy, Natural Resources, and Environment; Agriculture Systems and Technology; and Agriculture Economics and Rur'
+  - id: '182413'
+    title: Food Security Learning Center
+    abstract: 'The Food Security Learning Center should be designed to create and maintain a national, web-based clearinghouse of information on community food security concerns and common community problems
+      related to the underlying causes of hunger and poverty, including the loss of farms and ranches, rural poverty, welfare dependency, hunger, food access issues, the need for job training, and the need
+      for self-sufficiency by individuals and communities. The FSLC will: operate a national information clearing'
+  - id: '120593'
+    title: Zambia Economic Resilience Program for Improved Food Security
+    abstract: Pursuant to the Foreign Assistance Act of 1961, as amended, the United States Government (USG), as represented by the U.S. Agency for International Development Mission in Zambia (USAID/Zambia),
+      is issuing an Annual Program Statement for the implementation of Zambia Economic Resilience Program for Improved Food Security (ZERS).
+- id: q020
+  text: water quality and environmental justice
+  candidates:
+  - id: '53565'
+    title: Farm Bill Assistance in Stanislaus County California
+    abstract: 'Introduction: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed
+      to benefit soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS''s natural resources conservation programs help land owners reduce soil erosion, enhance
+      water supplies, improve water quality, increase wildlife habitat, and reduce damages caused by floods a'
+  - id: '174133'
+    title: Farm Bill Assistance - Kern County, CA
+    abstract: 'Introduction: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed
+      to benefit soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS''s natural resources conservation programs help land owners reduce soil erosion, enhance
+      water supplies, improve water quality, increase wildlife habitat, and reduce damages caused by floods a'
+  - id: '53561'
+    title: Farm Bill Assistance in Butte County CA
+    abstract: 'Introduction: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed
+      to benefit soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS''s natural resources conservation programs help land owners reduce soil erosion, enhance
+      water supplies, improve water quality, increase wildlife habitat, and reduce damages caused by floods a'
+  - id: '54165'
+    title: Farm Bill Assistance in Kern County, CA
+    abstract: 'Introduction: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed
+      to benefit soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS''s natural resources conservation programs help land owners reduce soil erosion, enhance
+      water supplies, improve water quality, increase wildlife habitat, and reduce damages caused by floods a'
+  - id: '53575'
+    title: Farm Bill Assistance in San Joaquin County, CA
+    abstract: 'Introduction: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed
+      to benefit soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS''s natural resources conservation programs help land owners reduce soil erosion, enhance
+      water supplies, improve water quality, increase wildlife habitat, and reduce damages caused by floods a'
+  - id: '56523'
+    title: Farm Bill Assistance in San Joaquin County, CA
+    abstract: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed to benefit
+      soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS's natural resources conservation programs help land owners reduce soil erosion, enhance water supplies,
+      improve water quality, increase wildlife habitat, and reduce damages caused by floods and other natural di
+  - id: '165638'
+    title: Environmental Engineering
+    abstract: The Environmental Engineering program supports fundamental research and educational activities across the broad field of environmental engineering. The goal of this program is to encourage
+      transformative research which applies scientific and engineering principles to minimize or avoid solid, liquid, and gaseous discharges resulting from human activity into land, air, and inland and
+      coastal waters, while promoting resource and energy conservation and recovery. The program fosters cutting-edge s
+  - id: '45856'
+    title: Environmental Engineering
+    abstract: In broadest terms, the field of Environmental Engineering is concerned with understanding the impacts of human activities on the public health, natural environmental quality, and natural resources
+      and with developing the scientific basis for identifying, analyzing, solving, mitigating, or managing environmental problems caused by human activities. The field emerged as a separate engineering
+      discipline during the middle third of the 20th century in response to widespread public concern about wat
+  - id: '59008'
+    title: Environmental Engineering
+    abstract: In broadest terms, the field of Environmental Engineering is concerned with understanding the impacts of human activities on the public health, natural environmental quality, and natural resources
+      and with developing the scientific basis for identifying, analyzing, solving, mitigating, or managing environmental problems caused by human activities. The field emerged as a separate engineering
+      discipline during the middle third of the 20th century in response to widespread public concern about wat
+  - id: '98353'
+    title: Environmental Engineering
+    abstract: The Environmental Engineering program supports fundamental research and educational activities across the broad field of environmental engineering. The goal of this program is to encourage
+      transformative research which applies scientific principles to minimize solid, liquid, and gaseous discharges into land, inland and coastal waters, and air that result from human activity, and to
+      evaluate adverse impacts of these discharges on human health and environmental quality. The program fosters cutti
+  - id: '48851'
+    title: BLM-UT-GSENM-Water Quality Sampling
+    abstract: The Recipient will foster cooperation and consultation between the BLM and other partners for the purposes of water quality sampling. Sampling sites on public lands will be determined by BLM
+      and all parties will have access to the results of water quality analysis and data management. The primary objectives of this effort are to acquire and maintain a long-term data set of water quality
+      data on the important water resources within Kane County. This information will provide important data on t
+  - id: '49599'
+    title: 'BLM Oregon/Washington:  Vernal Pool Water Quality Monitoring Project'
+    abstract: The objective of this project is to establish a baseline for water quality and provide information for setting water quality standards when applied to the needs of wildlife. This information
+      will assist various management and regulatory agencies in clarifying the seasonal status of water quality. The recipient will conduct appropriate research needed and use accepted scientific methods
+      in conducting research activities. The resultant data will be used by land managers to assist in decision ma
+  - id: '169780'
+    title: National Integrated Water Quality Program
+    abstract: "The goal of the National Integrated Water Quality Program (NIWQP) is to contribute to the improvement of the quality of our Nation\x92s surface water and groundwater resources through research,\
+      \ education, and extension activities. Projects funded through this program will work to solve water resource problems by advancing and disseminating the knowledge base available to agricultural,\
+      \ rural, and urbanizing communities. Funded projects should lead to science-based decision making and management prac"
+  - id: '44513'
+    title: GEOGRAPHIC, STATISTICAL, AND INDICATOR RESEARCH TO SUPPORT THE NATIONAL CONDITION SURVEYS AND THE ENVIRONMENTA
+    abstract: The U.S Environmental Protection Agency (EPA) is seeking applications proposing innovative approaches to determining how to employ the growing experience in conducting surveys of the ecological
+      condition of freshwater systems (e.g., flowing waters, wetlands, and lakes) to the emerging need to include the value of ecosystem services in environmental decision-making. Services provided by ecosystems
+      to humans include provisioning [e.g., providing water food, fuel, fiber]; support [soil fertility,
+  - id: '133553'
+    title: Environmental Justice Small Grants Program
+    abstract: The Environmental Justice Small Grants Program (EJSG) provides funding for eligible applicants for projects that address local environmental public health issues within an affected community.
+      The EJSG Program is designed to help communities understand and address exposure to multiple environmental harms and risks.
+  - id: '56549'
+    title: ENVIRONMENTAL JUSTICE COOPERATIVE AGREEMENTS in support of communities directly affected by the Deepwater Hori
+    abstract: 'This notice announces the availability of funds and solicits proposals from eligible entities located in Regions 4 or 6 who will assist local communities facing environmental justice challenges
+      in addressing and adapting community responses to local long-term environmental and/or public health issues as they relate directly to the Deepwater Horizon oil spill in the Gulf of Mexico (oil spill).
+      The following types of entities are eligible: incorporated local non-profit community-based organization'
+  - id: '48253'
+    title: BLM-UT-Statewide Watershed Restoration Project
+    abstract: The maintenance and improvement of public lands renewable resources will provide improved and consistent recreational and consumptive benefits to the public land users. Improved vegetation
+      cover, vigor and composition will provide a diversity of wildlife species for viewing, hunting and contributing to the natural biological diversity. Water quantity and quality will provide available
+      clean water for agricultural uses, recreation and consumption. Soil stability will reduce the amount and sour
+  - id: '51180'
+    title: Water Sustainability and Climate
+    abstract: One of the most urgent challenges facing the world today is ensuring an adequate supply and quality of water in light of both burgeoning human needs and climate variability and change. Despite
+      its importance to life on Earth, there are major gaps in our basic understanding of water availability, quality and dynamics, and the impact of both a changing and variable climate, and human activity,
+      on the water system. The goal of the Water Sustainability and Climate (WSC) solicitation is to understan
+  - id: '95933'
+    title: National Integrated Water Quality Program
+    abstract: "The goal of the National Integrated Water Quality Program (NIWQP) is to contribute to the improvement of the quality of our Nation\xEF\xBF\xBDs surface water and groundwater resources through\
+      \ research, education, and extension activities. Projects funded through this program will work to solve water resource problems by advancing and disseminating the knowledge base available to agricultural,\
+      \ rural, and urbanizing communities. Funded projects should lead to science-based decision making and management pr"
+  - id: '102493'
+    title: 'BLM OR-WA:  Douglas Creek Riparian Restoration and Monitoring, Spokane District, Washington'
+    abstract: To address several stresses on Douglas Creek riparian function, and to assess the effects of this action in a context of other system stresses. This proposal addresses the initial riparian
+      stabilization project and continued water quality monitoring in Douglas Creek in ongoing projects that support riparian stabilization and water quality in Douglas Creek
+  - id: '134173'
+    title: Water Quality Improvements - Lake Tahoe Basin - El Dorado or Placer County, CA
+    abstract: 'Introduction: The Natural Resources Conservation Service (NRCS), an Agency of the Department of Agriculture, works with private landowners through conservation planning and assistance designed
+      to benefit soil, water, air, plants, and animals that result in productive lands and healthy ecosystems. NRCS''s natural resources conservation programs help land owners reduce soil erosion, enhance
+      water supplies, improve water quality, increase wildlife habitat, and reduce damages caused by floods and o'
+  - id: '118293'
+    title: FA-BLM-CO-RGFO-TIGER WETLANDS
+    abstract: Installation of a wetlands treatment complex, to address the watershed-level water quality and aquatic habitat impacts associated with historic mining activity within the drainage.
+  - id: '46651'
+    title: BLM-UT-Monticello &quot;More Kids in the Woods&quot;
+    abstract: This opportunity is to promote and stimulate public purposes such as education, job training, productive community involvement, and furthering the understanding and appreciation of natural
+      and cultural resources through the involvement of local youth and young adults in the care and enhancement of public resources. Reconnecting young people with the natural world is one of the key outcomes.
+      Developing an environmental ethic and ethic of service are goals. Environmental values, based on Native
+  - id: '130074'
+    title: 'WaterSMART: Water and Energy Efficiency Grants for FY 2012'
+    abstract: The Nation faces an increasing set of water resource challenges. Aging infrastructure, rapid population growth, depletion of groundwater resources, impaired water quality associated with particular
+      land uses and land covers, water needed for human and environmental uses, and climate variability and change all play a role in determining the amount of fresh water available at any given place and
+      time. Water shortages and water-use conflicts have become more commonplace in many areas of the Unit
+  - id: '66953'
+    title: ENVIRONMENTAL JUSTICE SMALL GRANTS PROGRAM
+    abstract: The Environmental Justice Small Grants Program (EJSG) is designed to provide funding for eligible applicants for projects that address local environmental and public health issues within an
+      affected community. The EJSG Program is a multi-statute program designed to help communities understand and address their exposure to multiple environmental harms and risks.
+  - id: '41212'
+    title: ENVIRONMENTAL JUSTICE SMALL GRANTS PROGRAM
+    abstract: The Environmental Justice Small Grants Program (EJSG) is designed to provide funding for eligible applicants working on, or planning to work on, a project that addresses a local environmental
+      and public health issue within an affected community. The EJSG Program is a multi-statute program designed to help communities understand and address their exposure to multiple environmental harms
+      and risks.
+  - id: '50014'
+    title: ENVIRONMENTAL JUSTICE SMALL GRANTS PROGRAM
+    abstract: Historically, the Environmental Justice Small Grants Program (EJSG) is designed to provide funding for eligible applicants working on, or planning to work on, a project that addresses a local
+      environmental and public health issue within an affected community. The EJSG Program is a multi-statute program designed to help communities understand and address their exposure to multiple environmental
+      harms and risks.

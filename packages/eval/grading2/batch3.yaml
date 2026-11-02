@@ -1,0 +1,530 @@
+queries:
+- id: q011
+  text: infectious disease surveillance and pandemic preparedness
+  candidates:
+  - id: '82153'
+    title: Surveillance and Response to Seasonal and Pandemic Influenza by Regional Offices of the World Health Organizat
+    abstract: 'Purpose The purpose of the program is to assist the six Regional Offices of the World Health Organization (WHO), the lead health agency of the United Nations, in their implementation of a
+      coordinated plan to assist national governments and regional authorities to: improve surveillance for influenza by enhancing capacity for laboratory and epidemiologic surveillance of seasonal and
+      pandemic influenza; to assist the development of simple methods to determine burden of influenza disease in count'
+  - id: '109133'
+    title: Avian Health and Disease surveillance and monitoring support
+    abstract: 'The Service has established the Avian Health and Disease Program to conduct work in avian health and disease surveillance, response, and management. The program was created to break the cycle
+      of short-term, reactionary approaches to one disease emergency at a time by providing a stable, long-term, prepared, and proactive resource. The objectives of the program are to conduct health and
+      disease surveillance of wild bird populations to: 1. Ensure disease preparedness and prevention 2. Identif'
+  - id: '47049'
+    title: Supplemental for Pandemic Flu Aggregate Reporting of Pandemic Influenza Vaccine Doses Administered
+    abstract: "The purpose of the program is protection of the public's health. This program addresses the \"Healthy People 2010\" focus area of Immunization and Infectious Diseases. An influenza pandemic\
+      \ has the potential to cause substantial morbidity and mortality as well as extensive social and economic disruption in the U.S. The overarching mission of CDC\x92s vaccine planning activities for\
+      \ pandemic influenza is to protect the public\x92s health and minimize the impact of an influenza pandemic by facilitating"
+  - id: '56597'
+    title: Immunization Grants and Vaccines for Children Program Supplemental for Pandemic Flu Aggregate Reporting of Pan
+    abstract: "The purpose of the program is protection of the public's health. This program addresses the \"Healthy People 2010\" focus area of Immunization and Infectious Diseases. Influenza pandemics\
+      \ have the potential to cause substantial morbidity and mortality as well as extensive social and economic disruption in the U.S. The overarching mission of CDC\x92s vaccine planning activities for\
+      \ pandemic influenza is to protect the public\x92s health and minimize the impact of an influenza pandemic by facilitating"
+  - id: '47189'
+    title: PREPARE (Pandemic Preparedness)
+    abstract: "USAID is launching a coordinated and comprehensive program designed to minimize the impact of specific newly emergent diseases of animal origin, which pose a significant threat to human health\
+      \ and development. This program must be managed by the USAID Avian and Pandemic Influenza Unit. USAID will work closely with international, host governments, USG, and private sector entities to coordinate\
+      \ activities and ensure that USAID\x92s involvement is consistent with that of the global health community."
+  - id: '51063'
+    title: Developing Sustainable Influenza Surveillance Networks and Response to Avian and Pandemic by National Health A
+    abstract: "CDC\x92s Procurement and Grants Office has published a funding opportunity announcement entitled, \x93Developing Sustainable Influenza Surveillance Networks and Response to Avian and Pandemic\
+      \ Influenza by National Health Authorities outside the United States.\x94 Approximately $ 800,000 will be available in fiscal year 2010 to fund two awards. The purpose of the program is to provide\
+      \ support and assistance to foreign governments who have successfully completed the five-year cooperative agreement PA AA117"
+  - id: '76493'
+    title: 'Sustaining Influenza Surveillance Networks and Response to Seasonal and Pandemic Influenza by National Health '
+    abstract: "The purpose of this program is to provide support and assistance to the foreign governments of Afghanistan, Angola, Argentina, Armenia, Bangladesh, Brazil, Cambodia, Cote D\x92Ivoire, Democratic\
+      \ Republic of Congo, Ethiopia, Republic of Georgia, Mexico, Morocco, Nigeria, Peru, Russia, Rwanda, South Africa, Tanzania, Uganda and Ukraine to develop and implement sustainable influenza surveillance\
+      \ systems initiated as part of the current cooperative agreements Cl06-607, IP07-702 and Cl06-603 or through"
+  - id: '123013'
+    title: Viral Hepatitis Surveillance
+    abstract: 'The program will support active, enhanced surveillance to monitor the burden of acute and chronic viral hepatitis disease through core surveillance of acute hepatitis A, B, C, and chronic
+      hepatitis B and C. This program addresses the "Healthy People 2020" focus area(s) of Immunization and Infectious Diseases: - IID-1.3 Reduce, eliminate, or maintain elimination new hepatitis B cases
+      among persons 2 to 18 years;- IID-15 Increase hepatitis B vaccine coverage among high-risk populations;- IID-25'
+  - id: '75493'
+    title: Enhanced Surveillance in the Republic of Uganda under the President&#146;s Emergency Plan for AIDS Relief (PEP
+    abstract: 'The purpose of this program is to address the following goals: A. To conduct field surveys, surveillance and laboratory-based studies on important human infectious diseases in Uganda with
+      an emphasis on HIV-related activities for sero-behavioral and clinical care surveillance for most at-risk or high risk group populations, prevention of mother to child transmission (PMTCT), voluntary
+      counseling and testing (VCT), maternal and child health, neglected tropical diseases, sexually transmitted in'
+  - id: '133994'
+    title: The Incidence of Community Associated Influenza and other respiratory Infections in the United States
+    abstract: "The purpose of the program is to estimate the incidence of influenza in the community and the incidence and etiology of non-influenza respiratory viruses. This program addresses the \x93\
+      Healthy People 2020\x94 focus area(s) of prevent disease, disability, and death from infectious diseases, including vaccine-preventable disease and is in alignment with HHS/CDC/NCIRD\x92s performance\
+      \ goal(s) to protect Americans from infectious diseases"
+  - id: '50878'
+    title: Support for the National Government Monitoring and Evaluation System, Surveillance and Laboratory Infrastructu
+    abstract: The purpose of this announcement is to enhance Zambia's ability to respond to the HIV/AIDS crisis, opportunistic infections, and neglected tropical diseases. More specifically, this announcement
+      seeks to strengthen the capacity of the Tropical Diseases Research Center (TDRC) to collect and use surveillance data and manage national HIV/AIDS programs by expanding HIV/STI/TB surveillance programs
+      and strengthening laboratory support for surveillance, diagnosis, treatment, disease monitoring and HIV
+  - id: '360199'
+    title: Emerging Infections Network - Research for Preventing, Detecting, and Managing Travel-associated Infectious Di
+    abstract: The focus of this notice of funding opportunity (NOFO) is to produce insights into disease detection and prevention strategies, burden, severity, diagnostics, treatment, and outcomes of infectious
+      diseases in international travelers. Timely surveillance and sentinel detection are essential for collecting actionable data. The research should:Address public health questions that improve the speed
+      of outbreak detection.Help develop guidelines and recommendations to improve patient care.Enhance unde
+  - id: '74953'
+    title: Support to Strengthen, Expand and Sustain Nigeria&#146;s Disease Surveillance and Response System under the Pr
+    abstract: The primary purpose of this assistance request is to establish a Nigeria-based Field Epidemiology Network by developing and providing broad support for strengthening applied epidemiology in
+      Nigeria and western Africa and strengthening surveillance systems for priority communicable and non-communicable diseases including maternal and child health, tuberculosis, malaria, neglected tropical
+      diseases, environmental illnesses and emerging infections, with a specific emphasis on HIV/AIDS.
+  - id: '56638'
+    title: State Competitive Supplemental Funding for Behavioral Risk Factor Surveillance System
+    abstract: The purpose of this supplement is to provide State Health Departments with resources to maintain previous projections in sample size, enhance and expand the utility of BRFSS, and support ongoing
+      state-based public health surveillance infrastructure. Resources are needed specifically to collect BRFSS data to assess the prevalence of Influenza Like Illness (ILI) at state and local levels to
+      support Pandemic Influenza response and preparedness activities as well as to support optional modules of
+  - id: '162755'
+    title: Strengthening Surveillance for Diseases Among Newly-Arrived Immigrants and Refugees
+    abstract: The purpose of the program is to conduct surveillance to detect, prevent and control diseases and evaluate existing health programs to improve the health of refugees and/or immigrants that
+      are newly arrived in the United States.
+  - id: '63093'
+    title: Enhanced Surveillance for New Vaccine Preventable Disease
+    abstract: The Funding Opportunity Announcement seeks to establish surveillance and evaluation sites that will collaborate as a larger network a(the New vaccine Surveillance Network (NVSN) to conduct
+      multi-site and individual projects to assess the impact of new vaccines and vaccine policies for diseases among children that are currently vaccine-preventable and those that are potentially vaccine
+      preventable in the future.
+- id: q012
+  text: antimicrobial resistance new therapeutics
+  candidates:
+  - id: '56007'
+    title: A Public Campaign to Combat Antimicrobial Resistance
+    abstract: The purpose of this funding opportunity is to conduct a comprehensive program to review antibiotic resistance trends, interventions, and prevention methods, and will include a public information
+      campaign directed toward effective and prudent use of antibiotics.
+  - id: '56262'
+    title: Epi-Centers for the Prevention of Healthcare-Associated Infections, Antimicrobial Resistance and Adverse Event
+    abstract: "The National Center Emerging and Zoonotic Infectious Diseases (NCEZID) of CDC within HHS is committed to achieving the health promotion and disease prevention objectives of \"Healthy People\
+      \ 2010\" and to measuring program performance as stipulated by the Government Performance and Review Act (GPRA). This RFA addresses \x93Healthy People 2010\x94 priority area(s) of reduce hospital-acquired\
+      \ infections in intensive care unit patients, reduce central-line blood stream infections, and reduce the incidence"
+  - id: '351204'
+    title: Cooperative Agreement for Long Term Data Collection on Antimicrobial Use in Animals (U01) Clinical Trial Not A
+    abstract: <p>FDA announces the availability of fiscal year (FY) 2024 funds to support one or more projects to 1) collect antimicrobial use data from diverse animal sectors, including domestic livestock,
+      poultry, companion animals (dogs, cats, and horses), and minor species (e.g., fish, sheep, goats, etc.) and 2) contribute&nbsp;to the development of data collection frameworks, including providing
+      data and expertise as resources and a public-private partnership frameworks are established.</p><p><br></p><p>
+  - id: '70313'
+    title: Targeting Resistance in Select Gram-Negative Pathogens (R21/R33)
+    abstract: To support basic-translational research focused on development of antibacterial technologies designed to circumvent resistance in select gram-negative pathogens.
+  - id: '138013'
+    title: Leadership Group for a Clinical Research Network on Antibacterial Resistance (UM1)
+    abstract: 'The purpose of this FOA is to encourage submission of applications for the Leadership Group for a Clinical Research Network on Antibacterial Resistance. The Leadership Group (LG) will have
+      overall responsibility for designing, prioritizing, implementing and managing the networks clinical research agenda to address antibacterial resistance (AR) scientific priorities. Applications for
+      the LG must include an overview component and three functional components: a Leadership and Operations Center (L'
+  - id: '46237'
+    title: Hazard Mitigation and Structural Engineering
+    abstract: The HMSE program supports fundamental research on the design and performance of structural systems and on new technologies for improving the behavior, safety, and reliability of structural
+      systems and their resistance to natural hazards such as earthquakes and technological hazards (such as bombs).?? Also supported by the program are innovations in analysis and model-based simulation
+      of structural behavior and response, design concepts that improve structural performance, reliability, resilience
+  - id: '56355'
+    title: Hazard Mitigation and Structural Engineering
+    abstract: The HMSE program supports fundamental research on the design and performance of structural systems and on new technologies for improving the behavior, safety, and reliability of structural
+      systems and their resistance to natural hazards such as earthquakes and technological hazards (such as bombs).?? Also supported by the program are innovations in analysis and model-based simulation
+      of structural behavior and response, design concepts that improve structural performance, reliability, resilience
+  - id: '357551'
+    title: USAID Soroka
+    abstract: "<p>SOROKA is a Malagasy word which constitutes the root of the verb \u201Cmisoroka\u201D, meaning \u201Cto prevent\u201D, corresponding to the aim of surveillance. SOROKA can be the acronym\
+      \ of the specific objectives of the project: Surveillance, Operational Research, and Optimization of Knowledge-sharing for Action activity.</p><p>The SOROKA activity is expected to be a $7.5 million\
+      \ award for five years from Oct 2024 to Sept 2029. SOROKA's main objective is to advance the health of the Malagasy people through impr"
+  - id: '205193'
+    title: Alzheimer's Disease Therapeutics Program (U01)
+    abstract: The goal of this Funding Opportunity Announcement (FOA) is to provide support for investigators to develop new drugs for the prevention or treatment of Alzheimers disease (AD). Specifically,
+      this initiative is aimed at researchers who have promising small molecule compounds but lack outside drug development expertise and infrastructure support to advance these compounds to the clinic.
+      This Alzheimers Disease Therapeutics Program adjunct to the NIH Blueprint Neurotherapeutics Program will allow i
+  - id: '237323'
+    title: 'Novel NeuroAIDS Therapeutics: Integrated Preclinical/Clinical Program (P01)'
+    abstract: 'The National Institute of Mental Health invites research grant applications to develop innovative programs to advance therapeutics for NeuroAIDS. This Funding Opportunity Announcement (FOA)
+      will support research programs that will advance central nervous system (CNS)-focused therapeutic approaches to: a) address HIV-associated neurocognitive disorders in HIV-infected individuals on highly
+      active anti-retroviral therapy (HAART), b) eradicate persistent HIV-1 from the CNS during chronic infection,'
+  - id: '362954'
+    title: Translational Centers Using Microphysiological Systems for Infectious Diseases (U54 Clinical Trial Not Allowed
+    abstract: <p>The purpose of this notice of funding opportunity (NOFO) is to support a consortium of Translational Centers using Microphysiological Systems (MPS) for Infectious Diseases (TCMID). Recent
+      efforts in the MPS fields are moving towards validation and regulatory use but have not focused upon models studying infectious diseases and testing of medical interventions.&nbsp;The NIH and FDA
+      have recently issued guidance and established initiatives for enhancing use of New Approach Methodologies (NAMs)
+  - id: '357943'
+    title: Translational Bioinformatics and Experimental Approaches to Advance Drug Repositioning and Combination Therapy
+    abstract: This Notice of Funding Opportunity (NOFO) invites applications that propose to use mouse models to conduct rigorous preclinical testing of drugs or drug combinations currently used for other
+      conditions, as well as investigational drugs at various stages of clinical development, predicted to be efficacious in AD/ADRD. This initiative will also support preclinical testing of repurposable
+      or investigational drug candidates in combination with non-pharmacologic interventions leading to robust transl
+  - id: '170753'
+    title: Synthesis and Preclinical Evaluation of Medications to Treat Substance Use Disorders (SUDs) (R01)
+    abstract: The National Institute on Drug Abuse (NIDA) is soliciting grant (R01) applications to support the synthesis and preclinical evaluation of new molecular entities as potential treatments for
+      Substance Use Disorders (SUDs). Responsive applications may include synthesis, identification, optimization and preclinical efficacy and/or safety assessment of lead compounds. Applications must provide
+      timelines and decision-trees with go/no-go criteria to advance or discontinue testing a compound. Possibl
+  - id: '362948'
+    title: Improved Drug Susceptibility Testing (DST) for Mycobacteria
+    abstract: <p>The National Institute of Allergy and Infectious Diseases (NIAID) seeks to advance its mission by&nbsp;supporting research to develop improved drug susceptibility tests (DSTs) for mycobacterial
+      drugs, including those currently used for treatment of tuberculosis (TB) and clinically important non-tuberculous mycobacterial (NTM) infections, new drugs and drugs in late-stage clinical development.
+      TB is a leading cause of death from an infectious disease worldwide and drug-resistant strains of TB,
+  - id: '351127'
+    title: Improving Predictability of Food-Drug and Drug-Drug Interaction Risks by Utilizing In Vitro Simulated Gastroin
+    abstract: '<p><span style="color: black;">The purpose of this funding opportunity is to examine the utility of an in vitro simulated gastrointestinal (GI) dissolution model for the assessment of in
+      vitro performance of amorphous solid dispersion (ASD) drug products under different clinically relevant conditions. The goal is to develop and validate the in vitro mechanistic methodology to provide
+      an improved understanding of impact of food and acid reducing agents on the absorption for test and reference lis'
+  - id: '175953'
+    title: 'A Pre-application for the NIH-Industry Pilot Program:  Discovering New Therapeutic Uses for Existing Molecules'
+    abstract: The National Center for Advancing Translational Sciences (NCATS) seeks to develop a therapeutics discovery pilot program to explore new therapeutic uses for proprietary drug candidates (Agents)
+      across a broad range of human diseases. This innovative program will match Agents and associated data from pharmaceutical company partners with the best ideas for new therapeutic uses from the biomedical
+      research community.
+  - id: '175954'
+    title: 'Limited Competition for NIH-Industry Pilot Program:  Discovering New Therapeutic Uses for Existing Molecules ('
+    abstract: The National Center for Advancing Translational Sciences (NCATS) seeks to develop a therapeutics discovery pilot program that will explore new therapeutic uses for proprietary drug candidates
+      (Agents) across a broad range of human diseases. This innovative program will match Agents and associated data from pharmaceutical company partners with the best ideas for new therapeutic uses from
+      the biomedical research community.
+  - id: '175973'
+    title: 'Limited Competition for NIH-Industry Pilot Program:  Discovering New Therapeutic Uses for Existing Molecules ('
+    abstract: The National Center for Advancing Translational Sciences (NCATS) seeks to develop a therapeutics discovery pilot program that will explore new therapeutic uses for proprietary drug candidates
+      (Agents) across a broad range of human diseases. This innovative program will match Agents and associated data from pharmaceutical company partners with the best ideas for new therapeutic uses from
+      the biomedical research community.
+  - id: '54217'
+    title: Partnerships for Development of New Therapeutic Classes for Select Viral and Bacterial Pathogens (R01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the National Institute of Allergy and Infectious Diseases (NIAID), National Institutes of Health (NIH), invites research applications
+      in support of preclinical development of lead candidate therapeutics against Nesseria gonorrhoeae, Hepatitis B Virus and Clostridium difficile. Mechanism of Support. This FOA will utilize the R01
+      award mechanism. Funds Available and Anticipated Number of Awards. The NIAID intends to commit $6 million
+  - id: '361370'
+    title: 'Innovation Grants to Nurture Initial Translational Efforts (IGNITE): Therapeutic Agent Characterization and Pr'
+    abstract: <p style="margin-left:.5in;">The National Institute of Neurological Disorders and Stroke, National Institute of Aging, the <a href="https://heal.nih.gov/">NIH Helping to End Addiction Long
+      Term (HEAL) initiative</a>, and other participating ICs seek to support applications to conduct pharmacodynamic, pharmacokinetic, and&nbsp;efficacy studies to demonstrate that the proposed therapeutic
+      agent(s) have sufficient biological activity to warrant further development as therapeutics for disorders or d
+  - id: '360606'
+    title: Glioblastoma Therapeutics Network (GTN) (U19 Clinical Trial Required)
+    abstract: <p>Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) solicits applications for research on novel therapies for adult glioblastoma (GBM). The goal is to
+      improve the treatment of adult GBM by developing novel effective agents that can cross the blood brain barrier (BBB) and testing them clinically. Successful early-stage trials of new drugs from this
+      NOFO would transition seamlessly to later stage trials using well-established NCI clinical trial mechanisms.</p>
+- id: q013
+  text: climate change and public health adaptation
+  candidates:
+  - id: '112473'
+    title: Partcipation and coordination among State of Oregon and other State Federal Partners for landscape conservatio
+    abstract: 'This synopsis is the full announcment. The tasks to be performed under this agreement are as follows: Task 1: Develop climate change fact sheets for each strategy habitat outlined in the
+      Oregon Conservation Strategy, outlining climate change impacts on species and ecosystems and, where appropriate, describing approaches to climate change adaptation. Schedule: May - December 2011 Task
+      2: Attend GNLCC and other meetings related to climate change and landscape scale conservation to share inform'
+  - id: '101674'
+    title: Cooperative Ecosystem Studies Unit, Piedmont South Atlantic Coast CESU
+    abstract: "The US Geological Survey (USGS), National Climate Change and Wildlife Science Center (NCCWSC), is offering a funding opportunity for research to develop science-based climate-smart conservation\
+      \ approaches. The objective of this Agreement is to facilitate collaboration on the development and incorporation of science-based approaches to climate change adaptation planning and implementation.\
+      \ The project has the following specific goals: \xEF\xBF\xBD Development and implement what constitutes \xEF\xBF\xBDclimate-s"
+  - id: '56026'
+    title: 'Climate Change and Health: Assessing and Modeling Population Vulnerability to Climate Change (R21)'
+    abstract: 'Purpose. This Funding Opportunity Announcement (FOA) is being issued by the National Institute of Environmental Health Sciences (NIEHS) of the National Institutes of Health (NIH) with participation
+      from the following NIH components: FIC, NCI, NCMHD NHLBI, NIA, NIBIB, NICHD, NLM and OBSSR. This FOA encourages research applications to examine the differential risk factors of populations that lead
+      to or are associated with increased vulnerability to exposures, diseases and other adverse health out'
+  - id: '99214'
+    title: Climate Change Adaptation Strategy
+    abstract: Funding is available through the U.S. Fish and Wildlife Service (USFWS) California Landscape Conservation Cooperative (CA LCC) to complete work as identified in the CA LCC 2011 program priorities.
+      Specifically, the Institute for Bird Populations will use the NatureServe Climate Change Vulnerability Index tool to assess vulnerability of 140 bird species and will develop a Climate Change Adaptation
+      Strategy for Sierra Nevada birds. The USFWS intends to award Institute for Bird Populations a sing
+  - id: '236105'
+    title: Climate Change Adaptation Program (GPAP)
+    abstract: One important effect of global climate change is the reduction in naturally stored water resources which, for Peru, means melting glaciers and a decrease in the size of highland wetlands (paramos).
+      The loss of these areas decreases water availability for upland and lowland communities and increases the potential for Glacial Lake Outburst Floods (GLOFs). This APS seeks to stimulate adaptation
+      projects that assist indigenous mountain communities, rural and urban areas, and local and regional gov
+  - id: '77593'
+    title: 'WaterSMART:  Grants to Develop Climate Analysis Tools for FY 2011'
+    abstract: The objective of this Funding Opportunity Announcement (FOA) is to invite universities, non-profit research institutions, and organizations with water or power delivery authority to leverage
+      their money and resources by cost sharing with Reclamation on activities designed to enhance the management of water resources, including developing tools to assess the impacts of climate change on
+      water resources. These projects will focus on the information gaps outlined in the joint Reclamation and U
+  - id: '128053'
+    title: Climate Adaptation Case Studies in the Great Northern LCC
+    abstract: "This synopsis is the full announcement. The tasks to be performed under this agreement are as follows: This project directly supports the LCCs\x92 objective to produce decision support tools,\
+      \ systems, and science applications for focused resource conservation. The overarching goal of this project is to inform on-the-ground management and planning with data and tools for assessing climate\
+      \ vulnerability. More specifically, the project has two main objectives. These are to work with stakeholder"
+  - id: '56205'
+    title: Development and Application of Guidance on Climate Change Vulnerability Assessment
+    abstract: The Natural Resources Planning Center of the National Park Service intends to award a non competitive cooperative agreement to the National Wildlife Federation for development and guidance
+      on climate change vulnerability assessment and adaptation planning including components in species, habitats, and ecosytems. This action, issued as a sole source award, is in accordance with the Department
+      of Interior Policy Department Manual 505 DM2. Cooperative Agreement Number H2370103532 applies.
+  - id: '103673'
+    title: NOAA Sea Grant Community Climate Adaptation Initiative 2011
+    abstract: NOAA Sea Grant expects to make available up to $1,000,000 for a national competition to fund climate adaptation efforts for FY 2012-2013 as part of an overall plan to enhance climate adaptation
+      in coastal communities. This Federal Funding Opportunity includes information on how to apply for this funding opportunity and criteria for climate adaptation projects requesting a total of up to
+      $100,000 in federal funds. Matching funds are required. Climate adaptation projects are expected to be conduct
+  - id: '51622'
+    title: Climate Change Internship Program
+    abstract: This action is a single source award to the National Council for Science and the Environment (NCSE) located in Washington D.C. This synopsis serves as intent to award a five-year cooperative
+      agreement on a non-competitive basis. The effort involves the development, recruiting and administration of a current undergraduate/graduate student level Climate Change Response internship program.
+      This program will provide the Department of Interior, National Park Service (NPS) with science-based rese
+  - id: '49030'
+    title: NWRS Climate Change Initative
+    abstract: "This agreement between the National Wildlife Refuge System of the U.S. Fish and Wildlife Service and NatureServe is entered into to support and facilitate the Refuge System\x92s Climate Change\
+      \ Adaptation Initiative. The purpose is to provide financial assistance to NatureServe in support of collaborative work between NatureServe and the Refuge System directed at this initiative. Activities\
+      \ will include a range of cooperative ventures, including workshops, vulnerability assessments, data collectio"
+  - id: '172913'
+    title: Climate, Nature and Communities in Guatemala (CNCG) program
+    abstract: This Request for Application (RFA) provides the basis for applicants to consider creating partnerships, alliances or a consortium with local organizations to implement the activities of the
+      Climate, Nature and Communities in Guatemala (CNCG) program and obtain the desired results. This is a program that will comprehensively address the key issues of biodiversity and forest conservation
+      and sustainable management, both of which are important to address climate change in general and more specifica
+  - id: '357175'
+    title: Impacts of climate change across the cancer control continuum (R01 Clinical Trial Optional)
+    abstract: <p>Not Available</p>
+  - id: '357176'
+    title: Impacts of climate change across the cancer control continuum (R21 Clinical Trial Optional)
+    abstract: <p>Not Available</p>
+  - id: '44238'
+    title: 'Climate Change: Environmental Impact on Human Health (U01)'
+    abstract: "CDC\x92s Procurement and Grants Office has published a funding opportunity announcement entitled, \x93Climate Change: Environmental Impact on Human Health (U01)\x94 Approximately $3,000,000\
+      \ will be available in fiscal year 2009 to fund 10 awards. The purpose of this announcement is to assess regional environmental impact and climate change effects on human health.For complete program\
+      \ details, please see the full announcement on the CDC website at http://www.cdc.gov/od/pgo/funding/EH09-001.htm The esti"
+  - id: '163153'
+    title: Research and Technical Assistance for Public Health Interventions in Haiti to support post earthquake reconstr
+    abstract: The global response to reconstruction efforts and the cholera epidemic is the largest public health commitment made in Haiti to date. It offers a unique opportunity to address research priority
+      questions, using large scale public health evaluation programs. The purpose of the program is to conduct assessments and surveys to support critical disease control activities. A key tenet of these
+      activities is that MSPP will work to build capacity to conduct, interpret, disseminate, and respond to as
+  - id: '363844'
+    title: Native Public Health Resilience
+    abstract: <p>New cohort of NPHR awards designed to fund Tribes and Tribal Orgs to provide Essential Public Health Services</p>
+  - id: '362978'
+    title: Health and Extreme Weather Solutions-Focused Research Hubs (U54 - Clinical Trial Optional)
+    abstract: <p>The National Institute of Environmental Health Sciences (NIEHS) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications that propose translational research hubs
+      with multiple highly integrated components focused on research, capacity building, and community/public health translation for regionally relevant topics related to the health impacts of extreme weather
+      and cumulative exposures,&nbsp;including but not limited to wildfire smoke, extreme heat, flooding, hurrica
+  - id: '47292'
+    title: 'Exploring Linkages Between Health Outcomes and Environmental Hazards, Exposures, and Interventions for Public '
+    abstract: Geospatial information may be involved. The U.S. Environmental Protection Agency (EPA), as part of its Science to Achieve Results (STAR) program, is seeking applications to develop new or
+      improved environmental public health indicators (EPHIs) to build linkages between environmental hazards, human exposures, and public health outcomes. The aim of the research is to develop indicators
+      that can be used for long-term tracking and surveillance of environmental public health, making better informed d
+  - id: '47291'
+    title: 'Exploring Linkages Between Health Outcomes and Environmental Hazards, Exposures, and Interventions for Public '
+    abstract: Geospatial information may be involved. The U.S. Environmental Protection Agency (EPA), as part of its Science to Achieve Results (STAR) program, is seeking applications to develop new or
+      improved environmental public health indicators (EPHIs) to build linkages between environmental hazards, human exposures, and public health outcomes. The aim of the research is to develop indicators
+      that can be used for long-term tracking and surveillance of environmental public health, making better informed d
+  - id: '236134'
+    title: FWSR1-PICCC- FY2014
+    abstract: 'In support of the Pacific Islands Climate Change Cooperative (PICCC), the U.S. Fish and Wildlife Service Pacific Region is requesting project proposals for Fiscal Year 2014 for science and
+      information that two critical climate change challenges in the Pacific Islands: 1) the effects of sea level rise and 2) changes in precipitation patterns and extremes (e.g., drought, flooding).'
+  - id: '144193'
+    title: 'PPHF 2012:  National Dissemination and Support for Community Transformation Grants &iquest; financed solely by'
+    abstract: "Amendment I (05/11/12): Page 1 \x96 Revises Title Page 6 - Last Page - include 2012 PPHF Reporting Requirements and Restrictions language"
+  - id: '161873'
+    title: Research and Technical Assistance for Public Health Laboratories in Haiti to support post earthquake reconstru
+    abstract: The global response to reconstruction efforts and the cholera epidemic is the largest public health commitment made in Haiti to date. It offers a unique opportunity to address research and
+      laboratory priority questions, using large scale public health evaluation programs. The purpose of the program is to conduct assessments and surveys to support critical disease control activities.
+      A key tenet of these activities is that LNSP work to build capacity to conduct, interpret, disseminate, and res
+  - id: '99194'
+    title: Climate Adaptation Commons
+    abstract: Funding is available through the U.S. Fish and Wildlife Service (USFWS) California Landscape Conservation Cooperative (CA LCC) to complete work as identified in the 2011 program priorities.
+      Specifically, the Sonoma Ecology Center will create an online Climate Adaptation Commons where land managers can quickly find climate adaptation information, communicate with each other and with the
+      researchers producing the data, and share lessons learned. The USFWS intends to award Sonoma Ecology Center a
+  - id: '230714'
+    title: Climate Change Adaptation Planning, NOI not a request for proposals
+    abstract: 'OVERVIEW: The purpose of this agreement is to increase knowledge and understanding for land management agencies, the university cooperator, and the broader climate science community of how
+      climate change will impact biodiversity in and around U.S. national parks in the Great Lakes region. STATEMENT OF JOINT OBJECTIVES/PROJECT MANAGEMENT PLAN: This project will increase the ability to
+      understand the current climate data in relation to conditions in and around national park units and allow m'
+  - id: '57096'
+    title: Assessing Impacts of Climate Change on Rare Plants
+    abstract: This project is to understand how rare plant populations could respond to climate change. Climate change has been identified as a long-term threat to biological systems and the economic productivity
+      of these systems. The information provided by this project will be available to scientists and federal land managers to help improve conservation and management of federal trust resources. This project
+      will fulfill National and State data needs for information regarding the effects of climate change
+- id: q014
+  text: STEM education for undergraduate research experiences
+  candidates:
+  - id: '50786'
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    abstract: This program provides awards to enhance the quality of undergraduate science, technology, engineering, and mathematics (STEM) education and research at Historically Black Colleges and Universities
+      (HBCUs) as a means to broaden participation in the Nation's STEM workforce. Support is available for Implementation Projects (including Achieving Competitive Excellence), Education Research Projects,
+      Targeted Infusion Projects, and Planning Grants.Implementation Projects provide support to implement a
+  - id: '45635'
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    abstract: This program provides awards to enhance the quality of undergraduate science, technology, engineering, and mathematics (STEM) education and research at Historically Black Colleges and Universities
+      (HBCUs) as a means to broaden participation in the Nation's STEM workforce. Support is available for Implementation Projects (including Achieving Competitive Excellence), Planning Grants, Education
+      Research Projects, and Targeted Infusion Projects.Implementation Projects provide support to implement a
+  - id: '54511'
+    title: FY 2010 NASA K-12 Cooperative Agreements Notice (CAN)
+    abstract: The National Aeronautics and Space Administration (NASA) Office of Education is releasing this NASA Cooperative Agreements Notice (CAN) for proposals. The K-12 CAN effort seeks proposals that
+      incorporate innovative approaches for development and delivery of instructional materials and experiences that capture the interest of learners and actively involve them in relevant, NASA STEM-themed
+      content applications. The instructional materials and experiences should support secondary level teaching
+  - id: '54567'
+    title: Curriculum Improvement Partnership Award for the Integreation of Research into the Undergraduate Curriculum (C
+    abstract: The Curriculum Improvements Partnership Award for the Integration of Research assists two- and four-year minority institutions with strengthening their science, technology, engineering and
+      mathematics academic fields and technical programs. Funding is used to increase the quantity and quality of STEM curricula, the number of underrepresented and underserved students who attain degrees
+      in STEM, and the number of underrepresented and underserved students who choose careers in NASA-related fields.
+  - id: '56755'
+    title: Transforming STEM Learning
+    abstract: TSL combines interests and resources of separate programs in the Division of Research on Learning in Formal and Informal Settings (DRL) to explore the opportunities and challenges implied
+      by innovative visions of the future for STEM learning.?? The TSL program invites interdisciplinary teams of STEM content specialists, experts in relevant technologies, STEM formal and informal education
+      specialists, researchers with expertise in the learning sciences, and specialists in education research and e
+  - id: '348985'
+    title: Research Experiences for Undergraduates (REU)
+    abstract: <p>The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science
+      Foundation. REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms
+      for supporting student research:</p> <ul> <li><em>REU Sites</em> are based on independent proposals to initiate
+  - id: '177715'
+    title: Research Experiences for Undergraduates
+    abstract: 'The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation.
+      REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support
+      of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects'
+  - id: '48795'
+    title: Research Experiences for Undergraduates
+    abstract: 'The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation.
+      REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support
+      of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects'
+  - id: '45613'
+    title: Research Experiences for Undergraduates
+    abstract: 'The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation.
+      REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support
+      of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects'
+  - id: '48857'
+    title: Research and Evaluation on Education in Science and Engineering
+    abstract: 'The Research and Evaluation on Education in Science and Engineering (REESE) program seeks to advance research at the frontiers of STEM learning, education, and evaluation, and to provide
+      the foundational knowledge necessary to improve STEM teaching and learning at all educational levels and in all settings. This solicitation calls for four types of proposals&mdash;Pathways, Knowledge
+      Diffusion, Empirical Research, and Large Empirical Research.The goals of the REESE program are: (1) to catalyze'
+  - id: '52102'
+    title: Fostering Interdisciplinary Research on Education
+    abstract: FIRE is a new strand of the Research and Evaluation on Education in Science and Engineering (REESE) program (NSF 09-601) and it is anticipated that after this first competition, FIRE will
+      be incorporated into the REESE solicitation. The FIRE program seeks to facilitate the process by which scholars can cross disciplinary boundaries to acquire the skills and knowledge that would improve
+      their abilities to conduct rigorous research on STEM learning and education. The primary goal of the strand is
+  - id: '165533'
+    title: Research and Evaluation on Education in Science and Engineering
+    abstract: 'The Research and Evaluation on Education in Science and Engineering (REESE) program seeks to advance research at the frontiers of STEM learning and education, and to provide the foundational
+      knowledge necessary to improve STEM learning and education in current and emerging learning contexts, both formal and informal, from childhood through adulthood, for all groups, and from before school
+      through to graduate school and beyond into the workforce. The goals of the REESE program are: (1) to catalyz'
+  - id: '350802'
+    title: Research Experiences for Teachers (RET) in Engineering and Computer Science
+    abstract: <p>The Research Experiences for Teachers (RET) in Engineering and Computer Science program supports authentic summer research experiences for K-14 educators to foster long-term collaborations
+      between universities, community colleges, school districts, and industry partners. With this solicitation, the Directorates for Engineering (ENG) and Computer and Information Science and Engineering
+      (CISE) focus on a reciprocal exchange of expertise between K-14 educators and research faculty and (when appl
+  - id: '172213'
+    title: Advancing Informal STEM Learning
+    abstract: The Advancing Informal STEM Learning program invests in research and development of innovative and field advancing out of school STEM learning and emerging STEM learning environments.
+  - id: '115153'
+    title: Short-Term Research Education Program to Increase Diversity in Health-Related Research (R25)
+    abstract: The National Heart, Lung, and Blood Institute, National Institutes of Health invites Research Education (R25) applications to promote diversity in undergraduate and health professional student
+      populations by providing short-term research education support to stimulate career development in cardiovascular, pulmonary, hematologic, and sleep disorders research. The overall goal of the program
+      is to provide research opportunities for individuals from backgrounds underrepresented in biomedical scien
+  - id: '162133'
+    title: Short-Term Research Education Program to Increase Diversity in Health-Related Research (R25)
+    abstract: The National Heart, Lung, and Blood Institute, National Institutes of Health invites Research Education (R25) applications to promote diversity in undergraduate and health professional participant
+      populations by providing short-term research education support to stimulate career development in cardiovascular, pulmonary, hematologic, and sleep disorders research. The overall goal of the program
+      is to provide research opportunities for individuals from backgrounds underrepresented in biomedical s
+  - id: '45641'
+    title: Integrative Graduate Education and Research Traineeship Program
+    abstract: The Integrative Graduate Education and Research Traineeship (IGERT) program has been developed to meet the challenges of educating U.S. Ph.D. scientists and engineers who will pursue careers
+      in research and education, with the interdisciplinary backgrounds, deep knowledge in chosen disciplines, and technical, professional, and personal skills to become, in their own careers, leaders and
+      creative agents for change. The program is intended to catalyze a cultural change in graduate education, for s
+  - id: '50886'
+    title: Integrative Graduate Education and Research Traineeship Program
+    abstract: The Integrative Graduate Education and Research Traineeship (IGERT) program has been developed to meet the challenges of educating U.S. Ph.D. scientists and engineers who will pursue careers
+      in research and education, with the interdisciplinary backgrounds, deep knowledge in chosen disciplines, and technical, professional, and personal skills to become, in their own careers, leaders and
+      creative agents for change. The program is intended to catalyze a cultural change in graduate education, for s
+  - id: '47014'
+    title: Informal Science Education (ISE)
+    abstract: 'The ISE program invests in projects that promote lifelong learning of STEM in a wide variety of informal settings. Funding is provided for projects that advance understanding of informal
+      STEM learning, that develop and implement innovative strategies and resources for informal STEM education, and that build the national professional capacity for research, development, and practice
+      in the field.There are five categories of ISE program grants: Research; Pathways; Full-Scale Development; Broad Imp'
+  - id: '66675'
+    title: Fostering Interdisciplinary Research on Education
+    abstract: FIRE is a strand of the Research and Evaluation on Education in Science and Engineering (REESE) program (NSF 10-586) and it is anticipated that FIRE will eventually be incorporated into the
+      REESE solicitation. The FIRE program seeks to facilitate the process by which scholars can cross disciplinary boundaries to acquire the skills and knowledge that would improve their abilities to conduct
+      rigorous research on STEM learning and education. The primary goal of the strand is to facilitate the devel
+  - id: '148155'
+    title: Research in Disabilities Education
+    abstract: The Research in Disabilities Education (RDE) program advances the goal of broadening the participation and achievement of postsecondary students with disabilities in STEM. This effort is realized
+      by making strategic investments in educational and institutional Model Building and in basic and applied Broadening Participation Research in STEM Education (BPR). Model Building projects develop,
+      replicate, translate and utilize innovative educational and institutional capacity building models to broa
+  - id: '58924'
+    title: Research Experiences for Teachers (RET) in Engineering and Computer Science
+    abstract: The Directorate for Engineering (ENG) and the Directorate for Computer and Information Science and Engineering (CISE), Research Experiences for Teachers (RET) in Engineering and Computer Science
+      program supports the active involvement of K-12 science, technology, engineering, computer and information science, and mathematics (STEM) teachers and community college faculty in engineering and
+      computer science research in order to bring knowledge of engineering, computer science, and technological i
+- id: q015
+  text: broadening participation of women in engineering
+  candidates:
+  - id: '90994'
+    title: Louis Stokes Alliances for Minority Participation
+    abstract: The Louis Stokes Alliances for Minority Participation (LSAMP) program provides funding for new, mid-level and senior-level alliances, the Bridge to the Doctorate (LSAMP-BD) Activity, and knowledge
+      generation activities in broadening participation, e.g., research on topics in STEM education related to retention and persistence of students from populations underrepresented in STEM majors and
+      careers. In FY2012, the program plans to support up to two pilot regional Louis Stokes Centers of Excellen
+  - id: '45736'
+    title: 'ADVANCE:  Increasing the Participation and Advancement of Women in Academic Science and Engineering Careers'
+    abstract: The goal of the ADVANCE program is to develop systemic approaches to increase the representation and advancement of women in academic science, technology, engineering and mathematics (STEM)
+      careers, thereby contributing to the development of a more diverse science and engineering workforce.Creative strategies to realize this goal are sought from women and men. Members of underrepresented
+      minority groups and individuals with disabilities are especially encouraged to apply. Proposals that address
+  - id: '56518'
+    title: 'ADVANCE:  Increasing the Participation and Advancement of Women in Academic Science and Engineering Careers'
+    abstract: The goal of the ADVANCE program is to develop systemic approaches to increase the representation and advancement of women in academic science, technology, engineering and mathematics (STEM)
+      careers, thereby contributing to the development of a more diverse science and engineering workforce. ADVANCE focuses on ensuring that women faculty with earned STEM degrees consider academia as a
+      viable and attractive career option. This program does not support projects to increase or retain the number of
+  - id: '45696'
+    title: Undergraduate Research and Mentoring in the Biological Sciences
+    abstract: The goal of the Undergraduate Research and Mentoring in the Biological Sciences (URM) program is to increase the number and diversity of individuals pursuing graduate studies in all areas
+      of biological research supported by the NSF Directorate for Biological Sciences. Support will be provided to academic institutions to establish innovative programs to engage undergraduates in a year-round
+      research and mentoring activity. Particular emphasis will be placed on broadening participation of members
+  - id: '51392'
+    title: Undergraduate Research and Mentoring in the Biological Sciences
+    abstract: The goal of the Undergraduate Research and Mentoring in the Biological Sciences (URM) program is to increase the number and diversity of individuals pursuing graduate studies in all areas
+      of biological research supported by the NSF Directorate for Biological Sciences. Support will be provided to academic institutions to establish innovative programs to engage undergraduates in a year-round
+      research and mentoring activity. Particular emphasis will be placed on broadening participation of members
+  - id: '50843'
+    title: Alliances for Broadening Participation in STEM
+    abstract: LSAMP and AGEP PROGRAMSThe Alliances for Broadening Participation in STEM (ABP) solicitation includes the Louis Stokes Alliances for Minority Participation (LSAMP) program, Bridge to the Doctorate
+      (LSAMP-BD) Activity, LSAMP educational research projects, and the Alliances for Graduate Education and the Professoriate (AGEP) program. This portfolio of programs seeks to increase the number of
+      students successfully completing quality degree programs in science, technology, engineering and mathematic
+  - id: '45640'
+    title: Alliances for Broadening Participation in STEM
+    abstract: LSAMP and AGEP PROGRAMSThe Alliances for Broadening Participation in STEM (ABP) solicitation includes the Louis Stokes Alliances for Minority Participation (LSAMP) program, Bridge to the Doctorate
+      (LSAMP-BD) Activity, and the Alliances for Graduate Education and the Professoriate (AGEP) program. This portfolio of programs seek to increase the number of students successfully completing quality
+      degree programs in science, technology, engineering and mathematics (STEM). Particular emphasis is plac
+  - id: '89413'
+    title: Tribal Colleges and Universities Program
+    abstract: The Tribal Colleges and Universities Program (TCUP) provides awards to Tribal Colleges and Universities, Alaska Native-serving institutions, and Native Hawaiian-serving institutions to promote
+      high quality science, technology, engineering and mathematics (STEM) education, research, and outreach. TCUP-eligible institutions are predominantly two-year and community colleges. Support is available
+      to TCUP-eligible institutions (see the Additional Eligibility subsection of Section IV of this solicita
+  - id: '188454'
+    title: SBE Postdoctoral Research Fellowships
+    abstract: 'The Directorate for Social, Behavioral and Economic Sciences (SBE) offers Postdoctoral Research Fellowships in two tracks: (i) Broadening Participation (SPRF-BP), and (ii) Interdisciplinary
+      Research in Behavioral and Social Sciences (SPRF-IBSS). See the full text of the solicitation for detailed description of these tracks.'
+  - id: '183054'
+    title: 'ADVANCE:  Increasing the Participation and Advancement of Women in Academic Science and Engineering Careers'
+    abstract: For many decades, an increasing number of women have obtained STEM doctoral degrees, however, women, particularly women of color, continue to be significantly underrepresented in almost all
+      STEM academic positions. While the degree of underrepresentation varies among STEM disciplines, women's advancement to senior professorial ranks and leadership roles is an issue in all fields. The
+      underrepresentation of women is also a critical issue for the nation, at large, as its need to develop a global
+  - id: '168553'
+    title: Advancing Careers of Women in Science
+    abstract: The Bureau of Oceans and International Environmental and Scientific Affairs (OES) Office of Science and Technology Cooperation at the Department of State announces the Request for Applications
+      (RFA) for Advancing Careers of Women in Science. With FY 2012 funding, OES is seeking to fund one grant that delivers professional development activities for a mostly female participant group to advance
+      women who are early career scientists. Activities may be implemented in conjunction with technical trai
+  - id: '350230'
+    title: Research in the Formation of Engineers
+    abstract: The NSF Engineering Directorate (ENG) has launched a multi-year initiative, theProfessional Formation of Engineers, to create and support an innovative and inclusive engineering profession
+      for the 21<sup>st</sup>century. Professional Formation of Engineers (PFE) refers to the formal and informal processes and value systems by which people become engineers. It also includes the ethical
+      responsibility of practicing engineers to sustain and grow the profession in order to improve quality of life fo
+  - id: '148155'
+    title: Research in Disabilities Education
+    abstract: The Research in Disabilities Education (RDE) program advances the goal of broadening the participation and achievement of postsecondary students with disabilities in STEM. This effort is realized
+      by making strategic investments in educational and institutional Model Building and in basic and applied Broadening Participation Research in STEM Education (BPR). Model Building projects develop,
+      replicate, translate and utilize innovative educational and institutional capacity building models to broa
+  - id: '166173'
+    title: U.S. Embassy Kabul Women&#146;s Economic Participation Research Project
+    abstract: "This grant will fund one comprehensive study of Afghan women's economic activity throughout the country. The purpose of the study is to create as complete as possible a picture of the totality\
+      \ of Afghan women's work, in the form of: 1. a map identifying key areas of women\x92s participation throughout the country, 2. a detailed report, and 3. a directory of businesses either owned by\
+      \ Afghan women or employing large numbers of them. Proposals should clearly demonstrate that the grantee ha"
+  - id: '353413'
+    title: 'IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)'
+    abstract: <p>Revolutionizing Engineering Departments (hereinafter referred to as RED) is designed to build upon previous efforts in engineering education research. Specifically, previous and ongoing
+      evaluations of the NSF Engineering Education and Centers Division program and its predecessors, as well as those related programs in the Directorate for STEM Education, have shown that prior investments
+      have significantly improved the first year of engineering students&rsquo; experiences, incorporating enginee
+  - id: '169457'
+    title: WOMENS LEADERSHIP IN SMALL AND MEDIUM ENTERPRISES (WLSME) PROGRAM
+    abstract: "The U.S. Agency for International Development\x92s Microenterprise & Private Enterprise Promotion office (USAID/MPEP) is pleased to announce the Women\x92s Leadership in Small and Medium\
+      \ Enterprises (WLSME) pilot research program. USAID/MPEP requests applications to this WLSME Program that propose innovative, scalable ideas to: (1) Directly increase the entry and growth of women-owned\
+      \ and/or women-managed small and medium enterprises (SMEs) in the developing world; and (2) through participation in ri"
+  - id: '152433'
+    title: TechWomen
+    abstract: The Office of Citizen Exchanges of the Bureau of Educational and Cultural Affairs announces an open competition for TechWomen. Public and private non-profit organizations meeting the provisions
+      described in Internal Revenue Code section 26 USC 501(c)(3) may submit proposals to conduct one or two professional mentorship exchange programs. Applicants should plan to demonstrate the capacity
+      to recruit and select 1) a total of approximately 42 women from Algeria, Egypt, Jordan, Lebanon, Libya, Moroc
+  - id: '361952'
+    title: Professional Formation of Engineers (PFE)
+    abstract: <p>The Professional Formation of Engineers (PFE) initiative integrates engineering research and education to improve and expand the nation&rsquo;s engineering workforce. PFE is defined as
+      the formal and informal processes and value systems by which people become engineers. The goal of PFE is to create an ethical engineering workforce with a global outlook and the ability to adapt to
+      the rapidly evolving technical environment. This will help build a future engineering workforce with the skills to
+  - id: '344608'
+    title: Training-based Workforce Development for Advanced Cyberinfrastructure
+    abstract: <p>This program seeks to prepare, nurture, and grow the national scientific <em>research </em>workforce for <em>creating, utilizing, </em>and <em>supporting </em>advanced cyberinfrastructure
+      (CI) to enable and potentially transform fundamental science and engineering (S&amp;E) research and education and contribute to the Nation's overall economic competitiveness and security. The goals
+      of this solicitation are to <strong>(i) </strong><strong>ensure</strong><strong> <em>broad adoption </em>of CI
+  - id: '53899'
+    title: Women And Minorities In Science, Technology, Engineering And Mathematics Fields Program (WAMS)
+    abstract: 'This grant program supports research and extension projects that have robust collaborations to increase the participation of women and underrepresented minorities from rural areas in science,
+      technology, engineering and mathematics fields that are relevant to USDA priorities identified by the Secretary: (i) Promotion of a safe, sufficient, and nutritious food supply for all Americans and
+      for people around the world; (ii) Sustainable agricultural policies that foster economic viability for small'
+  - id: '77935'
+    title: Women And Minorities In Science, Technology, Engineering And Mathematics Fields Program (WAMS)
+    abstract: 'This grant program supports research and extension projects that have robust collaborations to increase the participation of women and underrepresented minorities from rural areas in science,
+      technology, engineering and mathematics fields that are relevant to USDA priorities identified by the Secretary: (i) Promotion of a safe, sufficient, and nutritious food supply for all Americans and
+      for people around the world; (ii) Sustainable agricultural policies that foster economic viability for small'

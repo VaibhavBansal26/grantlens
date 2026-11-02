@@ -1,0 +1,593 @@
+queries:
+- id: q001
+  text: early-career funding for AI in cancer imaging
+  candidates:
+  - id: '357002'
+    title: Molecular Imaging of Inflammation in Cancer (R01 Clinical Trial Not Allowed)
+    abstract: The purpose of this Notice of Funding Opportunity (NOFO) is to invite research grant applications (R01) for the development and use of current and emerging molecular imaging methods to gain
+      fundamental insights into cancer inflammation in vivo. The motivation for this initiative is that much of current imaging research into the role of inflammation in cancer is largely based on in vitro
+      and ex vivo methods with limited utilization of imaging approaches that could lead to significant new insights
+  - id: '59073'
+    title: Advanced In Vivo Imaging to Understand Cancer Systems (R01)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) is to promote and support new collaborative projects that focus on the integration of advanced in vivo imaging technologies with
+      systems biology approaches to understand complex cancer phenomena at highest resolution. It is expected that applications proposed in response to this FOA will be based on collaborative interactions
+      among scientists specializing in in vivo cancer imaging, cancer complexity research, and others relevant fields o
+  - id: '78553'
+    title: Quantitative Imaging for Evaluation of Responses to Cancer Therapies (U01)
+    abstract: This funding opportunity announcement (FOA) is designed to promote research on quantitative imaging of tumor response to cancer therapies in clinical trial settings, with the overall goal
+      of facilitating clinical decision making. Proposed projects should include the appropriate development and adaptation/implementation of quantitative imaging methods, protocols and software solutions/tools
+      (using existing commercial imaging platforms and instrumentation), and their application in current and pla
+  - id: '357003'
+    title: Integration of Imaging and Fluid-Based Tumor Monitoring in Cancer Therapy (R01 Clinical Trial Optional)
+    abstract: Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) seeks research project (R01) grant applications describing projects that integrate imaging and fluid-based
+      tumor monitoring (liquid biopsy) assays during cancer therapy in patients to determine the optimal use of those modalities in the characterization of therapy response and/or emergence of resistance.
+  - id: '229373'
+    title: Academic-Industrial Partnerships for Translation of in vivo Imaging Systems for Cancer Investigations (R01)
+    abstract: This Funding Opportunity Announcement (FOA) encourages applications from research partnerships formed by academic and industrial investigators to accelerate the translation of either preclinical
+      or clinical in vivo imaging systems and/or methods that are designed to solve a targeted cancer problem. The proposed imaging system/methods may include single or multi-modality in vivo imaging and
+      spectroscopy systems, image-guided and drug delivery systems, image analysis, and related research resource
+  - id: '357018'
+    title: Academic-Industrial Partnerships (AIP) to Translate and Validate In Vivo Imaging Systems (R01 Clinical Trial O
+    abstract: Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) intends to stimulate translation of scientific discoveries and engineering developments in imaging, data
+      science and/or spectroscopic technologies into methods or tools that address contemporary problems in understanding the fundamental biology, potential risk of development, diagnosis, treatment, and/or
+      disease status for cancer or other disease.
+  - id: '53821'
+    title: Academic-Industrial Partnerships for Translation of in vivo Imaging Systems for Cancer Investigations (R01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the Cancer Imaging and Radiation Research Programs of the National Cancer Institute (NCI), National Institutes of Health (NIH),
+      encourages applications from research partnerships formed by academic and industrial investigators to accelerate the translation of either animal or human in vivo imaging, image guided, and/or spectroscopic
+      systems and methods designed to solve targeted cancer problems for cancer research, clinical trials, a
+  - id: '49066'
+    title: Image-guided Drug Delivery in Cancer (R01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), encourages innovative translational research in the development of quantitative in vivo
+      imaging characterization of image-guided drug delivery (IGDD) in cancer, including characterizations of the target, delivery validation, and therapy response. This FOA will support research in development
+      of integrated imaging-based platforms for multifunctional and multiplexed drug delivery systems in cancer.
+  - id: '78633'
+    title: Strategic Partnering to Evaluate Cancer Signatures [SPECS II] (U01)
+    abstract: This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI) of the National Institutes of Health (NIH), encourages the submission of grant applications for support
+      of the clinical application of multi-analyte molecular signatures derived from comprehensive molecular annotation of tumors. There is growing recognition in the clinical cancer research community
+      that annotation of tumor specimens with data that integrates information about molecular alterations at the l
+  - id: '44375'
+    title: Application and Use of Transformative Emerging Technologies in Cancer Research (R21)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the National Cancer Institute (NCI), National Institutes of Health (NIH), solicits grant applications proposing exceptionally
+      innovative, high risk, original and/or unconventional research projects focused on evaluating the performance of emerging, potentially transformative molecular and cellular analysis technologies within
+      the context of an appropriate cancer-relevant biological system. The emphasis of this FOA is on the applicati
+  - id: '44376'
+    title: Application and Use of Transformative Emerging Technologies in Cancer Research (R33)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the National Cancer Institute (NCI), National Institutes of Health (NIH), solicits grant applications proposing exceptionally
+      innovative, high risk, original and/or unconventional research projects focused on evaluating the performance of emerging, potentially transformative molecular and cellular analysis technologies within
+      the context of an appropriate cancer-relevant biological system. The emphasis of this FOA is on the applicati
+  - id: '135253'
+    title: Early-Stage Innovative Technology Development for Cancer Research (R21)
+    abstract: This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), solicits grant applications proposing exploratory research projects focused on the inception and
+      development of early stage, highly innovative, technologies or emerging technologies with significant transformative potential that has not yet been explored in a cancer-relevant use. An emerging
+      technology is defined (for the purpose of this FOA) as one that has passed the initial developmental stage, but has
+  - id: '51008'
+    title: Image-Guided Cancer Interventions (SBIR [R43/R44])
+    abstract: 'Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), encourages Small Business Innovation Research (SBIR) grant applications from small business
+      concerns (SBCs) that propose the development and clinical validation of systems for image-guided interventions (IGIs) for cancer. Specifically, the goals of this program are to provide support for:
+      the development and optimization of fully integrated cancer imaging, monitoring, and therapy systems; the val'
+  - id: '49991'
+    title: Application and Early Stage Development of Emerging Technologies in Cancer Research (R21)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), National Institutes of Health (NIH), solicits grant applications that propose exploratory
+      research projects on the initial application of emerging analytical technologies as laboratory or clinical tools. An emerging technology is defined as one that has passed the initial developmental
+      stage, but has not yet been evaluated within the context of its intended use. Projects proposed in response to t
+  - id: '206213'
+    title: Early-Stage Innovative Molecular Analysis Technology Development for Cancer Research (R21)
+    abstract: This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), solicits grant applications proposing exploratory research projects focused on the inception and
+      development of early stage, highly innovative, technologies or emerging technologies with significant transformative potential that has not yet been explored in a cancer-relevant use. An emerging
+      technology is defined (for the purpose of this FOA) as one that has passed the initial developmental stage, but has
+  - id: '52564'
+    title: Strategic Partnering to Evaluate Cancer Signatures [SPECS II] (U01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI) of the National Institutes of Health (NIH), encourages the submission of grant applications
+      for support of the clinical application of multi-analyte molecular signatures derived from comprehensive molecular annotation of tumors. There is growing recognition in the clinical cancer research
+      community that annotation of tumor specimens with data that integrates information about molecular alterations
+  - id: '359892'
+    title: Early-Stage Development of Informatics Technologies for Cancer Research and Management (U01 Clinical Trial Opt
+    abstract: This Notice of Funding Opportunity (NOFO) solicits applications for the development of enabling informatics technologies to improve the acquisition, management, analysis, and dissemination
+      of data and knowledge across the cancer research continuum including cancer biology, cancer treatment and diagnosis, early cancer detection, risk assessment and prevention, cancer control and epidemiology.
+      As a component of the NCI's Informatics Technology for Cancer Research (ITCR) Program, this NOFO is focus
+  - id: '49993'
+    title: Validation and Advanced Development of Emerging Technologies for Cancer Research (R33)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), National Institutes of Health (NIH), solicits grant applications proposing research projects
+      on the advanced development of emerging molecular and cellular analysis technologies through technical/analytical validation in an appropriate cancer-relevant biological system. An emerging technology
+      is defined as one that has passed the pilot developmental stage and shows promise, but has not yet been e
+  - id: '363168'
+    title: Advanced Development and Validation of Emerging Technologies for Basic and Clinical Cancer Research (R33 Clini
+    abstract: <p>Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) solicits grant applications proposing exploratory research projects focused on further development
+      and validation of emerging technologies for cancer research or clinical care. This NOFO solicits R33 applications where major feasibility gaps for the technology or methodology have been overcome,
+      as demonstrated with supportive preliminary data, but still requires further development, enhancements, optimizati
+- id: q002
+  text: machine learning for medical image segmentation
+  candidates:
+  - id: '50043'
+    title: Technologies for Image-Guided Interventions (R01)
+    abstract: Purpose. This funding opportunity announcement (FOA) solicits research project grant (R01) applications that propose high-impact technologies for image-guided interventions. As defined here,
+      image-guided interventions (IGI), integrate images for navigation during a treatment or biopsy. The goal of the IGI initiative is to produce technologies that will replace current treatments with
+      minimally invasive, image-guided interventions. A disruptive technology is a new technological innovation that re
+  - id: '44540'
+    title: 'Quick-Trials for Imaging and Image-Guided Interventions: Exploratory Grants (R21)'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) is intended to support clinical trials conducting preliminary evaluation of the safety and efficacy of imaging agents, as well as an assessment
+      of imaging systems, image processing, image-guided therapy, contrast kinetic modeling, and 3-D reconstruction and other quantitative tools. The rapid translation of promising discoveries in the fields
+      of imaging probes, methodologies, technologies and image-guided therapies to clinical practice require
+  - id: '96353'
+    title: Early Phase Clinical Trials in Imaging and Image-Guided Interventions (R21)
+    abstract: This Funding Opportunity Announcement (FOA) is intended to support clinical trials conducting preliminary evaluation of the safety and efficacy of imaging agents, as well as an assessment
+      of imaging systems, image processing, image-guided therapy, contrast kinetic modeling, and 3-D reconstruction and other quantitative tools. As many such preliminary evaluations are early in development,
+      this FOA will provide investigators with support for pilot (Phase I and II) cancer imaging clinical trials, i
+  - id: '364160'
+    title: Climate Program Office FY 2027 - Super Intelligence/Machine Learning Innovation to Advance NOAA's Earth System
+    abstract: '<p><span style="background-color: transparent;">Through this </span>Notice of Federal Funding Opportunity, <span style="background-color: transparent;">the NOAA Climate Program Office (</span><a
+      href="https://cpo.noaa.gov/funding-opportunities/" target="_blank" style="background-color: transparent; color: rgb(7, 130, 193);"><u>https://cpo.noaa.gov/funding-opportunities/</u></a><span style="background-color:
+      transparent;">) is soliciting proposals for a FY 2027 grants competition focused on Super'
+  - id: '77293'
+    title: Special Program Announcement for 2011 Office of Naval Research &#147;Machine Reasoning and Intelligence
+    abstract: The proposed topic will develop fundamental understanding and methods that lead to autonomous systems that can successfully execute a variety of missions in complex environments through machine
+      reasoning while exploiting al sources of sensor and open domain data. *************** Applicants shall NOT apply under this Special Notice. Applicants shall apply using the Application Instructions
+      and Package under ONRBAA11-001.
+  - id: '359003'
+    title: 'Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial '
+    abstract: The National Library of Medicine (NLM) seeks applications for research projects that drive groundbreaking innovation and advanced development in the fields of bioinformatics, translational
+      bioinformatics, and computational biology. The primary goal of this initiative is to support the creation and implementation of cutting-edge methods, tools, and approaches that can transform the landscape
+      of biomedical data science. This NOFO aims to address the growing need to leverage transformative technolo
+  - id: '176293'
+    title: Establish Sharing of Human Brain Image Data Relevant to Drug Addiction (Admin Supp)
+    abstract: 'This program is intended to supplement NIDA funded projects to enable investigators to standardize and disseminate brain image data from patient (current or former drug abusers or subjects
+      with risk factors) and/or healthy comparison subjects. These supplements would cover the additional costs required to either: 1) form multi-site consortia that would enable cross-site federation and
+      standardization of brain imaging data, or 2) share extant or accumulating data using either a new open-access p'
+  - id: '142053'
+    title: CSU CIRA Air quality data analysis and image display techniques
+    abstract: This project will provide assitance for visibility data analysis and image display techniques to enhance the scientific understnding of the causes of visibility degradation and atmospheric
+      loading to ecosystems. This project will be issued as a task agreement, on a non-competitive basis to Colorado State University under an existing Cooperative Ecosystem Studies Unit Cooperative Agreement
+      NO H2370094000. This is a notice of intent and non competitive award in accordance with Department of Inte
+  - id: '361318'
+    title: NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independen
+    abstract: <p>The National Library of Medicine (NLM) invites applications for innovative predoctoral and postdoctoral training programs that prepare the next generation of&nbsp;researchers&nbsp;in biomedical
+      informatics, data science, and artificial intelligence/machine learning (AI/ML). NLM emphasizes&nbsp;cutting-edge, forward-looking training experiences that equip trainees to address complex health
+      and biomedical challenges through advanced computational approaches. Applications may propose the creatio
+  - id: '351125'
+    title: Utilizing Real-World Data and Algorithmic Analyses to Assess Post-Market Clinical Outcomes in Patients Switchi
+    abstract: '<p><span style="color: black;">Complex generic drug products represent an increasing share of the generic marketplace and may have distinct user interface differences compared to reference
+      listed drug (RLD) products. A modernized post-market surveillance approach is needed to compare clinical outcomes between complex generic products and their corresponding RLD products to monitor for
+      potential issues with therapeutic equivalence and to inform regulatory decision making. Real-world data (RWD) co'
+  - id: '109895'
+    title: FWS-R9-NWI-SMUMN
+    abstract: "Under the terms of this cooperative agreement task, Saint Mary\xEF\xBF\xBDs University of Minnesota (SMUMN) will work cooperatively with the Fish and Wildlife Service\xEF\xBF\xBDs (FWS) National\
+      \ Wetlands Inventory, National Standards and Support Team (NSST), to develop and implement techniques for the digital capture of raster image scans, annotated aerial photography and for the image\
+      \ analysis and updating of wetlands map data in a selected coastal watershed. SMUMN is uniquely qualified for this cooperative ve"
+  - id: '356888'
+    title: Computational Approaches to Curation at Scale for Biomedical Research Assets (R01 Clinical Trial Not Allowed)
+    abstract: NLM wishes to accelerate access to, and availability of, secure, complete datasets and computational models that can serve as the basis for transformative biomedical discoveries. Innovative
+      at-scale computational approaches that increase the speed and scope of curation processes are needed for data mining and knowledge discovery from growing quantities of biomedical data being produced
+      from ongoing data science advances.
+  - id: '363678'
+    title: Multimodal AI to Accelerate Precision Medicine for Type 1 Diabetes (U01- Clinical Trials Not Allowed)
+    abstract: <p>Type 1 diabetes (T1D) is a complex disease involving interactions among many different cell types, tissues, organs and biological processes. Genetics, the environment, and lifestyle all
+      play a role in disease development and progression. Over the past two decades, the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) has supported major T1D research consortia
+      covering basic, translational, and clinical research. Each consortium has focused on different aspects of T1D, s
+  - id: '47153'
+    title: Non-Invasive Methods for Diagnosis and Progression of Diabetes, Kidney, Urological, Hematological and Digestiv
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) is a call for the application of imaging and other non- or minimally-invasive technologies to detect, characterize, diagnose, identify
+      persons with predisposition to, or monitor treatment of diseases of interest to the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and the National Heart Lung and Blood Institute
+      (NHLBI) of the National Institutes of Health (NIH). Also needed are new, robust surrogate markers for clini
+  - id: '78553'
+    title: Quantitative Imaging for Evaluation of Responses to Cancer Therapies (U01)
+    abstract: This funding opportunity announcement (FOA) is designed to promote research on quantitative imaging of tumor response to cancer therapies in clinical trial settings, with the overall goal
+      of facilitating clinical decision making. Proposed projects should include the appropriate development and adaptation/implementation of quantitative imaging methods, protocols and software solutions/tools
+      (using existing commercial imaging platforms and instrumentation), and their application in current and pla
+  - id: '64313'
+    title: Automated Extraction of Grade Crossing Features from LIDAR Data - Phase 2
+    abstract: This is a continuation of grant DTFR53-09-G-00046 with the University of Michigan and will fund phase 2 of the work. Using LIDAR data the Grantee will develop algorithms to automatically detect
+      and record grade crossing parameters and traffic control devices in the vicinity of railroad right-of-way
+  - id: '84873'
+    title: Integrating Multi-Dimensional Data to Explore Mechanisms Underlying Mental Disorders (RO1)
+    abstract: The purpose of this Funding Opportunity Announcement (FOA) is to solicit research grant applications to develop advanced bioinformatics and statistical tools to integrate genomic, environmental
+      and phenotypic data.This FOA provides a mechanism to support the development of bioinformatic approaches focused on integrating multi-dimensional data sets.This may require the development of new
+      methods for data reduction, the development of new statistical tools, and/or the development of new approaches
+  - id: '155593'
+    title: Developing Innovative Methodologies and Device-Specific Infrastructure through the Medical Device Epidemiology
+    abstract: 1. Advance and apply innovative methodological solutions to bridge premarket and postmarket evidence of medical countermeasures (MCM)-related device safety and effectiveness, including evidence
+      synthesis, and evaluation of medical device patient-centered outcomes across the total product life cycle (TPLC). 2. Conduct highest quality independent research to contribute to medical device regulatory
+      decision-making for MCM-priority medical devices and radiological health. 3. Advance develop
+  - id: '58244'
+    title: 'Training in Neuroimaging: Integrating First Principles and Applications (T90/R90)'
+    abstract: 'Purpose: This FOA is an initiative of the NIH Blueprint for Neuroscience Research (http://neuroscienceblueprint.nih.gov), a trans-NIH partnership to accelerate neuroscience research. Sixteen
+      Institutes and Centers (ICs) are participating in the Blueprint. This funding opportunity will enable the development of novel, interdisciplinary training programs that integrate comprehensive training
+      in basic neuroscience, the physical and biological bases of neuroimaging, the technologies of in vivo neu'
+  - id: '51813'
+    title: Innovations in Biological  Imaging and Visualization
+    abstract: The IBIV activity supports the development of novel approaches to the analysis of biological research images through the innovative &quot;Ideas Lab&quot; project development and review process.
+      The analysis and visual representation of complex biological images present daunting challenges across all scales of investigation, from multispectral analysis of foliage or algal bloom patterns in
+      satellite images, to automated specimen classification, and tomographic reconstructions in structural biolo
+  - id: '75073'
+    title: NLM Institutional Training Grants for Research Training in Biomedical Informatics (T-15)
+    abstract: The National Library of Medicine invites training grant applications for support of predoctoral and postdoctoral training for research careers in biomedical informatics. Applications may be
+      for the creation of entirely new program or for the renewal of existing NLM training program grants. Such training will help meet a growing need for investigators trained in biomedical computing and
+      related fields as they directly relate to application domains, including health care delivery, basic biomedical
+  - id: '359068'
+    title: 'BRAIN Initiative: Theories, Models and Methods for Analysis of Complex Data from the Brain (R01 Clinical Trial'
+    abstract: The Theories, Models and Methods (TMM) initiative will support the development of computational tools for understanding dynamic brain circuits that are made broadly accessible to the greater
+      research community. This program supports applications focused on tool building and dissemination in the domain of theories about neural circuit mechanisms, models of circuit structure and function,
+      and/or computational methods of analysis spanning across scales from neurons to behavior. The development of n
+  - id: '60613'
+    title: Soldier Centric Imaging via Computational Cameras (SCENICC)
+    abstract: The Soldier Centric Imaging via Computational Cameras (SCENICC) Broad Agency Announcement seeks proposals that fully exploit the computational imaging paradigm and associated emerging technologies
+      to yield ultra-low size, weight, and power (SWaP) persistent/multi-functional soldier-scale Intelligence, Surveillance and Reconnaissance (ISR) systems that greatly enhance warfighter awareness, capability,
+      security, and survivability.See Attached DARPA-BAA-11-26.
+  - id: '49066'
+    title: Image-guided Drug Delivery in Cancer (R01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), encourages innovative translational research in the development of quantitative in vivo
+      imaging characterization of image-guided drug delivery (IGDD) in cancer, including characterizations of the target, delivery validation, and therapy response. This FOA will support research in development
+      of integrated imaging-based platforms for multifunctional and multiplexed drug delivery systems in cancer.
+  - id: '78633'
+    title: Strategic Partnering to Evaluate Cancer Signatures [SPECS II] (U01)
+    abstract: This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI) of the National Institutes of Health (NIH), encourages the submission of grant applications for support
+      of the clinical application of multi-analyte molecular signatures derived from comprehensive molecular annotation of tumors. There is growing recognition in the clinical cancer research community
+      that annotation of tumor specimens with data that integrates information about molecular alterations at the l
+  - id: '172294'
+    title: Deep Exploration and Filtering of Text (DEFT)
+    abstract: See attached documents.
+  - id: '113173'
+    title: Dimensional Approaches to Research Classification in Psychiatric Disorders (R01)
+    abstract: This Funding Opportunity Announcement (FOA) seeks research grant applications designed to develop innovative ways of understanding mental disorders through classifying patients in clinical
+      studies on the basis of experimental research criteria rather than traditional diagnostic categories. This FOA stems from the NIMH Research Domain Criteria (RDoC) project that is intended to further
+      a long-range goal of contributing to diagnostic systems as informed by research on genetics, neuroscience, and b
+  - id: '360910'
+    title: Novel Approaches to Advance Precision Aging and Cognitive Health
+    abstract: <p style="margin-left:0in;">The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications&nbsp;that develop or incorporate novel,
+      cutting-edge study designs/methods/analytic approaches through the use of machine learning, artificial intelligence, and adaptive designs to allow the discovery of health/function profiles at the
+      level of the individual and that could lead to the implementation of personalized prevention plans/interventions for
+  - id: '361449'
+    title: 'BRAIN Initiative Cell Atlas Network (BICAN): Coordinating Unit for Biostatistics, Informatics, and Engagement '
+    abstract: <p>The National Institute of Mental Health (NIMH), with other NIH Institutes and Centers (ICs), intends to publish a notice of funding opportunity (NOFO) to solicit research applications for
+      the BRAIN Initiative Cell Atlas Network (BICAN) Coordinating Unit for Biostatistics, Informatics, and Engagement (CUBIE). In accordance with NIH standard peer-review processes, the application(s)
+      will be peer-reviewed, and only meritorious application(s) will be considered for funding. The overall goals of C
+  - id: '360453'
+    title: Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer&rsquo;s and Related De
+    abstract: <p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) that builds upon its investment in data-driven approaches for the purpose of defining molecular
+      mechanisms of resilience in the presence of various types of Alzheimer's disease (AD) and AD-related dementias (ADRD) risk. The goal of this NOFO is to build a robust program that integrates epidemiologic,
+      genomic, and mechanistic research through the use of data driven, systems-based approaches (includi
+- id: q003
+  text: postdoctoral fellowship in computational neuroscience
+  candidates:
+  - id: '58196'
+    title: 'Training in Computational Neuroscience: From Biology to Model and Back Again (T90/R90)'
+    abstract: 'Purpose: This Funding Opportunity Announcement (FOA) is an initiative of the NIH Blueprint for Neuroscience Research (http://neuroscienceblueprint.nih.gov), a trans-NIH partnership to accelerate
+      neuroscience research. Sixteen Institutes and Centers (ICs) are participating in the Neuroscience Blueprint. Awards will be administered by the National Institute on Drug Abuse (NIDA) on behalf of
+      the Neuroscience Blueprint. This FOA will support integrated research education and research training progra'
+  - id: '45708'
+    title: Collaborative Research in Computational Neuroscience
+    abstract: Computational neuroscience provides a theoretical foundation and a rich set of technical approaches for understanding the functions of complex neurobiological systems, building on the theory,
+      methods, and findings of computer science, neuroscience, and numerous other disciplines. Through the CRCNS program, participating NSF Directorates and NIH Institutes support innovative interdisciplinary
+      collaborative research to make significant advances in the understanding of nervous system function, mec
+  - id: '58715'
+    title: Collaborative Research in Computational Neuroscience
+    abstract: Computational neuroscience provides a theoretical foundation and a rich set of technical approaches for understanding complex neurobiological systems, building on the theory, methods, and
+      findings of computer science, neuroscience, and numerous other disciplines. Through the CRCNS program, participating organizations of the National Science Foundation (NSF), the National Institutes
+      of Health (NIH), and the German Federal Ministry of Education and Research (Bundesministerium f&uuml;r Bildung u
+  - id: '175353'
+    title: Research Education Grants for Statistical and Computational Training in the Genetics of Addiction (R25)
+    abstract: The purpose of this opportunity is to encourage applications focused on research education in statistical and computational models to address genetics-based problems in addiction. Eligible
+      participants may include undergraduate, graduate, and/or postdoctoral level students and may include both US and non-US citizens.
+  - id: '350135'
+    title: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32)
+    abstract: <p>The purpose of the Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32) is to support research training of highly promising postdoctoral
+      candidates who have the potential to become productive, independent investigators in scientific health-related research fields relevant to the missions of the participating NIH Institutes and Centers.
+      Applications are expected to incorporate exceptional mentorship. This Notice of Funding Opportunity (NOFO
+  - id: '359137'
+    title: Forecast for NIH Blueprint and BRAIN Initiative ACTION Potential Program (F99/K00 Clinical Trial Not Allowed)
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The National Institute of Neurological Disorders and Stroke, on behalf of the NIH Blueprint for Neuroscience Research (NIH Blueprint) and BRAIN Intitiative,
+      intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications for the ACTION (Academic Career Transition Initiative for Opportunities in Neuroscience) Potential F99/K00 award to
+      support a defined pathway across career stages for skilled neuroscience graduate students performing neu'
+  - id: '140593'
+    title: 'Longitudinal Data on Teen Dating Violence: Postdoctoral Fellowship'
+    abstract: NIJ seeks proposals for research related to teen dating violence (a.k.a. adolescent relationship abuse). In particular, NIJ seeks proposals that explore predictors and consequences of teen
+      dating violence using longitudinal data, through the support of postdoctoral fellows, to analyze existing data.
+  - id: '51861'
+    title: Ruth L. Kirschstein National Research Service Awards (NRSA) for Individual Postdoctoral Fellows (Parent F32)
+    abstract: Purpose. The purpose of this individual postdoctoral research training fellowship is to provide support to promising Fellowship Applicants with the potential to become productive, independent
+      investigators in scientific health-related research fields relevant to the missions of participating NIH Institutes and Centers. Mechanism of Support. This FOA will utilize the Ruth L. Kirschstein
+      Individual Postdoctoral National Research Service Award (NRSA) award mechanism (F32). Funds Available and Ant
+  - id: '188794'
+    title: Postdoctoral Research Fellowships in Biology
+    abstract: The Directorate for Biological Sciences (BIO) awards Postdoctoral Research Fellowships in Biology to recent recipients of the doctoral degree for research and training in selected areas supported
+      by BIO and with special goals for human resource development in biology. The fellowships encourage independence at an early stage of the research career to permit Fellows to pursue their research
+      and training goals in the most appropriate research locations regardless of the availability of funding for
+  - id: '64133'
+    title: Atmospheric and Geospace Sciences Postdoctoral Research Fellowships
+    abstract: The Division of Atmospheric and Geospace Sciences (AGS) awards Postdoctoral Research Fellowships (PRF) to highly qualified investigators within 3 years of obtaining their PhD to carry out
+      an independent research program. The research plan of each Fellowship must address scientific questions within the scope of AGS disciplines. The program supports researchers for a period of up to
+      2 years with Fellowships that can be taken to the institution or national facility of their choice. The program is
+  - id: '56210'
+    title: Postdoctoral Research Fellowships in Biology
+    abstract: The Directorate for Biological Sciences (BIO) awards Postdoctoral Research Fellowships in Biology to recent recipients of the doctoral degree for research and training in selected areas supported
+      by BIO and with special goals for human resource development in biology. The fellowships encourage independence at an early stage of the research career to permit Fellows to pursue their research
+      and training goals in the most appropriate research locations regardless of the availability of funding for
+  - id: '100875'
+    title: Postdoctoral Research Fellowships in Biology
+    abstract: The Directorate for Biological Sciences (BIO) awards Postdoctoral Research Fellowships in Biology to recent recipients of the doctoral degree for research and training in selected areas supported
+      by BIO and with special goals for human resource development in biology. The fellowships encourage independence at an early stage of the research career to permit Fellows to pursue their research
+      and training goals in the most appropriate research locations regardless of the availability of funding for
+  - id: '48517'
+    title: Postdoctoral Research Fellowships in Biology
+    abstract: The Directorate for Biological Sciences (BIO) awards Postdoctoral Research Fellowships in Biology to recent recipients of the doctoral degree for research and training in selected areas of
+      biology supported by BIO and with special goals for human resource development in biology. The fellowships encourage independence at an early stage of the research career to permit Fellows to pursue
+      their research and training goals in the most appropriate research locations regardless of the availability of
+  - id: '361249'
+    title: Postdoctoral Research Fellowships in Biology (PRFB)
+    abstract: <p>The integration of Artificial Intelligence (AI) and Biological Research has the potential to pave the way for breakthroughs in biotechnology and bio-system design that will create innovations,
+      new industries, and jobs. To capitalize on this promise, the Directorate for Biological Sciences (BIO) will make awards for Postdoctoral Research Fellowships in Biology (PRFB) to recent doctoral degree
+      recipients, for proposals with a research and training focus at the <strong>Intersection of</strong> <
+  - id: '44299'
+    title: Ruth L. Kirschstein National Research Service Awards for Postdoctoral Training in Complementary and Alternativ
+    abstract: -The National Center for Complementary and Alternative Medicine (NCCAM) awards individual postdoctoral research training fellowships to promising applicants with the desire and potential to
+      become productive, independent investigators in the field of complementary and alternative medicine (CAM) research. -The primary objective of this funding opportunity is to help ensure that diverse
+      pools of highly trained scientists will be available in adequate numbers and in appropriate research areas to
+  - id: '346991'
+    title: Jointly Sponsored Ruth L. Kirschstein National Research Service Award Institutional Predoctoral Training Progr
+    abstract: <p>Reissue of PAR-17-096. The Jointly Sponsored NIH Predoctoral Training Program in the Neurosciences (JSPTPN) is an institutional program that supports broad and fundamental research training
+      in the neurosciences. In addition to a broad education in the neurosciences, a key component will be a curriculum that provides a strong foundation in experimental design, statistical methodology
+      and quantitative reasoning. JSPTPN programs are intended to be 2 years in duration and students may only be app
+- id: q004
+  text: grants for Alzheimer's disease biomarker discovery
+  candidates:
+  - id: '52790'
+    title: 'Alzheimer''s Disease Supportive Services Program: Innovation Cooperative Agreements to Better Serve People with'
+    abstract: The purpose of this funding opportunity is to embed innovative practicies for supporting persons with Alzheimer&apos;s disease and related dementias and their families into state health and
+      long-term care service systems throughout the nation.
+  - id: '42267'
+    title: 'Alzheimer''s Disease Demonstration Grants to States (ADDGS) Program: Evidence-Based Intervention Grants to Bett'
+    abstract: This Program Announcement provides an opportunity for states to demonstrate how existing evidence-based service interventions that help people with ADRD to remain in the community can be translated
+      into effective programs that administered at the community level through the Aging Services Network and its partner organizations. Applications will be accepted from all agencies of State Government,
+      which includes but is not limited to State Units on Aging (SUAs). The Administration on Aging
+  - id: '52788'
+    title: 'Alzheimer''s Disease Supportive Services Program: Evidence-Based Cooperative Agreements to Better Serve People '
+    abstract: The purpose of this funding opportunity is to demonstrate how evidence-based interventions that help persons with Alzheimer&apos;s disease and related dementias and their families can be translated
+      into effective community-level programs and embedded into state health and long-term care service systems throughout the nation.
+  - id: '131973'
+    title: 'Limited Competition: Alzheimer''s Disease Cooperative Study (U19)'
+    abstract: This limited competition FOA is to continue the Alzheimer's Disease Cooperative Study (ADCS) as the pre-eminent Alzheimer's disease (AD) clinical trials consortium. The purpose of this FOA
+      is to solicit the renewal application for the next 5-year cycle of the ADCS. The goals of this next phase are to continue to advance research in the development of interventions that might be useful
+      for treating, delaying, or preventing AD, particularly interventions that might not be developed by industry.
+  - id: '42269'
+    title: 'Alzheimer''s Disease Demonstration Grants to States (ADDGS) Program: Innovation Grants to Better Serve People w'
+    abstract: This Program Announcement provides an opportunity for states to demonstrate innovative approaches to improving the delivery of services and supports at the community-level to people with ADRD
+      and/or their family caregivers. Under this Announcement, AoA is particularly interested in community-level projects that help individuals with ADRD who are not eligible for Medicaid but who are at
+      imminent risk of nursing home placement and spend-down to Medicaid to remain at home and in the community. AoA
+  - id: '170573'
+    title: National Institute on Aging Analysis of Alzheimer's Disease Genome Sequencing Project Data [U19]
+    abstract: The National Institute on Aging invites applications specific to the analysis of whole exome and genome sequencing data provided by the National Human Genome Research Institute Large-Scale
+      Sequencing Program for the Alzheimer's disease research community.
+  - id: '147533'
+    title: Small Business Alzheimer's Disease Research (SBIR[R43/R44])
+    abstract: On February 7, 2012, Secretary of Health and Human Services Kathleen Sebelius announced that $50 million would be directed immediately to boost Alzheimers research in FY2012 in response to
+      President Obama signing the National Alzheimer's Project Act. This increased funding will likely cover a range of projects, including basic science on the biology and genetics of Alzheimers disease
+      as well as translational and clinical research in development and testing of therapies. The purpose of this f
+  - id: '147534'
+    title: Small Business Alzheimer's Disease Research (STTR[R41/R42])
+    abstract: On February 7, 2012, Secretary of Health and Human Services Kathleen Sebelius announced that $50 million would be directed immediately to boost Alzheimers research in FY2012 in response to
+      President Obama signing the National Alzheimer's Project Act. This increased funding will likely cover a range of projects, including basic science on the biology and genetics of Alzheimers disease
+      as well as translational and clinical research in development and testing of therapies. The purpose of this f
+  - id: '359850'
+    title: Early- and Late-Stage Clinical Trials for the Spectrum of Alzheimer's Disease/Alzheimer's Disease-Related Deme
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to 1) invite applications that propose to develop
+      and implement early- to late-stage clinical trials of promising pharmacological and non-pharmacological interventions to prevent and/or treat the cognitive, behavioral,&nbsp;and neuropsychiatric changes
+      associated with age-related cognitive decline and Alzheimer''s disease (AD) and Alzheimer''s disease-related dem'
+  - id: '357911'
+    title: 'Notice of Intent to Publish a Notice of Funding Opportunity for Early- and Late-Stage Clinical Trials for the '
+    abstract: "<p>The National Institute on Aging intends to publish a Notice of Funding Opportunity (NOFO) to 1) invite applications that propose to develop and implement early- to late-stage clinical\
+      \ trials of promising pharmacological and non-pharmacological interventions to prevent and/or treat the cognitive, behavioral,\uFFFDand neuropsychiatric changes associated with age-related cognitive\
+      \ decline and Alzheimer's disease (AD) and Alzheimer's disease-related dementias (ADRD), and 2) stimulate studies to enhanc"
+  - id: '361287'
+    title: Genomic and Biologic Therapies for ADRD (U01 Clinical Trial Optional)
+    abstract: "<p>The National Institutes of Neurological Disorders and Stroke (NINDS) is interested in supporting research projects proposing the optimization and translational development of genomic and\
+      \ biologic therapeutic candidates for Alzheimer\u2019s Disease-Related Dementias (ADRD). Breakthroughs in genomic and biologic therapies are creating new opportunities to treat, prevent, and potentially\
+      \ modify the course of dementias; however, progress is limited by challenges in delivery, safety, manufacturability,"
+  - id: '357368'
+    title: 'Notice of Intent to Publish a Notice of Funding Opportunity for Biomarkers of Cognitive Decline and Dementias '
+    abstract: <p>The National Institute on Aging intends to promote a new initiative by publishing a Notice of Funding Opportunity (NOFO) to invite applications to conduct observational studies in individuals
+      living with Autism Spectrum Disorders (ASD) along the lifespan. The overarching goal is to use deep phenotyping, including neuroimaging, molecular and other approaches, to discover and characterize
+      biomarkers of neurodegeneration in this population, in relation with clinical manifestation of age-related
+  - id: '356874'
+    title: Development of Biomarkers or Composite Biomarkers for Neurological and Neuromuscular Disorders (R61/R33 - Clin
+    abstract: The overarching purpose of this Funding Opportunity Announcement (FOA) is to promote the discovery and/or early evaluation of strong candidate biomarkers and biomarker signatures that can
+      be used as tools to facilitate the clinical development of neurotherapeutics and their use in clinical practice. Specifically, the focus of this FOA is on the identification and initial biological,
+      analytical and clinical evaluation of biomarkers and biomarker signatures for neurological and neuromuscular diso
+  - id: '361450'
+    title: Functional Target Validation for Alzheimer's Disease-Related Dementias
+    abstract: "<p>The National Institute of Neurological Disorders and Stroke (NINDS) is interested in supporting ambitious research projects that propose comprehensive functional validation of newly identified\
+      \ therapeutic target candidates for Alzheimer\u2019s Disease\u2013Related Dementias (ADRD). A major barrier to the development of effective treatments for ADRD, as well as other complex central nervous\
+      \ system disorders, is the lack of well-validated targets that are clearly linked to disease mechanisms. Successful"
+  - id: '361451'
+    title: Exposomic Contributions to ADRD Pathology and Resilience
+    abstract: "<p>The National Institute of Neurological Disorders and Stroke (NINDS) is interested in supporting research projects that investigate how specific neural exposome factors contribute mechanistically\
+      \ to Alzheimer\u2019s disease-related dementias (ADRD) pathology and resilience. For the purposes of this program, exposome factors of interest include, but are not limited to, environmental toxins,\
+      \ sleep and circadian rhythms, stress, and the real-world conditions that modulate them (e.g., light, noise, hea"
+  - id: '362454'
+    title: The NIA Genetics of Alzheimer's Disease Data Storage Site (NIAGADS)
+    abstract: "<p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications to develop, operate, and sustain a cloud-based data storage and\
+      \ computing platform that democratizes access to large-scale Alzheimer\u2019s disease (AD) and AD-related dementias (ADRD) genetic and genomic data. The platform must be secure, scalable, and interoperable.\
+      \ The platform will support the NIA Genetics of Alzheimer's Disease Data Storage Site (NIAGADS), the primary NIA-su"
+  - id: '363557'
+    title: Alzheimer's Drug-Development Program (U01 Clinical Trial Optional)
+    abstract: <p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications that propose pre-clinical and early-stage clinical (Phase I) development
+      of novel small-molecule and biologic drug candidates that&nbsp;aim to&nbsp;prevent Alzheimer's disease (AD), slow its progression, or treat its cognitive and behavioral symptoms.</p><p>Through the
+      NOFO, NIA is continuing the Alzheimer's Drug-Development Program (ADDP) with the aim of catalyzing drug dev
+  - id: '357943'
+    title: Translational Bioinformatics and Experimental Approaches to Advance Drug Repositioning and Combination Therapy
+    abstract: This Notice of Funding Opportunity (NOFO) invites applications that propose to use mouse models to conduct rigorous preclinical testing of drugs or drug combinations currently used for other
+      conditions, as well as investigational drugs at various stages of clinical development, predicted to be efficacious in AD/ADRD. This initiative will also support preclinical testing of repurposable
+      or investigational drug candidates in combination with non-pharmacologic interventions leading to robust transl
+  - id: '205193'
+    title: Alzheimer's Disease Therapeutics Program (U01)
+    abstract: The goal of this Funding Opportunity Announcement (FOA) is to provide support for investigators to develop new drugs for the prevention or treatment of Alzheimers disease (AD). Specifically,
+      this initiative is aimed at researchers who have promising small molecule compounds but lack outside drug development expertise and infrastructure support to advance these compounds to the clinic.
+      This Alzheimers Disease Therapeutics Program adjunct to the NIH Blueprint Neurotherapeutics Program will allow i
+  - id: '56941'
+    title: Biomarkers of Alcohol Consumption and Alcohol-induced Tissue Injury (SBIR [R43/R44])
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) that propose to stimulate the
+      discovery and development of biomarkers of alcohol consumption, biomarkers for early detection of alcohol-induced organ damage, and biomarkers of fetal alcohol exposure. Approaches using high throughput
+      technologies leading to the discovery of biomarker signatures are encouraged. Proposals leading to rapid
+  - id: '360453'
+    title: Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer&rsquo;s and Related De
+    abstract: <p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) that builds upon its investment in data-driven approaches for the purpose of defining molecular
+      mechanisms of resilience in the presence of various types of Alzheimer's disease (AD) and AD-related dementias (ADRD) risk. The goal of this NOFO is to build a robust program that integrates epidemiologic,
+      genomic, and mechanistic research through the use of data driven, systems-based approaches (includi
+  - id: '56655'
+    title: Scalable Assays for Unbiased  Analysis of Neurobiological Function (R01)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) encourages research grant applications from institutions/organizations to develop novel, robust analytical platforms using in vitro assays
+      to reveal changes in neuronal and/or glial function. The goal is to adapt state-of-the-art measures of basic cellular processes or molecular events that are key mediators of brain function with the
+      intent to probe mechanisms and/or perturbations in an unbiased and efficient manner. The novel assay platfo
+  - id: '44241'
+    title: Research on the Cognitive Sequelae of Parkinsons Disease (R01)
+    abstract: Purpose. Under this Funding Opportunity Announcement (FOA), the National Institute of Neurological Disorders and Stroke (NINDS), the National Institute on Aging (NIA), National Institute of
+      Mental Health (NIMH), and the National Institute of Nursing Research (NINR) invite research grant applications that address the underlying neurobiological mechanisms associated with cognitive impairment
+      and mood disturbance in Parkinson's disease (PD), that address the development of clinical interventions an
+  - id: '357343'
+    title: Seamless Early-Stage Clinical Drug Development (Phase 1 to 2a) for Novel therapeutic Agents for the Spectrum o
+    abstract: The purpose of this Notice of Funding Opportunity (NOFO) is to invite applications that bundle independent protocols for phase 1 clinical trials with phase 1b/phase 2a clinical trials to streamline
+      the early-stage evaluation of promising pharmacological interventions for Alzheimer's disease (AD) and Alzheimer's disease-related Dementias (ADRD). Candidate interventions evaluated through this
+      program, which can include small molecules or biologics for example, must engage non-amyloid/non-tau mech
+- id: q005
+  text: mental health services for rural and underserved communities
+  candidates:
+  - id: '54158'
+    title: Flex Rural Veterans Health Access Program
+    abstract: The purpose of this grant program is to provide mental health services and other services to veterans and other residents of rural areas. HRSA / ORHP will award grants to States that submit
+      applications for increasing the delivery of mental health services or other health care services deemed necessary to meet the needs of veterans of Operation Iraqi Freedom and Operation Enduring Freedom
+      living in rural census tracks, including for the provision of crisis intervention services and the detectio
+  - id: '130994'
+    title: Rural Policy Analysis Program
+    abstract: 'This funding opportunity announcement solicits applications for the Rural Policy Analysis Program. The purpose of this program is to support research and analysis of key policy issues affecting
+      rural communities to inform policy makers. The program is national in scope and looks at cross-cutting rural health and human services issues in order to identify trends and challenges. Funded projects
+      should focus on the changing rural environment and outline how they would achieve the following: -'
+  - id: '355860'
+    title: Telehealth Research Center
+    abstract: This notice announces the opportunity to apply for funding for the Telehealth Rapid Response Center (HRSA-25-044) and the Telehealth Research Center (HRSA-25-045). The purpose of this program
+      is to fund research that expands the evidence base to inform policy and programs for telehealth services in underserved populations in the United States. The research supported through this program
+      will inform providers, policymakers, and telehealth stakeholders on the latest trends and data impacting teleh
+  - id: '355859'
+    title: Telehealth Rapid Response Center
+    abstract: This notice announces the opportunity to apply for funding for the Telehealth Rapid Response Center (HRSA-25-044) and the Telehealth Research Center (HRSA-25-045). The purpose of this program
+      is to fund research that expands the evidence base to inform policy and programs for telehealth services in underserved populations in the United States. The research supported through this program
+      will inform providers, policymakers, and telehealth stakeholders on the latest trends and data impacting tele
+  - id: '98033'
+    title: National Organizations for State and Local Officials (NOSLO)
+    abstract: 'The purpose of the NOSLO cooperative agreement is to: (1) engage national organizations, representing state and local officials, to provide training and technical assistance to promote primary
+      care and public health initiatives for their constituencies; (2) strengthen the organizational capacities of state and local health departments, Primary Care Organizations (PCOs), small rural hospitals,
+      State Medicaid agencies, and legislatures through information exchanges that support public and private'
+  - id: '157193'
+    title: Cardiovascular Risk Reduction in Underserved Rural Communities (R01)
+    abstract: The overall objective is to build the evidence base and accelerate the implementation and translation of evidence- or practice-based interventions into practice in rural communities. To accomplish
+      this objective, NHLBI invites applications that will plan and execute well-designed controlled trials that maximize the opportunities available in rural communities to reduce cardiovascular disease
+      risk factors. The long-term goal is to foster sustainable interventions and scientific research that wil
+  - id: '51904'
+    title: Community Health Centers Childhood Rural Asthma Project
+    abstract: "The purpose of the program is to build the capacity of community health centers to effectively identify, treat, and educate pediatric asthma suffers and their families located on islands\
+      \ in the State of Hawaii. This project focuses on improving the health, quality of life, and functional status of Hawaii\x92s citizens living in medically-underserved communities served by the community\
+      \ health centers.\x94"
+  - id: '41803'
+    title: OJJDP FY 2008 Strengthening Youth Mentoring through Community Partnerships
+    abstract: "This solicitation invites applicants to propose initiatives that will increase local communities\x92 capacity to develop and implement mentoring programs and provide mentoring services, particularly\
+      \ to populations of at-risk youth who are underserved due to location, shortage of mentors, special physical or mental challenges, or other situations identified by the community in need of mentoring\
+      \ services."
+  - id: '363686'
+    title: Rural Communities Opioid Response Program - Overdose Response
+    abstract: <p>The purpose of the Rural Communities Opioid Response Program (RCORP) - Overdose Response is to support improving health care in rural areas by addressing their immediate and short-term
+      needs related to the provision of substance use disorder services. RCORP Overdose Response aims to reduce and prevent the risk of overdoses in rural areas.</p>
+  - id: '363324'
+    title: Teaching Health Center Graduate Medical Education (THCGME) Program
+    abstract: <p>The purpose of the THCGME Program is to prepare residents to provide high-quality care,&nbsp;particularly in rural and medically underserved communities, while developing the competencies
+      they need to serve a wide range of populations and communities. The THCGME does this by providing funding to support the training of residents in HRSA-supported primary care residency training programs
+      in community-based ambulatory patient care centers.&nbsp;</p>
+  - id: '357524'
+    title: Accelerating Solutions to Improve Access and Quality of Empirically-Supported Practices for Youth Mental Healt
+    abstract: This NOFO is a call to action in response to the mental health crisis in the United States. We seek applications that will study methods to increase access to evidence-based interventions
+      and services for youth mental health, including those living in rural areas, inner cities, and other under-resourced areas, and youth experiencing housing and food insecurities and out-right homelessness.
+      Applications should address research related to optimizing assessment, intervention and service strategies,
+  - id: '124873'
+    title: Collaborative Hubs for International Research on Mental Health (U19)
+    abstract: This Funding Opportunity Announcement (FOA), issued by the National Institute of Mental Health (NIMH), invites cooperative agreement research applications to establish regional research hubs
+      to increase the evidence base for mental health interventions in World Bank designated low- and middle-income countries (LMICs). Each regional hub is to conduct research and provide capacity-building
+      opportunities in one of six geographical regions (i.e., East Asia and the Pacific; Europe and Central Asia;
+  - id: '359138'
+    title: Forecast to Publish a Notice of Funding Opportunity Announcement for Addressing Determinants of Health Dispari
+    abstract: <p>The National Institute on Minority Health and Health Disparities (NIMHD) intends to publish a Notice of Funding Opportunity (NOFO) to support intervention and etiologic studies in rural
+      communities to address factors that increase, reduce, or prevent disparities in health outcomes among rural populations. Areas of research interest that may be addressed include but are not limited
+      to:</p> <ul> <li>Studies that utilize the life course continuum to address health disparities in rural populatio
+  - id: '49626'
+    title: Disaster Resilience for Rural Communities
+    abstract: To initiate new research to understand the factors and conditions which result in resiliency in communities and families.
+  - id: '142334'
+    title: 'Grand Challenges in Global Mental Health: Integrating Mental Health into Chronic Disease Care Provision in Low'
+    abstract: This Funding Opportunity Announcement (FOA) seeks research project grant (R01) applications that promote the establishment of an evidence base on contextually relevant, cost-effective integrated
+      care interventions for the treatment of patients with co-morbid mental and chronic physical illnesses in low- and middle-income countries (LMICs). Specifically, this FOA will support research that
+      builds on existing chronic disease care and treatment platforms to incorporate management of mental illness,
+  - id: '124153'
+    title: Rural Health Care Services Outreach Grant Program
+    abstract: The Office of Rural Health Policy's Outreach Program supports projects that demonstrate effective models of outreach and service delivery through collaboration, adoption of an evidence-based
+      or promising practice model, demonstration of health outcomes, replicability and sustainability. Proposed projects will have an outcomes-oriented approach that will enhance and sustain the delivery
+      of effective health care in rural communities by tracking specific health indicators that will demonstrate the
+  - id: '42334'
+    title: 'Support Systems for Rural Homeless Youth:  A Collaborative State and Local Demonstration'
+    abstract: The Administration for Children and Families (ACF), Administration on Children, Youth and Families (ACYF), Family and Youth Services Bureau (FYSB) is accepting applications for a five-year
+      Demonstration project targeted to young people ages 16-21, in rural areas (including Tribal lands and other rural Native communities) who are approaching independence and young adulthood, but have
+      few or no connections to a supportive, family structure or community.
+  - id: '93873'
+    title: 'Public Prevention Health Fund: Community Transformation Grant'
+    abstract: The purpose of this program is to create healthier communities by 1) building capacity to implement broad evidence and practice-based policy, environmental, programmatic and infrastructure
+      changes, as appropriate, in large counties, and in states, tribes and territories, including in rural and frontier areas and 2) supporting implementation of such interventions in five strategic areas
+      (Strategic Directions) aligning with Healthy People 2020 focus areas and achieving demonstrated progress in the
+  - id: '236796'
+    title: Rural Health and Safety Education
+    abstract: "Focus of the Rural Health and Safety Education Program in FY2013 is on community-based, outreach education and extension programs that provide individuals and families with: a) Information\
+      \ as to the value of good health at any age; b) Information to increase individual or family\x92s motivation to take more responsibility for their own health; c) Information regarding rural environmental\
+      \ health issues that directly impact on human health; d) Information about and access to health promotion and educ"
+  - id: '44283'
+    title: Interventions And Practice Research Infrastructure Program (IP-RISP) (R24)
+    abstract: The National Institute of Mental Health (NIMH) seeks research partnerships between community-based, clinical/services settings and research institutions to enhance the national capacity to
+      conduct research that will inform mental health services research science, service delivery, program dissemination and implementation, and mental health policy. The IP-RISP seeks to foster an active,
+      synergistic partnership between mental health researchers and community-based, clinical/services staff, clinici
+  - id: '44153'
+    title: Functioning of People with Mental Disorders (R01)
+    abstract: -Purpose. Although considerable advances have been made in improving the symptoms associated with mental disorders, symptom improvement is often only modestly associated with improvements
+      in daily functioning (i.e., the performance of social, occupational, and instrumental tasks of daily living), and most current treatments have limited impact on the functioning and participation of
+      those with mental disorders. The purpose of this Funding Opportunity Announcement (FOA), issued by the National In
+  - id: '44586'
+    title: Collaborative Study of Suicidality and Mental Health in the U.S. Army (U01)
+    abstract: Purpose.The high rates of mental health and behavioral adjustment problems among recent U.S. military combat veterans, and the increasing rates of suicide among Army soldiers, are of growing
+      concern.This Funding Opportunity Announcement (FOA), issued by the National Institute of Mental Health (NIMH), in collaboration with the U.S. Army, solicits cooperative research project grant (U01)
+      applications aimed at conducting an epidemiologic study of mental health, psychological resilience, suicide ris
+  - id: '56912'
+    title: Improving Evidence-Based Mental Health Screening and Treatment for Persons with Mental Disorders in the Justic
+    abstract: 'Purpose. This Funding Opportunity Announcement (FOA), issued by National Institute of Mental Health (NIMH), National Institutes of Health, encourages research grant applications from institutions/organizations
+      that propose to conduct research to test the effectiveness of strategies for the delivery of evidence-based mental health treatments, services, and suicide prevention in criminal (adult) or juvenile
+      justice settings. Settings of interest include: 1) incarceration or detention, 2) commun'
+  - id: '57271'
+    title: Collaborative Hubs for International Research on Mental Health (U19)
+    abstract: Purpose. This Funding Opportunity Announcement (FOA), issued by the National Institute of Mental Health (NIMH), solicits grant applications for cooperative agreements to establish regional
+      research hubs to increase the evidence base for mental health interventions in World Bank designated low- and middle-income countries (LMICs). Each regional hub is to conduct research and provide
+      capacity-building opportunities in one of six geographical regions (i.e., East Asia and the Pacific; Europe and Cen
+  - id: '146213'
+    title: Rural Health Research Center Cooperative Agreement
+    abstract: This announcement solicits applications for the Rural Health Research Center (RHRC) Cooperative Agreement Program. The purpose of the RHRC Cooperative Agreement Program is to increase the
+      amount of high quality, impartial, policy-relevant research to assist decision-makers at the federal, state and local levels to better understand problems faced by rural communities, and provide information
+      that will improve access to health care and population health. RHRC recipients will conduct policy-or
+  - id: '355857'
+    title: Regional Telehealth Resource Centers
+    abstract: We welcome eligible organizations to apply for funding under the Regional Telehealth Resource Center (RTRC) program and the National Telehealth Resource Center (NTRC) program. These telehealth
+      resource centers will support healthcare organizations, networks, and providers with telehealth implementation and training for rural areas, frontier communities, and medically underserved areas,
+      as well as for medically underserved populations
+  - id: '47106'
+    title: Rural Health and Safety Education Competitive Grants Program
+    abstract: "For FY 2009, the Rural Health and Safety Education Programs will focus on issues related to aging in one or more of three areas: 1) population aging in rural areas; 2) eldercare or caregiving\
+      \ and its impact on rural and farm families; and/or 3) related issues of rural health care to provide older individuals and families with: \x95 Information as to the value of good health in an era\
+      \ of population aging; \x95 Information to increase the older adult individual or family\x92s motivation take more respo"
+  - id: '363600'
+    title: Rural Communities Opioid Response Program - Evaluation
+    abstract: <p>The purpose of the Rural Communities Opioid Response Program (RCORP) - Evaluation is to evaluate the impact of rural behavioral health strategies and methods employed under the RCORP initiative,
+      and to develop evaluation tools and resources for use in rural communities to inform future community-led rural health initiatives</p>
+  - id: '52094'
+    title: Delta State Rural  Development Network Grant Program (DELTA)
+    abstract: The purpose of the Delta States Rural Development Network Grant Program (Delta) is to fund organizations located in the eight Delta States (Alabama, Arkansas, Illinois, Kentucky, Louisiana,
+      Mississippi, Missouri, and Tennessee) which address unmet local health care needs and prevalent health disparities through the development of new and innovative projects. The Delta grant program fosters
+      collaborative efforts among rural providers, as many of these disparities could not be solved by single en
