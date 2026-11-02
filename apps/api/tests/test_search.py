@@ -58,3 +58,26 @@ def test_endpoint_validation(app):
     assert client.get("/search?q=x&closes_after=nope").status_code == 400
     res = client.get("/search?q=cancer&mode=bm25&k=2")
     assert res.status_code == 200 and res.get_json()["results"]
+
+
+def test_detail_facets_and_ics(app):
+    client = app.test_client()
+    hit = client.get("/search?q=cancer+imaging+tumor&mode=bm25").get_json()["results"][0]
+    assert hit["snippet"] and "amount_max" in hit
+    d = client.get(f"/opportunities/{hit['id']}").get_json()
+    assert d["title"] == "Cancer imaging AI" and d["amount_max"] == 500_000
+    assert client.get("/opportunities/9999").status_code == 404
+    facets = client.get("/facets").get_json()
+    assert {"value": "posted", "count": 2} in facets["statuses"]
+    ics = client.get(f"/opportunities/{hit['id']}.ics")
+    assert ics.mimetype == "text/calendar" and b"DTSTART;VALUE=DATE:20300101" in ics.data
+    open_ended = client.get("/search?q=mental&mode=bm25").get_json()["results"][0]["id"]
+    assert client.get(f"/opportunities/{open_ended}.ics").status_code == 404
+
+
+def test_clean_text_strips_html():
+    from grantlens_api.retrieval.clean import clean_text
+
+    out = clean_text("<p><strong>Summary:</strong>&nbsp;Early&nbsp;career &rsquo;26</p><p>Next</p>")
+    assert out == "Summary: Early career ’26\n\nNext"
+    assert clean_text(None) == ""

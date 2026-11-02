@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 from ..extensions import db
 from ..models import Opportunity
 from . import dense, fusion, lexical
+from .clean import clean_text
 from .filters import Filters
 from .text import doc_text
 
@@ -16,8 +17,15 @@ class Hit:
     status: str | None
     close_date: str | None
     url: str | None
+    snippet: str
+    amount_max: int | None
     score: float
     ranks: dict[str, int] = field(default_factory=dict)  # why it matched: rank in each retriever
+
+
+def _snippet(abstract: str | None, n: int = 280) -> str:
+    text = " ".join(clean_text(abstract).split())
+    return text if len(text) <= n else text[: n - 1].rsplit(" ", 1)[0] + "…"
 
 
 def search(
@@ -56,7 +64,8 @@ def search(
         Hit(
             id=i, external_id=rows[i].external_id, title=rows[i].title, agency=rows[i].agency,
             status=rows[i].status, close_date=str(rows[i].close_date) if rows[i].close_date else None,
-            url=rows[i].url, score=score, ranks={n: p[i] for n, p in pos.items() if i in p},
+            url=rows[i].url, snippet=_snippet(rows[i].abstract),
+            amount_max=rows[i].amount_max, score=score, ranks={n: p[i] for n, p in pos.items() if i in p},
         )
         for i, score in fused
     ]

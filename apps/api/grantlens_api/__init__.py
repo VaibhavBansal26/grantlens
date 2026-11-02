@@ -12,10 +12,11 @@ def create_app(config: type = Config) -> Flask:
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from .blueprints import health, search
+    from .blueprints import health, opportunities, search
 
     app.register_blueprint(health.bp)
     app.register_blueprint(search.bp)
+    app.register_blueprint(opportunities.bp)
 
     from . import cli, models  # noqa: F401
 

@@ -9,3 +9,5 @@ node_modules/
 .DS_Store
 data/
 results/tmp/
+*.tsbuildinfo
+next-env.d.ts
