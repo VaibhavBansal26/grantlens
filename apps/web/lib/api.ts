@@ -1,4 +1,4 @@
-export const API = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5055";
+export const API = "/api";
 
 export type Hit = {
   id: number;
@@ -53,11 +53,43 @@ export function searchUrl(p: SearchParams): string {
   return `${API}/search?${u}`;
 }
 
-export async function getJson<T>(url: string): Promise<T> {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-  return res.json();
+export class ApiError extends Error {
+  constructor(public status: number, message: string) {
+    super(message);
+  }
 }
+
+async function parse<T>(res: Response): Promise<T> {
+  if (res.status === 204) return undefined as T;
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new ApiError(res.status, body.error ?? `${res.status} ${res.statusText}`);
+  return body as T;
+}
+
+export const getJson = <T,>(url: string): Promise<T> => fetch(url).then((r) => parse<T>(r));
+
+export const sendJson = <T,>(method: "POST" | "DELETE", url: string, body?: unknown): Promise<T> =>
+  fetch(url, {
+    method,
+    headers: body === undefined ? undefined : { "Content-Type": "application/json" },
+    body: body === undefined ? undefined : JSON.stringify(body),
+  }).then((r) => parse<T>(r));
+
+export type User = { id: number; email: string };
+
+export type Saved = {
+  id: number;
+  name: string;
+  params: Record<string, string[]>;
+  created_at: string;
+};
+
+/** Saved-search params ({name: [values]}) -> the URL of the search page that reruns it. */
+export const savedHref = (s: Saved): string => {
+  const u = new URLSearchParams();
+  Object.entries(s.params).forEach(([k, vs]) => vs.forEach((v) => u.append(k, v)));
+  return `/?${u}`;
+};
 
 export const money = (n: number | null) =>
   n == null ? "n/a" : n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });

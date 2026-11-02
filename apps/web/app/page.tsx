@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { API, Facets, Hit, SearchParams, getJson, money, searchUrl } from "@/lib/api";
+import { useRouter } from "next/navigation";
+import { API, ApiError, Facets, Hit, SearchParams, getJson, money, searchUrl, sendJson } from "@/lib/api";
+import { useAuth } from "@/lib/auth";
 
 const EMPTY: SearchParams = { q: "", mode: "hybrid", status: [], agency: "", closesAfter: "", minAmount: "" };
 const STATUSES = ["posted", "forecasted", "closed", "archived"];
@@ -20,6 +22,9 @@ export default function SearchPage() {
   const [facets, setFacets] = useState<Facets | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [notice, setNotice] = useState("");
+  const { user } = useAuth();
+  const router = useRouter();
 
   useEffect(() => {
     getJson<Facets>(`${API}/facets`).then(setFacets).catch(() => {});
@@ -48,6 +53,22 @@ export default function SearchPage() {
       setError(`Search failed (${(e as Error).message}). Is the API running at ${API}?`);
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function save() {
+    if (!user) { router.push(`/login?next=${encodeURIComponent(window.location.pathname + window.location.search)}`); return; }
+    const name = window.prompt("Name this search", p.q.slice(0, 60));
+    if (!name?.trim()) return;
+    const params: Record<string, string | string[]> = { q: p.q, mode: p.mode, status: p.status };
+    if (p.agency) params.agency = p.agency;
+    if (p.closesAfter) params.closes_after = p.closesAfter;
+    if (p.minAmount) params.min_amount = p.minAmount;
+    try {
+      await sendJson("POST", `${API}/saved-searches`, { name, params });
+      setNotice("Saved. You can find it under Saved searches.");
+    } catch (e) {
+      setNotice(e instanceof ApiError ? e.message : "Could not save this search.");
     }
   }
 
@@ -94,6 +115,9 @@ export default function SearchPage() {
       </div>
 
       {error && <p className="error">{error}</p>}
+      {hits && hits.length > 0 && (
+        <p className="actions"><button className="link" onClick={save}>Save this search</button>{notice && <span className="muted">{notice}</span>}</p>
+      )}
       {hits && hits.length === 0 && <p className="empty">No grants matched. Try fewer filters.</p>}
       {hits?.map((h) => (
         <article className="result" key={h.id}>

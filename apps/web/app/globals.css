@@ -36,3 +36,8 @@ dt { color: var(--muted); } dd { margin: 0; }
 .actions { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
 .actions a { padding: 8px 14px; border: 1px solid var(--line); border-radius: 8px; text-decoration: none; background: var(--card); }
 @media (max-width: 600px) { dl { grid-template-columns: 1fr; } .top { flex-direction: column; gap: 2px; } }
+.nav { margin-left: auto; display: flex; gap: 14px; align-items: baseline; font-size: 14px; }
+button.link { background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; font: inherit; }
+.authform { max-width: 380px; display: flex; flex-direction: column; gap: 14px; }
+.authform label { display: flex; flex-direction: column; gap: 4px; color: var(--muted); font-size: 14px; }
+.authform input { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); font-size: 16px; }
