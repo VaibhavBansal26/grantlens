@@ -13,6 +13,7 @@ class Filters:
     min_amount: int | None = None  # grant must allow at least this much
     max_amount: int | None = None  # grant floor must not exceed this
     include_no_deadline: bool = True  # rolling/forecast grants have no close date
+    max_id: int | None = None  # freezes the corpus (evaluation on a fixed snapshot)
 
     def conditions(self) -> list:
         c = []
@@ -30,6 +31,8 @@ class Filters:
             for w in window:
                 cond = cond & w
             c.append(cond | Opportunity.close_date.is_(None) if self.include_no_deadline else cond)
+        if self.max_id is not None:
+            c.append(Opportunity.id <= self.max_id)
         if self.min_amount is not None:
             c.append(Opportunity.amount_max >= self.min_amount)
         if self.max_amount is not None:
