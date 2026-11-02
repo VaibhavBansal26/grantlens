@@ -1,0 +1,878 @@
+queries:
+- id: q021
+  text: small business innovation research biotechnology
+  candidates:
+  - id: '110353'
+    grade: null
+    title: Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) FY 2012 Phase I (Release 1
+    agency: Chicago Service Center
+    status: archived
+    closes: '2011-09-19'
+    abstract: Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) FY 2012 Phase I (Release 1)
+  - id: '49632'
+    grade: null
+    title: Annual Phase I Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) Funding Opp
+    agency: Chicago Service Center
+    status: archived
+    closes: null
+    abstract: This notice describes Phase I funding opportunities for the Small Business Innovation Research (SBIR) and the Small Business Technology Transfer (STTR) programs for Fiscal Year 2010.
+  - id: '45682'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation FY-2010
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-06-09'
+    abstract: The Small Business Innovation Research (SBIR) Program stimulates technological innovation in the private sector by strengthening the role of small business concerns in meeting Federal research
+      and development needs, increasing the commercial application of federally supported research results, and fostering and encouraging participation by socially and economically disadvantaged and women-owned
+      small businesses.
+  - id: '49279'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation-2 FY-2010
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-12-03'
+    abstract: The Small Business Innovation Research (SBIR) Program stimulates technological innovation in the private sector by strengthening the role of small business concerns in meeting Federal research
+      and development needs, increasing the commercial application of federally supported research results, and fostering and encouraging participation by socially and economically disadvantaged and women-owned
+      small businesses.
+  - id: '52431'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation FY-2011 (Release 1)
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Small Business Innovation Research (SBIR) Program stimulates technological innovation in the private sector by strengthening the role of small business concerns in meeting Federal research
+      and development needs, increasing the commercial application of federally supported research results, and fostering and encouraging participation by socially and economically disadvantaged and women-owned
+      small businesses.
+  - id: '359671'
+    grade: null
+    title: NIH, CDC and FDA Small Business Innovation Research Grant (Parent SBIR [R43/R44] Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-04-05'
+    abstract: The Small Business Innovation Research (SBIR) program helps United States small business concerns (SBCs) bring scientific innovations to the marketplace. The SBIR program supports feasibility
+      studies to later research and development (R&D) needed to develop a commercial product.
+  - id: '57018'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation FY-2011 (Release 2)
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2010-12-03'
+    abstract: The Small Business Innovation Research (SBIR) Program stimulates technological innovation in the private sector by strengthening the role of small business concerns in meeting Federal research
+      and development needs, increasing the commercial application of federally supported research results, and fostering and encouraging participation by socially and economically disadvantaged and women-owned
+      small businesses.The SBIR program solicits proposals from the small business sector consistent with NS
+  - id: '161253'
+    grade: null
+    title: Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) FY 2012 Phase I (Release 3
+    agency: Office of Science
+    status: archived
+    closes: '2012-07-03'
+    abstract: 'Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) FY 2012 Phase I (Release 3) The full text of the Funding Opportunity Announcement (FOA) is located on FedConnect.
+      Instructions for completing the Grant Application Package are contained in the full text of the FOA which can be obtained at: https://www.fedconnect.net/FedConnect/?doc=DE-FOA-0000715&agency=DOE'
+  - id: '132093'
+    grade: null
+    title: 'Small Business Innovation Research (SBIR)/ Small Business Technology Transfer (STTR) FY 2012 Phase I (Release '
+    agency: Office of Science
+    status: archived
+    closes: '2012-01-31'
+    abstract: 'Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) FY 2012 Phase I (Release 2) The full text of the Funding Opportunity Announcement (FOA) is located on FedConnect.
+      Instructions for completing the Grant Application Package are contained in the full text of the FOA which can be obtained at: https://www.fedconnect.net/FedConnect/?doc=DE-FOA-0000628&agency=DOE'
+  - id: '123733'
+    grade: null
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-28'
+    abstract: This FOA solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for funding to perform research leading to the development of innovative
+      technologies that may advance progress toward an integrated long term glucose regulated insulin delivery system (artificial pancreas).
+  - id: '123753'
+    grade: null
+    title: Small Business Innovation Research to Develop New Methods and Technologies able to Identify Individuals at Ris
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-12-22'
+    abstract: This Funding Opportunity Announcement (FOA) solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for funding to perform research leading
+      to the development of innovative technologies that may advance progress towards early detection and follow-up of individuals at risk of developing type 1 diabetes (T1D).
+  - id: '364020'
+    grade: null
+    title: Small Business Innovation Research and Small Business Technology Transfer Programs Phase II
+    agency: National Institute of Food and Agriculture
+    status: posted
+    closes: '2026-11-17'
+    abstract: <p>The USDA SBIR/STTR programs, Assistance Listing number 10.212, support scientific excellence and technological innovation through investment of Federal research funds to build a strong
+      national economy by stimulating technological innovation in the private sector; strengthening the role of small business in meeting Federal research and development needs; and increasing the commercial
+      application of Federally supported research results. Further, the objective of the STTR program is to stimulat
+  - id: '48927'
+    grade: null
+    title: RECOVERY ACT (ARRA)-Applications for Phase I SBIR/STTR Grants Annual Phase I Small Business Innovation Researc
+    agency: Chicago Service Center
+    status: archived
+    closes: '2009-09-04'
+    abstract: 'Phase I: Phase I grants resulting from this competition will be made during calendar year 2009 to small businesses, in amounts up to $150,000. Phase I is to evaluate, insofar as possible,
+      the scientific or technical merit and feasibility of ideas that appear to have commercial potential.'
+  - id: '111573'
+    grade: null
+    title: 'T2 Translational Research on Aging:  Small Business Innovation Awards (R43/R44)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-04'
+    abstract: The involvement of small businesses in translational aging research could hasten the pace at which scientific advances are transformed into commercial products to improve or maintain the health
+      and functional independence of older adults. Therefore, this funding opportunity announcement (FOA) is intended to support innovative research conducted by small businesses to advance the availability
+      of novel devices, products, health care practices and programs with the potential for commercial success
+  - id: '359758'
+    grade: null
+    title: NIH Small Business Innovation Research (SBIR) Phase IIB Strategic Breakthrough Award (Parent [R44] Clinical Tr
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-04-05'
+    abstract: The NIH Phase IIB Strategic Breakthrough award bridges the funding gap between the end of a Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) Phase II
+      award and commercialization. The Phase IIB Strategic Breakthrough provides previously funded NIH SBIR or STTR projects additional support for later-stage research and development (R&D).
+  - id: '45668'
+    grade: null
+    title: Supplemental Opportunity for SBIR/STTR Memberships in I/UCRCs
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-05-31'
+    abstract: NSF invites supplemental requests for Small Business Innovation Research and Small Business Technology Transfer (SBIR/STTR) grantees to join an Industry/University Cooperative Research Center
+      (I/UCRC). The supplements are intended to accelerate the innovation process by partnering industry-relevant academic research with commercialization focused small business research. The supplements
+      will enable small businesses to purchase annual memberships in I/UCRCs; thus opening the doors to the benefits
+  - id: '359757'
+    grade: null
+    title: NIH Small Business Technology Transfer Grant (Parent STTR [R41/R42] Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-04-05'
+    abstract: The Small Business Technology Transfer (STTR) grant program helps United States small business concerns (SBCs) that partner with a nonprofit research institution bring scientific innovations
+      to the marketplace. The STTR program supports feasibility studies to later stage research and development (R&D) needed to develop a commercial product.
+  - id: '127213'
+    grade: null
+    title: Air Force Defense Research and Development Rapid Innovation Fund (RIF) Program
+    agency: Air Force -- Research Lab
+    status: archived
+    closes: '2012-05-05'
+    abstract: The National Defense Appropriation Act (NDAA) for FY2011 provided the Department of Defense (DoD) with the authorities and funds to facilitate the rapid insertion of innovative technologies
+      into military systems or programs meeting critical national security needs. It is primarily for the transition of technologies developed by small businesses, including those resulting from the Small
+      Business Innovation Research (SBIR) Program and DoD-reimbursed Independent Research and Development (IR&D).
+  - id: '123854'
+    grade: null
+    title: NeuroNEXT Small Business Innovation in Clinical Trials (U44)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-12-02'
+    abstract: This Funding Opportunity Announcement (FOA) encourages Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) that propose biomarker validation trials
+      or exploratory clinical trials of drugs, biologics, surgical therapies or devices for neurological disorders which may contribute to the justification for and provide the data required to design a
+      future trial to confirm efficacy (i.e., a Phase III clinical trial) in the treatment of neurologic disease. T
+  - id: '173453'
+    grade: null
+    title: Advanced Tools and Technologies for Cerebrospinal Fluid Shunts SBIR (R43/R44)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-05-07'
+    abstract: This Funding Opportunity Announcement (FOA) invites Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for projects to design and develop advanced
+      tools and technologies for cerebrospinal fluid (CSF) shunts that will lead to improved clinical treatment for patients with hydrocephalus.
+- id: q022
+  text: veterans health and PTSD treatment
+  candidates:
+  - id: '52981'
+    grade: null
+    title: Texas Tech University Health Science Center
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-17'
+    abstract: The center will establish protocols to compare new treatments as compared to established treatments.
+  - id: '44333'
+    grade: null
+    title: FY09 Defense Health Program (DHP) HIV/AIDS Prevention, Care, and Treatment in Foreign Militaries
+    agency: Naval Supply Systems Command
+    status: archived
+    closes: '2009-09-30'
+    abstract: FY09 Defense Health Program (DHP) HIV/AIDS Prevention, Care, and Treatment in Foreign Militaries.
+  - id: '48806'
+    grade: null
+    title: Substance Use and Abuse among U.S. Military Personnel, Veterans and their Families (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-12-22'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) is issued by NIDA, NIAAA, NCI, and the Department of Veterans Affairs (VA) to enhance and accelerate research on the epidemiology/etiology,
+      identification, and prevention and treatment of alcohol, tobacco, and other drug use and abuse (including illicit and prescription drugs) and associated mental health problems among active-duty or
+      recently separated (e.g., Iraq and Afghanistan) military troops and their families. VA has specific interest
+  - id: '136573'
+    grade: null
+    title: Provision of Comprehensive HIV/AIDS Care, Treatment and Prevention Services in indigenous Health Facilities in
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-03-07'
+    abstract: The purpose of this program is to support HIV/AIDS prevention, care and treatment services in indigenous health facilities in Uganda.
+  - id: '73673'
+    grade: null
+    title: Urban Indian Health Program
+    agency: Indian Health Service
+    status: archived
+    closes: '2011-03-24'
+    abstract: "Under this grant opportunity, the IHS proposes to award grants to 34 urban Indian Health Programs (UIHP), which are Urban Indian organizations that have existing IHS contracts, in accordance\
+      \ with 25 U.S.C. \xA7\xA71653(c)-(e), 1660a. This grant announcement seeks to ensure the highest possible health status for AI/ANs. Funding will be used to continue the 34 urban Indian organizations\x92\
+      \ successful implementation of the priorities of the Department of Health and Human Services (HHS), Strategic Plan Fi"
+  - id: '52220'
+    grade: null
+    title: DEPARTMENT OF DEFENSE HIV/AIDS PREVENTION PROGRAM
+    agency: Naval Supply Systems Command
+    status: archived
+    closes: '2011-09-30'
+    abstract: FY10 Defense Health Program (DHP) HIV/AIDS Prevention, Care, and Treatment in Foreign Militaries
+  - id: '41490'
+    grade: null
+    title: Urban Indian Health Programs
+    agency: Indian Health Service
+    status: archived
+    closes: '2008-05-21'
+    abstract: The Indian Health Service (IHS), Office of Urban Indian Health Programs (OUIHP) announces a targeted solicitation for the 4-in-1 Title V grants to make health care services more accessible
+      for American Indians and Alaska Natives (AI/AN) residing in urban areas. This program is authorized under the authority of the Snyder Act and 25 U.S.C. 1652 and 1653 and Title V of the Indian Health
+      Care Improvement Act (IHCIA), Public Law 94-437, as amended. This program is described at 93.193 in the Catalo
+  - id: '73513'
+    grade: null
+    title: Integrating HIV Care and Treatment within the Network of Facilities Offering TB Treatment and Providing Techni
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-04-20'
+    abstract: The purpose of this program is to incorporate HIV testing, care, and treatment into the network of TB clinics in Haiti and to work with the Ministry of Health (MOH) to develop policies and
+      systems to strengthen TB/HIV services in Haiti.
+  - id: '56864'
+    grade: null
+    title: Burley and Jarbidge Field Office Stewardship Agreement
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2010-09-07'
+    abstract: Increase the efficiency and effectiveness in conducting proactive treatments that increase the health and sustainability of its natural resources on public land.
+  - id: '141153'
+    grade: null
+    title: Support Uganda Ministry of Health Capacity to Address HIV and Other Health Priority Conditions through Strengt
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-03-27'
+    abstract: The purpose of this program is to enhance the capacity of the Ugandan Ministry of Health to fully implement its national goal of strengthening health system including scale up HIV prevention,
+      care, and treatment and other priority health conditions.
+  - id: '101913'
+    grade: null
+    title: Effectiveness of Treatment for Oral Diseases in Medically Compromised Patients (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-18'
+    abstract: This Funding Opportunity Announcement encourages research related to determining outcomes of prevention and treatment strategies for oral diseases in persons with medical conditions known
+      to severely compromise oral health.
+  - id: '162033'
+    grade: null
+    title: 'Developing a Plan to Evaluate Delivery of Health Care Treatments and Services for Duchenne Muscular Dystrophy '
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-04'
+    abstract: The purpose of this program is to provide support through a CDC cooperative agreement for non-research activities to develop a plan for evaluating whether health care treatments and services
+      for people who have Duchenne muscular dystrophy are currently being delivered according to recommendations outlined in the DMD Care Considerations
+  - id: '167793'
+    grade: null
+    title: Integrated Social Marketing
+    agency: Madagascar USAID-Antananarivo
+    status: archived
+    closes: '2012-06-08'
+    abstract: This solicitation is to seek applications from eligible Applicants, for a program that is to improve health among key target groups by creating demand for and ensuring widespread access to
+      affordable, high-quality family planning, reproductive health, malaria prevention and treatment, pneumonia and diarrheal disease prevention and treatment, and safe water treatment products through
+      social marketing of quality subsidized health products and services. Special focus on social marketing activities
+  - id: '54158'
+    grade: null
+    title: Flex Rural Veterans Health Access Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-06-04'
+    abstract: The purpose of this grant program is to provide mental health services and other services to veterans and other residents of rural areas. HRSA / ORHP will award grants to States that submit
+      applications for increasing the delivery of mental health services or other health care services deemed necessary to meet the needs of veterans of Operation Iraqi Freedom and Operation Enduring Freedom
+      living in rural census tracks, including for the provision of crisis intervention services and the detectio
+  - id: '52426'
+    grade: null
+    title: Sickle Cell Treatment Demonstration Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-04-19'
+    abstract: The purpose of this program is to develop and establish systems mechanisms to enhance the prevention and treatment of sickle cell disease through the coordination of service delivery; genetic
+      counseling and testing; bundling of technical services; training of health professionals; and other related efforts.
+  - id: '50887'
+    grade: null
+    title: 'Cooperative Agreement Award to the Council for Scientific and Industrial Research to Assist the South African '
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-03-02'
+    abstract: To provide assistance for strengthening the South African National Department of Health (NDoH), provincial governments and PEPFAR partners on infection control
+  - id: '101915'
+    grade: null
+    title: Effectiveness of Treatment for Oral Diseases in Medically Compromised Patients (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-18'
+    abstract: This Funding Opportunity Announcement encourages exploratory / developmental clinical research related to determining outcomes of prevention and treatment strategies for oral diseases in persons
+      with medical conditions known to severely compromise oral health.
+  - id: '152893'
+    grade: null
+    title: Building the capacity of the National AIDS Control Program of the Ministry of Health to Expand Coordinated HIV
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-05-14'
+    abstract: "\x93Building the capacity of the National AIDS Control Program of the Ministry of Health to Expand Coordinated HIV Prevention, Care, Treatment, and Strategic Information Programs in the United\
+      \ Republic of Tanzania under the President's Emergency Plan for AIDS Relief (PEPFAR)\x94"
+  - id: '364049'
+    grade: null
+    title: NIJ FY 2026 Evaluation of the Effectiveness of the Bureau of Justice Assistance (BJA) Byrne State Crisis Inter
+    agency: National Institute of Justice
+    status: posted
+    closes: '2026-11-16'
+    abstract: "This is a notice of funding opportunity (NOFO) for the NIJ FY 2026 Evaluation of the Effectiveness of the Bureau of Justice Assistance (BJA) Byrne State Crisis Intervention Program (SCIP).1\
+      \ This opportunity will support research and evaluation to assess the effectiveness of programs funded under FYs 2022-2026 BJA\u2019s Byrne SCIP NOFOs. BJA\u2019s Byrne SCIP provides funding for the\
+      \ creation or enhancement of state crisis intervention court proceedings and related programs or initiatives, including extre"
+  - id: '69353'
+    grade: null
+    title: Provision of Comprehensive HIV/AIDS Care, Treatment and Prevention Services in Faith-Based Health Facilities a
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-04-08'
+    abstract: The purpose of this program is to support HIV/AIDS prevention, care and treatment services, and procurement and logistics management services for HIV/AIDS-related commodities including Antiretroviral
+      (ARV), opportunistic infection (OI) drugs and any other products as may be determined for all HIV/AIDS programs funded by HHS/CDC Uganda in faith based-affiliated health facilities.
+- id: q023
+  text: tribal communities cultural preservation and language
+  candidates:
+  - id: '63133'
+    grade: null
+    title: Native American Language Preservation and Maintenance
+    agency: Administration for Children and Families - ANA
+    status: archived
+    closes: '2013-06-06'
+    abstract: The application package for this FOA has been modified and now includes the correct form for the Project Abstract Summary (OMB Number 0980-0204). If you downloaded the application package
+      prior to May 9, 2013 with Project Abstract (OMB Number 4040-0003), you must download a new application package to prevent validation errors during application submission. This Funding Opportunity
+      Announcement has been modified and re-posted for application submission. Proposed Changes to this announcement are i
+  - id: '47320'
+    grade: null
+    title: Chaco Frontier Communities Project
+    agency: Department of the Interior
+    status: archived
+    closes: '2009-05-20'
+    abstract: This ongoing project provides for research in certain tribal community organization and settlement history in New Mexico through cultural resource inventory, data recovery, and working with
+      tribal members to incorporate critical tribal perspectives.
+  - id: '105653'
+    grade: null
+    title: Community Histories
+    agency: National Park Service
+    status: archived
+    closes: '2011-07-29'
+    abstract: 'NOTICE OF INTENT TO AWARD This Funding Announcement is not a request for applications. This announcement is to provide public notice of the National Park Service (NPS), intention to fund
+      the following project activities. ABSTRACT Funding Announcement: P11AC90501 Project Title: Community Histories Recipient: Mt. Sanford Tribal Consortium Principle Investigator: Evelyn Beeter Total
+      Anticipated Award Amount: $50,000 Cost Share: N/A New Award Or Continuation: New An'
+  - id: '121693'
+    grade: null
+    title: Community Histories
+    agency: National Park Service
+    status: archived
+    closes: '2011-09-24'
+    abstract: 'NOTICE OF INTENT TO AWARD This Funding Announcement is not a request for applications. This announcement is to provide public notice of the National Park Service (NPS), intention to fund
+      the following project activities. ABSTRACT Funding Announcement: P11AC36040 Project Title: Community Histories Recipient: Mt. Sanford Tribal Consortium Principle Investigator: Evelyn Beeter Total
+      Anticipated Award Amount: $30,000 Cost Share: N/A New Award Or Continuation: New An'
+  - id: '117613'
+    grade: null
+    title: Yakutat Community Histories
+    agency: National Park Service
+    status: archived
+    closes: '2011-09-08'
+    abstract: 'NOTICE OF INTENT TO AWARD This Funding Announcement is not a request for applications. This announcement is to provide public notice of the National Park Service (NPS), intention to fund
+      the following project activities. ABSTRACT Funding Announcement: P11AC30730 Project Title: Yakutat Community Histories Recipient: Yakutat Tlingit Tribe Principle Investigator: Judy Ramos Total Anticipated
+      Award Amount: $6,000 Cost Share: N/A New Award Or Continuation: New Antic'
+  - id: '44191'
+    grade: null
+    title: Sustainability for the 7th Generation Initiative (SGI)
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2009-01-23'
+    abstract: "The United States Environmental Protection Agency (U.S. EPA) is accepting applications from federally recognized Tribal governments and Tribal consortia. This notice announces the availability\
+      \ of funds and solicits applications from eligible entities to receive financial assistance through the Sustainability for the 7th Generation Initiative (SGI). The way of life for many Indian cultures\
+      \ is centered on the concept of \x93seven generations.\x94 That is to say that the decisions today are always consid"
+  - id: '63153'
+    grade: null
+    title: Native American Language Preservation and Maintenance - Esther Martinez Initiative
+    agency: Administration for Children and Families - ANA
+    status: archived
+    closes: '2013-06-06'
+    abstract: The application package for this FOA has been modified and now includes the correct form for the Project Abstract Summary (OMB Number 0980-0204). If you downloaded the application package
+      prior to May 9, 2013 with Project Abstract (OMB Number 4040-0003), you must download a new application package to prevent validation errors during application submission. This Funding Opportunity
+      Announcement will be modified and re-posted for application submission. Proposed changes to this announcement are id
+  - id: '52450'
+    grade: null
+    title: Native American Language Preservation and Maintenance
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2010-04-09'
+    abstract: '&lt;p&gt;&#xa0;The Administration for Children and Families, Administration for Native Americans (ANA) announces the availability of Fiscal Year 2010 funds for community-based projects for
+      the Native Language Preservation and Maintenance program. &#xa0;The purpose of ANA grant funding is to promote economic and social self-sufficiency for American Indians, Alaska Natives, Native Hawaiians,
+      and other Native American Pacific Islanders, including American Samoa, Guam, and the Commonwealth of the No'
+  - id: '103654'
+    grade: null
+    title: NCTA Cooperative Agreement
+    agency: National Park Service
+    status: archived
+    closes: '2011-07-17'
+    abstract: "The objective of this agreement is to work with the recipient to develop coordinated programs and relationships among individual parks, cultural arts and heritage organizations, and local\
+      \ communities to further the identification of America\xEF\xBF\xBDs significant cultural arts and to promote their continued preservation through public performance."
+  - id: '355564'
+    grade: null
+    title: Native American Language Preservation and Maintenance
+    agency: Administration for Children and Families - ANA
+    status: archived
+    closes: '2025-04-14'
+    abstract: 'This NOFO has been modified. Changes have been made to Step 1: Program Description, Step 3: Data Management Plan, and Step 6: Reference Websites. Applicants should use the last updated NOFO
+      in Grants.gov, which is March 14, 2025.The Administration for Children and Families (ACF), Administration for Native Americans (ANA) announces that it will be soliciting applications for the Native
+      American Language Preservation and Maintenance program. This program provides funding for projects to support as'
+  - id: '44180'
+    grade: null
+    title: Native Language Preservation and Maintenance Implementation
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2009-03-11'
+    abstract: 'The Administration for Native Americans (ANA), within the Administration for Children and Families (ACF), announces the availability of Fiscal Year (FY) 2009 funds for new community-based
+      activities under ANA''s Native Language Preservation and Maintenance Implementation program area. Native Language Implementation grants are used to implement a preservation language project that will
+      contribute to the achievement of the community''s long-range language goal(s). Purpose of Modification: To clar'
+  - id: '167033'
+    grade: null
+    title: Culturally Responsive School Programs
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2012-05-20'
+    abstract: 'Notice of Intent to Award. This funding announcement is not a request for applications. This announcement is to provide public notice of the National Park Service(NPS) intention to fund this
+      project under justification 505 DM 2.14 (B4). Funding Announcement Number: P12AS10392. Project Title: Culturally Responsive School Programs. Receipt: Hoonah City Schools. Total Anticipated Award Amount:
+      $43,010.00. Activities: Cooperative Agreement between National Park Service, Glacier Bay National Par'
+  - id: '51636'
+    grade: null
+    title: Learn and Serve America School-Based Indian Tribes and U.S. Territories FY 2010
+    agency: Corporation for National and Community Service
+    status: archived
+    closes: '2010-03-09'
+    abstract: "APPLICATIONS CANNOT BE SUBMITTED THROUGH GRANTS.GOV APPLICATIONS MUST BE SUBMITTED THROUGH THE CORPORATION\x92S EGRANTS SYSTEM: https://egrants.cns.gov/espan/main/login.jsp The Corporation\
+      \ for National and Community Service (the Corporation) announces the availability of approximately $650,070 to award Learn and Serve America School-Based Indian Tribes and U.S. Territories grants\
+      \ on a competitive basis. This program is authorized under the National and Community Service Act of 1990 and fund"
+  - id: '96915'
+    grade: null
+    title: Survey for Emergency Habitat Expansion/Improvement and Unknown Archaelogical Sites
+    agency: National Park Service
+    status: archived
+    closes: '2011-06-02'
+    abstract: University of Memphis researchers will conduct a Class III pedestrian inventory with evaluation of archaeological resources at Bighorn Canyon NRA (BICA). The project will be conducted as part
+      of the NPS System-Wide Archaeological Inventory Program (SAIP). The project will provide cultural resources training opportunities for participants from the Crow and Northern Cheyenne Tribes as part
+      of a Tribal Historic Preservation Office (THPO) development initiative led by the Tribal cultural committee
+  - id: '357187'
+    grade: null
+    title: Advancement and Innovation in Measurement of Language Development and Predictors (R21 Clinical Trial Not Allow
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-09-07'
+    abstract: The purpose of this notice of funding opportunity (NOFO) is to encourage community-engaged research that broadens the conceptualization of qualities of the environment that can support language
+      development in children and that focuses on the development of novel measures of childrens language development. The overall goal is to build the number of strengths-focused, culturally and linguistically
+      responsive, and generalizable toolsto further our understanding of childrens language development and
+  - id: '357186'
+    grade: null
+    title: Advancement and Innovation in Measurement of Language Development and Predictors (R01 Clinical Trial Not Allow
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-09-07'
+    abstract: The purpose of this notice of funding opportunity (NOFO) is to encourage community-engaged research that broadens the conceptualization of qualities of the environment that can support language
+      development in children and that focuses on the development of novel measures of childrens language development. The overall goal is to build the number of strengths-focused, culturally and linguistically
+      responsive, and generalizable toolsto further our understanding of childrens language development and
+  - id: '236341'
+    grade: null
+    title: National Alliance of Faith and Justice
+    agency: National Park Service
+    status: archived
+    closes: '2013-06-27'
+    abstract: "NOTICE OF INTENT TO AWARD This Funding Announcement is not a request for applications. This announcement is to provide public notice of the National Park Service\xBFs intention to fund the\
+      \ following project activities without full and open competition. ABSTRACT Funding Announcement P13AS00081 Project Title Provide Opportunities for social research on history education youth-centered\
+      \ programming. Recipient National Alliance of Faith and Justice Principle Investigator / Program Manager Addie Rich"
+  - id: '184894'
+    grade: null
+    title: Northwest New Mexico Site Stewards
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2012-08-17'
+    abstract: The San Juan County Museum Association (SJCMA) has participated in partnership with the Bureau of Land Management (BLM) a site stewardship program since 2000. The Northwest New Mexico Site
+      Stewards (NWNMSS) involves members of the community in monitoring the use and condition of scores of archaeological and historical sites managed by the Farmington Field Office. The underlying goals
+      are not only to involve the public to regularly monitor the use and condition of significant cultural sites, bu
+  - id: '101153'
+    grade: null
+    title: 'Tribal Research Center on Early Childhood under the Affordable Care Act&amp;apos;s (ACA) Maternal, Infant and '
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2011-08-01'
+    abstract: The Administration for Children and Families (ACF), Office of Planning, Research and Evaluation (OPRE) is soliciting applicationsfor acooperative agreement to support a Tribal Research Center
+      for Early Childhood that will provide leadership and support to promote excellence in community-based participatory research and evaluation of ACF early childhood initiatives that serve Tribal communities
+      (i.e., Home Visiting, Head Start, Early Head Start). The Center is expected to engage in a variety of a
+  - id: '47257'
+    grade: null
+    title: OJJDP FY 09 Tribal Youth Field Initiated Research and Evaluation Program
+    agency: 'Office of Juvenile Justice Delinquency Prevention '
+    status: archived
+    closes: '2009-06-15'
+    abstract: This solicitation will fund field-initiated studies to further our understanding regarding the experiences, strengths, and needs of tribal youth, their families, and communities and what works
+      to reduce their risks for delinquency and victimization. This initiative is especially interested in applications to conduct evaluation studies that identify effective and promising delinquency prevention,
+      intervention, and treatment programs for tribal youth including those that assist tribal youth in enh
+- id: q024
+  text: arts and humanities digital scholarship
+  candidates:
+  - id: '163473'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-07-19'
+    abstract: The Humanities Collections and Reference Resources (HCRR) program supports projects that provide an essential underpinning for scholarship, education, and public programming in the humanities.
+      Thousands of libraries, archives, museums, and historical organizations across the country maintain important collections of books and manuscripts, photographs, sound recordings and moving images,
+      archaeological and ethnographic artifacts, art and material culture, and digital objects. Funding from this pr
+  - id: '53723'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-07-15'
+    abstract: The Humanities Collections and Reference Resources program supports projects that provide an essential foundation for scholarship, education, and public programming in the humanities. Thousands
+      of libraries, archives, museums, and historical organizations across the country maintain important collections of books and manuscripts, photographs, sound recordings and moving images, archaeological
+      and ethnographic artifacts, art and material culture, and digital objects. Funding from this program str
+  - id: '85954'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-07-20'
+    abstract: The Humanities Collections and Reference Resources program supports projects that provide an essential foundation for scholarship, education, and public programming in the humanities. Thousands
+      of libraries, archives, museums, and historical organizations across the country maintain important collections of books and manuscripts, photographs, sound recordings and moving images, archaeological
+      and ethnographic artifacts, art and material culture, and digital objects. Funding from this program str
+  - id: '41663'
+    grade: null
+    title: 'America''s Media Makers: Production Grants'
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-08-27'
+    abstract: "Grants for America\x92s Media Makers support media projects that explore significant events, figures, or developments in the humanities and offer creative and new approaches to humanities\
+      \ content. America\x92s Media Makers projects promote active exploration and engagement for broad public audiences in history, literature, archaeology, art history, comparative religion, philosophy,\
+      \ and other fields of the humanities. NEH supports the development of humanities content and interactivity that excites, in"
+  - id: '46645'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2009-07-15'
+    abstract: The Humanities Collections and Reference Resources program supports projects that provide an essential foundation for scholarship, education, and public programming in the humanities. Thousands
+      of libraries, archives, museums, and historical organizations across the country maintain important collections of books and manuscripts, photographs, sound recordings and moving images, archaeological
+      and ethnographic artifacts, art and material culture, electronic records, and digital objects. Funding f
+  - id: '175313'
+    grade: null
+    title: Digital Humanities Start-up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-09-25'
+    abstract: The National Endowment for the Humanities (NEH) invites applications to the Digital Humanities Start-Up Grants program. This program is designed to encourage innovations in the digital humanities.
+      By awarding relatively small grants to support the planning stages, NEH aims to encourage the development of innovative projects that promise to benefit the humanities. Proposals should be for the
+      planning or initial stages of digital initiatives in any area of the humanities. Digital Humanities St
+  - id: '41720'
+    grade: null
+    title: America's Media Makers Development Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-08-27'
+    abstract: "Grants for America\x92s Media Makers support media projects that explore significant events, figures, or developments in the humanities and offer creative and new approaches to humanities\
+      \ content. America\x92s Media Makers projects promote active exploration and engagement for broad public audiences in history, literature, archaeology, art history, comparative religion, philosophy,\
+      \ and other fields of the humanities. NEH supports the development of humanities content and interactivity that excites, in"
+  - id: '48471'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2009-10-06'
+    abstract: The National Endowment for the Humanities (NEH) invites applications to the Digital Humanities Start-Up Grants program. This program is designed to encourage innovations in the digital humanities.
+      By awarding relatively small grants to support the planning stages, NEH aims to encourage the development of innovative projects that promise to benefit the humanities. Proposals should be for the
+      planning or initial stages of digital initiatives in any area of the humanities. Digital Humanities Start-
+  - id: '58357'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-02-23'
+    abstract: The National Endowment for the Humanities (NEH) invites applications to the Digital Humanities Start-Up Grants program. This program is designed to encourage innovations in the digital humanities.
+      By awarding relatively small grants to support the planning stages, NEH aims to encourage the development of innovative projects that promise to benefit the humanities. Proposals should be for the
+      planning or initial stages of digital initiatives in any area of the humanities. Digital Humanities Start-
+  - id: '41630'
+    grade: null
+    title: Humanities Collections and Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-07-31'
+    abstract: "Humanities Collections and Resources combines support for activities that were funded previously through two separate grant categories: Grants to Preserve and Create Access to Humanities\
+      \ Collections and Reference Materials Grants. The program also provides support for activities funded previously through the Division\x92s Research and Development category. The possibilities presented\
+      \ by advances in digital technology require a new grant category that encompasses the range of activities funded throu"
+  - id: '50290'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-03-23'
+    abstract: The National Endowment for the Humanities (NEH) invites applications to the Digital Humanities Start-Up Grants program. This program is designed to encourage innovations in the digital humanities.
+      By awarding relatively small grants to support the planning stages, NEH aims to encourage the development of innovative projects that promise to benefit the humanities. Proposals should be for the
+      planning or initial stages of digital initiatives in any area of the humanities. Digital Humanities Start-
+  - id: '58613'
+    grade: null
+    title: Institutes for Advanced Topics in the Digital Humanities
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-02-16'
+    abstract: These NEH grants support national or regional (multistate) training programs for scholars and advanced graduate students to broaden and extend their knowledge of digital humanities. Through
+      these programs, NEH seeks to increase the number of humanities scholars using digital technology in their research and to broadly disseminate knowledge about advanced technology tools and methodologies
+      relevant to the humanities. The projects may be a single opportunity or offered multiple times to different
+  - id: '50159'
+    grade: null
+    title: Institutes for Advanced Topics in the Digital Humanities
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-02-17'
+    abstract: These NEH grants support national or regional (multistate) training programs for scholars and advanced graduate students to broaden and extend their knowledge of digital humanities. Through
+      these programs, NEH seeks to increase the number of humanities scholars using digital technology in their research and to broadly disseminate knowledge about advanced technology tools and methodologies
+      relevant to the humanities. The projects may be a single opportunity or offered multiple times to different
+  - id: '56411'
+    grade: null
+    title: Digital Humanities Start-up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-10-05'
+    abstract: The National Endowment for the Humanities (NEH) invites applications to the Digital Humanities Start-Up Grants program. This program is designed to encourage innovations in the digital humanities.
+      By awarding relatively small grants to support the planning stages, NEH aims to encourage the development of innovative projects that promise to benefit the humanities. Proposals should be for the
+      planning or initial stages of digital initiatives in any area of the humanities. Digital Humanities Start-
+  - id: '109333'
+    grade: null
+    title: Digital Humanities Implementation Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-01-24'
+    abstract: This program is designed to fund the implementation of innovative digital-humanities projects that have successfully completed a start-up phase and demonstrated their value to the field. Such
+      projects might enhance our understanding of central problems in the humanities, raise new questions in the humanities, or develop new digital applications and approaches for use in the humanities.
+      The program can support innovative digital-humanities projects that address multiple audiences, including schol
+  - id: '129114'
+    grade: null
+    title: America's Historical and Cultural Organizations
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-01-11'
+    abstract: "NEH offers two categories of grants for America\x92s Historical and Cultural Organizations: planning and implementation grants. Planning grants are available for projects that may need further\
+      \ development before applying for implementation. This planning can include the identification and refinement of the project\x92s main humanities ideas and questions, consultation with scholars, preliminary\
+      \ audience evaluation, preliminary design of the proposed interpretive formats, beta testing of digital form"
+  - id: '181176'
+    grade: null
+    title: NEH/DFG Bilateral Digital Humanities Program
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-09-27'
+    abstract: "The National Endowment for the Humanities (NEH) in the United States and the German Research Foundation (Deutsche Forschungsgemeinschaft e.V., DFG) are working together to offer support for\
+      \ projects that contribute to developing and implementing digital infrastructures and services for humanities research. In order to encourage new approaches and develop innovative methods in any field\
+      \ of the humanities, these grants provide funding for up to three years in any of the following areas: \x95 deve"
+  - id: '171733'
+    grade: null
+    title: America's Media Makers
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-08-15'
+    abstract: "America\x92s Media Makers (AMM) grants support the following formats:\x95 interactive digital media;\x95 film and television projects; and\x95 radio projects.Interactive digital media may\
+      \ be websites, games, mobile applications, virtual environments, streaming video, or podcasts.Film and television projects may be single programs that address or a series that addresses significant\
+      \ figures, events, or developments and draw their content from humanities scholarship. They must be intended for national distribu"
+  - id: '40102'
+    grade: null
+    title: 'Advancing Knowledge: The IMLS/NEH Digital Partnership'
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-03-18'
+    abstract: The Institute of Museum and Library Services (IMLS) and the National Endowment for Humanities (NEH) invite proposals for innovative, collaborative humanities projects using the latest digital
+      technologies for the benefit of the American public, humanities scholarship, and the nation's cultural institutions. These grants require substantive collaborations among libraries, museums, archives,
+      universities, and other cultural organizations. Grants support projects that explore new ways to share, exa
+  - id: '104994'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-09-27'
+    abstract: The National Endowment for the Humanities (NEH) invites applications to the Digital Humanities Start-Up Grants program. This program is designed to encourage innovations in the digital humanities.
+      By awarding relatively small grants to support the planning stages, NEH aims to encourage the development of innovative projects that promise to benefit the humanities. Proposals should be for the
+      planning or initial stages of digital initiatives in any area of the humanities. Digital Humanities St
+- id: q025
+  text: rare disease gene therapy clinical trials
+  candidates:
+  - id: '357817'
+    grade: null
+    title: 'Translational Efforts to Advance Gene-based Therapies for Ultra-Rare Neurological and Neuromuscular Disorders '
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-10-08'
+    abstract: The Ultra-Rare Gene-Based Therapy (URGenT) network supports Investigational New Drug (IND)-enabling studies and planning activities for First-in-Human (FIH) clinical testing of gene-based
+      or transcript-directed therapeutics, such as oligonucleotides and viral-based gene therapies, for ultra-rare neurological or neuromuscular disorders. The goal of this announcement is to accelerate
+      the development of a promising clinical candidate with robust biological rationale and demonstrated proof of concep
+  - id: '356054'
+    grade: null
+    title: Clinical Trials Addressing Unmet Needs of Rare Neurodegenerative Diseases (R01) Clinical Trials Required
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+    abstract: <p>The purpose is to fund clinical trials of products evaluating efficacy and/or safety in support of a new indication or change in labeling to address unmet needs in rare neurodegenerative
+      diseases for children and adults.&nbsp;Through the support of collaborative, efficient, and/or innovative clinical trials, FDA expects to increase the number of approved treatments for rare neurodegenerative
+      diseases and exert a broad and positive impact on rare disease drug development.</p>
+  - id: '359987'
+    grade: null
+    title: Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases (R01 Clinical Trials Required)
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The purpose of this opportunity is to fund clinical trials of products evaluating efficacy and/or safety in support of a new indication or change
+      in labeling to address unmet needs in rare diseases or conditions.&nbsp;Additionally, through the funding of collaborative, efficient, and/or innovative clinical trials, FDA expects to increase the
+      number of approved treatments for rare diseases and exert a broad and positive impact on rare disease drug developm'
+  - id: '359645'
+    grade: null
+    title: Clinical Trial Readiness for Rare Diseases, Disorders, and Syndromes (R21 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2028-07-20'
+    abstract: This Notice of Funding Opportunity (NOFO) invites researchers to submit applications for support of clinical projects that address critical needs for clinical trial readiness in rare diseases.
+      The initiative seeks applications that are intended to facilitate rare diseases research by enabling efficient and effective movement of candidate therapeutics or diagnostics toward clinical trials,
+      and to increase their likelihood of success. This could be through the development and testing of rigorous b
+  - id: '360008'
+    grade: null
+    title: Reissue of RFA-FD-23-001- Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases (R01 Cli
+    agency: Food and Drug Administration
+    status: posted
+    closes: '2028-05-16'
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The purpose of this Notice of Funding Opportunity (NOFO) is to fund clinical trials of products evaluating efficacy and/or safety in support of a
+      new indication or change in labeling to address unmet needs in rare diseases or conditions.&nbsp;Additionally, through the funding of collaborative, efficient, and/or innovative clinical trials, FDA
+      expects to increase the number of approved treatments for rare diseases and exert a broad and positive impact on r'
+  - id: '361394'
+    grade: null
+    title: NEI Collaborative Clinical Vision Research (UG1 - Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>The NEI uses UG1 cooperative agreement awards to support investigator-initiated clinical vision research projects, including multi-center clinical trials, human gene-transfer, stem cell
+      therapy trials, epidemiological studies, and other studies that are complex, high resource, or that require increased oversight due to elevated safety considerations.</p><p>These collaborative clinical
+      vision research projects would address chronic diseases across the lifespan through research on the burden of
+  - id: '362752'
+    grade: null
+    title: Exploratory Clinical Trial Grants in Arthritis and Musculoskeletal and Skin Diseases
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p style="margin-left:0in;">The National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications
+      for&nbsp;Exploratory Clinical Trials Grants Program&nbsp;in the mission areas of NIAMS. The goal of the NIAMS clinical trial program is to support research leading to the prevention or reduction of
+      symptoms and improve outcomes and function in patients with rheumatic, musculoskeletal, or skin conditions or
+  - id: '344051'
+    grade: null
+    title: The Intersection of Sex and Gender Influences on Health and Disease (R01 Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2024-11-22'
+    abstract: <p>Not available</p>
+  - id: '189254'
+    grade: null
+    title: Clinical Studies of Safety and Effectiveness of Orphan Products Research Project Grant (R01)
+    agency: Food and Drug Administration
+    status: archived
+    closes: '2014-10-16'
+    abstract: The goal of FDA's OPD grant program is to support the clinical development of products for use in rare diseases or conditions where no current therapy exists or where the product being developed
+      will be superior to the existing therapy. FDA provides grants for clinical studies on safety and/or effectiveness that will either result in, or substantially contribute to, market approval of these
+      products. Applicants must include in the application's Background and Significance section documentation
+  - id: '357570'
+    grade: null
+    title: Preclinical Proof of Concept Studies for Rare Diseases (R21 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-07-02'
+    abstract: <p>This notice of funding opportunity (NOFO) provides funding to conduct efficacy studies in an established rare disease preclinical model to demonstrate that a proposed therapeutic agent
+      warrants further development. In addition to preclinical efficacy, accompanying pharmacodynamic and pharmacokinetic studies would be supported. Therapeutic agents include small molecules, biologics
+      or biotechnology-derived products. The goal of this NOFO is to spur therapeutic development for a variety of rare
+  - id: '79993'
+    grade: null
+    title: Phase II Clinical Trials of Novel Therapies for Lung Diseases (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-13'
+    abstract: This Funding Opportunity Announcement (FOA) issued by the National Heart, Lung, and Blood Institute, National Institutes of Health, solicits grant applications from institutions/organizations
+      to conduct proof-of- concept Phase II clinical trials that test a novel intervention for a lung disease or a cardiopulmonary disorder from sleep that has the potential to significantly change clinical
+      management. In addition, each application must include at least one basic research ancillary study tightly
+  - id: '132073'
+    grade: null
+    title: Investigations on Primary Immunodeficiency Diseases (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-03-04'
+    abstract: This Funding Opportunity is intended to support innovative investigations in primary immunodeficiency diseases. Of particular interest are the detection of primary immunodeficiency diseases,
+      the identification of the molecular basis of these diseases, and the design and pre-clinical development of innovative therapies for these diseases. Clinical trials will not be supported by this FOA.
+      Studies using samples obtained from humans and studies on animal models are encouraged. Investigators who
+  - id: '362946'
+    grade: null
+    title: Immune Tolerance Network (UM1 Clinical Trial Required)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-29'
+    abstract: '<p>The purpose of this notice of funding opportunity (NOFO) is to support&nbsp;applications to continue the Immune Tolerance Network (ITN).&nbsp;The primary objective of the Network is to
+      develop tolerogenic therapies for immune-mediated disorders. The three main clinical areas of work are: 1) Allergic diseases and asthma; 2) Autoimmune diseases; and 3) Immune-mediated consequences
+      of transplantation. The core functions of the ITN include designing, conducting, and sharing the results of clinica'
+  - id: '88633'
+    grade: null
+    title: Early-Phase Clinical Trials for Blood Cell Therapies (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-07'
+    abstract: This FOA issued by the National Heart, Lung, and Blood Institute, National Institutes of Health, encourages Research Project Grant (R01) applications from institutions and organizations for
+      the purpose of supporting early-phase clinical trials i.e., first-in-human, phase I, or phase II trialsto evaluate innovative and novel cell therapies to treat blood diseases and/or to improve the
+      outcome of hematopoietic stem cell transplantations.
+  - id: '57276'
+    grade: null
+    title: NEI Translational Research Program on Therapy for Visual Disorders (R24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-25'
+    abstract: Purpose. The National Eye Institute (NEI) supports multidisciplinary research focusing on the development of novel therapies to treat visual diseases and disorders. The rapid and efficient
+      translation of innovative laboratory research findings into clinical development frequently requires a comprehensive and highly integrated approach involving collaborative teams of scientists and
+      clinicians with expertise in multiple disciplines. Such a collaborative approach is particularly appropriate for
+  - id: '123854'
+    grade: null
+    title: NeuroNEXT Small Business Innovation in Clinical Trials (U44)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-12-02'
+    abstract: This Funding Opportunity Announcement (FOA) encourages Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) that propose biomarker validation trials
+      or exploratory clinical trials of drugs, biologics, surgical therapies or devices for neurological disorders which may contribute to the justification for and provide the data required to design a
+      future trial to confirm efficacy (i.e., a Phase III clinical trial) in the treatment of neurologic disease. T
+  - id: '359985'
+    grade: null
+    title: 'Efficient and Innovative Natural History Studies Addressing Unmet Needs in Rare Diseases (R01 Clinical Trials '
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The purpose of this notice of funding opportunity (NOFO) is to support efficient and innovative natural history studies that advance medical product
+      development in rare diseases/conditions with unmet needs. Through the support of natural history studies with high quality and interpretable data elements, FDA expects to address critical knowledge
+      gaps, remove major barriers to progress in the field, exert a significant and broad impact on a specific rare di'
+  - id: '123855'
+    grade: null
+    title: NeuroNEXT Infrastructure Resource Access (X01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-12-30'
+    abstract: This FOA encourages proposals for biomarker validation trials or exploratory clinical trials of drugs, biologics, surgical therapies or devices that may contribute to the justification for
+      and provide the data required to design a future trial to confirm efficacy (i.e., a Phase III trial) in the treatment of neurologic disease. Proposals for drugs or biologics should provide compelling
+      scientific evidence that the investigational agent proposed for study will reach/act upon the designated target
+  - id: '204055'
+    grade: null
+    title: Alzheimer's Disease Phase I Clinical Trials (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-14'
+    abstract: The objective of the Alzheimer's Disease Phase I Clinical Trials initiative is to provide support for first-in-human studies for promising Alzheimers disease therapeutics. These first stage
+      clinical trials will evaluate the metabolic and pharmacological actions of drugs, including biologics in humans.
+  - id: '88755'
+    grade: null
+    title: Regional Clinical Centers for the Cardiovascular Cell Therapy Research Network (CCTRN) (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-06-22'
+    abstract: The purpose of this FOA is to request applications for participation as a Regional Clinical Center (RCC) in a continuation of the Cardiovascular Cell Therapy Research Network (CCTRN). A separate
+      solicitation (RFA-HL-12-025) seeks applications for a network Data Coordinating Center (DCC). The goal of the CCTRN is to promote evaluation of novel stem cell-based treatment strategies for individuals
+      with cardiovascular disease. The network provides support to maintain an infrastructure to develop,

@@ -1,0 +1,902 @@
+queries:
+- id: q016
+  text: quantum computing algorithms and hardware research
+  candidates:
+  - id: '146413'
+    grade: null
+    title: Development of Quantum Computing Algorithms
+    agency: Dept of the Army -- Materiel Command
+    status: archived
+    closes: '2012-05-08'
+    abstract: This BAA seeks research that develops new quantum computing algorithms for hard computational problems, develops insight into the power of quantum computation, and considers issues of quantum
+      complexity and computability.
+  - id: '47221'
+    grade: null
+    title: Joint Mathematics/Computer Science Institute
+    agency: Chicago Service Center
+    status: archived
+    closes: '2009-06-05'
+    abstract: 'FOR FURTHER INFORMATION CONTACT: Karen Pao, karen.pao@science.doe.gov, (301) 903-5384; and Osni Marques, oamarques@ascr.doe.gov, (301) 903-9925. The Office of Advanced Scientific Computing
+      Research (ASCR) of the Office of Science (SC), U.S. Department of Energy (DOE), hereby invites applications for research under a unified management structure to address key challenges where collaborative
+      research in applied mathematics and computer science efforts are required to bridge the gap between large'
+  - id: '237682'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: CISE&rsquo;s Division of Computing and Communication Foundations (CCF) supports research and education projects that develop new knowledge in three core programs:The Algorithmic Foundations
+      (AF) program;The Communications and Information Foundations (CIF) program; andThe Software and Hardware Foundations (SHF) program.Proposers are invited to submit proposals in three project classes,
+      which are defined as follows:Small Projects - up to $500,000 total budget with durations up to three years;Mediu
+  - id: '170919'
+    grade: null
+    title: Physics at the Information Frontier
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: 'PIF includes support for data-enabled science, community research networks, and new computational infrastructure as well as for next-generation computing. It focuses on cyber-infrastructure
+      for the disciplines supported by the Physics Division but also recognizes and fosters the broader impacts on other disciplines and on more general cyber-infrastructure. This program (PIF) is intended
+      to provide support for physics proposals in three subareas: 1) computational physics, 2) information or data i'
+  - id: '46280'
+    grade: null
+    title: Physics at the Information Frontier
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-17'
+    abstract: 'PIF includes support for data-enabled science, community research networks, and new computational infrastructure as well as for next-generation computing. It focuses on cyber-infrastructure
+      for the disciplines supported by the Physics Division but also recognizes and fosters the broader impacts on other disciplines and on more general cyber-infrastructure. This program (PIF) is intended
+      to provide support for physics proposals in three subareas: 1) computational physics, 2) information or data i'
+  - id: '47015'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-06-08'
+    abstract: 'CISE&rsquo;s Division of Computing and Communication Foundations (CCF) supports research and education projects that develop new knowledge in three core programs: The Algorithmic Foundations
+      program; The Communications and Information Foundations program; and The Software and Hardware Foundations program.Proposers are invited to submit proposals in three project classes, which are defined
+      as follows: Small Projects - up to $500,000 total budget with durations up to three years; Me'
+  - id: '45721'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-08-30'
+    abstract: 'CISE&rsquo;s Division of Computing and Communication Foundations (CCF) supports research and education projects that develop new knowledge in three core programs: The Algorithmic Foundations
+      program; The Communications and Information Foundations program; and The Software and Hardware Foundations program.Proposers are invited to submit proposals in three project classes, which are defined
+      as follows: Small Projects - up to $500,000 total budget with durations up to three years; Me'
+  - id: '102754'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-17'
+    abstract: CISE&rsquo;s Division of Computing and Communication Foundations (CCF) supports research and education projects that develop new knowledge in three core programs:The Algorithmic Foundations
+      program;The Communications and Information Foundations program; andThe Software and Hardware Foundations program.Proposers are invited to submit proposals in three project classes, which are defined
+      as follows:Small Projects - up to $500,000 total budget with durations up to three years;Medium Projects - $500
+  - id: '183036'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: CISE's Division of Computing and Communication Foundations (CCF) supports research and education projects that develop new knowledge in three core programs:The Algorithmic Foundations program;The
+      Communications and Information Foundations program; andThe Software and Hardware Foundations program.Proposers are invited to submit proposals in three project classes, which are defined as follows:Small
+      Projects - up to $500,000 total budget with durations up to three years;Medium Projects - $500,001 t
+  - id: '360149'
+    grade: null
+    title: 'Computer and Information Science and Engineering (CISE): Future Computing Research (Future CoRe)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-02-04'
+    abstract: <p class="paragraph">The NSF CISE Directorate supports research and education projects that develop new knowledge in all aspects of computing, communications, and information science and engineering
+      through the following Future Computing Research (Future CoRe) programs:&nbsp;</p> <ul> <li class="paragraph">Algorithmic Foundations (AF) program;&nbsp;</li> <li class="paragraph">Communications and
+      Information Foundations (CIF) program;&nbsp;</li> <li class="paragraph">Computer Systems Research (CSR
+  - id: '60697'
+    grade: null
+    title: Cyber-Physical Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The term &quot;cyber-physical systems&quot; refers to the tight conjoining of and coordination between computational and physical resources. We envision that the cyber-physical systems of
+      tomorrow will far exceed those of today in terms of adaptability, autonomy, efficiency, functionality, reliability, safety, and usability. Research advances in cyber-physical systems promise to transform
+      our world with systems that respond more quickly (e.g., autonomous collision avoidance), are more precise
+  - id: '46282'
+    grade: null
+    title: Communications, Circuits, and Sensing-Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Communications, Circuits, and Sensing-Systems (CCSS) program is intended to spur visionary systems-oriented activities in collaborative, multidisciplinary, and integrative research. CCSS
+      supports systems research in hardware, signal processing techniques, and architectures to enable the next generation of cyber systems (CPS) that leverage computation, communication, and algorithms
+      integrated with physical domains. CCSS offers new challenges at all levels of systems integration to address fut
+  - id: '126653'
+    grade: null
+    title: Communications, Circuits, and Sensing-Systems
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-10-07'
+    abstract: The Communications, Circuits, and Sensing-Systems (CCSS) program is intended to spur visionary systems-oriented activities in collaborative, multidisciplinary, and integrative research. CCSS
+      supports systems research in hardware, signal processing techniques, and architectures to enable the next generation of cyber systems (CPS) that leverage computation, communication, and algorithms
+      integrated with physical domains. CCSS offers new challenges at all levels of systems integration to address fut
+  - id: '64353'
+    grade: null
+    title: Communications, Circuits, and Sensing-Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Communications, Circuits, and Sensing-Systems (CCSS) program is intended to spur visionary systems-oriented activities in collaborative, multidisciplinary, and integrative research. CCSS
+      supports systems research in hardware, signal processing techniques, and architectures to enable the next generation of cyber systems (CPS) that leverage computation, communication, and algorithms
+      integrated with physical domains. CCSS offers new challenges at all levels of systems integration to address fut
+  - id: '45731'
+    grade: null
+    title: Cyber-Physical Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The term cyber-physical systems refers to the tight conjoining of and coordination between computational and physical resources. We envision that the cyber-physical systems of tomorrow will
+      far exceed those of today in terms of adaptability, autonomy, efficiency, functionality, reliability, safety, and usability. Research advances in cyber-physical systems promise to transform our world
+      with systems that respond more quickly (e.g., autonomous collision avoidance), are more precise (e.g., robot
+  - id: '46227'
+    grade: null
+    title: Computational Mathematics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-07-30'
+    abstract: Supports mathematical research in areas of science where computing plays a central and essential role, emphasizing algorithms design, numerical methods and their analysis, and symbolic methods.
+      The prominence of computation in the research is a hallmark of the program. Proposals ranging from single-investigator projects that develop and analyze innovative computational methods to interdisciplinary
+      team projects that not only create new mathematical and computational techniques but use them to
+  - id: '54084'
+    grade: null
+    title: Development of Quantum Computing Technology
+    agency: Dept of the Army -- Materiel Command
+    status: archived
+    closes: '2010-07-12'
+    abstract: 'The U.S. Army Research Office (ARO) announces the availability of Broad Agency Announcement (BAA) No. W911NF-10-R-0007 for Development of Quantum Computing Technology. ARO together with the
+      National Security Agency (NSA) solicits proposals for basic and applied research to advance quantum computing technology. Research areas of particular interest include: (1) Robust solid-state qubits
+      and related technologies; (2) Short-to-medium-range quantum information transfer in solid-state systems; and'
+  - id: '175314'
+    grade: null
+    title: Resilient Extreme-Scale Solvers (?RX-Solvers?)
+    agency: Office of Science
+    status: archived
+    closes: '2012-08-13'
+    abstract: Advanced Scientific Computing Research (ASCR), Office of Science (SC), US Department of Energy (DOE), thereby invites applications for basic research in Resilient Extreme-Scale Solvers (?RX-Solvers?)
+      that demonstrably advances the state of science and practice for scalable, resilient, extreme-scale numerical algorithms, to enable scientific discovery on the supercomputers expected to come online
+      in the next 5-10 years and lay the foundation for research in numerical algorithms for extreme-scale
+  - id: '148153'
+    grade: null
+    title: CISE-MPS Interdisciplinary Faculty Program in Quantum Information Science
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2013-12-03'
+    abstract: The CISE-MPS Interdisciplinary Faculty Program in Quantum Information Science is designed to promote research in the area of Quantum Information Science (QIS) by providing resources to allow
+      QIS researchers and researchers from the CISE or MPS disciplines to actively engage in joint research efforts, addressing problems at the interface between the mathematical and physical sciences and
+      computer and information sciences through long-term visits by faculty to a host institution.
+  - id: '48760'
+    grade: null
+    title: Cultural Resource Data Sharing Project - AZSITE
+    agency: Department of the Interior
+    status: archived
+    closes: '2009-08-10'
+    abstract: BLM and AZSITE have technology and data transfer needs including computer hardware, software, image processing, as well as data-sharing needs to provide for quality cultural resource management
+      and public service.
+- id: q017
+  text: cybersecurity and privacy research for critical infrastructure
+  candidates:
+  - id: '357554'
+    grade: null
+    title: Security, Privacy, and Trust in Cyberspace (NSF SaTC)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-25'
+    abstract: <p class="paragraph">Our world is at a pivotal moment where the boundaries dividing the physical and social worlds from the cyber world have become blurred. Cyberspace has evolved from an
+      interconnected digital environment into a complex and interdependent cyber ecosystem that involves hardware, software, networks, data, people, organizations, countries, and the physical world.&nbsp;
+      Critical functions of everyday life are deeply intertwined with computing, including health, government, commerce
+  - id: '48725'
+    grade: null
+    title: Philadelphia Critical Infrastructure Protection Program
+    agency: Office of Procurement Operations - Grants Division
+    status: archived
+    closes: '2009-08-25'
+    abstract: "The Philadelphia Critical Infrastructure Protection Program (PCIPP) is a grant program that constitutes one part of the Department of Homeland Security (DHS) focus on infrastructure protection\
+      \ activities. The PCIPP is one among a comprehensive set of measures authorized by Congress and implemented by DHS to help strengthen the nation\x92s critical infrastructure against risks associated\
+      \ with potential terrorist attacks."
+  - id: '358004'
+    grade: null
+    title: Cybersecurity Innovation for Cyberinfrastructure (CICI)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-20'
+    abstract: <p>The objective of the Cybersecurity Innovation for Cyberinfrastructure (CICI) program is to advance scientific discovery and innovation by enhancing the security and privacy of cyberinfrastructure.
+      CICI supports efforts to develop, deploy and integrate cybersecurity that will benefit the broader scientific community by securing science data, computation, collaborations workflows, and infrastructure.
+      CICI recognizes the unique nature of modern, complex, data-driven, distributed, rapid, and coll
+  - id: '50576'
+    grade: null
+    title: Fiscal Year 2010 Intercity Passenger Rail &#150; Amtrak (IPR)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+    abstract: "The IPR is an important component of the Department\x92s effort to enhance the security of the Nation\x92s critical infrastructure. The purpose of IPR is to create a sustainable, risk-based\
+      \ effort to protect critical surface transportation infrastructure and the traveling public from acts of terrorism, major disasters, and other emergencies within the Amtrak rail system."
+  - id: '95577'
+    grade: null
+    title: Fiscal Year (FY) 2011 Intercity Passenger Rail (IPR) - Amtrak
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+    abstract: The IPR is an important component of the Department's effort to enhance the security of the Nation's critical infrastructure. The purpose of IPR is to create a sustainable, risk-based effort
+      to protect critical surface transportation infrastructure and the traveling public from acts of terrorism, major disasters, and other emergencies within the Amtrak rail system.
+  - id: '105474'
+    grade: null
+    title: Securing Critical Underground Infrastructure (SCUI) Pilot Program
+    agency: Office of Procurement Operations - Grants Division
+    status: archived
+    closes: '2011-10-15'
+    abstract: This pilot program may help to reduce the risk of terrorists use of explosives against the nations critical underground infrastructure. The SCUI program has used a standardized methodology
+      to analyze underground infrastructures and will provide ManholeSecuring/Locking Devices (MSLD) to secure identified vulnerabilities. Recipients of assistance will monitor the effectiveness and drawbacks
+      of the devices relevant to their use and climate conditions in their respective locations and DHS will use t
+  - id: '361333'
+    grade: null
+    title: Pathways to Enable Secure Open-Source Ecosystems (PESOSE)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-03-02'
+    abstract: <p>The Pathways to Enable Secure Open-Source Ecosystems (PESOSE) program supports the translation of open-source science and engineering-focused research products into safe and sustainable
+      ecosystems that address national and societal challenges. Open-source tools such as software, hardware, machine learning models, languages, and data platforms are designed to be shared as they are
+      publicly-accessible and modifiable. These tools spark innovation in critical fields as varied as artificial intell
+  - id: '50573'
+    grade: null
+    title: Fiscal Year 2010 Freight Rail Security Grant Program (FRSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+    abstract: "The FRSGP is one tool among a comprehensive set of measures authorized by Congress and implemented by the Administration to help strengthen the nation\x92s critical infrastructure against\
+      \ risks associated with potential terrorist attacks. The program provides funds to freight railroad carriers and owners and offerors of railroad cars to protect critical surface transportation infrastructure\
+      \ from acts of terrorism, major disasters, and other emergencies."
+  - id: '95615'
+    grade: null
+    title: Fiscal Year (FY) 2011 Transit Security Grant Program (TSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-07-05'
+    abstract: The TSGP is one tool among a comprehensive set of measures authorized by Congress and implemented by the Administration to help strengthen the nation's critical infrastructure against risks
+      associated with potential terrorist attacks. The TSGP is an important component of the Department's effort to enhance the security of the Nation's critical infrastructure. The program provides funds
+      to owners and operators of transit systems (which include intra-city bus, commuter bus, freight rail, ferries,
+  - id: '95560'
+    grade: null
+    title: Fiscal Year (FY) 2011 Freight Rail Security Grant Program (FRSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+    abstract: The FRSGP is one tool among a comprehensive set of measures authorized by Congress and implemented by the Administration to help strengthen the nation's critical infrastructure against risks
+      associated with potential terrorist attacks. The program provides funds to freight railroad carriers and owners and offerors of railroad cars to protect critical surface transportation infrastructure
+      from acts of terrorism, major disasters, and other emergencies.
+  - id: '135674'
+    grade: null
+    title: Training Programs for Critical HIV Research Infrastructure for Low- and Middle-Income Country Institutions (G1
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-04-25'
+    abstract: 'The purpose of this FOA is to encourage U.S. institutions with research collaborations at low-and middle-income country (LMIC) institutions to submit applications for training programs to
+      strengthen the leadership and expertise in selected critical research infrastructure areas at their collaborating LMIC institutions. This FOA can support training related to technical expertise, administration
+      and financial management in support of:'
+  - id: '144975'
+    grade: null
+    title: Fiscal Year (FY) 2012 Intercity Passenger Rail (IPR) - Amtrak
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2012-05-04'
+    abstract: The IPR Program is one of the Department of Homeland Security's (DHS) FY 2012 grant programs which directly support transportation infrastructure security activities. These grant programs
+      are part of a comprehensive set of measures authorized by Congress and implemented by the Administration to help strengthen the Nation's critical infrastructure against risks associated with potential
+      terrorist attacks. IPR provides funds to Amtrak to protect critical surface transportation infrastructure and t
+  - id: '50568'
+    grade: null
+    title: Fiscal Year 2010 Intercity Bus Security Grant Program (IBSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+    abstract: "The IBSGP is one tool among a comprehensive set of measures authorized by Congress and implemented by the Administration to help strengthen the nation\x92s critical infrastructure against\
+      \ risks associated with potential terrorist attacks. The vast bulk of America\x92s critical infrastructure is owned and/or operated by State, local, and private sector partners. The funds provided\
+      \ by the IBSGP are primarily intended to support the work of operators of fixed route intercity and charter bus services."
+  - id: '144974'
+    grade: null
+    title: Fiscal Year (FY) 2012 Transit Security Grant Program (TSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2012-05-04'
+    abstract: The TSGP is one of the Department of Homeland Security's FY 2012 grant programs that directly supports transportation infrastructure security activities. These grant programs are part of a
+      comprehensive set of measures authorized by Congress and implemented by the Department of Homeland Security to strengthen the Nation's critical infrastructure against risks associated with potential
+      terrorist attacks. TSGP provides funds to owners and operators of transit systems (which include intra-city bus,
+  - id: '95558'
+    grade: null
+    title: Fiscal Year (FY) 2011 Intercity Bus Security Grant Program (IBSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+    abstract: The IBSGP is one tool among a comprehensive set of measures authorized by Congress and implemented by the Administration to help strengthen the nation's critical infrastructure against risks
+      associated with potential terrorist attacks. The vast bulk of America's critical infrastructure is owned and/or operated by State, local, and private sector partners. The funds provided by the IBSGP
+      are primarily intended to support the work of operators of fixed route intercity and charter bus services.
+  - id: '50563'
+    grade: null
+    title: Fiscal Year 2010 Port Security Grant Program (PSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+    abstract: "The PSGP is one tool in the comprehensive set of measures authorized by Congress and implemented by the Administration to strengthen the Nation\x92s critical infrastructure against risks\
+      \ associated with potential terrorist attacks. The vast bulk of U.S. critical infrastructure is owned and/or operated by State, local and private sector partners. PSGP funds support increased port-wide\
+      \ risk management; enhanced domain awareness; training and exercises; and further capabilities to prevent, detect, r"
+  - id: '95576'
+    grade: null
+    title: Fiscal Year (FY) 2011 Port Security Grant Program (PSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+    abstract: The PSGP is one tool in the comprehensive set of measures authorized by Congress and implemented by the Administration to strengthen the Nation's critical infrastructure against risks associated
+      with potential terrorist attacks. The vast bulk of U.S. critical infrastructure is owned and/or operated by State, local and private sector partners. PSGP funds support increased port-wide risk management;
+      enhanced domain awareness; training and exercises; and further capabilities to prevent, detect, r
+  - id: '144976'
+    grade: null
+    title: Fiscal Year 2012 Port Security Grant Program (PSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2012-05-04'
+    abstract: The Port Security Grant Program (PSGP) is one of three grant programs that constitute the Department of Homeland Security (DHS) FY 2012 focus on transportation infrastructure security activities.
+      The PSGP is one tool in the comprehensive set of measures authorized by Congress and implemented by the Administration to strengthen the Nation's critical infrastructure against risks associated with
+      potential terrorist attacks. The vast majority of U.S. critical infrastructure is owned and/or operated
+  - id: '359984'
+    grade: null
+    title: Food Safety Capacity and Infrastructure Building (U2F)
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The purpose of this funding opportunity is to support the development, support, and promotion of innovative information sharing and research tools
+      hosted on the Integrated Food Safety System (IFSS) collaboration/research portal, which serves as a critical federal-state collaboration portal to advance food safety and public health.</span></p>'
+  - id: '363242'
+    grade: null
+    title: FY26 US DOT Drone Infrastructure Inspection Grants (DIIG) Program
+    agency: 69A345 Office of the Under Secretary for Policy
+    status: forecasted
+    closes: null
+    abstract: <p>The Drone Infrastructure Inspection Grants (DIIG) Program will provide grants to eligible government entities to facilitate the use of small Unmanned Aircraft Systems (UAS), referred to
+      herein as drones, in critical infrastructure inspection. The objective is to increase the widespread adoption of drones and relevant technologies in support of more efficient Inspection, Operation,
+      Construction, Maintenance, and Repair (IOCMR) of critical infrastructure to improve worker safety related to crit
+- id: q018
+  text: renewable energy storage battery materials
+  candidates:
+  - id: '141940'
+    grade: null
+    title: Energy Innovation Hub - Batteries and Energy Storage
+    agency: Chicago Service Center
+    status: archived
+    closes: '2012-05-31'
+    abstract: 'Energy Innovation Hubs are composed of large, multidisciplinary teams of investigators whose research integrates basic to applied research and focuses on a single critical national energy
+      need. Batteries and electrical energy storage technologies are pivotal and straddle two major energy sectors: transportation and the grid. For vehicles, new batteries with improved lifetimes and storage
+      capacities are needed to expand range of electric vehicles? for a single charge while simultaneously decreas'
+  - id: '45813'
+    grade: null
+    title: Energy for Sustainability
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Energy for Sustainability program supports fundamental research and education in energy production, conversion, and storage and is focused on energy sources that are environmentally friendly
+      and renewable. Most world energy needs are currently met through the combustion of fossil fuels. With projected increases in global energy needs, more sustainable methods for energy production will
+      need to be developed, and production of greenhouse gases will need to be reduced.Sources of sustainable e
+  - id: '46164'
+    grade: null
+    title: Recovery Act - Electric Drive Vehicle Battery and Component Manufacturing Initiative
+    agency: National Energy Technology Laboratory
+    status: closed
+    closes: '2009-05-19'
+    abstract: "Consistent with American Recovery and Reinvestment Act, the Department of Energy (DOE) National Energy Technology Laboratory (NETL), on behalf of the Office of Energy Efficiency and Renewable\
+      \ Energy\x92s (EERE\x92s) Vehicle Technologies (VT) Program, is seeking applications for grants supporting the construction (including production capacity increase of current plants), of U.S. based\
+      \ manufacturing plants to produce batteries and electric drive components."
+  - id: '124453'
+    grade: null
+    title: Sustainable Energy Pathways
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: A sustainable world is one in which human needs are met equitably without harm to the environment, and without sacrificing the ability of future generations to meet their needs. Growing evidence
+      for the role of energy use in global change and awareness of limitations in our energy choices are motivating a search for pathways that are technologically innovative as well as environmentally and
+      economically sustainable at all scales of energy usage. This is a grand challenge to the scientific commu
+  - id: '56463'
+    grade: null
+    title: Assistance to High Energy Cost Rural Communities
+    agency: Rural Utilities Service
+    status: archived
+    closes: '2010-09-08'
+    abstract: "USDA\x92s Rural Utilities Service High Energy Cost Grant Program offers financial assistance to provide or improve energy generation, transmission, and distribution facilities serving rural\
+      \ communities with home energy costs exceeding 275 percent of the national average. Applications must meet eligibility requirements for applicants, project activities, beneficiary communities to qualify\
+      \ under this program Applicants must demonstrate that the grant project target community qualifies as an extre"
+  - id: '92633'
+    grade: null
+    title: REAP - Energy Audit and Renewable Energy Development Assistance
+    agency: 'Rural Business-Cooperative Service '
+    status: archived
+    closes: '2011-06-30'
+    abstract: The REAP/EA/REDA Grant Program will provide grants for energy audits and renewable energy development assistance.
+  - id: '357934'
+    grade: null
+    title: Fiscal Year (FY) 2025 Directors' Research Initiative (DRI)
+    agency: Air Force Office of Scientific Research
+    status: archived
+    closes: '2025-04-01'
+    abstract: "<p>This Director\u2019s Research Initiative NOFO will fund topics that are of interest to the Air Force Office of Scientific Research, as well as areas of interest to the United States Space\
+      \ Force. The theme for this initiative is Energy for Agility. Discovery science is needed today to achieve the energy resources required for the future integrated employment of Air and Space Forces,\
+      \ for power generation and optimization, and resilience to exposure.</p><p><br></p><p>In the coming decades, we are exp"
+  - id: '98374'
+    grade: null
+    title: Energy for Sustainability
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-02-17'
+    abstract: This program supports fundamental research and education that will enable innovative processes for the sustainable production of electricity and transportation fuels. Processes for sustainable
+      energy production must be environmentally benign, reduce greenhouse gas production, and utilize renewable resources. Current interest areas in sustainable energy technologies are highlighted below.Biomass
+      Conversion, Biofuels &amp; Bioenergy. Photosynthetic processes used by plants or algae use sunlight
+  - id: '170673'
+    grade: null
+    title: Energy for Sustainability
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2013-02-19'
+    abstract: This program supports fundamental research and education that will enable innovative processes for the sustainable production of electricity and transportation fuels. Processes for sustainable
+      energy production must be environmentally benign, reduce greenhouse gas production, and utilize renewable resources. Current interest areas in sustainable energy technologies are highlighted below.Biomass
+      Conversion, Biofuels &amp; Bioenergy. Photosynthetic processes used by plants or algae use sunlight
+  - id: '58881'
+    grade: null
+    title: 2011 Woody Biomass Utilization Grant
+    agency: Forest Service
+    status: archived
+    closes: '2011-03-01'
+    abstract: "To address the goals of Public Law 110-234, Food, Conservation, and Energy Act of 2008, Rural Revitalization Technologies (7 U.S.C. 6601), and the anticipated Department of the Interior,\
+      \ Environment, and Related Agencies Appropriation Act of 2011, the agency is requesting proposals to address the nationwide challenge of using low-value woody biomass material to create renewable\
+      \ energy. Goals of the grant program are:\x95 Promote projects that target and help remove economic and market barriers to u"
+  - id: '54455'
+    grade: null
+    title: Biomass Research and Development Initiative
+    agency: Golden Field Office
+    status: closed
+    closes: '2010-07-13'
+    abstract: 'This Funding Opportunity Announcement is a joint effort between the U.S. Department of Agriculture and the U.S. Department of Energy to support development of the following: 1. Technologies
+      and processes necessary for abundant commercial production of biofuels at prices competitive with fossil fuels; 2. High-value biobased products; and 3. A diversity of economically and environmentally
+      sustainable domestic sources of renewable biomass for conversion to biofuels, bioenergy, and biobased product'
+  - id: '45628'
+    grade: null
+    title: CHE-DMR-DMS Solar Energy Initiative
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-03-09'
+    abstract: The purpose of the CHE-DMR-DMS Solar Energy Initiative is to support interdisciplinary efforts by groups of researchers to address the scientific challenges of highly efficient harvesting,
+      conversion, and storage of solar energy. Groups must include three or more co-Principal Investigators; one must have demonstrated high expertise in chemistry, a second in materials research, and a
+      third in mathematical sciences. The goal here is to create a new modality of linking the mathematical with the
+  - id: '49084'
+    grade: null
+    title: CHE-DMR-DMS Solar Energy Initiative
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The purpose of the CHE-DMR-DMS Solar Energy Initiative is to support interdisciplinary efforts by groups of researchers to address the scientific challenges of highly efficient harvesting,
+      conversion, and storage of solar energy. Groups must include three or more co-Principal Investigators of whom one must be a researcher in chemistry, a second in materials, and a third in mathematical
+      sciences in areas supported by the Divisions of Chemistry, Materials Research, and Mathematical Sciences, res
+  - id: '57200'
+    grade: null
+    title: CHE-DMR-DMS Solar Energy Initiative
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-01-25'
+    abstract: The purpose of the CHE-DMR-DMS Solar Energy Initiative is to support interdisciplinary efforts by groups of researchers to address the scientific challenges of highly efficient harvesting,
+      conversion, and storage of solar energy. Groups must include three or more co-Principal Investigators, of whom one must be a researcher in chemistry, a second in materials, and a third in mathematical
+      sciences, in areas supported by the Divisions of Chemistry, Materials Research, and Mathematical Sciences, re
+  - id: '80133'
+    grade: null
+    title: Research and Development for Hydrogen Storage
+    agency: Golden Field Office
+    status: archived
+    closes: '2011-04-29'
+    abstract: 'The Department of Energy''s (DOE) Fuel Cell Technologies (FCT) Program within the Office of Energy Efficiency and Renewable Energy (EERE) is requesting applications to support applied research
+      and development (R&D) activities to enable the widespread commercialization of hydrogen and fuel cell technologies. The core of the FCT Program consists of activities in applied research as well as
+      technology development and demonstration. These activities will: maintain the rapid pace of progress in fuel'
+  - id: '48595'
+    grade: null
+    title: Recovery Act - Local Energy Assurance Planning (LEAP) Initiative
+    agency: National Energy Technology Laboratory
+    status: archived
+    closes: '2009-10-22'
+    abstract: "A goal of the American Recovery and Reinvestment Actof 2009 (ARRA), in part,is to: \xBFfacilitate recovery from disruptions to the energy supply\xBF and\xBFenhancereliability and quicker\
+      \ repair of outages.\xBF This initiative will createjobsat the local level and allow Cities to have well-developed, standardizedenergyassurance and resiliency plans that they can rely on during energyemergenciesand\
+      \ supply disruptions. City governments will address energy supplydisruptionrisks and vulnerabilities in their pl"
+  - id: '47516'
+    grade: null
+    title: RECOVERY ACT, ARL-PHOTOVOLTAICS
+    agency: Dept of the Army -- Materiel Command
+    status: archived
+    closes: '2009-06-30'
+    abstract: AMERICAN RECOVERY AND REINVESTMENT ACTThe American Recovery and Reinvestment Act is an unprecedented effort to jumpstart our economy, save and create millions of jobs, and put a down payment
+      on addressing long-neglected challenges so our country can thrive in the 21st century. The fundamental research solutions sought through this announcement are intended to revive the renewable energy
+      industry and provide the capital over the next three years to eventually double domestic renewable energy cap
+  - id: '173654'
+    grade: null
+    title: Energy Innovation Hub - Critical Materials
+    agency: Golden Field Office
+    status: archived
+    closes: '2012-08-30'
+    abstract: The purpose of this FOA is to fund a Critical Materials Energy Innovation Hub to reduce materials criticality and prevent criticality of new materials that are essential for energy technologies.
+      The Critical Materials Hub will coordinate Research and Development across the entire materials lifecycle. Research and Development will combine basic and applied research with engineering to accelerate
+      scientific discovery utilizing highly collaborative teams across multiple scientific and engineering d
+  - id: '121413'
+    grade: null
+    title: High Energy Density Laboratory Plasmas
+    agency: Chicago Service Center
+    status: archived
+    closes: '2011-11-03'
+    abstract: The Fusion Energy Sciences (FES) program of the Office of Science (SC) and the Office of Stockpile Stewardship of the Defense Programs (DP) of the National Nuclear Security Administration
+      (NNSA), both of the U.S. Department of Energy (DOE), jointly announce their interests in receiving grant applications for new awards and grant renewals for research in the SC-NNSA Joint Program in
+      High-Energy-Density Laboratory Plasmas (HEDLP). All individuals or groups planning to submit applications for new
+  - id: '310029'
+    grade: null
+    title: Renewable Energy Systems and Energy Efficiency Improvements Program
+    agency: 'Rural Business-Cooperative Service '
+    status: posted
+    closes: null
+    abstract: 'REAP Renewable Energy Systems and Energy Efficiency Improvement Program.Refer to Application Package AND Application Instruction links to obtain all necessary forms for a complete application.Contact
+      State Energy Coordinators with questions: http://www.rd.usda.gov/files/RBS_StateEnergyCoordinators.pdf'
+- id: q019
+  text: sustainable agriculture and food security
+  candidates:
+  - id: '123813'
+    grade: null
+    title: 'Agriculture and Food Research Initiative: Sustainable Bioenergy'
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-12-15'
+    abstract: The Sustainable Bioenergy Challenge Area RFA focuses on the societal challenge to secure America's energy future. In the Sustainable Bioenergy Challenge Area RFA, specific program areas are
+      designed to achieve the long-term outcome of reducing the National dependence on foreign oil through the production of sustainable bioenergy. Project types supported by AFRI within this RFA include
+      single-function Research, multi-function Integrated Research, Education, and/or Extension Projects, and Food and
+  - id: '53031'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Global Food Security
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-08-11'
+    abstract: "The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture\x92s (NIFA) flagship competitive grant program and was established under section 7406\
+      \ of the Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and\
+      \ animal products; food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture s"
+  - id: '53028'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Sustainable Bioenergy
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-09-15'
+    abstract: "The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture\x92s (NIFA) flagship competitive grant program and was established under section 7406\
+      \ of the Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and\
+      \ animal products; food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture s"
+  - id: '202755'
+    grade: null
+    title: 'Global Hunger and Food Security Research Strategy: Climate Resilience, Nutrition, and Policy'
+    agency: Agency for International Development
+    status: archived
+    closes: '2013-01-31'
+    abstract: "Agricultural research investments figure prominently in the Feed the Future initiative, and these investments link agricultural productivity, climate change, nutrition, enabling policies,\
+      \ economic growth, poverty reduction and sustainable natural resources management. The Feed the Future Research Strategy emphasizes a new paradigm of sustainable intensification to catalyze agriculture-led\
+      \ economic growth. It focuses on environmentally sustainable productivity gains through \x91research for developm"
+  - id: '63753'
+    grade: null
+    title: Federally Recognized Tribes Extension Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-03-31'
+    abstract: The purpose of this program is to support Extension Agents who establish Extension education programs on the Indian Reservations and Tribal jurisdictions of Federally-Recognized Tribes. To
+      the extent practicable, priorities should reflect the following national critical needs areas:1)Development of sustainable energy; 2)Increased global food security; 3)Adaptation /mitigation of agriculture
+      and natural resources to global climate change; 4)Reduction of childhood and adolescent obesity; and 5
+  - id: '142835'
+    grade: null
+    title: 1890 Institution Teaching, Research and Extension Capacity Building Grants (CBG) Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-03-27'
+    abstract: The 1890 CBG is intended to strengthen teaching, research and extension programs in the food and agricultural sciences by building the institutional capacities of the 1890 Land-Grant Institutions,
+      and Tuskegee University. The CBG program supports projects that strengthen teaching programs in the food and agricultural sciences in the need areas of curriculum design and materials development,
+      faculty development, and others. CBG supports projects that strengthen research and extension programs in
+  - id: '53033'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Food Safety
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-09-22'
+    abstract: "The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture\x92s (NIFA) flagship competitive grant program and was established under section 7406\
+      \ of the Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and\
+      \ animal products; food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture s"
+  - id: '96595'
+    grade: null
+    title: 'Agriculture and Food Research Initiative: Food Safety'
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-10-11'
+    abstract: 'The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture (NIFA) flagship competitive grant program and was established under section 7406 of the
+      Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and animal products;
+      food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture sys'
+  - id: '53022'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Foundational Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-08-23'
+    abstract: "The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture\x92s (NIFA) flagship competitive grant program and was established under section 7406\
+      \ of the Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and\
+      \ animal products; food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture s"
+  - id: '53032'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Climate Change
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-07-16'
+    abstract: "The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture\x92s (NIFA) flagship competitive grant program and was established under section 7406\
+      \ of the Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and\
+      \ animal products; food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture s"
+  - id: '53035'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Childhood Obesity Prevention
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-08-03'
+    abstract: "The Agriculture and Food Research Initiative (AFRI) is the National Institute of Food and Agriculture\x92s (NIFA) flagship competitive grant program and was established under section 7406\
+      \ of the Food, Conservation, and Energy Act of 2008 (the 2008 Farm Bill). AFRI supports work in six priority areas: plant health and production and plant products; animal health and production and\
+      \ animal products; food safety, nutrition, and health; renewable energy, natural resources, and environment; agriculture s"
+  - id: '125473'
+    grade: null
+    title: 'Agriculture and Food Research Initiative: Food Security'
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-03-14'
+    abstract: The Food Security Challenge Area RFA focuses on the societal challenge to keep American agriculture competitive while ending world hunger. In the Food Security Challenge Area RFA, specific
+      program areas are designed to achieve the long-term outcome of increasing food availability and decreasing the number of food insecure individuals. Project types supported by AFRI within this RFA
+      include single-function Extension Projects, multi-function Integrated Research, Education, and/or Extension Project
+  - id: '150473'
+    grade: null
+    title: Programs to Support Learning Platforms that Facilitate Learning Exchanges for Innovative Food Security Approac
+    agency: Thailand USAID-Bangkok
+    status: archived
+    closes: '2012-09-08'
+    abstract: The purpose of this Annual Program Statement (APS) is to solicit innovative concept papers from organizations capable of designing and implementing model projects that will provide agriculture
+      and food security learning exchange opportunities between individuals and associations from South and Southeast Asian countries.
+  - id: '123793'
+    grade: null
+    title: Community Food Projects Competitive Grants Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-11-17'
+    abstract: 'To support: (1) the development of Community Food Projects with a one-time infusion of federal dollars to make such projects self-sustaining; (2) Planning Projects to assess the food security
+      needs and plan long-term solutions to help ensure food security in communities; and (3) a project that provides Training and Capacity Building on a nationwide basis to entities interested in developing
+      new Community Food Projects or assisting current grantees and others to effectively operate their food s'
+  - id: '66633'
+    grade: null
+    title: Tribal Colleges Extension Service Program---2010 Special Emphasis
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-03-16'
+    abstract: 'The purpose of the TCEP is to enable 1994 institutions to deliver science-based, culturally relevant extension education programs designed to address public needs and improve quality of life.
+      The TCEP is intended to be a component of the applicant 1994 institution''s land-grant roadmap or strategic planning process. To the extent practicable, priorities should reflect NIFA''s national
+      critical needs areas: 1) Development of sustainable energy; 2)Increased global food security; 3)Adaptation of'
+  - id: '56682'
+    grade: null
+    title: Draft Request for Applications for Title II Non-Emergency Food Aid Programs
+    agency: Agency for International Development
+    status: archived
+    closes: '2010-09-17'
+    abstract: "The Office of Food for Peace, in USAID\x92s Bureau for Democracy, Conflict and Humanitarian Assistance, is the U.S. Government leader in international food assistance. Through FFP, USAID\
+      \ provides development food aid as part of multi-year, non-emergency programs integrated with USAID strategies to address the underlying causes of chronic food insecurity. USAID also provides emergency\
+      \ food aid to address needs arising from natural disasters, such as floods or droughts, and complex emergencies ofte"
+  - id: '99114'
+    grade: null
+    title: Scientific Cooperation Exchange Program
+    agency: Foreign Agricultural Service
+    status: archived
+    closes: '2011-07-08'
+    abstract: "The United States Department of Agriculture\xEF\xBF\xBDs (USDA) Foreign Agricultural Service (FAS) announces the availability to participate in the Scientific Cooperation Exchange Program\
+      \ (SCEP) with the People\xEF\xBF\xBDs Republic of China (PRC) for fiscal year (FY) 2012. The objective of SCEP is to promote bilateral scientific exchanges designed to promote agricultural cooperation,\
+      \ development, and trade. SCEP supports mutual exchanges of U.S. and Chinese research teams to visit the SCEP partner country"
+  - id: '46629'
+    grade: null
+    title: Community Food Projects Competitive Grants Program
+    agency: CSREES
+    status: archived
+    closes: '2009-05-18'
+    abstract: 'Community Food Projects should be designed to (1): (A) meet the food needs of low-income people; (B) increase the self-reliance of communities in providing for their own food needs; and (C)
+      promote comprehensive responses to local food, farm, and nutrition issues; and/or (2) meet specific state, local, or neighborhood food and agriculture needs for (A) infrastructure improvement and
+      development; (B) planning for long-term solutions; (C) the creation of innovative marketing activities that mutual'
+  - id: '51643'
+    grade: null
+    title: Beginning Farmers and Ranchers Development
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-04-06'
+    abstract: The primary goal of BFRDP is to enhance food security by providing beginning farmer and rancher producers and their families in the U.S., as appropriate, with the knowledge, skills and tools
+      needed to make informed decisions for their operations, and enhance their sustainability.
+  - id: '42964'
+    grade: null
+    title: 'Strategic Agricultural Initiative: FY09 Request for Applications'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-12-11'
+    abstract: "U.S. Environmental Protection Agency (EPA) Region 2 is soliciting applications to help implement the Food Quality Protection Act (FQPA) and to support efforts by the agricultural community\
+      \ to \x93transition\x94 away from high risk pesticides (Organophosphates, Carbamates, and Fumigants) to the use of less and reduced risk pesticides, alternative methods of agricultural pest control,\
+      \ and sustainable practices in food production. The program supports grants for education, extension, demonstration, a"
+- id: q020
+  text: water quality and environmental justice
+  candidates:
+  - id: '81775'
+    grade: null
+    title: 2011 HEALTHY COMMUNITIES GRANT PROGRAM
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-05-02'
+    abstract: "The Healthy Communities Grant Program is seeking projects that: \x95 Target resources to benefit communities at risk (environmental justice areas of potential concern, places with high risk\
+      \ from toxic air pollution, urban areas) and sensitive populations (e.g. children, elderly, others at increased risk). \x95 Assess, understand, and reduce environmental and human health risks. \x95\
+      \ Increase collaboration through community-based projects. \x95 Build institutional and community capacity to understand a"
+  - id: '52442'
+    grade: null
+    title: Sacramento-San Joaquin Bay Delta Water Quality Cooperative Agreements
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2010-04-12'
+    abstract: "The U.S. Environmental Protection Agency Region 9 (EPA) is soliciting proposals under this announcement to improve water quality in the Sacramento-San Joaquin Bay-Delta (Delta) and its watershed.\
+      \ Proposals must address one of these program priorities, but not both: \x95 Priority A: projects that assess Delta water quality issues and regulatory approaches for Delta water quality protection,\
+      \ or \x95 Priority B: projects that help establish a comprehensive regional monitoring program in the San Joaqu"
+  - id: '84613'
+    grade: null
+    title: PRM NGO Projects in Thailand, Bangladesh and Malaysia
+    agency: Bureau of Population Refugees and Migration
+    status: archived
+    closes: '2011-05-06'
+    abstract: 'Limited funding is available to support NGOs working with UNHCR in Thailand, Bangladesh and Malaysia in support of Burmese refugees. Priorities for Thailand include: a) Improve access to
+      quality health care services, including reproductive healthcare, with a particular emphasis on the health and nutritional needs of children under five and pregnant and lactating women; b) Improve
+      camp water and sanitation and other environmental infrastructure, including protection and development of the water r'
+  - id: '41812'
+    grade: null
+    title: San Francisco Bay Area Water Quality Improvement Fund
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-08-25'
+    abstract: 'The U.S. Environmental Protection Agency Region 9 is soliciting proposals under this announcement for projects that restore and protect the water quality, habitat and environment of the San
+      Francisco Bay and its watersheds through comprehensive approaches to water quality management. EPA is soliciting proposals for demonstration projects and studies of approaches that will focus on the
+      effectiveness of an integrated approach for the following water quality priorities: Invasive species managemen'
+  - id: '44570'
+    grade: null
+    title: FY09 Bay Watershed Education and Training Program, Adult and Community Watershed Education in the Monterey Bay
+    agency: National Oceanic and Atmospheric Administration
+    status: archived
+    closes: '2009-02-27'
+    abstract: The California B-WET Program, Adult and Community Watershed Education, is a competitively based program that supports existing environmental education programs, fosters the growth of new programs,
+      and encourages the development of partnerships among environmental education programs throughout the Monterey Bay watershed. Funded projects provide meaningful watershed education to adults and communities.
+      The term meaningful watershed education is defined as outcome-based programs that
+  - id: '58582'
+    grade: null
+    title: San Francisco Bay Area Water Quality Improvement Fund
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-01-28'
+    abstract: 'The U.S. Environmental Protection Agency Region 9 (EPA) is soliciting proposals under this announcement to protect and restore the water quality of the San Francisco Bay and its watersheds
+      through comprehensive watershed management. This announcement seeks to fund projects to achieve significant improvement in water quality and attainment of beneficial uses. Proposals must achieve results
+      concerning one or more of the following SF Bay water quality priorities: Protecting and restoring habitat i'
+  - id: '41094'
+    grade: null
+    title: Sustainable Skylines Initiative
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-05-02'
+    abstract: The U.S. Environmental Protection Agency (EPA) is accepting proposals to fund a Sustainable Skylines Initiative project within EPA Region 3 which includes the District of Columbia and the
+      states of Delaware, Maryland, Pennsylvania, Virginia, and/or West Virginia. The Sustainable Skylines initiative provides a framework to integrate transportation, energy, land use and air quality planning
+      programs into projects that yield measurable air quality benefits in a relatively short period of time. Thes
+  - id: '42358'
+    grade: null
+    title: Region 7 &#150; Request for Proposals for EPA Dedicated Water Quality Program Funding
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-08-29'
+    abstract: "The Environmental Protection Agency\x92s Region 7 (EPA or Region 7), Water, Wetlands and Pesticides Division, Water Quality Management Branch, is soliciting proposals from eligible agencies/organizations\
+      \ for the coordination and acceleration of research, studies, experiments, investigations, and demonstration projects to improve the capacity of Region 7 states (Iowa, Kansas, Missouri and/or Nebraska)\
+      \ to effectively and efficiently assess Total Maximum Daily Load (TMDL) capacities for impaired water"
+  - id: '182473'
+    grade: null
+    title: Water Quality Monitoring in Montana
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2012-08-12'
+    abstract: To support ongoing statewide water quality monitoring and stimulate additional monitoring in areas potentially affected by BLm management.
+  - id: '46053'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit (CESU), Gulf Coast CESU
+    agency: Geological Survey
+    status: archived
+    closes: '2009-03-25'
+    abstract: "The Surface Water Status and Trends Study of the National Water-Quality Assessment (NAWQA) Program seeks to provide financial assistance for research in the development of a new National,\
+      \ Geographic Information System (GIS) database of spatial and tabular data about historical agricultural land use and surface water quality. The emphasis on surface water quality data should be on\
+      \ rare data not already available in online data bases such as the U.S. Geological Survey\x92s National Water Information"
+  - id: '51469'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit
+    agency: Geological Survey
+    status: archived
+    closes: '2010-03-09'
+    abstract: The USGS is issuing a funding opportunity to fund research into identifying and evaluating environmental indicators and measures that are predictors of disease. The recipient will examine
+      the relationships between water availability, quality and health indicators including pregnancy outcomes, gastrointestinal disease, parasitic disease, and morbidity and mortality of diarrhea particularly
+      among the very young (children less than 6 years of age) and the elderly. This goal will be undertaken wit
+  - id: '58295'
+    grade: null
+    title: '&#147;US-Mexico Border Environmental Education, Outreach and Support Program&#148;'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-01-10'
+    abstract: This notice announces the availability of funds and solicits applications from eligible entities (See Section III) for creation and management of an environmental education outreach program
+      in the US section of the US Mexico Border region designed to reach K-12, undergraduate, and graduate students and provide training to assist them in pursuing careers in air quality management, and
+      increase their awareness and understanding of environmental risks stemming from air pollution and related environ
+  - id: '65133'
+    grade: null
+    title: Request for Proposals for EPA Dedicated Water Quality Program  Funding
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-03-04'
+    abstract: "The Environmental Protection Agency\x92s (EPA) Region 5, Water Division, Watersheds and Wetlands Branch, is soliciting proposals from eligible agencies/organizations for the coordination\
+      \ and acceleration of research, studies, experiments, training, investigations and demonstration projects to improve State and Tribal capacity to effectively and efficiently assess point and nonpoint\
+      \ sources of nutrients and sediments to Lake of the Woods. Lake of the Woods (LOW) is an international water body loca"
+  - id: '100914'
+    grade: null
+    title: Judith Mountains Acid Drainage Characterization
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2011-07-24'
+    abstract: Study of water quality in the Judith Mountains.
+  - id: '52587'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit, Desert Southwest CESU
+    agency: Geological Survey
+    status: archived
+    closes: '2010-03-24'
+    abstract: The USGS is offering an opportunity to fund the research into identifying and evaluating environmental indicators and measures that are predictors of disease. The recipient will examine the
+      relationships between water availability, quality and health indicators including pregnancy outcomes, gastrointestinal disease, parasitic disease, and morbidity and mortality of diarrhea particularly
+      among the very young (children less than 6 years of age) and the elderly. This goal will be undertaken with
+  - id: '41485'
+    grade: null
+    title: Innovative and Integrative Approaches for Advancing Public Health Protection Through Water Infrastructure Sust
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-07-29'
+    abstract: Some awards may involve or relate to geospatial information. The U.S. Environmental Protection Agency (EPA), as part of its Science to Achieve Results (STAR) program, is seeking applications
+      to develop advanced concepts for linking public health protection with water infrastructure sustainability. Innovative and integrative approaches are sought for monitoring, modeling, operation, and
+      management of drinking water distribution and storage systems and wastewater collection systems that can lead t
+  - id: '54037'
+    grade: null
+    title: Monitoring, Data Management, and Special Studies - South Florida Geographic Initiative, Water Quality Protecti
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2010-06-10'
+    abstract: The purpose of the WQPP is to recommend priority corrective actions and compliance schedules addressing point and nonpoint sources of pollution to restore and maintain the chemical, physical,
+      and biological integrity of the Sanctuary. This includes restoration and maintenance of a balanced, indigenous population of corals, shellfish, fish and wildlife, and recreational activities in and
+      on the water. In addition, the Act requires the development of a comprehensive water quality monitoring progra
+  - id: '66093'
+    grade: null
+    title: Extreme Event Impacts on Air Quality and Water Quality with a Changing Global Climate
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-04-18'
+    abstract: The U.S. Environmental Protection Agency (EPA), as part of its Science to Achieve Results (STAR) program, is seeking applications proposing the development of assessments, tools and techniques,
+      and demonstration of innovative technologies for providing information and capacity to adequately prepare for climate-induced changes in extreme events in the context of air and water quality management.
+      A goal of this RFA is to seek a better understanding of the hazards (the extreme events) and to estab
+  - id: '115073'
+    grade: null
+    title: Gulf of Mexico Regional Partnerships
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-09-30'
+    abstract: This notice announces the availability of funds and solicits proposals for projects that improve the health of the Gulf of Mexico by addressing improved water quality and public health, priority
+      coastal habitat conservation and restoration, more effective coastal environmental education, improved ecosystems integration and assessment, strategic nutrient reductions and coastal community resilience.
+      Projects must actively involve stakeholders and focus on one of the six priority issue ar
+  - id: '66113'
+    grade: null
+    title: 'Early Career: Extreme Event Impacts on Air Quality and Water Quality with a Changing Global Climate'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-04-18'
+    abstract: The U.S. Environmental Protection Agency (EPA), as part of its Science to Achieve Results (STAR) program, is seeking applications proposing the development of assessments, tools and techniques,
+      and demonstration of innovative technologies for providing information and capacity to adequately prepare for climate-induced changes in extreme events in the context of air and water quality management.
+      A goal of this RFA is to seek a better understanding of the hazards (the extreme events) and to estab

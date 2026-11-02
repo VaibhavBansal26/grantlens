@@ -12,7 +12,7 @@ import yaml
 
 STOP = {"with", "from", "that", "this", "research", "grants", "funding", "for"}
 SQL = """
-SELECT external_id, title, agency, status, close_date,
+SELECT external_id, title, agency, status, close_date, left(coalesce(abstract, ''), 500),
        ts_rank(to_tsvector('english', title || ' ' || coalesce(abstract, '')), q, 33) AS score
 FROM opportunity, websearch_to_tsquery('english', %s) q
 WHERE to_tsvector('english', title || ' ' || coalesce(abstract, '')) @@ q
@@ -34,7 +34,8 @@ def main(queries_path: str = "queries.yaml", out_path: str = "candidates.yaml", 
                 "id": q["id"], "text": q["text"],
                 "candidates": [
                     {"id": r[0], "grade": None, "title": r[1][:110], "agency": r[2],
-                     "status": r[3], "closes": str(r[4]) if r[4] else None}
+                     "status": r[3], "closes": str(r[4]) if r[4] else None,
+                     "abstract": " ".join(r[5].split())}
                     for r in rows
                 ],
             })

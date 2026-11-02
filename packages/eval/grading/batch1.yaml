@@ -1,0 +1,891 @@
+queries:
+- id: q001
+  text: early-career funding for AI in cancer imaging
+  candidates:
+  - id: '230200'
+    grade: null
+    title: Revision Applications to R01 Awards for Research on Imaging and Biomarkers for Early Cancer Detection (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-12-11'
+    abstract: This Funding Opportunity Announcement (FOA) invites research project grant (R01) revision applications from investigators with active NIH R01 research project grant awards to support an expansion
+      of the scope of funded R01 project grant awards through the addition of one or more new specific aims. Revision applications are expected to focus oncombined imaging and biomarker approaches to improve
+      screening, early cancer detection and diagnosis by integrating multi modality imaging strategies and m
+  - id: '96353'
+    grade: null
+    title: Early Phase Clinical Trials in Imaging and Image-Guided Interventions (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-02-19'
+    abstract: This Funding Opportunity Announcement (FOA) is intended to support clinical trials conducting preliminary evaluation of the safety and efficacy of imaging agents, as well as an assessment
+      of imaging systems, image processing, image-guided therapy, contrast kinetic modeling, and 3-D reconstruction and other quantitative tools. As many such preliminary evaluations are early in development,
+      this FOA will provide investigators with support for pilot (Phase I and II) cancer imaging clinical trials, i
+  - id: '359724'
+    grade: null
+    title: Forecast to Publish a Notice of Funding Opportunity for Small Business Transition Grant For Early Career Scien
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>The National Cancer Institute (NCI), with National Human Genome Research Institute (NHGRI) and National Institute of Biomedical Imaging and Bioengineering (NIBIB), intends to publish a
+      Notice of Funding Opportunity (NOFO) to support early-career academic scientists interested in transitioning to entrepreneurship while also supporting the transfer of technology from academic laboratories
+      into small businesses. Both small businesses and universities are drivers of technological innovation in th
+  - id: '58932'
+    grade: null
+    title: Biophotonics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Biophotonics program supports innovative photonic research for applications in human health.Basic research and innovation in photonics that is very fundamental in science and engineering
+      is needed to lay the foundation for new technologies beyond those that are mature and ready for application in medical diagnostics and therapies. Developing molecularly specific sensing (molecular
+      photonics), imaging, and monitoring systems with high sensitivity and resolution would be an enormous accomplis
+  - id: '357907'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for Academic Career Excellence (ACE) Award (K32
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+    abstract: "<p>The National Cancer Institute (NCI) intends to issue a Notice of Funding Opportunity (NOFO), the Academic Career Excellence (ACE) Award (K32 \uFFFD Independent Clinical Trial Not Allowed).\uFFFD\
+      Beginning with an anticipated first due date on June 12, 2025, cancer research training support for late-stage graduate students and early-stage postdoctoral scholars will be available through the\uFFFD\
+      \"Academic Career Excellence (ACE) Award (K32)\".\uFFFDThe ACE award is designed to support early postdoctoral training in"
+  - id: '357912'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for Academic Career Excellence (ACE) Award (K32
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+    abstract: "<p>The National Cancer Institute (NCI) intends to issue a Notice of Funding Opportunity (NOFO), the Academic Career Excellence (ACE) Award (K32 - Independent Clinical Trial Required).Beginning\
+      \ with an anticipated first due date on June 12, 2025, cancer research training support for late-stage graduate students and early-stage postdoctoral scholars will be available through the\uFFFD\"\
+      Academic Career Excellence (ACE) Award (K32)\".The ACE award is designed to support early postdoctoral training in cance"
+  - id: '357075'
+    grade: null
+    title: National Cancer Institute's Investigator-Initiated Early Phase Clinical Trials for Cancer Treatment and Diagno
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-07'
+    abstract: 'Through this Notice of Funding Opportunity, the National Cancer Institute (NCI) seeks research projects that implement early phase (Phase 0, I, and II) investigator-initiated clinical trials
+      focused on cancer-targeted diagnostic and therapeutic interventions of direct relevance to the research mission of DCTD and OHAM. The proposed project must involve at least 1 clinical trial related
+      to the scientific interests of one or more of the following research programs: Cancer Therapy Evaluation Pro'
+  - id: '46745'
+    grade: null
+    title: In vivo Cellular and Molecular Imaging Centers (ICMICs) (P50)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-08-24'
+    abstract: 'Purpose. The Cancer Imaging Program, and the Division of Cancer Diagnosis and Treatment, at the National Cancer Institute (NCI), invites new or renewal (competing) applications for P50 Research
+      Center Grants for In vivo Cellular and Molecular Imaging Centers (ICMICs). The program will fund the 5-year P50 ICMIC grants to support interdisciplinary scientific teams conducting cutting-edge cancer
+      molecular imaging research. ICMIC funding is designed to: (1) support innovative cancer molecular imagin'
+  - id: '45818'
+    grade: null
+    title: Biophotonics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: Innovative basic research in photonics, imaging, and sensing that is very fundamental in science and engineering is needed to lay the foundation for new technologies beyond those that are
+      mature and ready for application in medical diagnostics and therapies.Developing molecularly specific sensing (molecular photonics), imaging, and monitoring systems with high sensitivity and resolution
+      would be an enormous accomplishment with powerful applications to both biology and medicine. Low cost diagnos
+  - id: '361275'
+    grade: null
+    title: 'Pancreatic Cancer Detection Consortium: Research Units (U01 Clinical Trial Optional)'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-11-05'
+    abstract: Through this Notice of Funding Opportunity (NOFO), NCI solicits applications for the Research Units (RUs), one of the two scientific components of the Pancreatic Cancer Detection Consortium
+      (PCDC), to conduct research on early detection of pancreatic ductal adenocarcinoma (PDAC) and characterization of its precursor lesions to identify patients who are at high risk of progression to
+      cancer. The PCDC will continue to address one of the four research priorities identified in the NCI's 2014 Scienti
+  - id: '44540'
+    grade: null
+    title: 'Quick-Trials for Imaging and Image-Guided Interventions: Exploratory Grants (R21)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-04-11'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) is intended to support clinical trials conducting preliminary evaluation of the safety and efficacy of imaging agents, as well as an assessment
+      of imaging systems, image processing, image-guided therapy, contrast kinetic modeling, and 3-D reconstruction and other quantitative tools. The rapid translation of promising discoveries in the fields
+      of imaging probes, methodologies, technologies and image-guided therapies to clinical practice require
+  - id: '106293'
+    grade: null
+    title: Office of Science Early Career Research Program
+    agency: Chicago Service Center
+    status: archived
+    closes: '2011-11-29'
+    abstract: The purpose of this program is to support the development of individual research programs of outstanding scientists early in their careers and to stimulate research careers in the areas supported
+      by the DOE Office of Science.
+  - id: '357908'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for NCI Continuing Umbrella of Research Experie
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+    abstract: '<p>The Center to Reduce Cancer Health Disparities (CRCHD) at NCI is planning to issue two new Notice of Funding Opportunity announcements (NOFO), the NCI Continuing Umbrella of Research Experiences
+      (CURE) Academic Career Excellence (ACE) Award (K32), which will be published in two versions: IndependentClinical Trial Required and Independent Clinical Trial Not Allowed.Beginning with the June
+      12, 2025, due date, the CURE ACE Award will support research training for early postdoctoral fellows in ca'
+  - id: '357909'
+    grade: null
+    title: Notice of Intent to Publish Funding Opportunity Announcement for NCI Continuing Umbrella of Research Experienc
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+    abstract: '<p>The Center to Reduce Cancer Health Disparities (CRCHD) at NCI is planning to issue two new Notice of Funding Opportunity announcements (NOFO), the NCI Continuing Umbrella of Research Experiences
+      (CURE) Academic Career Excellence (ACE) Award (K32), which will be published in two versions: Independent Clinical Trial Required and Independent Clinical Trial Not Allowed.Beginning with the June
+      12, 2025, due date, the CURE ACE Award will support research training for early postdoctoral fellows in c'
+  - id: '98375'
+    grade: null
+    title: Biophotonics
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-09-15'
+    abstract: Biophotonics applies photonics technology to the fields of medicine, biology and biotechnology. Basic research and innovation in photonics that is very fundamental in science and engineering
+      is needed to lay the foundation for new technologies beyond those that are mature and ready for application in medical diagnostics and therapies. Advances are needed in nanophotonics, optogenetics,
+      contrast and targeting agents, ultra-thin probes, wide field imaging, and rapid biomarker screening. Low cos
+  - id: '363169'
+    grade: null
+    title: Early-Stage Innovative Technology Development for Basic and Clinical Cancer Research (R61 Clinical Trial Not A
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) solicits grant applications proposing to develop innovative technologies for cancer research or clinical
+      care. The emphasis of this NOFO is on early-stage projects proposing proof-of-concept/pilot studies to test the technical feasibility of the proposed method, tool, assay, platform, or instrument.&nbsp;</p><p>Well-suited
+      applications must offer a high degree of technical innovation and the potential to ac
+  - id: '360634'
+    grade: null
+    title: Bioengineering Research, Innovation and Technology Education (BRITE) Program (R25 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: "<p>The Bioengineering Research, Innovation and Technology Education (BRITE) Program is designed to foster the development of undergraduate freshmen and sophomores to pursue further studies\
+      \ and careers in bioengineering, biomedical imaging or other STEM fields relevant to NIBIB\u2019s scientific mission. Applications are encouraged to propose integrated educational activities that\
+      \ include three elements: 1) a summer bridge program for incoming freshmen, and 2) in the freshman and sophomore years, educ"
+  - id: '355297'
+    grade: null
+    title: National Cancer Institute Youth Enjoy Science Research Education Program (R25 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: closed
+    closes: '2026-09-28'
+    abstract: <p>The NIH Research Education Program (R25) supports research education activities in the mission areas of the NIH. The overarching goal of this R25 program is to encourage individuals who
+      have not had substantial biomedical research experience, or who have the potential to significantly benefit from additional biomedical research experience to pursue further studies or careers in research.
+      To accomplish the stated over-arching goal, this NOFO will support educational activities with a primary f
+  - id: '135573'
+    grade: null
+    title: Cancer Prevention, Control, Behavioral Sciences, and Population Sciences Career Development Award (K07)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-11-14'
+    abstract: The purpose of the Cancer Prevention, Control, Behavioral Sciences, and Population Sciences Career Development Award (K07) is to support the career development of junior investigators with
+      research or health professional doctoral degrees who want to become cancer-focused academic researchers in cancer prevention, cancer control, or the behavioral or population sciences.
+  - id: '101615'
+    grade: null
+    title: Enhancing Cancer Registries for Early Case Capture of Pediatric and Young Adult Cancer Cases
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-07-29'
+    abstract: The purpose of the program is to enhance CCR infrastructure in an effort to facilitate more rapid reporting of pediatric cancer cases, termed Early Case Capture (ECC), and to increase availability
+      of this data for surveillance activities at the local, state, and national level.
+- id: q002
+  text: machine learning for medical image segmentation
+  candidates:
+  - id: '228774'
+    grade: null
+    title: Probabilistic Programming for Advancing Machine Learning (PPAML)
+    agency: DARPA - Information Innovation Office
+    status: archived
+    closes: '2013-05-16'
+    abstract: DARPA is soliciting innovative research proposals in the area of probabilistic programming languages and accompanying tools to facilitate the construction of new machine learning applications
+      across a wide range of domains. See the full DARPA-BAA-13-31 PDF document attached for further details.
+  - id: '361275'
+    grade: null
+    title: 'Pancreatic Cancer Detection Consortium: Research Units (U01 Clinical Trial Optional)'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-11-05'
+    abstract: Through this Notice of Funding Opportunity (NOFO), NCI solicits applications for the Research Units (RUs), one of the two scientific components of the Pancreatic Cancer Detection Consortium
+      (PCDC), to conduct research on early detection of pancreatic ductal adenocarcinoma (PDAC) and characterization of its precursor lesions to identify patients who are at high risk of progression to
+      cancer. The PCDC will continue to address one of the four research priorities identified in the NCI's 2014 Scienti
+  - id: '232457'
+    grade: null
+    title: Part C Capacity Development Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2013-05-30'
+    abstract: This announcement solicits applications for the Ryan White Part C Capacity Development Grant Program. It is designed to assist public and nonprofit entities in their efforts to strengthen
+      their organizational infrastructure and to increase their capacity to develop, enhance, or expand access to high quality HIV primary health care services for people living with HIV or who are at risk
+      of infection in underserved or rural communities. Grant funding under this program is not intended to support l
+  - id: '364192'
+    grade: null
+    title: Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forrest Cooperative Ecosystem Studi
+    agency: Geological Survey
+    status: posted
+    closes: '2026-12-02'
+    abstract: <p style="margin-left:0in;">The USGS is offering a funding opportunity to a CESU partner for research in improving accuracy assessment and area estimation for use in annual remote-sensing
+      based land-cover monitoring.&nbsp;</p><p style="margin-left:0in;">The Earth Resources Observation and Science (EROS) Center is a remotely sensed data management, systems development, and science center
+      for the U.S. Geological Survey's (USGS) National Land Imaging Program. The USGS EROS has long been at the fore
+  - id: '361348'
+    grade: null
+    title: Improving Chronic Conditions Through Inexpensive Interventions
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to invite applications to create a national consortium of researchers, clinicians, and electronic
+      health record (EHR) vendors. The consortium will conduct research to evaluate clinical effectiveness impacts of different care approaches on whole-person outcomes and quality metrics. This NOFO is
+      intended to support collaborative research efforts for scaling EHR interventions. The consortium will iden
+  - id: '53951'
+    grade: null
+    title: Active Transfer Learning (ATL)
+    agency: Office of Naval Research
+    status: archived
+    closes: '2010-09-04'
+    abstract: The overall objective of this program is to conduct basic research that will help enable robust autonomy and automation in dynamic, unconstrained environments and contexts. The two science
+      problems of interest are how a learning machine may leverage all relevant prior knowledge and how it may leverage occasional in situ availability of a subject matter expert (SME). This leads naturally
+      to the existing research of Transfer Learning and Active Learning. The intent of this Program is to improve
+  - id: '98953'
+    grade: null
+    title: Pre-Doctoral Training in Primary Care
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-07-11'
+    abstract: This announcement solicits Fiscal Year (FY) 2011 applications for the Primary Care Training and Enhancement (PCTE) Predoctoral Training in Primary Care Program. The purpose of the program
+      is to support projects that plan, develop, and operate a program to train medical students for careers in family medicine, general internal medicine, and general pediatrics, including combined internal
+      medicine and pediatrics ("med-peds"). Funds may be used to plan, develop, operate or participate in an accr
+  - id: '85576'
+    grade: null
+    title: Basic Research in Calcific Aortic Valve Disease (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-10-11'
+    abstract: The purpose of this FOA is to encourage innovative molecular and physiological research that could lead to early diagnosis or effective medical therapy for calcific aortic valve disease. Applications
+      from investigators in related fields (for example, mineralization and bone physiology, extracellular matrix physiology, and molecular imaging) are strongly encouraged. Applicants must describe in
+      the application how the proposed research could lead to early diagnosis or effective medical therapy
+  - id: '46494'
+    grade: null
+    title: Preservation and Access Research and Development Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2009-07-30'
+    abstract: "Preservation and Access Research and Development grants support projects that address major challenges in preserving or providing access to humanities collections and resources. These challenges\
+      \ include the need to find better ways to preserve materials of critical importance to the nation\x92s cultural heritage\x97from fragile artifacts and manuscripts to analog recordings and digital\
+      \ assets subject to technological obsolescence\x97and to develop advanced modes of searching, discovering, and using such"
+  - id: '51987'
+    grade: null
+    title: '&quot;Strengthening Graduate and Undergraduate Education and Training for Laboratory Scientists in the Republi'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-04-20'
+    abstract: The purpose of this program is to support the upgrade of existing medical laboratory training programs at a Namibian university (hereafter referred to as "the grantee"). This agreement is
+      intended to create a direct relationship between the grantee the Centers for Disease Control, and PEPFAR. It is not intended to fund a non-university partner (e.g., NGO or international agency) to
+      provide services to the grantee. The specific objectives for this program are to strengthen the grantee's existing
+  - id: '58850'
+    grade: null
+    title: Indo-US Collaborative Program on Low-Cost Medical Devices (R03)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-24'
+    abstract: Purpose. The purpose of this program is to encourage collaborative research and/or technology development between scientists and engineers in the United States and India. This FOA issued by
+      National Institute of Biomedical Imaging and Bioengineering (NIBIB) (http://www.nibib.nih.gov) and the Eunice Kennedy Shriver National Institute of Child Health and Human Development (http://www.nichd.nih.gov),
+      National Institutes of Health, encourages Small Research Grant (R03) applications for its program
+  - id: '351059'
+    grade: null
+    title: Integrating Machine Learning with Computational Fluid Dynamics Models of Orally Inhaled Drug Products (U01) Cl
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+    abstract: '<p><span style="color: black;">Computational fluid dynamics (CFD) has played a crucial role in providing an alternative bioequivalence (BE) approach for generic orally inhaled drug products
+      (OIDPs), in addition to comparative clinical endpoint or pharmacodynamic BE studies, as a relatively cost- and time-efficient complement to benchtop and clinical experiments that has been widely used
+      in developing and assessing generic inhaler devices. However, despite the advances in the power of modern comp'
+  - id: '272810'
+    grade: null
+    title: Advance Interoperable Health Information Technology Services to Support Health Information Exchange
+    agency: Office of the National Coordinator
+    status: archived
+    closes: '2015-04-06'
+    abstract: 'This funding opportunity announcement will leverage the investments and lessons learned from the original State HIE Program and accelerate the widespread adoption and use of health information
+      exchange infrastructure, including the following transport mechanisms: -Direct secure messaging -Query-based exchange -Consumer medicated exchange'
+  - id: '53197'
+    grade: null
+    title: Mind's Eye
+    agency: DARPA - Transformational Convergence Technology
+    status: archived
+    closes: '2010-05-10'
+    abstract: "The Mind\x92s Eye program seeks to develop in machines a capability that currently exists only in animals: visual intelligence. Humans in particular perform a wide range of visual tasks with\
+      \ ease, which no current artificial intelligence can do in a robust way. Humans have inherently strong spatial judgment and are able to learn new spatiotemporal concepts directly from the visual experience.\
+      \ Humans can visualize scenes and objects, as well as the actions involving those objects. Humans possess"
+  - id: '228890'
+    grade: null
+    title: Medical Professionals Recruitment and Continuing Education Programs
+    agency: Indian Health Service
+    status: archived
+    closes: '2013-04-30'
+    abstract: "The Indian Health Service (IHS) Office of Clinical and Preventive Services (OCPS) is accepting competitive cooperative agreement applications for support for medical professionals\x92 recruitment\
+      \ and continuing education programs. The purpose of this IHS cooperative agreement is to enhance medical professional recruitment and continuing education programs, services and activities for AI/AN\
+      \ people. The agency wants to facilitate continuing medical education for AI/AN physicians through annual meeti"
+  - id: '176313'
+    grade: null
+    title: 'Decreasing Patient Radiation Dose from CT Imaging:  Achieving Sub-mSv Studies (U01)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-09-11'
+    abstract: Computed tomography (CT)-based imaging procedures have led to significant improvements in the diagnosis and treatment of numerous medical conditions and diseases. However, CT scanners can
+      expose patients to cumulative radiation doses which may elevate individuals lifetime risk of developing cancer or other health problems. Physicians minimize this potential risk by carefully considering
+      the risk-to-benefit-ratio of a CT scan as well as alternative diagnostic approaches. Research focusing on wa
+  - id: '320753'
+    grade: null
+    title: Science of Learning and Augmented Intelligence (SL)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-02-10'
+    abstract: <p>Science of Learning and Augmented Intelligence (SL) supports potentially transformative research that develops basic theoretical insights and fundamental knowledge about principles, processes
+      and mechanisms of learning, and about augmented intelligence &mdash; how human cognitive function can be augmented through interactions with others or with technology, or through variations in context.&nbsp;</p>
+      <p>The program supports&nbsp;research addressing learning in individuals and in groups, acros
+  - id: '48451'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit, Rocky Mountain CESU
+    agency: Geological Survey
+    status: archived
+    closes: '2009-07-24'
+    abstract: The purpose of the Northern Rocky Mountain Science Center (NOROCK) funding opportunity is to develop techniques and tools suited to tailored collection and dissemination of Web pages related
+      to climate modeling. Little prior research has focused on either persistent information needs or Web information needs for a specific targeted user community. These two characteristics afford significant
+      opportunities for exploitation in the methods developed. Another objective is to support understanding
+  - id: '173713'
+    grade: null
+    title: 'Information Technology Professionals in Health Care: Community College Consortia to Educate Health Information'
+    agency: Office of the National Coordinator
+    status: closed
+    closes: '2012-06-29'
+    abstract: The purpose of this expansion supplement is to create learning resources for use by community colleges, and other institutes of higher education offering health informatics education programs
+      that support the criteria described above. Funding will be made available under this grant opportunity to expand one Community College Consortia to Educate Health Information Technology Professionals
+      cooperative agreement to include the development of:&#9679; Higher education learning resources on Meanin
+  - id: '361008'
+    grade: null
+    title: Collaboratory to Advance Mathematics Education and Learning (CAMEL) for K-12
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2076-10-05'
+    abstract: <p>The Collaboratory to Advance Mathematics Education and Learning (CAMEL) for K-12 initiative aims to advance mathematics learning and education through purposeful collaboration that draws
+      on the interdisciplinary Science of Learning (including neuroscience; cognitive, developmental, and social sciences; computer science; machine learning; engineering; and education research), deep
+      experiences in education practice and teaching, and innovations in the use of data science, AI and technology. Thr
+- id: q003
+  text: postdoctoral fellowship in computational neuroscience
+  candidates:
+  - id: '53084'
+    grade: null
+    title: NSF Fellowships for Transformative Computational Science using CyberInfrastructure
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-13'
+    abstract: The overarching goal of the NSF Fellowships for Transformative Computational Science using Cyberinfrastructure (CI TRaCS) program is to support outstanding scientists and engineers who have
+      recently completed doctoral studies and are interested in pursuing postdoctoral activities in computational science, and thereby nurturing the future leaders in this emerging and important multidisciplinary
+      field. Computational research and education activities that are cyberinfrastrucure-based and cross disc
+  - id: '188913'
+    grade: null
+    title: Mathematical Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-10-17'
+    abstract: 'The purpose of the Mathematical Sciences Postdoctoral Research Fellowships (MSPRF) is to support future leaders in mathematics and statistics by facilitating their participation in postdoctoral
+      research environments that will have maximal impact on their future scientific development. There are two options for awardees: Research Fellowship and Research Instructorship. Awards will support
+      research in areas of mathematics and statistics, including applications to other disciplines.'
+  - id: '89634'
+    grade: null
+    title: Mathematical Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-19'
+    abstract: 'The purpose of the Mathematical Sciences Postdoctoral Research Fellowships (MSPRF) is to support future leaders in the mathematical sciences by facilitating their participation in postdoctoral
+      research environments that will have maximal impact on their future scientific development. There are two options for awardees: Research Fellowship and Research Instructorship. Awards will support
+      research in areas of the mathematical sciences, including applications to other disciplines.'
+  - id: '349280'
+    grade: null
+    title: Mathematical Sciences Postdoctoral Research Fellowships (MSPRF)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-10-20'
+    abstract: 'The purpose of the Mathematical Sciences Postdoctoral Research Fellowships (MSPRF) is to support future leaders in mathematics and statistics by facilitating their participation in postdoctoral
+      research environments that&nbsp;will have maximal impact on their future scientific development. There are two options for awardees: Research Fellowship and Research Instructorship. Awards will support
+      research in areas of mathematics and statistics, including applications to other disciplines.'
+  - id: '165473'
+    grade: null
+    title: Resident Postdoctoral Fellowship Program in Microbiology
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-18'
+    abstract: The purpose of the program is to conduct a Resident Postdoctoral Fellowship Program in Microbiology at CDC laboratories. The program will offer doctoral-level microbiologists two-year fellowships
+      in residence at CDC during which they will acquire specific experience in the public health aspects of microbiology, particularly those aspects related to infectious disease prevention and control.
+  - id: '188454'
+    grade: null
+    title: SBE Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: 'The Directorate for Social, Behavioral and Economic Sciences (SBE) offers Postdoctoral Research Fellowships in two tracks: (i) Broadening Participation (SPRF-BP), and (ii) Interdisciplinary
+      Research in Behavioral and Social Sciences (SPRF-IBSS). See the full text of the solicitation for detailed description of these tracks.'
+  - id: '68093'
+    grade: null
+    title: International Neuroscience Fellowship (F05)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-08-16'
+    abstract: The goal of the International Neuroscience Fellowship (INF) is to advance the training of qualified foreign neuroscientists and clinicians at the early or mid-career level, by enhancing their
+      basic, translational or clinical research skills in a research setting in the United States (U.S.). This program aims to strengthen the intellectual capital of neuroscience research in international
+      institutions. Awardees are expected to pursue future independent and productive careers, which stimulate rese
+  - id: '70134'
+    grade: null
+    title: Ruth L. Kirschstein National Research Service Awards (NRSA) for Individual Postdoctoral Fellows (Parent F32)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-03-07'
+    abstract: The purpose of this individual postdoctoral research training fellowship is to provide support to promising Fellowship Applicants with the potential to become productive, independent investigators
+      in scientific health-related research fields relevant to the missions of participating NIH Institutes and Centers.
+  - id: '332894'
+    grade: null
+    title: LPS Qubit Collaboratory (LQC)
+    agency: Dept of the Army -- Materiel Command
+    status: posted
+    closes: '2027-04-30'
+    abstract: "<p>The U.S. Army Research Office (ARO) in partnership with NSA\u2019s Laboratory for Physical Science (LPS) is soliciting Incubator, Collaboration, and Fellowship research proposals for participation\
+      \ in the LPS Qubit Collaboratory (LQC). The mission of the LQC can be captured in three broad goals: 1) pursue disruptive fundamental research and enabling technologies with a focus on qubit development\
+      \ for quantum computing and other applications (such as sensing); 2) grow deep, collaborative partnerships"
+  - id: '48516'
+    grade: null
+    title: SBE Minority Postdoctoral Research Fellowships and Follow-up Research Starter Grants
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-17'
+    abstract: The Directorate for Social, Behavioral and Economic Sciences (SBE) offers Minority Postdoctoral Research Fellowships and Research Starter Grants in an effort to increase the diversity of researchers
+      who participate in NSF programs in the social, behavioral and economic sciences and thereby increase the participation of scientists from underrepresented groups in selected areas of science in the
+      United States. These activities (postdoctoral fellowships and follow-up research starter grants) suppo
+  - id: '358830'
+    grade: null
+    title: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2028-05-07'
+    abstract: The purpose of the Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32) is to support research training of highly promising postdoctoral
+      candidates who have the potential to become productive, independent investigators in scientific health-related research fields relevant to the missions of the participating NIH Institutes and Centers.
+      Applications are expected to incorporate exceptional mentorship.
+  - id: '45648'
+    grade: null
+    title: EAR Postdoctoral Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-07-01'
+    abstract: The Division of Earth Sciences (EAR) awards Postdoctoral Fellowships to highly qualified investigators within 3 years of obtaining their PhD to carry out an integrated program of independent
+      research and education. The research and education plans of each fellowship must address scientific questions within the scope of EAR disciplines. The program supports researchers for a period of
+      up to 2 years with fellowships that can be taken to the institution or national facility of their choice. The pr
+  - id: '121593'
+    grade: null
+    title: Ocean Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-13'
+    abstract: 'The Division of Ocean Sciences (OCE) offers Postdoctoral Research Fellowships to increase the participation of under-represented groups in the ocean sciences. Awards are intended to support
+      the individual fellows'' research and increase the diversity of the U.S. ocean sciences research community. In this solicitation, the term under-represented groups will refer to and include the following:
+      women, persons with disabilities, African Americans, Hispanics, Native Americans, Alaska Natives, and Pa'
+  - id: '204255'
+    grade: null
+    title: Ocean Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: 'The Division of Ocean Sciences (OCE) offers Postdoctoral Research Fellowships to increase the participation of under-represented groups in the ocean sciences. Awards are intended to support
+      the individual fellows'' research and increase the diversity of the U.S. ocean sciences research community. In this solicitation, the term under-represented groups will refer to and include the following:
+      women, persons with disabilities, African Americans, Hispanics, Native Americans, Alaska Natives, and Pa'
+  - id: '53715'
+    grade: null
+    title: International Neuroscience Fellowship (F05)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-01-07'
+    abstract: Purpose. The goal of the International Neuroscience Fellowship (INF) is to advance the training of qualified foreign neuroscientists and clinicians at the early or mid-career level, by enhancing
+      their basic, translational or clinical research skills in a research setting in the United States (U.S.). This program aims to strengthen the intellectual capital of neuroscience research in international
+      institutions. Awardees are expected to pursue future independent and productive careers, which st
+  - id: '107093'
+    grade: null
+    title: NSF Astronomy and Astrophysics Postdoctoral Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-12'
+    abstract: NSF Astronomy and Astrophysics Postdoctoral Fellowships provide an opportunity for highly qualified, recent doctoral scientists to carry out an integrated program of independent research and
+      education. Fellows may engage in observational, instrumental, theoretical, laboratory or archival data research in any area of astronomy or astrophysics, in combination with a coherent educational
+      plan for the duration of the fellowship. The program supports researchers for a period of up to three years with
+  - id: '45723'
+    grade: null
+    title: NSF Astronomy and Astrophysics Postdoctoral Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: NSF Astronomy and Astrophysics Postdoctoral Fellowships provide an opportunity for highly qualified, recent doctoral scientists to carry out an integrated program of independent research and
+      education. Fellows may engage in observational, instrumental, theoretical, laboratory or archival data research in any area of astronomy or astrophysics, in combination with a coherent educational
+      plan for the duration of the fellowship. The program supports researchers for a period of up to three years with
+  - id: '343980'
+    grade: null
+    title: SBE Postdoctoral Research Fellowships (SPRF)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-04'
+    abstract: '<p>The Directorate for Social, Behavioral and Economic Sciences (SBE) offers Postdoctoral Research Fellowships to encourage&nbsp;independence early&nbsp;in the fellow''s&nbsp;career&nbsp;by
+      supporting his or her&nbsp;research and training goals.&nbsp;The research and training plan of each fellowship must address important scientific questions within the&nbsp;scope of the SBE directorate
+      and the specific guidelines in this solicitation. The SPRF program offers two tracks: (I) Fundamental Research'
+  - id: '342747'
+    grade: null
+    title: NSF Astronomy and Astrophysics Postdoctoral Fellowships (AAPF)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-10-15'
+    abstract: <p>NSF Astronomy and Astrophysics Postdoctoral Fellowships provide an opportunity for highly qualified, recent doctoral scientists to carry out an integrated program of independent research
+      and education. Fellows may engage in observational, instrumental, theoretical, laboratory or archival data research in any area of astronomy or astrophysics, in combination with a coherent educational
+      plan for the duration of the fellowship. The program supports researchers for a period of up to three years w
+  - id: '164053'
+    grade: null
+    title: NINDS Advanced Postdoctoral Career Transition Award to Promote Diversity in Neuroscience Research (K22)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-08-25'
+    abstract: The NINDS Advanced Postdoctoral Career Transition Award to Promote Diversity issued by the National Institute of Neurological Disorders and Stroke (NINDS), National Institutes of Health (NIH),
+      is designed to increase the number of highly trained early career investigators from diverse backgrounds underrepresented in neuroscience research. Faculty from diverse backgrounds represent only
+      5% of the tenure-stream neuroscience faculty (2009 Survey Report Neuroscience Departments and Programs). Thi
+- id: q004
+  text: grants for Alzheimer's disease biomarker discovery
+  candidates:
+  - id: '41635'
+    grade: null
+    title: Alzheimer's Disease and Related Disorders
+    agency: Administration on Aging
+    status: archived
+    closes: '2008-06-19'
+    abstract: Existing Project
+  - id: '357529'
+    grade: null
+    title: Alzheimer's Drug-Development Program (U01 Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-11-05'
+    abstract: The goal of this Notice of Funding Opportunity (NOFO) is to provide funding support for the pre-clinical and early stage clinical (Phase I) development of novel small-molecule and biologic
+      drug candidates that prevent Alzheimer's disease (AD), slow its progression, or treat its cognitive and behavioral symptoms. Participants in this program will receive funding for therapy development
+      activities such as medicinal chemistry; pharmacokinetics (PK); Absorption, Distribution, Metabolism, Excretion,
+  - id: '47198'
+    grade: null
+    title: Alzheimer's Disease Innovation
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-06'
+    abstract: "Alzheimer\x92s Disease Supportive Services Program: Innovation Cooperative Agreements to Better Serve People with Alzheimer\x92s Disease and Related Disorders"
+  - id: '125133'
+    grade: null
+    title: Research Using Biosamples From Selected Type 1 Diabetes Clinical Studies (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-06-07'
+    abstract: This FOA invites applications for ancillary studies using archived samples from selected type 1 diabetes clinical trials and studies. Ancillary studies are expected to generate scientific
+      discoveries on disease mechanisms, disease pathogenic processes, and biomarkers of disease progression or clinical responses.
+  - id: '53038'
+    grade: null
+    title: Grants for Alzheimers Disease Drug Discovery (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-05-07'
+    abstract: Purpose. The goal of this FOA is to advance the discovery of new, efficacious therapies for the treatment, delay of progression, or prevention of Alzheimers disease (AD), mild cognitive impairment
+      (MCI) and age-related cognitive decline. This FOA encourages the early stages of drug discovery necessary to identify promising disease-modifying therapies as well as treatments aimed at ameliorating
+      the cognitive and neuropsychiatric/behavioral symptoms characteristic of Alzheimers disease. Studies
+  - id: '47200'
+    grade: null
+    title: Alzheimer's Disease Evidence Based
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-06'
+    abstract: "Alzheimer\x92s Disease Supportive Services Program: Evidence-Based Cooperative Agreements to Better Serve People with Alzheimer\x92s Disease and Related Disorders"
+  - id: '96613'
+    grade: null
+    title: 'Predictive Biodosimetry: Discovery and Development of Biomarkers for Acute and  Delayed Radiation Injuries (R0'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-02'
+    abstract: The National Institute of Allergy and Infectious Diseases (NIAID) invites applications from institutions/organizations that propose to develop/discover biomarkers to predict acute and delayed
+      radiation injuries to physiological systems/organs/tissues that can be used for triage and prompt treatment decisions in all segments of the civilian population after a radiological/nuclear terrorist
+      incident.
+  - id: '357710'
+    grade: null
+    title: Institutional Training Programs to Advance Translational Research on Alzheimer's Disease (AD) and AD-Related D
+    agency: National Institutes of Health
+    status: archived
+    closes: '2026-09-25'
+    abstract: <p>The specific purpose of this Notice of Funding Opportunity (NOFO) is to promote the development of a diverse, interdisciplinary workforce needed to conduct translational research on Alzheimer's
+      disease and Alzheimer's-related dementias from target discovery through clinical development. This NOFO will support institutional training programs for predoctoral and postdoctoral level researchers
+      with diverse educational backgrounds (i.e., basic biology, translational and clinical research, data sc
+  - id: '359851'
+    grade: null
+    title: Biomarkers of Cognitive Decline and Dementias of Aging in Individuals within the Autism Spectrum
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: '<p><span style="color: rgb(51, 51, 51);">The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to invite applications to conduct observational studies
+      in individuals living with Autism Spectrum Disorders (ASD) along the lifespan. The overarching goal is to determine the occurrence of age-related neurodegeneration across the heterogeneities of the
+      ASD spectrum, characterize the physiopathology and manifestation of Alzheimer''s disease (AD) and AD-related d'
+  - id: '361411'
+    grade: null
+    title: 'Expanding the Therapeutic Pipeline for Treating and Preventing Alzheimer''s Disease and Related Dementias: Prec'
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications for research on Alzheimer's disease (AD) and AD-related dementias
+      (ADRD) drug target validation and early-stage drug discovery against novel targets. This NOFO will utilize the U01 activity code. The NOFO will support rigorous preclinical AD/ADRD drug target validation
+      and early-stage drug discovery of small molecules, biologic, and emerging therapeutic modalities. Applicati
+  - id: '124893'
+    grade: null
+    title: Research Using Subjects From The Type 1 Diabetes TrialNet Natural History Study (Living Biobank) (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-06-07'
+    abstract: This FOA invites applications for ancillary studies that use subjects enrolled in (or screened for participation in) the Type 1 Diabetes TrialNet clinical trials network. Studies are expected
+      to generate scientific discoveries on disease mechanisms, disease pathogenic processes, and biomarkers of disease progression or clinical responses. This FOA is not intended to fund clinical trials
+      with endpoints for clinical efficacy (including but not limited to C-peptide preservation).
+  - id: '44758'
+    grade: null
+    title: Chronic Kidney Disease Biomarker Discovery and Validation Consortium (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-04-01'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health (NIH), solicits grant
+      applications from institutions/organizations that propose to discover or validate biomarkers for well-defined human chronic kidney diseases (CKD). The purpose of this initiative is to establish a
+      multi-center consortium to discover new and/or validate already identified biomarkers for CKD. CKD is a major p
+  - id: '130973'
+    grade: null
+    title: Alzheimer's Disease Drug Development Program (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-01-07'
+    abstract: The goal of this funding opportunity announcement (FOA) is to support pre-clinical development of new therapies aimed at modifying the behavioral symptoms in Alzheimer's disease (AD); or delaying
+      the onset or slowing the progression of AD, mild cognitive impairment (MCI), or age-related cognitive decline. This program is specifically directed at projects focused on the optimization of therapeutic
+      leads with demonstrated activity against an intended disease target. Projects must be sufficiently a
+  - id: '64834'
+    grade: null
+    title: Alzheimer's Disease Pilot Clinical Trials (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-01-07'
+    abstract: In 1999, at the direction of Congress, the National Institute on Aging (NIA), in conjunction with the National Institute of Neurological Disorders and Stroke (NINDS), the National Institute
+      of Mental Health (NIMH), and the National Institute of Nursing Research (NINR) embarked on the Alzheimer's Disease (AD) Prevention Initiative, which encompasses a number of interrelated efforts including
+      basic, epidemiological, behavioral, and clinical research. An important part of the AD Prevention Initiati
+  - id: '205093'
+    grade: null
+    title: Research Using Biosamples from Selected Type 1 Diabetes Clinical Studies (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-04-02'
+    abstract: This FOA invites applications for ancillary studies using archived samples from the DCCT/EDIC, DPT-1, TrialNet, and GoKind type 1 diabetes clinical trials and studies. Ancillary studies are
+      expected to generate scientific discoveries on type 1 diabetes primary pathogenesis or the pathogenesis of complications, and biomarkers of disease progression or clinical responses to interventions.
+  - id: '204055'
+    grade: null
+    title: Alzheimer's Disease Phase I Clinical Trials (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-14'
+    abstract: The objective of the Alzheimer's Disease Phase I Clinical Trials initiative is to provide support for first-in-human studies for promising Alzheimers disease therapeutics. These first stage
+      clinical trials will evaluate the metabolic and pharmacological actions of drugs, including biologics in humans.
+  - id: '359169'
+    grade: null
+    title: 'Cellular Senescence Network (SenNet): Discovery, Validation Centers (UM1 Clinical Trials Not Allowed)'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2026-11-23'
+    abstract: "<p>The purpose of this Notice of Funding Opportunity (NOFO) is to support SenNet Discovery and Validation Centers (SenNet DVCs) as a core component of Stage 2 of the NIH Common Fund Cellular\
+      \ Senescence Network (SenNet). Building on Stage 1 resources, DVCs will define, refine, and validate tissue- and disease-relevant cellular senescence signatures (\u201Csenotypes\u201D) and associated\
+      \ biomarkers, and will investigate their functional consequences in human health and disease. DVCs are expected to generate"
+  - id: '81533'
+    grade: null
+    title: National Institute on Aging Request for Applications for an Alzheimer's Disease Genetics Data Warehouse (U24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-07'
+    abstract: The National Institute on Aging invites applications specific to infrastructure related to storage and analysis of primary and secondary data for the genetics of Alzheimer's Disease.
+  - id: '59853'
+    grade: null
+    title: Limited Competition for the Renewal of the National Cell Repository for Alzheimer's Disease (NCRAD) (U24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-02-25'
+    abstract: The National Institute on Aging invites applications to renew an ongoing NIA-supported cooperative agreement, the National Cell Repository for Alzheimer's disease.
+  - id: '58168'
+    grade: null
+    title: Clinical and Data Coordinating Center(s) for Parkinsons Disease Biomarkers Identification Network (PD-BIN) (U0
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-01-18'
+    abstract: The NINDS intends to fund a multi-site, multi-project network (Parkinsons Disease Biomarker Identification Network, or PD-BIN) devoted to identifying biological markers for PD risk, onset,
+      and/or progression, in order to facilitate development of disease-modifying treatments. The purpose of this FOA is to solicit linked cooperative agreement (U01) applications for the establishment
+      of a Clinical Coordinating Center (CCC) and a Data Coordinating Center (DCC). The PIs for the DCC and CCC must coor
+- id: q005
+  text: mental health services for rural and underserved communities
+  candidates:
+  - id: '363687'
+    grade: null
+    title: Rural Communities Opioid Response Program - Child and Adolescent Behavioral Health
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+    abstract: <p>The RCORP-Child and Adolescent Behavioral Health Program provides funding to rural communities to establish and expand behavioral health care services, including mental health and substance
+      use disorder for rural children and adolescents.&nbsp;</p>
+  - id: '129754'
+    grade: null
+    title: Community Nutrition and Health Care Project
+    agency: Guatemala USAID-Guatemala City
+    status: closed
+    closes: '2012-01-04'
+    abstract: The goal of the CNHC Project is to improve the nutrition and health status of women and children in underserved rural communities of the Guatemalan Western Highlands while also strengthening
+      local GOG structures and systems to provide quality nutrition, family planning and health care services in hard-to reach communities.
+  - id: '146394'
+    grade: null
+    title: Telehealth Network Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-04-13'
+    abstract: 'This announcement solicits applications for the Telehealth Network Grant Program (TNGP). The primary objective of the TNGP is to demonstrate how telehealth programs and networks can improve
+      access to quality health care services in rural and underserved communities. Grants made under this authority will demonstrate how telehealth networks improve healthcare services for medically underserved
+      populations in urban, rural, and frontier communities. TNGP networks are used to: (a) expand access to'
+  - id: '63114'
+    grade: null
+    title: Affordable Care Act - Health Center Planning Grants
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-03-18'
+    abstract: The purpose of planning grants is to demonstrate the need for health services in the community from public or non-profit organzations seeking a grant to plan for the development of a comprehensive
+      primary care health center under the Health Center Program authorized under Section 330 of the Public Health Service Act. The purpose of the Health Center Program is to extend comprehensive primary
+      and preventive health services (including mental health, substance abuse and oral health services) and
+  - id: '363533'
+    grade: null
+    title: Healthy Tomorrows Partnership for Children Program (HTPCP)
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+    abstract: <p>The purpose of the Healthy Tomorrows Partnership for Children Program (HTPCP) is to support community-based projects that promote access to preventive clinical and public health services
+      for children. The projects should address mental health, nutrition/health education, and/or physical activity to improve childhood chronic disease prevention in rural areas and communities with limited
+      access to care.</p>
+  - id: '54304'
+    grade: null
+    title: Telehealth Network Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-06-14'
+    abstract: 'The primary objective of the Telehealth Network Grant Program (TNGP) is to demonstrate how telehealth programs and networks can improve access to quality health care services in underserved
+      rural and urban communities. TNGP networks are used to: (a) expand access to, coordinate, and improve the quality of health care services; (b) improve and expand the training of health care providers;
+      and/or (c) expand and improve the quality of health information available to health care providers, patients,'
+  - id: '189333'
+    grade: null
+    title: Affordable Care Act - Teaching Health Center Graduate Medical Education (THCGME) Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-09-28'
+    abstract: This announcement solicits FY 2013 applications for the Teaching Health Center Graduate Medical Education (THCGME) program. The Affordable Care Act directly appropriates $230 million for Fiscal
+      Years 2011 through 2015 to make payments to qualified teaching health centers to support the expansion of primary care medical and dental residency training in community-based ambulatory settings.
+      These community-based settings include, but are not limited to, federally-qualified health centers (FQHCs)
+  - id: '130613'
+    grade: null
+    title: Area Health Education Centers
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-02-15'
+    abstract: The Area Health Education Center (AHEC) programs consist of interdisciplinary, community-based, primary care training programs wherein academic and community-based leaders work to improve
+      the distribution, diversity, supply, and quality of health personnel, particularly primary care personnel in the health care services delivery system and more specifically in delivery sites in rural
+      and other underserved areas. This funding opportunity announcement (FOA) solicits applications for a five-year p
+  - id: '167793'
+    grade: null
+    title: Integrated Social Marketing
+    agency: Madagascar USAID-Antananarivo
+    status: archived
+    closes: '2012-06-08'
+    abstract: This solicitation is to seek applications from eligible Applicants, for a program that is to improve health among key target groups by creating demand for and ensuring widespread access to
+      affordable, high-quality family planning, reproductive health, malaria prevention and treatment, pneumonia and diarrheal disease prevention and treatment, and safe water treatment products through
+      social marketing of quality subsidized health products and services. Special focus on social marketing activities
+  - id: '67893'
+    grade: null
+    title: 'Part C: CAPACITY DEVELOPMENT'
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-03-18'
+    abstract: The purpose of this grant program is to support eligible entities in their efforts to strengthen their organizational infrastructure and enhance their capacity to develop, enhance or expand
+      high quality HIV primary health care services in (1) rural or (2) urban underserved areas and (3) communities of color. The applicant must propose capacity building activities that develop, enhance,
+      or expand a comprehensive continuum of outpatient HIV primary care services in their community through the app
+  - id: '51307'
+    grade: null
+    title: 'Part C: CAPACITY DEVELOPMENT'
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-03-05'
+    abstract: The purpose of this grant program is to support eligible entities in their efforts to strengthen their organizational infrastructure and enhance their capacity to develop, enhance or expand
+      high quality HIV primary health care services in (1) rural or (2) urban underserved areas and (3) communities of color. The applicant must propose capacity building activities that develop, enhance,
+      or expand a comprehensive continuum of outpatient HIV primary care services in their community through the app
+  - id: '363581'
+    grade: null
+    title: Rural Health Network Development Planning Program
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+    abstract: <p>The Rural Health Network Development Planning Program supports the planning and development of rural integrated health care networks with specific focus on collaboration of entities to
+      establish or improve local capacity and care coordination in underserved communities. Specifically, the program uses the concept of developing networks as a strategy for linking rural health care
+      network participants together to achieve greater collective capacity to overcome local challenges, expand access and
+  - id: '54038'
+    grade: null
+    title: Area Health Education Centers Point of Service Maintenance and Enhancement Awards
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-05-26'
+    abstract: This program guidance announcement solicits applications for a two-year project period for AHEC Infrastructure Development awards and AHEC Point of Service Maintenance and Enhancement awards,
+      as authorized by the Patient Protection and Affordable Care Act of 2010, Public Law 111-148, which amended Title VII, Section 751, of the Public Health Service Act. The AHEC programs consist of interdisciplinary,
+      community-based training programs wherein academic and community-based leaders work to improv
+  - id: '363812'
+    grade: null
+    title: Children's Mental Health Initiative
+    agency: Substance Abuse and Mental Health Services Adminis
+    status: forecasted
+    closes: null
+    abstract: <p>The purpose of this program is to provide comprehensive community mental health services to children, youth, and young adults, birth through age 21 with a serious emotional disturbance,
+      which may include efforts to identify and serve children at risk, and their families.</p>
+  - id: '363601'
+    grade: null
+    title: Rural Communities Opioid Response Program - Community Systems Development
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+    abstract: <p>The Rural Communities Opioid Response Program (RCORP) - Community Systems Development <span style="background-color:rgba(0,0,0,0);">provides funding to communities in rural areas to develop
+      and/or expand behavioral health systems of care through formalized networks that expand operational and clinical service capacity regionally through coordinated implementation of evidence-based SUD
+      prevention, treatment, recovery, and related services.</span></p>
+  - id: '54045'
+    grade: null
+    title: Area Health Education Centers (AHEC) Infrastructure Development Awards
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-05-26'
+    abstract: This program guidance announcement solicits applications for a two-year project period for AHEC Infrastructure Development awards and AHEC Point of Service Maintenance and Enhancement awards,
+      as authorized by the Patient Protection and Affordable Care Act of 2010, Public Law 111-148, which amended Title VII, Section 751, of the Public Health Service Act. The AHEC programs consist of interdisciplinary,
+      community-based training programs wherein academic and community-based leaders work to improv
+  - id: '68974'
+    grade: null
+    title: Community Health (CH) Program Component
+    agency: Senegal USAID-Dakar
+    status: archived
+    closes: '2011-04-05'
+    abstract: "This Program Component is expected to improve access to and quality of community health services and information; to enable the active engagement of beneficiaries in seeking and using health\
+      \ care options at the community level (urban and rural) throughout Senegal; to ontribute to the establishment and sustainability of technical linkages and referral networks for community\x96based\
+      \ health service providers and strengthening the relationship between these structures and the formal Government of"
+  - id: '89393'
+    grade: null
+    title: Area Health Education Centers Point of Service Maintenance and Enhancement
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-06-10'
+    abstract: The Area Health Education Center (AHEC) programs consist of interdisciplinary, community-based, primary care training programs wherein academic and community-based leaders work to improve
+      the distribution, diversity, supply, and quality of health care personnel, particularly primary care personnel in the health care services delivery system and more specifically in delivery sites in
+      rural and other underserved areas. This funding opportunity announcement (FOA) solicits applications for a one-ye
+  - id: '54636'
+    grade: null
+    title: Innovative Strategies for Serving Children and Youth with Epilepsy (Project Access)
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-06-21'
+    abstract: 'The purpose of this program is to support innovative strategies in improving access to care for children and youth with epilepsy through one or two of the following approaches: focusing on
+      Mental Health issues for children and youth with epilepsy; implementing telemedicine/telehealth; implementing a training program aimed at educating providers (PCP, Pediatricians) on epilepsy care,
+      particularly in rural and medically underserved areas; partnering with a Community Health Center/ Federally Quali'
+  - id: '358145'
+    grade: null
+    title: Rural Communities Opioid Response Program &ndash; Northern Border Rural Workforce
+    agency: Health Resources and Services Administration
+    status: closed
+    closes: '2025-04-11'
+    abstract: "<p>The purpose of the Rural Communities Opioid Response Program \u2013 Northern Border Rural Workforce (RCORP-Northern Border) is to improve health care in rural areas within the Northern\
+      \ Border Regional Commission\u2019s service area (Maine, New Hampshire, New York, Vermont) by enhancing behavioral health workforce capacity</p>"

@@ -1,0 +1,902 @@
+queries:
+- id: q011
+  text: infectious disease surveillance and pandemic preparedness
+  candidates:
+  - id: '77853'
+    grade: null
+    title: Cooperative Agreement with the South Africa National Health Laboratory Service (NHLS)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-05-31'
+    abstract: 'The purpose of this cooperative agreement is to address the following public health practice goal among others:1. To conduct on a national level, public health surveillance and epidemiological
+      assessments on issues affecting disease, premature death, and quality of life; develop high quality laboratory systems and diagnostic capacity; and, implement evidence-based public health programs
+      on the following: infectious diseases with an emphasis on HIV/AIDS (not limited to blood safety, injection sa'
+  - id: '61233'
+    grade: null
+    title: Cooperative Agreement with the Catholic Relief Services (CRS)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-03-01'
+    abstract: 'The purpose of this cooperative agreement is to address the following public health practice goals: 1. To conduct on a national level, public health surveillance and epidemiological assessments
+      on issues affecting disease, premature death, and quality of life; develop high quality laboratory systems and diagnostic capacity; and, implement evidence-based public health programs on the following:
+      infectious diseases with an emphasis on HIV/AIDS (not limited to blood safety, injection safety, in'
+  - id: '80613'
+    grade: null
+    title: Cooperative Agreement with the Bangkok Metropolitan Administration (BMA) in the Kingdom of Thailand
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-06-17'
+    abstract: 'The purpose of this cooperative agreement is to address the following public health practice goals:1. To conduct on a national level, public health surveillance and epidemiological assessments
+      on issues affecting disease, premature death, and quality of life; develop high quality laboratory systems and diagnostic capacity; and implement evidence-based public health programs on the following:
+      infectious diseases with, including and specifically on HIV/AIDS (not limited to blood safety, injection'
+  - id: '81633'
+    grade: null
+    title: Cooperative Agreement with the Ministry of Public Health in the Kingdom of Thailand (MOPH)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-06-17'
+    abstract: 'The purpose of this cooperative agreement is to address the following public health practice goals:1. To conduct on a national level, public health surveillance and epidemiological assessments
+      on issues affecting disease, premature death, and quality of life; develop high quality laboratory systems and diagnostic capacity; and implement evidence-based public health programs on the following:
+      infectious diseases with an emphasis on HIV/AIDS (not limited to blood safety, injection safety, infectio'
+  - id: '52444'
+    grade: null
+    title: Cooperative Agreement with the Kenya Ministry of Public Health and Sanitation (KMOPHS)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-06-09'
+    abstract: 'The purpose of this co-operative agreement is to address the following public health practice goals:1. To conduct on a national level, public health surveillance and epidemiological assessments
+      on issues affecting disease, premature death, and quality of life ; develop high quality laboratory systems and diagnostic capacity; and, implement evidence-based public health programs on the following:
+      infectious diseases with an emphasis on HIV/AIDS (not limited to blood safety, injection safety, infe'
+  - id: '171334'
+    grade: null
+    title: Cooperative Agreement with the Chinese Center for Disease Control and Prevention
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-22'
+    abstract: 'The program has four broad goals: (1) implementation of proven disease prevention and control interventions; (2) application of proven public health tools; (3) identification of potential
+      global initiatives for disease control; and (4) public health training and capacity building. The purpose of the program is to A. To conduct on a national level, public health surveillance and epidemiological
+      assessments on issues affecting disease, premature death, and quality of life; develop high quali'
+  - id: '75593'
+    grade: null
+    title: Cooperative Agreement with the Direction Nationale de l'Eau Potable et de l'Assainissement (DINEPA)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-05-16'
+    abstract: The purpose of this cooperative agreement is to address the following public health practice goals in Haiti, focusing on the importance of WASH activities in all priority areas:1. To strengthen
+      the DINEPA institutional capability to plan, implement and evaluate evidence-based public health actions and WASH programs2. To conduct surveillance and expand on health information systems, such
+      as mapping of water source vulnerabilities where improvements can be made on the information collected so tha
+  - id: '134413'
+    grade: null
+    title: Conducting Public Health Research in South Africa by the National Health Laboratory Service (NHLS)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2012-03-01'
+    abstract: 'The purpose of this cooperative agreement is to address the following research goals: A. To conduct field and laboratory research on important human infectious diseases, with an emphasis
+      on HIV/AIDS, emerging and re-emerging infectious diseases, neglected tropical diseases, tuberculosis, influenza and other respiratory disease, diarrheal diseases, zoonotic diseases and other diseases
+      with epidemic and pandemic potential as well as Environmental Health issues, chronic diseases, Maternal and Ch'
+  - id: '65333'
+    grade: null
+    title: Conducting Public Health Research in Thailand by the Ministry of Public Health (MOPH) (U01)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2011-03-21'
+    abstract: 'The purpose of this funding announcement is to address the following research goals in Thailand: A. To conduct field and laboratory research on important human infectious diseases, with an
+      emphasis on HIV/AIDS, emerging and re-emerging infectious diseases, neglected tropical diseases, tuberculosis, influenza, zoonotic diseases, malaria and other diseases with pandemic potential as well
+      as Environmental Health issues, Chronic Diseases, Maternal and Child Health, Public Health Preparedness, Bio'
+  - id: '51742'
+    grade: null
+    title: Conducting Public Health Research in Kenya (U01)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2010-04-15'
+    abstract: "CDC\x92s Procurement and Grants Office has published a funding opportunity announcement entitled \x93Conducting Public Health Research in Kenya (U01).\x94 Approximately $20,250,000 will be\
+      \ available in fiscal year 2010 to fund one award. The purpose of this FOA is to conduct field and laboratory research on important human infectious diseases, with an emphasis on HIV/AIDS, Malaria,\
+      \ Emerging and Re-emerging Infectious Diseases, Neglected Tropical Diseases, Tuberculosis, Influenza and other diseases with"
+  - id: '48370'
+    grade: null
+    title: Public Health Emergency Response (PHER)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-07-24'
+    abstract: Purpose The purpose of the PHER grant is to support and enhance the state and local public health infrastructure that is critical to public health preparedness and response, such as strengthening
+      and sustaining the public health workforce; increasing laboratory capacity and capability; strengthening disease surveillance activities; planning and implementing possible large scale mass vaccination
+      activities; developing effective public and risk communication guidance; developing effective communi
+  - id: '46812'
+    grade: null
+    title: RFI Avian and Pandemic Influenza and Zoonotic Disease Program PREDICT
+    agency: Agency for International Development
+    status: closed
+    closes: '2009-04-27'
+    abstract: The United States Agency for International Development (USAID) Bureau for Global Health, Office of Health, Infectious Disease and Nutrition (GH/HIDN) anticipates awarding two (2) cooperative
+      agreements, PREDICT and RESPOND, under its Avian and Pandemic Influenza and Zoonotic Disease Program. The goal of PREDICT is to establish a global early warning system for disease emergence that is
+      capable of detecting, tracking and predicting the emergence of new infectious diseases in high-risk wildlife (e
+  - id: '52509'
+    grade: null
+    title: Global Partnerships with Non &#150; Governmental Organizations (NGO&#146;s)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-05'
+    abstract: 'The purpose of the program is to improve global health through collaboration by addressing the following public health practice goals: 1. To implement evidence-based public health programs
+      on important human infectious diseases, with an emphasis on HIV/AIDS, Malaria, Emerging and Re-emerging Infectious Diseases, Neglected Tropical Diseases, Tuberculosis, Influenza and other diseases
+      with pandemic potential as well as Environmental Health Issues (including Safe Water and Sanitation), Chronic Dis'
+  - id: '171873'
+    grade: null
+    title: BLM CA CCESU -  Seabird Disease Surveillance for the California Coastal National Monument and Environs
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2012-06-15'
+    abstract: CESU partner will work with BLM resource managers about the prevalence of infectious and non-infectious disease among migratory marine bird populations and about management response to mitigate
+      loss or recover seabird populations.
+  - id: '46813'
+    grade: null
+    title: RFI Avian and Pandemic Influenza and Zoonotic Disease Program RESPOND
+    agency: Agency for International Development
+    status: closed
+    closes: '2009-04-27'
+    abstract: The United States Agency for International Development (USAID) Bureau for Global Health, Office of Health, Infectious Disease and Nutrition (GH/HIDN) anticipates awarding two (2) cooperative
+      agreements, RESPOND and PREDICT, under its Avian and Pandemic Influenza and Zoonotic Disease Program. The goal of the RESPOND Project is to improve the capacity of countries in high risk areas to
+      respond to outbreaks of emergent zoonotic diseases that pose a serious threat to human health. The intent of the
+  - id: '75473'
+    grade: null
+    title: Emerging Infections Sentinel Network (EISN)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-04-18'
+    abstract: The purpose of the program is to assist awardees in operating provider-based sentinel networks, specifically networks organized around 1) infectious disease specialists and 2) travel medicine
+      practitioners. These networks will contribute to surveillance for emerging infectious disease threats including drug-resistant, foodborne and waterborne, and vaccine-preventable or potentially vaccine-preventable
+      diseases, and will enhance information exchange leading to early identification of and response
+  - id: '45773'
+    grade: null
+    title: Addressing Emerging Infectious Diseases and Related Public Health Threats in the People&yacute;s Republic of C
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-05-04'
+    abstract: "The HHS/CDC is seeking a cooperative agreement with multiple partners within the People\x92s Republic of China to strengthen capacity in China to detect and evaluate existing and emerging\
+      \ infectious diseases and related public health threats; to estimate the burden of certain infectious diseases; to evaluate the acceptability, efficacy and effectiveness of vaccines; and to evaluate\
+      \ other interventions that could reduce the burden of existing and emerging infectious diseases. Higher incidence of an"
+  - id: '52473'
+    grade: null
+    title: Developing a Regional Public Health Surveillance and Laboratory Network for Central America with the Secretar&
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-04'
+    abstract: "This program addresses the \x93Healthy People 2010\x94 focus area(s) of Health Communication; HIV; Immunization and Infectious Diseases; Public Health Infrastructure; Respiratory Diseases;\
+      \ and Sexually Transmitted Diseases, and is in alignment with HHS/CDC performance goal(s) to protect Americans from infectious diseases by providing global health promotion, health protection and\
+      \ health diplomacy."
+  - id: '116553'
+    grade: null
+    title: 'Epidemiology and Laboratory Capacity (ELC) for Infectious Diseases: Program Components'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-08-01'
+    abstract: The overall purpose of the ELC program is to assist state public health agencies improve surveillance for, and response to, infectious diseases and other public health threats by 1. strengthening
+      epidemiologic capacity; 2. enhancing laboratory capacity; 3. improving information systems; 4. developing and implementing prevention and control strategies and 5. enhancing collaboration among epidemiology,
+      laboratory, and information systems components of public health departments.
+  - id: '61333'
+    grade: null
+    title: Spectrum of Respiratory Pathogens in Acute Respiratory Tract Infection Among Children and Adults in India
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2011-03-15'
+    abstract: The HHS/CDC/NCIRD Influenza Division (ID) is seeking a cooperative agreement with the All India Institute of Medical Sciences (AIIMS) within the Indian Ministry of Health and Family Welfare
+      to strengthen capacity in India to detect and evaluate existing and emerging respiratory diseases; to estimate the burden of certain respiratory viral and bacterial pathogens; to evaluate the acceptability,
+      efficacy and effectiveness of vaccines; and to evaluate other interventions that could reduce the burd
+- id: q012
+  text: antimicrobial resistance new therapeutics
+  candidates:
+  - id: '231025'
+    grade: null
+    title: Pharmacological Approaches to Evaluating Drug Regimens to Address Antimicrobial Resistance (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-07-30'
+    abstract: The purpose of this FOA is to support antimicrobial pharmacokinetic and pharmacodynamic (PK/PD) studies of drug combinations or sequentially administered (sequenced) antimicrobial agents in
+      relevant in vitro and animal models to enhance understanding of the host, drug and microbial factors that contribute to the emergence of antimicrobial drug resistance in clinically relevant pathogens
+      with a goal of minimizing the potential for development of resistance. A secondary objective is to establish p
+  - id: '52993'
+    grade: null
+    title: Developing Novel Diagnostic Tests to Improve Surveillance for Antimicrobial Resistant Pathogens (U01)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2010-04-19'
+    abstract: "CDC\x92s Procurement and Grants Office has published a funding opportunity announcement entitled, \x93Developing Novel Diagnostic Tests to Improve Surveillance for Antimicrobial Resistant\
+      \ Pathogens (U01)\x94. Approximately $300,000 will be available in fiscal year 2010 to fund one award. The purpose of this U01 is to develop novel diagnostic tests in concert with current antimicrobial\
+      \ surveillance efforts to improve local or regional surveillance for antimicrobial resistant pathogens. The tests could a"
+  - id: '361065'
+    grade: null
+    title: Clinical Research Network on Antimicrobial Resistance (UM1 Clinical Trial Required)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2026-11-10'
+    abstract: 'The purpose of this notice of funding opportunity (NOFO) is to support a Clinical Research Network (CRN) on Antimicrobial Resistance (AMR). The program aims to design, implement, and manage
+      clinical research that addresses pivotal clinical questions related to AMR through a coordinated and integrated CRN. The CRN will comprise four centers: the Scientific Leadership Center (SLC), the
+      Clinical Operations Center (COC), the Laboratory Center (LC), and the Statistics and Data Coordination Center (SD'
+  - id: '347990'
+    grade: null
+    title: Vet-LIRN Capacity-Building Project and Equipment Grants (U18)
+    agency: Food and Drug Administration
+    status: posted
+    closes: '2028-09-04'
+    abstract: <p>The goal of this NOFO is to fund veterinary diagnostic laboratories in the Vet-LIRN network for grants associated with projects and equipment. Specific objectives include:</p><p>1. Supporting
+      the development, adaptation, or verification/validation of new methods associated with animal food issues or antimicrobial resistance.</p><p>2. Short-term surveillance or monitoring efforts aligned
+      with the CVM mission.</p><p>3. Supporting equipment for testing or developing tests associated with animal
+  - id: '360006'
+    grade: null
+    title: NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens
+    agency: Food and Drug Administration
+    status: posted
+    closes: '2027-04-01'
+    abstract: '<p><span style="color: rgb(51, 51, 51);">This Funding Opportunity Announcement (FOA) issued by the Food and Drug Administration (FDA), Center for Veterinary Medicine (CVM), builds upon the
+      National Antimicrobial Resistance Monitoring System (NARMS) which was initiated in 1996 as one of the key activities in a national action plan to combat antibiotic resistance threats. The purpose
+      of this FOA is to protect and promote public health by enhancing, strengthening, and sustaining antibiotic resistan'
+  - id: '356975'
+    grade: null
+    title: NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+    abstract: <p>This Funding Opportunity Announcement (FOA) issued by the Food and Drug Administration (FDA), Center for Veterinary Medicine (CVM), builds upon the National Antimicrobial Resistance Monitoring
+      System (NARMS) which was initiated in 1996 as one of the key activities in a national action plan to combat antibiotic resistance threats. The purpose of this FOA is to protect and promote public
+      health by enhancing, strengthening and sustaining antibiotic resistance monitoring in retail food specimens
+  - id: '96294'
+    grade: null
+    title: Advancing Regulatory Science Through Development of Innovative Methodologies in the area of Antimicrobial Deve
+    agency: Food and Drug Administration
+    status: archived
+    closes: '2011-07-02'
+    abstract: 'PLEASE NOTE: The correct contact information for the project officer is as follows: Nancy Masiello Telephone: 301-796-8498 and FAX: 301-847-8614. FDA is announcing an FOA for research into
+      innovative methodologies in the area of antimicrobial development that can have an impact on the selection of the appropriate dosing and/or combination regimens to prevent emergence of antimicrobial
+      resistance.This FOA is part of the Critical Path Initiative''s (CPI''s) long-term strategic effort to drive i'
+  - id: '48836'
+    grade: null
+    title: Partnerships for Development of Therapeutics and Diagnostics for Drug-Resistant Bacteria and Eukaryotic Parasi
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-09'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the National Institute of Allergy and Infectious Diseases (NIAID), National Institutes of Health (NIH) invites Small Business
+      Innovation Research (SBIR) grant applications from small business concerns (SBCs) that propose to conduct translational research leading to development of therapeutic and diagnostic technologies for
+      drug-resistant bacteria and eukaryotic parasites. Mechanism of Support. This FOA will utilize the SBIR (R43/R4
+  - id: '48837'
+    grade: null
+    title: Partnerships for Development of Therapeutics and Diagnostics for Drug-Resistant Bacteria and Eukaryotic Parasi
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-09'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) issued by the National Institute of Allergy and Infectious Diseases (NIAID), National Institutes of Health (NIH) invites research applications
+      for projects that support translational research leading to development of therapeutic and diagnostic technologies for drug-resistant bacteria and eukaryotic parasites. Mechanism of Support. This
+      FOA will utilize the R01 grant mechanism and runs in parallel with a FOA of identical scientific scope, RFA-
+  - id: '63653'
+    grade: null
+    title: The Incidence and Etiology of Influenza-Associated Community Acquired Pneumonia in Hospitalized Persons Study
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2011-03-15'
+    abstract: Pneumonia and influenza combined is the eighth leading cause of death in the United States, and the leading cause of death due to infectious diseases. Trends in hospitalizations with ICD-9
+      discharge codes for pneumonia and influenza are increasing among elderly adults. However, the incidence of community-acquired pneumonia, an accurate rate of hospitalized influenza-associated pneumonia
+      incorporating data from sensitive diagnostics, and the current relative contributions of different pathogens
+  - id: '119853'
+    grade: null
+    title: Understanding Mechanisms of Terminal Erythroid Maturation (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-02-01'
+    abstract: This FOA encourages applications that propose hypothesis-driven research to study development of erythroid precursors into mature red blood cells. The aim of this program is to support research
+      efforts to improve our understanding of the molecular mechanisms regulating late stages of erythroid maturation. These studies are needed to identify novel therapeutic targets for use in erythropoietin-resistant
+      anemias characterized by defects in late-stage erythroid maturation.
+  - id: '363448'
+    grade: null
+    title: DHQP Global NOFO
+    agency: Centers for Disease Control - NCEZID
+    status: forecasted
+    closes: null
+    abstract: <p>The proposed international hybrid Notice of Funding Opportunity (NOFO) will link non-research implementation with targeted research that advances CDC's mission to address antimicrobial
+      resistance (AR) across multiple bacterial and fungal pathogens, healthcare-associated infections (HAIs), and emerging infectious disease threats including viral pathogens across healthcare, community,
+      and environmental settings in low and middle-income countries. AR and HAI remain urgent global threats, with su
+  - id: '175354'
+    grade: null
+    title: In Vivo Nanosensors for Therapeutics (IVN:Tx)
+    agency: 'DARPA - Microsystems Technology Office '
+    status: archived
+    closes: '2012-09-18'
+    abstract: See attachments.
+  - id: '78993'
+    grade: null
+    title: NINDS Cooperative Program in Translational Research for Resistant Epilepsy and Epileptogenesis (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-05-07'
+    abstract: The goal of this funding opportunity announcement (FOA), from the National Institute of Neurological Disorders and Stroke (NINDS) is to support preclinical development of new therapies to
+      cure epilepsy, prevent the emergence of epilepsy following brain injury (including status epilepticus, traumatic brain injury, stroke, encephalitis, or other injury) or in other high-risk groups,
+      or to better treat individuals with intractable epilepsy. The program will facilitate solicitation, development, an
+  - id: '163193'
+    grade: null
+    title: Clinical Trials Units for NIAID Networks (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-29'
+    abstract: 'The purpose of this FOA is to solicit applications for Clinical Trials Units (CTUs) for NIAID clinical research networks focused on the following six research areas: 1) Adult HIV therapeutic
+      strategies, including HIV cure, noninfectious comorbidities, and the infectious comorbidities of hepatitis and tuberculosis; 2) strategies to address HIV and HIV-associated infections in pediatric
+      and maternal populations; 3) integrated HIV prevention strategies; 4) microbicide strategies to prevent HIV inf'
+  - id: '44378'
+    grade: null
+    title: Strengthening Infectious-Disease Research Capacity for Public- Health Action in Guatemala and Central America
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2009-02-04'
+    abstract: The HHS/CDC/COGH is seeking a cooperative agreement with the Center for Health Studies of the Institute for Research of the Universidad del Valle de Guatemala (UVG) to strengthen capacity
+      in Guatemala and Central America to address the following goals:1. To conduct field and laboratory research on important human infectious diseases, with an emphasis on emerging and re-emerging infectious
+      diseases as well as other identifiable public health problems. 2. To incorporate the results of research in
+  - id: '52990'
+    grade: null
+    title: NINDS Cooperative Program in Translational Research for Resistant Epilepsy and Epileptogenesis (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-03-15'
+    abstract: Purpose. The goal of this funding opportunity announcement (FOA), from the National Institute of Neurological Disorders and Stroke (NINDS) is to support preclinical development of new therapies
+      to cure epilepsy, prevent the emergence of epilepsy following brain injury (including status epilepticus, traumatic brain injury, stroke, encephalitis, or other injury) or in other high-risk groups,
+      or to better treat individuals with intractable epilepsy. The program will facilitate solicitation, develo
+  - id: '361134'
+    grade: null
+    title: 'Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-02-11'
+    abstract: <p>This is a Notice of Funding Opportunity (NOFO) for a Limited Competition that will invite application(s) from eligible organization(s) to apply. Please see Section III. Eligibility for
+      additional information. In accordance with NIH standard peer-review processes, the application(s) will be peer-reviewed, and only meritorious application(s) will be considered for funding. Through
+      this limited competition Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) solicits applica
+  - id: '97014'
+    grade: null
+    title: Therapeutics for Neurotropic Biodefense Toxins and Pathogens (R21/R33)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-10-24'
+    abstract: To support basic to translational research focused on development of new therapeutic strategies for neurotropic intoxication or infection caused by select biodefense pathogens.
+  - id: '361606'
+    grade: null
+    title: 'Single Source: Coordinating Center (CC) for the Small Cell Lung Cancer (SCLC) Consortium (U24 Clinical Trial N'
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>Through this Notice of Funding Opportunity (NOFO), the National Cancer Institute (NCI) intends to continue to support the Coordinating Center (CC) for the Small Cell Lung Cancer (SCLC)
+      Consortium, which coordinates research on prevention, diagnosis, treatment, and mechanisms of resistance in SCLC. The CC manages administrative activities, centralized databases, tissue banking and
+      a virtual biospecimen resource, biostatistics and bioinformatics support, in vivo and in vitro model repositories,
+- id: q013
+  text: climate change and public health adaptation
+  candidates:
+  - id: '51960'
+    grade: null
+    title: Developing Public Health Capacity and Adaptations to Reduce Human Health Effects of Climate Change
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-04-19'
+    abstract: "This funding opportunity award (FOA) will build the capacity of state health departments, U.S. Territories, and Native American Tribal Health agencies to address the public health consequences\
+      \ of climate change and its implications on human health. FOA award recipients will be expected to support the mission of CDC\x92s Climate Change Program. Note: For the purposes of this FOA the term\
+      \ \x93Adaptation\x94 refers to program activities that intervene in the effects of climate change on human health."
+  - id: '235954'
+    grade: null
+    title: Building Resilience Against Climate Effects (BRACE)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2013-06-07'
+    abstract: The purpose of this program is to address the public health consequences of climate change and its implications on human health. The program will use a public health framework (BRACE) to forecast
+      climate trends, define disease burden, develop specific intervention methods, and evaluate effects of change for at-risk populations within domestic geographic areas.
+  - id: '171355'
+    grade: null
+    title: Building Resilience Against Climate Effects in State, Territorial and Tribal Health Departments
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-18'
+    abstract: The purpose of the program is to address the public health consequences of climate change and its implications on human health. The program will utilize a public health framework (BRACE) that
+      will forecast climate trends, define disease burden, develop specific intervention methods, and evaluate impacts of change for at-risk populations within domestic geographic areas.
+  - id: '297052'
+    grade: null
+    title: Inspire Cooperative Climate Change Adaptation Through Locally-Scaled Vulnerability Analyses
+    agency: National Park Service
+    status: archived
+    closes: '2017-09-11'
+    abstract: "THIS ANNOUNCEMENT IS NOT A REQUEST FOR APPLICATIONS. This announcement is to provide public notice of the National Park Service\u2019s intention to award financial assistance for the following\
+      \ project activities without competition."
+  - id: '58116'
+    grade: null
+    title: Strengthen and Improve the Nation&#146;s Capacity through National, Non-profit, Professional Public Health Org
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-09-23'
+    abstract: "This project is an expansion to CDC-RFA-HM08-805: Strengthen and Improve the Nation\x92s Public Health Capacity through National, Non-Profit, Professional Public Health Organizations to Increase\
+      \ Health Protection and Health Equity. The work done through this expansion will further CDC\x92s ability to improve the nation\x92s public health as it will provide useful information on domestic\
+      \ global climate change efforts. This expansion specifically relates to the provision of technical assistance and othe"
+  - id: '190933'
+    grade: null
+    title: Climate Program Office for FY 2013
+    agency: Department of Commerce
+    status: archived
+    closes: '2012-11-16'
+    abstract: Climate variability and change present society with significant economic, health, safety, and national security challenges. NOAA advances scientific and technical programs to help society
+      cope with, and adapt to, today's variations in climate and to prepare for tomorrow's. Toward this end, the agency conducts and supports climate research, observations, modeling, information management,
+      assessments, interdisciplinary decision support research, outreach, education, and stakeholder partnership de
+  - id: '103313'
+    grade: null
+    title: Climate Program Office for FY 2012
+    agency: Department of Commerce
+    status: posted
+    closes: null
+    abstract: Changing climate confronts society with significant economic, health, safety, and national security challenges. NOAA advances scientific and technical programs to help society cope with, and
+      adapt to, today's variations in climate and to prepare for tomorrow's. Toward this end, the agency conducts and supports climate research, observations, modeling, information management, assessments,
+      interdisciplinary decision support research, outreach, education, and stakeholder partnership development.
+  - id: '104973'
+    grade: null
+    title: PSU CESU
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2011-07-27'
+    abstract: "This is a Notice of Intent to award. The objective of the project is to increase public and FWS awareness, literacy and actions to address the effects of climate change to fish, wildlife,\
+      \ plants and ecosystems; and to support and participate in the Department of the Interior's Youth Initiative by assisting and mentoring a graduate assistant. This agreement provides PSU a sponsorship\
+      \ and mentorship of a graduate student and assistance from FWS in the student\xEF\xBF\xBDs thesis and providing real-world"
+  - id: '56659'
+    grade: null
+    title: Air Quality Monitoring, Surface Water/Ground Water Monitoring, Climate Change Studies
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2010-08-30'
+    abstract: Conduct monitoring, research, and report of air, water and climate change on the San Juan Public Lands under the jursidiction of Bureau of Land Management.
+  - id: '112493'
+    grade: null
+    title: SRLCC - Climate Change Resilience Model in Gunnison Basin
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2011-08-11'
+    abstract: 'This synopsis is the full announcement. The tasks to be performed under this agreement are as follows: a. Identify: a) species and ecosystems that are most at risk from climate change; b)
+      how and where these targets are vulnerable; and c) which key ecological attributes (e.g., aspect of a species'' biology that if altered or missing could lead to the loss of the species over time)
+      will likely be affected. b. Identify priority strategic actions for priority species and ecosystems to address cl'
+  - id: '143194'
+    grade: null
+    title: CDC-NCAR Joint Resident Postdoctoral Fellowship Training Program in Public Health &amp; Climate Science
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-04-09'
+    abstract: "The goal of this interdisciplinary program is to develop the careers of recent doctoral graduates to increase the number of scientists working in these fields with the appropriate experience\
+      \ and training to conduct research in areas of climate-related public health, thus, ultimately increasing novel and practical applications of public health and climate science for the prevention of\
+      \ disease and protection of public health. This program addresses the \x93Healthy People 2020\x94 focus area of Environm"
+  - id: '71393'
+    grade: null
+    title: A Cooperative Agreement to advance our understanding of and ability to anticipate changes in the Earth's envir
+    agency: Department of Commerce
+    status: archived
+    closes: '2011-04-01'
+    abstract: 'The NOAA Climate Program Office invites applications for a collaborator to partner in the systematic study of the structure and behavior of the ocean, atmosphere, and related ecosystems;
+      and the communication of data, information, and knowledge to others for use in their businesses, communities, and daily lives. The collaborator will focus on the themes of 1) Climate Adaptation and
+      Mitigation: The impacts of a changing climate on the Nation''s ocean and coastal ecosystems, which include living m'
+  - id: '58206'
+    grade: null
+    title: Evaluate Changes in Spruce-Fir Forests to Identify Impacts of Exotic Insect and Climate Change
+    agency: National Park Service
+    status: archived
+    closes: '2010-09-30'
+    abstract: This project will document the change in forest structure, species composition and regeneration in this habitat type and relate these changes to climatic variables; develop baseline data on
+      forest health and identify unique genetic resources in spruce and fir relevant to survival in altered climate.
+  - id: '40790'
+    grade: null
+    title: Global Livestock Climate Change CRSP DRAFT
+    agency: Agency for International Development
+    status: closed
+    closes: '2008-03-07'
+    abstract: This Concept Paper describes a proposed Livestock-Climate Change (LCC) Collaborative Research Support Program (CRSP) that will research the impacts of climate change on livestock production
+      systems and target its direct and indirect challenges to livestock, human and environmental health. Livestock, humans, and the environment form three synergistic, interactive and integrated sectors
+      on a pyramidal base and overarching climate change impacts the three conjoined sector nodes. The association of
+  - id: '56668'
+    grade: null
+    title: The U.S. Fish Wildlife Service establishing Landscape Conservation Cooperatives with the California Wildlife F
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2010-08-30'
+    abstract: The U.S. Fish Wildlife Service (Service) and partners, including the CA Department of Fish and Game (CDFG), are establishing Landscape Conservation Cooperatives (LCCs) to address challenges
+      such as climate change. LCCs are applied conservation partnerships between the Service, CDFG, other government and non-governmental organizations, and other stakeholders within a defined geographic
+      area in California. The CA LCC is charged with providing scientific and technical support for landscape-scale
+  - id: '56718'
+    grade: null
+    title: CAKE
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2010-09-01'
+    abstract: The purpose of this grant is to utilize international meeting opportunities such as the Western Hemisphere Migratory Species Initiative to promote and enhance the Climate Adaptation Knowledge
+      Exchange (CAKE) internationally. Through this exposure, the Recipient will broaden the visitation of the the CAKE website and its use among diverse groups involved in climate change adaptation.
+  - id: '58703'
+    grade: null
+    title: Integrated Assessment of Greenhouse Gases and Climate Impacts
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-01-07'
+    abstract: This notice announces the availability of funds and solicits proposals to advancecomprehensive, integrated modeling and assessment of multiple greenhouse gases (GHGs) and airpollutants, and
+      to also enhance understanding of climate change impacts and their economicimplications to assist decision makers and the public to effectively respond to the challenges andopportunities posed by climate
+      change.
+  - id: '109013'
+    grade: null
+    title: Sustainable Communities Regional Planning Grant Pre-Application
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-08-25'
+    abstract: 'The Sustainable Communities Regional Planning Grant Program (Program) supports metropolitan and multijurisdictional planning efforts that integrate housing, land use, economic and workforce
+      development, transportation, and infrastructure investments in a manner that empowers jurisdictions to consider the interdependent challenges of: (1) economic competitiveness and revitalization; (2)
+      social equity, inclusion, and access to opportunity; (3) energy use and climate change; and (4) public health a'
+  - id: '120554'
+    grade: null
+    title: Sustainable Communities Regional Planning Grant Program FULL APPLICATION
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-10-06'
+    abstract: 'The Sustainable Communities Regional Planning Grant Program (Program) supports metropolitan and multijurisdictional planning efforts that integrate housing, land use, economic and workforce
+      development, transportation, and infrastructure investments in a manner that empowers jurisdictions to consider the interdependent challenges of: (1) economic competitiveness and revitalization; (2)
+      social equity, inclusion, and access to opportunity; (3) energy use and climate change; and (4) public health a'
+  - id: '53044'
+    grade: null
+    title: Pacific Islands Climate Change Cooperative
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2010-03-26'
+    abstract: "Climate change is the greatest environmental and conservation challenge of the 21st century. The impacts of climate change exacerbate many other existing threats and stressors on fish and\
+      \ wildlife resources. The U.S. Fish and Wildlife Service (Service) is soliciting proposals to support the establishment and operation of the Pacific Islands Climate Change Cooperative (PICCC) in Honolulu,\
+      \ HI. The PICCC is a cooperative project between the Fish and Wildlife Service (Service) and the Hawaii\x91i Con"
+- id: q014
+  text: STEM education for undergraduate research experiences
+  candidates:
+  - id: '176573'
+    grade: null
+    title: Tribal Colleges and Universities Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Tribal Colleges and Universities Program (TCUP) provides awards to Tribal Colleges and Universities, Alaska Native-serving institutions, and Native Hawaiian-serving institutions to promote
+      high quality science, technology, engineering and mathematics (STEM) education, research, and outreach. TCUP-eligible institutions are predominantly two-year and community colleges. Support is available
+      to TCUP-eligible institutions (see the Additional Eligibility subsection of Section IV of this solicita
+  - id: '45744'
+    grade: null
+    title: Research in Disabilities Education
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Research in Disabilities Education (RDE) program seeks to broaden the participation and achievement of people with disabilities in all fields of science, technology, engineering, and mathematics
+      (STEM) education and associated professional careers. The RDE program has been funding this objective since 1994 under the prior name &quot;Program for Persons with Disabilities.&quot; Particular
+      emphasis is placed on contributing to the knowledge base by addressing disability related differences in
+  - id: '90994'
+    grade: null
+    title: Louis Stokes Alliances for Minority Participation
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-07'
+    abstract: The Louis Stokes Alliances for Minority Participation (LSAMP) program provides funding for new, mid-level and senior-level alliances, the Bridge to the Doctorate (LSAMP-BD) Activity, and knowledge
+      generation activities in broadening participation, e.g., research on topics in STEM education related to retention and persistence of students from populations underrepresented in STEM majors and
+      careers. In FY2012, the program plans to support up to two pilot regional Louis Stokes Centers of Excellen
+  - id: '89413'
+    grade: null
+    title: Tribal Colleges and Universities Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-17'
+    abstract: The Tribal Colleges and Universities Program (TCUP) provides awards to Tribal Colleges and Universities, Alaska Native-serving institutions, and Native Hawaiian-serving institutions to promote
+      high quality science, technology, engineering and mathematics (STEM) education, research, and outreach. TCUP-eligible institutions are predominantly two-year and community colleges. Support is available
+      to TCUP-eligible institutions (see the Additional Eligibility subsection of Section IV of this solicita
+  - id: '48875'
+    grade: null
+    title: FY 2009 NASA K-12 Cooperative Agreements Notice (CAN)
+    agency: NASA Headquarters
+    status: archived
+    closes: '2009-09-25'
+    abstract: "The National Aeronautics and Space Administration Office of Education is accepting proposals in response to the NASA Cooperative Agreement Notice (CAN): K-12 Competitive Agreement Notice\"\
+      . The K-12 CAN is an opportunity for U.S. public secondary schools, school districts, state-level educational leadership, and educational not-for profit organizations to leverage NASA\x92s content\
+      \ with their expertise in providing or enabling secondary education instruction. The priority for NASA Education under"
+  - id: '50843'
+    grade: null
+    title: Alliances for Broadening Participation in STEM
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2010-10-08'
+    abstract: LSAMP and AGEP PROGRAMSThe Alliances for Broadening Participation in STEM (ABP) solicitation includes the Louis Stokes Alliances for Minority Participation (LSAMP) program, Bridge to the Doctorate
+      (LSAMP-BD) Activity, LSAMP educational research projects, and the Alliances for Graduate Education and the Professoriate (AGEP) program. This portfolio of programs seeks to increase the number of
+      students successfully completing quality degree programs in science, technology, engineering and mathematic
+  - id: '363752'
+    grade: null
+    title: 'IUSE: Innovation in Two-Year College STEM Education (ITYC)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-12-09'
+    abstract: '<p>The National Science Foundation (NSF) plays a prominent role in the improvement of undergraduate STEM education at the Nation&rsquo;s colleges and universities.&nbsp; Through the IUSE:
+      Innovation in Two-Year College STEM Education (ITYC) program, the agency seeks to extend this effort by making an intentional investment in the country&rsquo;s two-year institutions of higher education,
+      or two-year colleges. <strong>The twin goals of the ITYC program are to (1) center students in the effort to'
+  - id: '360634'
+    grade: null
+    title: Bioengineering Research, Innovation and Technology Education (BRITE) Program (R25 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: "<p>The Bioengineering Research, Innovation and Technology Education (BRITE) Program is designed to foster the development of undergraduate freshmen and sophomores to pursue further studies\
+      \ and careers in bioengineering, biomedical imaging or other STEM fields relevant to NIBIB\u2019s scientific mission. Applications are encouraged to propose integrated educational activities that\
+      \ include three elements: 1) a summer bridge program for incoming freshmen, and 2) in the freshman and sophomore years, educ"
+  - id: '133614'
+    grade: null
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-12'
+    abstract: Historically Black Colleges and Universities (HBCUs) have awarded a large share of bachelor's degrees to African American students in science, technology, engineering and mathematics (STEM),
+      and the top ten baccalaureate institutions of African American STEM doctorate recipients from 2002-2006 are HBCUs. [1] To meet the nation's accelerating demands for STEM talent, more rapid gains in
+      achievement, success and degree production in STEM for underrepresented minority populations are needed. The Hi
+  - id: '47595'
+    grade: null
+    title: GLOBAL CLIMATE CHANGE EDUCATION RESEARCH  EXPERIENCES TEACHING  LEARNING
+    agency: NASA Langley Research Center
+    status: archived
+    closes: null
+    abstract: "The National Aeronautics and Space Administration (NASA) Langley Research Center Science Directorate is releasing a Cooperative Agreement Notice (CAN) soliciting proposals for \x93Global\
+      \ Climate Change Education (GCCE): Research Experience, Teaching and Learning\x94. The objective of the effort is to extend the results of NASA\x92s Earth Science Program to the education community\
+      \ by sponsoring unique and stimulating opportunities for global climate and Earth system science education. GCCE is designed to"
+  - id: '45640'
+    grade: null
+    title: Alliances for Broadening Participation in STEM
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-08-25'
+    abstract: LSAMP and AGEP PROGRAMSThe Alliances for Broadening Participation in STEM (ABP) solicitation includes the Louis Stokes Alliances for Minority Participation (LSAMP) program, Bridge to the Doctorate
+      (LSAMP-BD) Activity, and the Alliances for Graduate Education and the Professoriate (AGEP) program. This portfolio of programs seek to increase the number of students successfully completing quality
+      degree programs in science, technology, engineering and mathematics (STEM). Particular emphasis is plac
+  - id: '353413'
+    grade: null
+    title: 'IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-04-13'
+    abstract: <p>Revolutionizing Engineering Departments (hereinafter referred to as RED) is designed to build upon previous efforts in engineering education research. Specifically, previous and ongoing
+      evaluations of the NSF Engineering Education and Centers Division program and its predecessors, as well as those related programs in the Directorate for STEM Education, have shown that prior investments
+      have significantly improved the first year of engineering students&rsquo; experiences, incorporating enginee
+  - id: '63035'
+    grade: null
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-04-06'
+    abstract: Historically Black Colleges and Universities (HBCUs) have awarded a large share of bachelor's degrees to African American students in science, technology, engineering and mathematics (STEM),
+      and HBCUs are the baccalaureate origins of one-quarter to one-third of black science and engineering (S&amp;E) doctorate recipients. To meet the Nation's accelerating demands for STEM talent, more
+      rapid gains in achievement, success and degree production in STEM for underrepresented minority populations are
+  - id: '51740'
+    grade: null
+    title: GLOBAL CLIMATE CHANGE EDUCATION
+    agency: NASA Langley Research Center
+    status: archived
+    closes: null
+    abstract: "The National Aeronautics and Space Administration (NASA) Langley Research Center (LaRC) is releasing a Cooperative Agreement Notice (CAN) soliciting proposals for \"Global Climate Change\
+      \ Education (GCCE): Research Experiences, Modeling and Data\". The objective of the effort is to extend the results of NASA\x92s Earth Science Program to the education community by sponsoring unique\
+      \ and stimulating opportunities for global climate and Earth system science education. GCCE is designed to improve the qua"
+  - id: '52251'
+    grade: null
+    title: Transforming Undergraduate Education in Science, Technology, Engineering and Mathematics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Transforming Undergraduate Education in Science, Technology, Engineering, and Mathematics (TUES) program seeks to improve the quality of science, technology, engineering, and mathematics
+      (STEM) education for all undergraduate students. This solicitation especially encourages projects that have the potential to transform undergraduate STEM education, for example, by bringing about
+      widespread adoption of classroom practices that embody understanding of how students learn most effectively. Thus
+  - id: '45612'
+    grade: null
+    title: EAR Education and Human Resources
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: 'The Division of Earth Sciences'' Education and Human Resources Program (E&HR) facilitates activities that engage a wide range of audiences in Earth Sciences research efforts, which are: 1)
+      Research Experiences for Undergraduates and Teachers: This program provides funding to Universities and Marine Laboratories that allows them to offer summer internships to undergraduate students who
+      would like to participate in earth sciences related research efforts. 2) Faculty Early Career Developmen'
+  - id: '45705'
+    grade: null
+    title: Interdisciplinary Training for Undergraduates in Biological and Mathematical Sciences
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The goal of the Undergraduate Biology and Mathematics (UBM) activity is to enhance undergraduate education and training at the intersection of the biological and mathematical sciences and
+      to better prepare undergraduate biology or mathematics students to pursue graduate study and careers in fields that integrate the mathematical and biological sciences. The core of the activity is
+      jointly-conducted long-term research experiences for interdisciplinary balanced teams of at least two undergraduates
+  - id: '135173'
+    grade: null
+    title: Professional Research Experience Program &#150; Material Measurement Laboratory (PREP-MML)
+    agency: National Institute of Standards and Technology
+    status: archived
+    closes: null
+    abstract: NIST announces that the PREP-MML is soliciting applications for financial assistance from accredited institutions of higher education in the United States and its territories to enable those
+      institutions to provide laboratory experiences and financial assistance to undergraduate and graduate students and post-doctoral associates in the MML at the NIST Laboratories in Gaithersburg, Maryland
+      and Charleston, South Carolina.
+  - id: '344124'
+    grade: null
+    title: 'Improving Undergraduate STEM Education: Directorate for STEM Education (IUSE: EDU)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-20'
+    abstract: <p><strong>Synopsis of Program:</strong></p> <p>The fields of science, technology, engineering, and mathematics (STEM) hold much promise as sectors of the economy where we can expect to see
+      continuous vigorous growth in the coming decades. STEM job creation is expected to outpace non-STEM job creation significantly, according to the Commerce Department, reflecting the importance of STEM
+      knowledge to the US economy.</p> <p>The National Science Foundation (NSF) plays a leadership role in developin
+  - id: '334326'
+    grade: null
+    title: Tribal Colleges and Universities Program (TCUP)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-11'
+    abstract: <p>The Tribal Colleges and Universities Program (TCUP) provides awards to federally recognized<sup>1 </sup> Tribal Colleges and Universities, Alaska Native-serving institutions, and Native
+      Hawaiian-serving institutions to promote high quality science (including sociology, psychology, anthropology, linguistics, economics and bioeconomics, statistics, and other social and behavioral sciences;
+      natural sciences; computer science, including, but not limited to, artificial intelligence, quantum inform
+- id: q015
+  text: broadening participation of women in engineering
+  candidates:
+  - id: '117397'
+    grade: null
+    title: Broadening Participation Research Initiation Grants in Engineering
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-20'
+    abstract: To address the need to enhance diversity in its programs, the Directorate for Engineering (ENG) at the National Science Foundation is offering research initiation grants under the Broadening
+      Participation Research Initiation Grants in Engineering program, BRIGE. ENG offers this BRIGE funding opportunity to all beginning engineers with the intent of increasing the diversity of researchers
+      in the engineering disciplines. The goal of the BRIGE solicitation is to increase the number of proposals t
+  - id: '57102'
+    grade: null
+    title: Broadening Participation Research Initiation Grants in Engineering
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-01-24'
+    abstract: To address the need to enhance diversity in its programs, the Directorate for Engineering (ENG) at the National Science Foundation is offering research initiation grants under the program
+      name Broadening Participation Research Initiation Grants in Engineering, BRIGE. ENG offers this BRIGE funding opportunity to all beginning engineers with the intent of increasing the diversity of
+      researchers in the engineering disciplines. The goal of the BRIGE solicitation is to increase the number of propos
+  - id: '45637'
+    grade: null
+    title: Partnerships for Research and Education in Materials
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2009-03-05'
+    abstract: The objective of PREM is to broaden participation and enhance diversity in materials research and education by stimulating the development of formal, long-term, multi-investigator, collaborative
+      research and education partnerships between minority-serving colleges and universities, women's colleges, and colleges and universities dedicated to educating a majority of students with disabilities,
+      groups that are underrepresented in science, technology, engineering, and mathematics (STEM) and the NS
+  - id: '45739'
+    grade: null
+    title: Research on Gender in Science and Engineering FY 2009
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-03-30'
+    abstract: The Research on Gender in Science and Engineering program supports efforts to understand and address gender-based differences in science, technology, engineering, and mathematics (STEM) education
+      and workforce participation through research, the diffusion of research-based innovations, and extension services in education that will lead to a larger and more diverse domestic science and engineering
+      workforce. Typical projects will contribute to the knowledge base addressing gender-related differen
+  - id: '50819'
+    grade: null
+    title: Presidential Awards for Excellence in Science, Mathematics and Engineering Mentoring
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The PAESMEM Program seeks to identify outstanding mentoring efforts that enhance the participation of groups (i.e., women, minorities, and persons with disabilities) that are underrepresented
+      in science, technology, engineering, and mathematics. The awardees serve as leaders in the national effort to develop fully the Nation's human resources in science, technology, engineering, and mathematics.
+  - id: '45845'
+    grade: null
+    title: Presidential Awards for Excellence in Science, Mathematics and Engineering Mentoring
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-04-21'
+    abstract: The PAESMEM Program seeks to identify outstanding mentoring efforts that enhance the participation of groups (i.e., women, minorities, and persons with disabilities) that are underrepresented
+      in science, technology, engineering, and mathematics. The awardees serve as leaders in the national effort to develop fully the Nation's human resources in science, technology, engineering, and mathematics.
+  - id: '50662'
+    grade: null
+    title: Research on Gender in Science and Engineering FY 2010
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-02-08'
+    abstract: The Research on Gender in Science and Engineering program supports efforts to understand and address gender-based differences in science, technology, engineering, and mathematics (STEM) education
+      and workforce participation through research, the diffusion of research-based innovations, and extension services in education that will lead to a larger and more diverse domestic science and engineering
+      workforce. Typical projects will contribute to the knowledge base addressing gender-related differen
+  - id: '50319'
+    grade: null
+    title: Broadening Participation Research Initiation Grants in Engineering
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-02-25'
+    abstract: The Directorate for Engineering (ENG) at the National Science Foundation offers a research initiation grant funding opportunity with the goal of broadening participation to all engineers including
+      members from underrepresented groups and persons with disabilities in the engineering disciplines.These grants are intended to increase the diversity of researchers in engineering disciplines to initiate
+      research programs early in their careers, including those from underrepresented groups, engineers a
+  - id: '166435'
+    grade: null
+    title: Alliances for Graduate Education and the Professoriate
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-10-30'
+    abstract: AGEP is committed to the national goal of increasing the numbers of African Americans, Hispanic Americans, American Indians, Alaska Natives, Native Hawaiians and other Pacific Islanders (URMs),
+      including URMs with disabilities entering and completing graduate education and postdoctoral training to levels representative of the available pool of URMs. Increased URM participation in advanced
+      STEM education and training is critical for supporting the development of a diverse professional STEM workfo
+  - id: '133614'
+    grade: null
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-12'
+    abstract: Historically Black Colleges and Universities (HBCUs) have awarded a large share of bachelor's degrees to African American students in science, technology, engineering and mathematics (STEM),
+      and the top ten baccalaureate institutions of African American STEM doctorate recipients from 2002-2006 are HBCUs. [1] To meet the nation's accelerating demands for STEM talent, more rapid gains in
+      achievement, success and degree production in STEM for underrepresented minority populations are needed. The Hi
+  - id: '45810'
+    grade: null
+    title: Sociology
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2076-10-15'
+    abstract: <p>The Sociology Program supports basic research on all forms of human social organization&nbsp;<span>&mdash;</span> societies, institutions, groups and demography&nbsp;<span>&mdash;</span>
+      and processes of individual and institutional change. The program encourages theoretically focused empirical investigations aimed at improving the explanation of fundamental social processes. This
+      includes research on organizations and organizational behavior, population dynamics, social movements, social gro
+  - id: '59814'
+    grade: null
+    title: Cyberinfrastructure Training, Education, Advancement, and Mentoring for Our 21st Century Workforce (CI-TEAM)
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-03-16'
+    abstract: New information, communication, and computational technologies have had profound impacts on the practice of science (in this solicitation, the term science includes the natural, mathematical,
+      computing, and social sciences), engineering, and education. This includes the means by which citizens of all ages use science and engineering to enhance professional and private lives. The systems,
+      tools, and services emerging from these new technologies are linked to create a comprehensive cyberinfrast
+  - id: '151877'
+    grade: null
+    title: Women and Minorities in Science, Technology, Engineering and Mathematics Fields Program (WAMS)
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-04-12'
+    abstract: 'This program supports research and extension projects that have robust collaborations to increase the participation of women and underrepresented minorities from rural areas in science, technology,
+      engineering, and mathematics fields that are relevant to USDA priorities identified by the Secretary: (i) Promotion of a safe, sufficient, and nutritious food supply for all Americans and for people
+      around the world; (ii) Sustainable agricultural policies that foster economic viability for small and m'
+  - id: '137813'
+    grade: null
+    title: Computing Education for the 21st Century
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2013-04-02'
+    abstract: 'The Computing Education for the 21st Century (CE21) program aims to build a robust computing research community, a computationally competent 21st century workforce, and a computationally
+      empowered citizenry. In this undertaking, there are three interrelated challenges: the significant underproduction of degrees needed for the computing and computing-related workforce, the longstanding
+      underrepresentation of many segments of our population, and the lack of a presence of computing in K-12. Innovat'
+  - id: '202114'
+    grade: null
+    title: Computing Education for the 21st Century
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: 'The Computing Education for the 21st Century (CE21) program aims to build a robust computing research community, a computationally competent 21st century workforce, and a computationally
+      empowered citizenry. In this undertaking, there are three interrelated challenges: the significant underproduction of degrees needed for the computing and computing-related workforce, the longstanding
+      underrepresentation of many segments of our population, and the lack of a presence of computing in K-12. Innovat'
+  - id: '204256'
+    grade: null
+    title: Ocean Sciences Research Initiation Grants
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Division of Ocean Sciences (OCE) offers Research Initiation Grants in an effort to increase the participation of under-represented groups in the ocean sciences. Research Initiation Grants
+      provide start up funding for researchers who have been recently appointed to tenure track (or equivalent) positions, with the twin goals of enhancing the development of their research careers and
+      broadening the participation of under-represented groups in ocean sciences. In this solicitation, the term unde
+  - id: '117399'
+    grade: null
+    title: Ocean Sciences Research Initiation Grants
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-13'
+    abstract: The Division of Ocean Sciences (OCE) offers Research Initiation Grants in an effort to increase the participation of under-represented groups in the ocean sciences. Research Initiation Grants
+      provide start up funding for researchers who have been recently appointed to tenure track (or equivalent) positions, with the twin goals of enhancing the development of their research careers and
+      broadening the participation of under-represented groups in ocean sciences. In this solicitation, the term unde
+  - id: '350802'
+    grade: null
+    title: Research Experiences for Teachers (RET) in Engineering and Computer Science
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-10-13'
+    abstract: <p>The Research Experiences for Teachers (RET) in Engineering and Computer Science program supports authentic summer research experiences for K-14 educators to foster long-term collaborations
+      between universities, community colleges, school districts, and industry partners. With this solicitation, the Directorates for Engineering (ENG) and Computer and Information Science and Engineering
+      (CISE) focus on a reciprocal exchange of expertise between K-14 educators and research faculty and (when appl
+  - id: '45707'
+    grade: null
+    title: Research Experiences for Teachers (RET) in Engineering
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-11-15'
+    abstract: The Directorate for Engineering (ENG),?? Research Experiences for Teachers (RET) in Engineering program supports the active involvement of K-12 teachers and community college faculty in engineering
+      research in order to bring knowledge of engineering and technological innovation into their classrooms. The goal is to help build long-term collaborative partnerships between K-12 science, technology,
+      engineering, and mathematics (STEM) teachers, community college faculty, and the NSF university resea
+  - id: '45617'
+    grade: null
+    title: Workforce Program in the Mathematical Sciences
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The long-range goal of the DMS Workforce Program is to increase the number of well-prepared U.S. citizens, nationals, and permanent residents who successfully pursue careers in the mathematical
+      sciences and in other NSF-supported disciplines.Among intermediate goals to this end are improvements in recruitment, retention, education, and placement of trainees in the mathematical sciences.
+      The program's primary interest is in activities centered on education through research involvement for trainee

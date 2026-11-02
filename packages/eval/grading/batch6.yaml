@@ -1,0 +1,899 @@
+queries:
+- id: q026
+  text: nursing workforce training and retention
+  candidates:
+  - id: '341995'
+    grade: null
+    title: DOL Nursing Expansion Grant Program
+    agency: Employment and Training Administration
+    status: closed
+    closes: '2023-01-20'
+    abstract: This Funding Opportunity Announcement (FOA) solicits applications for the DOL Nursing Expansion Grant Program. This FOA will address bottlenecks in training the United States nursing workforce
+      and expand and diversify the pipeline of qualified nursing professionals through two training tracks. The first track (Nurse Education Professional Track) will increase the number of clinical and
+      vocational nursing instructors and educators by training new or upskilling experienced current or former nurs
+  - id: '135653'
+    grade: null
+    title: Faculty Development in General, Pediatric, and Public Health Dentistry and Dental Hygiene
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-02-09'
+    abstract: The overall purpose of the program is to increase access to oral health care through continued training, recruitment and retention of a diverse and cultural competent dental workforce.
+  - id: '59027'
+    grade: null
+    title: Nursing Workforce Diversity
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-01-14'
+    abstract: This program is authorized under Title VIII, Section 821 of Public Health Service Act; 42 U.S.C. 296m. This announcement solicits grant applications for the Nursing Workforce Diversity (NWD)
+      Program. Grants are awarded to eligible applicants to increase nursing education opportunities for individuals who are from disadvantaged backgrounds, including racial and ethnic minorities underrepresented
+      among registered nurses, through projects that incorporate retention, pre-entry preparation, and stu
+  - id: '50340'
+    grade: null
+    title: Nursing Workforce Diversity
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-01-20'
+    abstract: This program is authorized under Title VIII, Section 821 of Public Health Service Act; 42 U.S.C. 296m. This announcement solicits grant applications for the Nursing Workforce Diversity (NWD)
+      Program. Grants are awarded to eligible applicants to increase nursing education opportunities for individuals who are from disadvantaged backgrounds, including racial and ethnic minorities underrepresented
+      among registered nurses, through projects that incorporate retention, pre-entry preparation, and stu
+  - id: '55338'
+    grade: null
+    title: Affordable Care Act (ACA) Nursing Assistant and Home Health Aide Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-07-22'
+    abstract: The purpose of the Nursing Assistant and Home Health Aide (NAHHA) program is to provide infrastructure support for the development, evaluation, and demonstration of a competency based uniform-curriculum
+      to train qualified nursing assistants and home health aides. The NAHHA program will strengthen the direct care workforce by providing nursing assistants and home health aides with the necessary skills
+      that can be transportable to any job market in the nation. Grants will be made to state-approv
+  - id: '52189'
+    grade: null
+    title: ARRA  - Equipment to Enhance Training for Health Professionals- Nursing Workforce Diversity
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-03-26'
+    abstract: This funding opportunity is one of many for the Equipment to Enhance Training for Health Professionals (EETHP) program, hereby known as EETHP Equipment Initiative. Twenty-one health professional
+      training programs comprise this initiative. As defined by this program, a Health Professional Training Program is a program authorized under Titles III, VII and VIII of the Public Health Service (PHS)
+      Act which focuses all or in part on the training of health professionals. HRSA is announcing the ava
+  - id: '133353'
+    grade: null
+    title: National Training Mechanism (NTM)
+    agency: Kenya USAID-Nairobi
+    status: archived
+    closes: '2012-01-30'
+    abstract: The main objective of this program is to improve access to and the quality of training for the health workforce in Kenya.
+  - id: '52746'
+    grade: null
+    title: Rural Health Workforce Development Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-04-30'
+    abstract: The purpose of the Rural Health Workforce Development Program is to support the development of rural health networks that focus on activities relating to the recruitment and retention of primary
+      and allied health care providers in rural communities. This Program will provide support to established and sustainable rural health networks that can develop innovative community-based educational
+      and clinical health training programs to encourage the recruitment and retention of emerging health profes
+  - id: '103614'
+    grade: null
+    title: Cybersecurity Education and Training Assistance Program (CETAP)
+    agency: Office of Procurement Operations - Grants Division
+    status: archived
+    closes: '2011-07-20'
+    abstract: The Department of Homeland Security (DHS) Cybersecurity Education Office (CEO) is seeking to make an investment in summer camps that promote cybersecurity training and awareness for high school
+      aged students and their teachers. By investing in high school teachers, the number of young people who will benefit from cybersecurity education and awareness will be multiplied. It is well established
+      that increasing the number of graduates to the Science, Technology, Engineering, and Mathematics (STE
+  - id: '162013'
+    grade: null
+    title: Women in Apprenticeship and Nontraditional Occupations (WANTO)
+    agency: Employment and Training Administration
+    status: archived
+    closes: '2012-05-21'
+    abstract: The U.S. Department of Labor, Employment and Training Administration (ETA), announces the availability of approximately $1,800,000 in grant funds authorized under the WANTO Act of 1992 to
+      award six consortia made up of a community-based organization (CBO), a Local Workforce Investment Area (LWIA) established under the Workforce Investment Act and a registered apprenticeship program
+      (RAP) sponsor. Each consortium will conduct innovative projects to improve outreach, recruitment, hiring, training,
+  - id: '59076'
+    grade: null
+    title: MCH  PipelineTraining
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-01-31'
+    abstract: The purpose of the Maternal and Child Health Pipeline Training Program is to promote the development of a culturally diverse and representative health care workforce by recruiting training
+      and retaining students from under represented minorities into maternal and child health professions The Maternal and Child Health Pipeline Training Program recruits financially disadvantaged underrepresented
+      undergraduate students enrolled at Minority Serving Institutions The MCH Pipeline Training Program will
+  - id: '129674'
+    grade: null
+    title: Diabetes Research Training for Behavioral Scientists (T32)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-03-02'
+    abstract: To foster the development of a diverse and highly trained workforce of behavioral scientists to assume leadership roles related to the Nations research efforts in the area of type 1 diabetes,
+      the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)and the National Institute of Nursing Research (NINR) invite applications for the establishment of institutional research
+      training programs to develop a cadre of diverse and highly trained behavioral scientists who will conduct rese
+  - id: '144693'
+    grade: null
+    title: Comprehensive Geriatric Education Program (CGEP)
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-03-26'
+    abstract: Section 865 of the Public Health Service Act (42 U.S.C. 298) as amended by section 5305 of the Patient Protection and Affordable Care Act of 2010, P.L. 111-148, authorizes grants, in coordination
+      with programs under PHS Act section 753 (Education and Training Relating to Geriatrics) to meet the costs of projects that train and educate individuals in providing geriatric care for the elderly.
+      This legislation authorized the establishment of traineeships for individuals who are preparing for advan
+  - id: '144153'
+    grade: null
+    title: Southern Nevada Agency Partnership, Cultural Site Stewardship Program -- Steward Retention and Program Transfe
+    agency: National Park Service
+    status: archived
+    closes: '2012-02-17'
+    abstract: This funding announcement is not a request for applications. This is a notice of intent to award a non-competitive action to The Board of Regents of the Nevada System of Higher Education on
+      Behalf of the University of Nevada, Las Vegas under the Great Basin Cooperative Ecosystem Studies Unit (CESU). This is a collaborative project designed to recruit, train, manage, and retain community
+      members to serve as a voluntary workforce to regularly monitor assigned cultural sites on federal public land
+  - id: '49815'
+    grade: null
+    title: Recovery Act - Workforce Training For The Electric Power Sector
+    agency: Richland
+    status: archived
+    closes: '2009-11-30'
+    abstract: 'Workforce Training for the Electric Power Sector Two Topic Areas of Interest: Topic A is Developing and Enhancing Workforce Training Programs for the Electric Power Sector. Topic B is Smart
+      Grid Workforce Training. The objective of this Funding Opportunity Announcement is to facilitate the development of a well-trained, highly skilled electric power sector workforce which is vital to
+      implementing a national clean-energy smart grid. This FOA supports the development and deployment of Tr'
+  - id: '355417'
+    grade: null
+    title: Occupational Safety and Health Education and Research Centers (T42)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: posted
+    closes: '2028-10-26'
+    abstract: <p>The National Institute for Occupational Safety and Health (NIOSH), Centers for Disease Control and Prevention (CDC), invites grant applications for Education and Research Centers (ERCs)
+      that are focused on occupational safety and health training. NIOSH is mandated to provide an adequate supply of qualified personnel to carry out the purposes of the Occupational Safety and Health
+      Act, and the ERCs are one of the primary means for meeting this mandate. ERCs are academic institutions that provid
+  - id: '344955'
+    grade: null
+    title: MINORITY SERVING INSTITUTIONS PARTNERSHIP PROGRAM (MSIPP) COMMUNITY AND JUNIOR COLLEGE TRADE OCCUPATION PROGRA
+    agency: NNSA
+    status: archived
+    closes: '2023-02-17'
+    abstract: "<p>The Department of Energy\u2019s (DOE) National Nuclear Security Administration (NNSA) has a vital national security mission to protect the American people by maintaining a safe, secure,\
+      \ and effective nuclear weapons stockpile. The science, technology, engineering, and manufacturing capabilities resident within the nuclear security enterprise underpin NNSA\u2019s ability to conduct\
+      \ stockpile stewardship, solve the technical challenges of verifying treaty compliance, combat nuclear terrorism, detect, and"
+  - id: '40270'
+    grade: null
+    title: Cooperative Research Units Training Program
+    agency: Geological Survey
+    status: archived
+    closes: '2008-01-09'
+    abstract: The Biological Resources Discipline (BRD), Cooperative Research Unit (CRU), of the U.S. Geological Survey (USGS) is soliciting applications from qualified Minority Serving Institutions (MSIs)
+      to offer a grant opportunity to university campuses to introduce a culturally diverse group of students, primarily undergraduates, to the fields of freshwater fisheries and aquatic sciences and train
+      them for careers in the natural resource profession. The overall goal of this program is to enhance the cul
+  - id: '45617'
+    grade: null
+    title: Workforce Program in the Mathematical Sciences
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The long-range goal of the DMS Workforce Program is to increase the number of well-prepared U.S. citizens, nationals, and permanent residents who successfully pursue careers in the mathematical
+      sciences and in other NSF-supported disciplines.Among intermediate goals to this end are improvements in recruitment, retention, education, and placement of trainees in the mathematical sciences.
+      The program's primary interest is in activities centered on education through research involvement for trainee
+  - id: '60173'
+    grade: null
+    title: ENVIRONMENTAL WORKFORCE DEVELOPMENT AND JOB TRAINING GRANTS
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-03-18'
+    abstract: This notice announces the availability of funds and solicits proposals from eligible entities, including non-profit organizations, to deliver environmental workforce development and job training
+      programs focused on hazardous and solid waste management, assessment, and cleanup-associated activities, as referenced in Section I.B. of the announcement, Use of Grant Funds.
+- id: q027
+  text: artificial intelligence ethics and responsible innovation
+  candidates:
+  - id: '361604'
+    grade: null
+    title: 'National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions '
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-18'
+    abstract: <p>The NSF FINDERS FOUNDRY program supports collaboration among K-12 educators, technologists, and researchers to develop innovative solutions to persistent challenges in learning and workforce
+      development. These challenges are identified by K-12 students, families, and educators. The program aims to create and scale evidence-based practices, tools, and technologies that improve learning
+      outcomes and prepare students for a digital, Artificial Intelligence (AI)-driven future.</p> <p>A key focus i
+  - id: '350230'
+    grade: null
+    title: Research in the Formation of Engineers
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: null
+    abstract: The NSF Engineering Directorate (ENG) has launched a multi-year initiative, theProfessional Formation of Engineers, to create and support an innovative and inclusive engineering profession
+      for the 21<sup>st</sup>century. Professional Formation of Engineers (PFE) refers to the formal and informal processes and value systems by which people become engineers. It also includes the ethical
+      responsibility of practicing engineers to sustain and grow the profession in order to improve quality of life fo
+  - id: '351404'
+    grade: null
+    title: Boosting Innovative GEOINT - Science &amp; Technology  Broad Agency Announcement (BIG-ST BAA)
+    agency: 'National Geospatial-Intelligence Agency '
+    status: posted
+    closes: '2026-12-14'
+    abstract: '<p><strong>The Boosting Innovative GEOINT-Science and Technology (BIG-ST) Broad Agency Announcement (BAA) invites proposers to submit innovative concepts to address hard GEOINT problems that
+      align to one or more of the following technical domains: </strong></p> <p><strong>(1) Foundational GEOINT, </strong></p> <p><strong>(2) Advanced Phenomenologies, and </strong></p> <p><strong>(3) Analytic
+      Technologies.</strong></p> <p><br></p> <p><strong><u>BAA Process and Topic Call Publication:</u></strong>'
+  - id: '361249'
+    grade: null
+    title: Postdoctoral Research Fellowships in Biology (PRFB)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-09-28'
+    abstract: <p>The integration of Artificial Intelligence (AI) and Biological Research has the potential to pave the way for breakthroughs in biotechnology and bio-system design that will create innovations,
+      new industries, and jobs. To capitalize on this promise, the Directorate for Biological Sciences (BIO) will make awards for Postdoctoral Research Fellowships in Biology (PRFB) to recent doctoral degree
+      recipients, for proposals with a research and training focus at the <strong>Intersection of</strong> <
+  - id: '361520'
+    grade: null
+    title: 'HEAL Initiative: Optimization of Therapeutic Medical Devices through Team Science Mechanistic Research (RM1)'
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>The National Institute of Neurological Disorders and Stroke (NINDS), with other NIH Institutes and Centers (ICs), intends to publish a Notice of Funding Opportunity (NOFO) to investigate
+      the mechanisms of action of therapeutic medical devices with the overall goal of improving clinical outcomes with device-based approaches. Medical devices are essential in managing health conditions,
+      complementing drugs and behavioral interventions, and often offer unique benefits. Despite the commercial avai
+  - id: '361238'
+    grade: null
+    title: Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-04-05'
+    abstract: <p>Government and the nation face a talent shortfall in artificial intelligence (AI) and cybersecurity. The CyberAICorps Scholarship for Service (<strong>CyberAI SFS</strong>) program welcomes
+      proposals that address AI and cybersecurity education and workforce development. CyberAI refers to using AI in cybersecurity as well as providing security and resilience for AI systems.</p> <ul> <li>The
+      <strong>Scholarship Track</strong> provides funding to establish, or to continue, scholarship for servic
+  - id: '358004'
+    grade: null
+    title: Cybersecurity Innovation for Cyberinfrastructure (CICI)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-20'
+    abstract: <p>The objective of the Cybersecurity Innovation for Cyberinfrastructure (CICI) program is to advance scientific discovery and innovation by enhancing the security and privacy of cyberinfrastructure.
+      CICI supports efforts to develop, deploy and integrate cybersecurity that will benefit the broader scientific community by securing science data, computation, collaborations workflows, and infrastructure.
+      CICI recognizes the unique nature of modern, complex, data-driven, distributed, rapid, and coll
+  - id: '337347'
+    grade: null
+    title: 2022 Alumni Engagement Innovation Fund (AEIF 2022)
+    agency: U.S. Mission to North Macedonia
+    status: forecasted
+    closes: null
+    abstract: "<p>AEIF provides alumni of U.S. sponsored and facilitated exchange programs with funding to expand upon skills gained during their exchange experience to design and implement innovative solutions\
+      \ to global challenges facing their community.&nbsp;Since its inception in 2011, AEIF has funded nearly 500 alumni-led projects around the world through a competitive global competition.&nbsp;This\
+      \ year, AEIF 2022 will support United States\u2019 commitment to:</p> <p><span style=\"color: red;\">&nbsp;</span></p"
+  - id: '361915'
+    grade: null
+    title: Integrated Data Systems &amp; Services (IDSS)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-07-27'
+    abstract: '<div id="WACViewPanel_ClipboardElement" class="WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode usehover" style="overflow: hidden; visibility: visible;
+      direction: ltr;"> <div class="SCXW111820326 BCX2"> <div class="OutlineElement Ltr SCXW111820326 BCX2" style="direction: ltr;"> <p class="Paragraph SCXW111820326 BCX2" style="font-weight: normal; font-style:
+      normal; vertical-align: baseline; background-color: transparent; color: windowtext; text-align: le'
+  - id: '358687'
+    grade: null
+    title: Broad Agency Announcement for Fundamental AI Research
+    agency: Army Contracting Command Rock Island
+    status: forecasted
+    closes: null
+    abstract: "<p>The purpose of this combined Broad Agency Announcement (BAA) under Federal Acquisition Regulation (FAR) Part 35 and Funding Opportunity Announcement (FOA) under 2 Code of Federal Regulations\
+      \ (CFR) 200.204 (henceforth referred to as \u201CBAA\u201D) is to solicit research proposals for submission to the U.S. Army Artificial Intelligence Integration Center (AI2C) for funding consideration.</p><p>&nbsp;</p><p>This\
+      \ Broad Agency Announcement (BAA), for the Army Artificial Intelligence Integration Center (AI"
+  - id: '363268'
+    grade: null
+    title: Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-04'
+    abstract: <p>This program will advance scientific community datasets to enable scientific discovery and innovation using artificial intelligence (AI) and other methods. Its goal is to increase the value
+      that can be derived from existing scientific datasets by leveraging novel methods and artificial intelligence (AI).&nbsp; This will unlock new AI-driven insights. It can enable interdisciplinary research.
+      It also enables investigations outside of the original motivation for data collection and analysis.</p
+  - id: '362029'
+    grade: null
+    title: Tribal Colleges Research Grants Program
+    agency: National Institute of Food and Agriculture
+    status: posted
+    closes: '2026-12-31'
+    abstract: <p>TCRGP focuses on development of research capacity at Tribal colleges, specifically in agriculture, natural resources, and human sciences. The program aims to teach leadership skills, knowledge,
+      and qualities that are necessary to prepare students to be competitive with other students for agricultural and related careers in the private sector, government, and academia. Of interest are the
+      projects involving innovative agricultural technologies, including artificial intelligence (AI), data scie
+  - id: '92713'
+    grade: null
+    title: C4ISR &amp; Information Dominance Research
+    agency: SPAWAR SYSTEMS CENTER
+    status: archived
+    closes: '2011-06-09'
+    abstract: The Space and Naval Warfare Systems Center, Pacific (SSC Pacific) is soliciting proposals in accordance with Department of Defense Grant and Agreement Regulations (DoDGARS) 22.315(a), for
+      basic research, applied research and advanced research (hereinafter referred to as research) from all responsible sources from academia (colleges and universities). Research shall be in areas relating
+      to the advancement of Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaiss
+  - id: '359003'
+    grade: null
+    title: 'Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial '
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-03-05'
+    abstract: The National Library of Medicine (NLM) seeks applications for research projects that drive groundbreaking innovation and advanced development in the fields of bioinformatics, translational
+      bioinformatics, and computational biology. The primary goal of this initiative is to support the creation and implementation of cutting-edge methods, tools, and approaches that can transform the landscape
+      of biomedical data science. This NOFO aims to address the growing need to leverage transformative technolo
+  - id: '123733'
+    grade: null
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-28'
+    abstract: This FOA solicits Small Business Innovation Research (SBIR) grant applications from small business concerns (SBCs) for funding to perform research leading to the development of innovative
+      technologies that may advance progress toward an integrated long term glucose regulated insulin delivery system (artificial pancreas).
+  - id: '48424'
+    grade: null
+    title: Biosensing
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Biosensing Program supports innovative, transformative, and insightful investigations of fundamental problems with broad long term impact and applications that require novel use of bio-inspired
+      engineering principles and sophisticated devices to meet the engineering and technology needs of the nation. The program is targeting research in the area of the monitoring, identification, and/or
+      quantification of biological phenomena and will support potential technological breakthroughs that exist
+  - id: '363764'
+    grade: null
+    title: 'PFE: Research Initiation in Engineering Formation (PFE: RIEF)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-10'
+    abstract: '<p>The PFE: Research Initiation in Engineering Formation (PFE: RIEF) program has two goals: 1) Support research in the Professional Formation of Engineers (PFE), and 2) Increase the community
+      of researchers conducting PFE research. PIs are expected to have little or no experience conducting social science or education research. PFE: RIEF is not intended for established researchers in engineering
+      education or other social science fields to initiate new projects. Those researchers should consider'
+  - id: '360910'
+    grade: null
+    title: Novel Approaches to Advance Precision Aging and Cognitive Health
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p style="margin-left:0in;">The National Institute on Aging (NIA) intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications&nbsp;that develop or incorporate novel,
+      cutting-edge study designs/methods/analytic approaches through the use of machine learning, artificial intelligence, and adaptive designs to allow the discovery of health/function profiles at the
+      level of the individual and that could lead to the implementation of personalized prevention plans/interventions for
+  - id: '362061'
+    grade: null
+    title: Chemical Process Systems (CPS)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: null
+    abstract: Society relies on chemical processes to turn raw materials into useful products. The Chemical Process Systems (CPS) program invests in fundamental research on chemical and biochemical processes
+      to make them more efficient, sustainable, and resilient. New CPS technologies for manufacturing, biotechnology, critical minerals, energy, food, and other national priorities will help make the U.S.
+      more competitive and secure. Research supported by the CPS program covers the full breadth of chemical an
+  - id: '360639'
+    grade: null
+    title: Research Council of Finland (RCF) &ndash; National Institutes of Health (NIH) Partnership Program
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p style="margin-left:0px;">The Research Council of Finland (RCF)-National Institutes of Health (NIH) Partnership Program established in 2020 fosters the expansion of U.S.-Finland biomedical
+      and behavioral research, generating valuable discoveries and innovations which may lead to enhancements in multiple areas of science and technology that are of mutual benefit to RCF and NIH such as
+      population health, disease prevention, artificial intelligence in health, and quantum sensing in biomedical app
+- id: q028
+  text: research infrastructure and core facilities for universities
+  candidates:
+  - id: '361426'
+    grade: null
+    title: NEI Center Core Grant for Vision Research (P30 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>The goal of these institutional Center Core Grants is to build research infrastructure within an institution for the purpose of providing technical support to groups of NEI R01-funded investigators.
+      The NEI Center Core Grant combines three or more Resource and/or Service Cores for a group of R01 investigators to enhance their research, consolidate resources, avoid duplication of efforts, and/or
+      contribute to cost effectiveness by providing a service with lower costs or higher quality than cou
+  - id: '48884'
+    grade: null
+    title: Population Research Infrastructure Program (PRIP) FY10 (R24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-24'
+    abstract: Purpose. This Funding Opportunity Announcement (FOA) solicits grant applications that propose to provide infrastructure support in order to foster and enhance the research capabilities of
+      established population research centers that are highly productive and influential in the areas of research within the mission of the Demographic and Behavioral Sciences Branch (DBSB), Center for
+      Population Research NICHD. The Population Infrastructure Program (PRIP) allows three types of research infrastructur
+  - id: '363695'
+    grade: null
+    title: Small Instruments and Modern Equipment for Shared-use Biomedical Research Facilities and Resources (S15 Clinic
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>This Notice of Funding Opportunity (NOFO) invites eligible shared biomedical research facilities to buy new small instruments or scientific equipment. These facilities may include core
+      facilities, biorepositories, model resource facilities, and other research spaces or resources that are shared by multiple researchers. The goal is to help these facilities improve, update, and operate
+      more efficiently. Organizations are especially encouraged to request funding for small instruments that use ne
+  - id: '357725'
+    grade: null
+    title: 'EPSCoR Research Infrastructure Improvement Program: EPSCoR Collaborations for Optimizing Research Ecosystems ('
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-07-20'
+    abstract: <p>The Established Program to Stimulate Competitive Research (EPSCoR) supports the U.S. National Science Foundation (NSF) mission by promoting nationwide scientific progress. Through this
+      program, NSF fosters partnerships among academic institutions, government entities, industry, and non-profits. These collaborations aim to drive long-term improvements in research infrastructure,
+      enhance R&amp;D capacity, and boost the research competitiveness of eligible EPSCoR jurisdictions, including states,
+  - id: '46168'
+    grade: null
+    title: 'Chemistry Research Instrumentation and Facilities: Departmental Multi-user Instrumentation'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Chemistry Research Instrumentation and Facilities Program (CRIF) is structured to enable the National Science Foundation's Division of Chemistry to respond to a variety of needs for infrastructure
+      that promotes research and education in areas traditionally supported by the Division (NSF Chemistry Homepage).The Departmental Multi-User Instrumentation component of CRIF (CRIF:MU) provides funds
+      to universities, colleges, and consortia thereof for the purchase of multi-user instruments. The maxi
+  - id: '129293'
+    grade: null
+    title: Nuclear Energy University Programs - General Scientific Infrastructure Support
+    agency: Idaho Field Office
+    status: archived
+    closes: '2012-02-08'
+    abstract: The goal of the Department of Energy Nuclear Energy University Programs (NEUP) is to support outstanding, cutting-edge, and innovative research at U.S. universities.
+  - id: '42736'
+    grade: null
+    title: New Mexico State University Research for the Brackish Groundwater National Desalination Facility
+    agency: Bureau of Reclamation, Denver Office
+    status: archived
+    closes: '2008-09-16'
+    abstract: Notice of Intent to Award Not available for competition
+  - id: '357121'
+    grade: null
+    title: Environmental Health Sciences Core Centers Program (P30 Clinical Trials Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-04-20'
+    abstract: <p>This Notice of Funding Opportunity Announcement (NOFO) invites grant applications for Environmental Health Sciences Core Centers (EHSCC). As intellectual hubs for environmental health science
+      research, the EHSCC's are expected to be the thought leaders for the field and advance the goals of the 2025-2029 NIEHS Strategic Plan (http://www.niehs.nih.gov/about/strategicplan/). The Core Centers
+      provide critical research infrastructure, shared facilities, services and/or resources, to groups of inv
+  - id: '148037'
+    grade: null
+    title: 1890 Facilities Grant Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-05-04'
+    abstract: The 1890 Facilities Grant Program is intended for the acquisition and improvement of agricultural and food sciences facilities and equipment, including libraries, so that the 1890 land-grant
+      institutions, including Tuskegee University and West Virginia State University may participate fully in the development of human capital in the food and agricultural sciences.
+  - id: '362276'
+    grade: null
+    title: NCI Research Specialist Award for Core and Laboratory-based Scientists (R50 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+    abstract: <p>This notice of funding opportunity (NOFO) will invite applications for the Research Specialist Award (R50), which provides salary support for exceptional, non-tenure track scientists working
+      in research laboratories and core facilities who make essential contributions to cancer research.&nbsp;The R50 is intended to support stable, long-term research careers for highly skilled scientists
+      who contribute to NCI-funded research programs but do not serve as independent investigators. Research spec
+  - id: '52370'
+    grade: null
+    title: George Mason University Center for Infrastructure Protection
+    agency: National Institute of Standards and Technology
+    status: archived
+    closes: '2010-04-12'
+    abstract: This funding opportunity is not open to competition. The funding for the project was earmarked for a specific institution, the George Mason University Center for Infrastructure Protection,
+      when Congress authorized the project. The application forms were entered on Grants.gov so that only the designated recipient can submit the required forms electronically.
+  - id: '45618'
+    grade: null
+    title: 'Chemistry Research Instrumentation and Facilities: Departmental Multi-user Instrumentation'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+    abstract: The Chemistry Research Instrumentation and Facilities Program (CRIF) is structured to enable the National Science Foundation's Division of Chemistry to respond to a variety of needs for infrastructure
+      that promotes research and education in areas traditionally supported by the Division (NSF Chemistry Homepage).The Departmental Multi-User Instrumentation component of CRIF (CRIF:MU) provides funds
+      to universities, colleges, and consortia thereof for the purchase of multi-user instruments. The maxi
+  - id: '51996'
+    grade: null
+    title: 1890 Facilities Grant Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-04-05'
+    abstract: Facilities awards will be made for the acquisition and improvement of agricultural and food sciences facilities and equipment, including libraries, so that the 1890 land-grant institutions,
+      including Tuskegee University and West Virginia State University may participate fully in the production of human capital in the food and agricultural sciences. Priorities for the eligible institutions
+      are set in the facilities plan that is submitted to NIFA for review and approval.
+  - id: '75373'
+    grade: null
+    title: Nuclear Energy University Programs General Scientific Infrastructure Support
+    agency: Idaho Field Office
+    status: archived
+    closes: '2011-04-06'
+    abstract: "This Funding Opportunity Announcement (FOA) is the fiscal year (FY) 2011 solicitation for Nuclear Energy University Programs (NEUP) General Scientific Infrastructure Support for the Department\
+      \ of Energy\x92s (DOE) Office of Nuclear Energy (NE).This FOA is seeking applications from U.S. universities and colleges for equipment and instrumentation infrastructure to support nuclear energy-related\
+      \ engineering and science teaching and research laboratories."
+  - id: '52380'
+    grade: null
+    title: North Dakota State University - Advanced Nanomaterials Research Facility
+    agency: National Institute of Standards and Technology
+    status: archived
+    closes: '2010-04-12'
+    abstract: This funding opportunity is not open to competition. The funding for the project was earmarked for a specific institution, the North Dakota State University - Advanced Nanomaterials Research
+      Facility, when Congress authorized the project. The application forms were entered on Grants.gov so that only the designated recipient can submit the required forms electronically.
+  - id: '83973'
+    grade: null
+    title: FY 2011 University Center Economic Development Program Competition
+    agency: Economic Development Administration
+    status: archived
+    closes: '2011-06-30'
+    abstract: "EDA encourages the submission of applications that will create and nurture regional economic ecosystems through applied research and development, technology commercialization, and targeted\
+      \ activities that cultivate entrepreneurship. A regional economic ecosystem is comprised of three main components: (1) A highly networked regional talent pool, with specialized expertise relevant\
+      \ to the region\x92s innovation clusters (with connections along the supply chain and across disciplines, so that res"
+  - id: '360613'
+    grade: null
+    title: 'Limited Competition: Centers of Biomedical Research Excellence: Expansion/Sustainability Phases (COBRE-E/S) (P'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-05-25'
+    abstract: 'The Institutional Development Award (IDeA) program supports biomedical research capacity building in states that have historically received low levels of NIH funding. The Centers of Biomedical
+      Research Excellence: Expansion/Sustainability Phases (COBRE-E/S) Notice of Funding Opportunity (NOFO) supports the expansion and sustainability of biomedical research centers in IDeA-eligible institutions.
+      These centers will focus on building research capacity in broad scientific areas of strategic importa'
+  - id: '75413'
+    grade: null
+    title: Nuclear Energy University Programs &#150; Reactor Upgrades
+    agency: Idaho Field Office
+    status: archived
+    closes: '2011-04-06'
+    abstract: "This Funding Opportunity Announcement (FOA) is the fiscal year (FY) 2011 solicitation for Nuclear Energy University Programs (NEUP) University Reactor Upgrades Infrastructure Support for\
+      \ the Department of Energy\x92s (DOE) Office of Nuclear Energy (NE).This FOA is seeking applications from U.S. universities and colleges with operating research reactors. The purpose of the program\
+      \ is to upgrade and improve the U.S. university nuclear research and training reactors and to contribute to strengthening"
+  - id: '80033'
+    grade: null
+    title: Core Infrastructure and Methodological Research for Cancer Epidemiology Cohorts (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-08'
+    abstract: This Funding Opportunity Announcement (FOA), issued by the National Cancer Institute (NCI), invites grant applications to provide targeted infrastructure support for the core functions of
+      Cancer Epidemiology Cohorts (CECs) and methodological research. This infrastructure can support existing or new CECs. This FOA will support core functions for CECs currently funded through other grant
+      mechanisms by the Epidemiology and Genetics Program (EGRP) and other components of the Division of Cancer Contr
+  - id: '356837'
+    grade: null
+    title: Request for Information &ndash; University Partnership Models
+    agency: Dept of the Army -- Materiel Command
+    status: forecasted
+    closes: null
+    abstract: "<p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(54, 54, 54);\">This is a Request for Information (RFI) issued solely for information and planning purposes and does not\
+      \ constitute a solicitation.&nbsp;<u>Respondents are advised that the Army Research Lab (ARL) is under no obligation to acknowledge receipt of the information received or provide feedback to respondents\
+      \ with respect to any information submitted under this RFI.</u></strong></p><p><br></p><p><strong><u>\uFEFF</u>Request f"
+- id: q029
+  text: aging and long-term care in older adults
+  candidates:
+  - id: '103113'
+    grade: null
+    title: National Resource Center on Nutrition and Aging
+    agency: Administration on Aging
+    status: closed
+    closes: '2011-08-17'
+    abstract: The mission of the Administration on Aging (AoA) is to help older adults maintain their dignity and independence in their homes and communities through comprehensive, coordinated, and cost-effective
+      systems of long-term care and livable communities across the United States. In order to accomplish this mission, targeted policy, strategic planning, and quality core services are necessary at the
+      national, state, and local levels. The aging services network is serving a continuum of aging individu
+  - id: '41147'
+    grade: null
+    title: NEA Creativity and Aging in America
+    agency: National Endowment for the Arts
+    status: archived
+    closes: '2008-05-23'
+    abstract: Creativity and Aging in America is an initiative of the National Endowment for the Arts designed to actively engage older Americans in quality arts programs. Through this initiative, the Arts
+      Endowment will support exemplary projects in the disciplines of literature and music. Projects must be conducted by professional artists and engage older adults as students, artists, and/or teachers.
+      For the purposes of these guidelines, older adults are age 65 and above.Recent research supported by the Nat
+  - id: '51899'
+    grade: null
+    title: Research and Evaluation on the Abuse, Neglect, and Exploitation of Elderly Individuals and Residents of Reside
+    agency: National Institute of Justice
+    status: archived
+    closes: '2010-04-16'
+    abstract: "NIJ is seeking applications for funding research and evaluation in the areas of abuse, neglect, and exploitation of individuals over the age of 60 (\x93elderly\x94), including individuals\
+      \ who reside either in the community or in residential care facilities. For the purpose of this solicitation, the term \x93abuse\x94 includes physical abuse (including medication abuse), sexual abuse,\
+      \ psychological abuse, abandonment and isolation, neglect, or financial or fiduciary abuse. The term \x93residential care facility"
+  - id: '203433'
+    grade: null
+    title: 'Limited Competition: Continuation of the National Institute on Aging Multicenter Clinical Trial The LIFE Study'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-04-26'
+    abstract: This limited competition FOA is to continue The LIFE Study. The LIFE Study was designed to determine whether a long-term structured physical activity (PA) program, as compared with a successful
+      aging (SA) health education program, reduces the risk of major mobility disability, defined as incapacity to walk 400 meters. The LIFE Study extension will determine effects of a long-term structured
+      PA program on other important for older adults diseases and conditions, including mild cognitive impairmen
+  - id: '67494'
+    grade: null
+    title: National Long-Term Care Ombudsman Resource Center
+    agency: Administration on Aging
+    status: archived
+    closes: '2011-03-18'
+    abstract: National Long-Term Care Ombudsman Resource Center
+  - id: '47392'
+    grade: null
+    title: Community Innovations In Aging In Place (CIAIP)
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-15'
+    abstract: For more than forty years, the U.S. Administration on Aging (AoA) has served as the effective and visible advocate for older Americans at the Federal level while at the same time providing
+      support and guidance to the Aging Services Network. In this role, AoA is committed to ensuring that older Americans have the support they need to remain in their homes and communities for as long
+      as possible. Since the passage of the Older Americans Act in 1965, the Aging Network has grown to encompass a
+  - id: '50036'
+    grade: null
+    title: 'Technical Assistance Resource Center: Promoting Appropriate Long Term Care Supports for LGBT Elders'
+    agency: Administration on Aging
+    status: archived
+    closes: '2010-01-06'
+    abstract: BackgroundThe Older Americans Act (OAA), the authorizing legislation for the U.S. Administration on Aging (AoA), provides guidance to AoA and the Aging Network on the provision of supports
+      and services to older adults. In providing that guidance, Congress directs the Aging Network to pay particular attention in the provision of services to those older individuals with the greatest economic
+      and social need including minority individuals. In fulfilling that obligation, AoA frequently turns to na
+  - id: '174333'
+    grade: null
+    title: 'Information and Planning: Understanding the Capacity of the Aging Network'
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-07-16'
+    abstract: The Aging Network reaches into every community in the nation, playing a vital role in strategic planning, program development and administration, and service delivery. To ensure that older
+      Americans have access to the highest quality long term supports and services the Aging Network must enhance program design and service delivery in key priority areas. The successful applicant for
+      this Funding Opportunity will seek to put a process in place that improves the Aging Networks understanding of the
+  - id: '47365'
+    grade: null
+    title: Aging Network Business Practice, Planning and Program Development
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-08'
+    abstract: For more than forty years, the U.S. Administration on Aging (AoA) has served as the effective and visible advocate for older Americans at the Federal level while at the same time providing
+      support and guidance to the Aging Network. In this role, AoA is committed to ensuring that older Americans have the support they need to remain in their homes and communities for as long as possible
+      and supporting family caregivers in their efforts to keep loved ones independent. Since the passage of the
+  - id: '51745'
+    grade: null
+    title: Surveillance, Natural History, Quality of Care and Outcomes of Diabetes Mellitus with Onset in Childhood and A
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2010-04-30'
+    abstract: Estimating temporal trends in the incidence of diabetes among US youth (disease occurring before age 20 years) by type and race/ethnicity using efficient and low-cost population-based surveillance
+      strategies.Among those with diabetes onset in childhood and adolescence, assessing the long-term impact of the disease, with special focus on health-related perceived quality of life, incidence of
+      and risk factors for acute and chronic complications, by type and race/ethnicity.Among young adults who de
+  - id: '158193'
+    grade: null
+    title: 'Environmental Exposures and Health: Exploration of Non-Traditional Settings, (R21)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2016-01-07'
+    abstract: The purpose of this funding opportunity announcement (FOA) issued by the National Institute of Nursing Research (NINR) and the National Institute of Environmental Health Sciences (NIEHS) is
+      to encourage interdisciplinary research aimed at promoting health, limiting symptoms and disease, and reducing health disparities in children and older adults living or spending time in non-traditional
+      settings. These settings result in exposure to environmental pollutants and toxins that result in health ris
+  - id: '158194'
+    grade: null
+    title: 'Environmental Exposures and Health: Exploration of Non-Traditional Settings, (R01)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2016-01-07'
+    abstract: The purpose of this funding opportunity announcement (FOA) issued by the National Institute of Nursing Research (NINR) and the National Institute of Environmental Health Sciences (NIEHS) is
+      to encourage interdisciplinary research aimed at promoting health, limiting symptoms and disease, and reducing health disparities in children and older adults living or spending time in non-traditional
+      settings. These settings result in exposure to environmental pollutants and toxins that result in health ris
+  - id: '180695'
+    grade: null
+    title: Building the Business Capacity of Aging and Disability Community-Based Networks for Managed Long-Term Services
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-08-01'
+    abstract: The statutory authority for grants under this Program Announcement is contained in Title IV of the Older Americans Act (OAA) (42U.S.C. 3032), as amended by the Older Americans Act Amendments
+      of 2006, P.L. 109-365. (Catalog of Federal Domestic Assistance 93.048, Title IV Discretionary Projects). While managed care has long been part of many states Medicaid primary care programs, its presence
+      in Medicaid long-term services and supports (LTSS) systems has been less pronounced. However, the past t
+  - id: '47106'
+    grade: null
+    title: Rural Health and Safety Education Competitive Grants Program
+    agency: CSREES
+    status: archived
+    closes: '2009-07-01'
+    abstract: "For FY 2009, the Rural Health and Safety Education Programs will focus on issues related to aging in one or more of three areas: 1) population aging in rural areas; 2) eldercare or caregiving\
+      \ and its impact on rural and farm families; and/or 3) related issues of rural health care to provide older individuals and families with: \x95 Information as to the value of good health in an era\
+      \ of population aging; \x95 Information to increase the older adult individual or family\x92s motivation take more respo"
+  - id: '47797'
+    grade: null
+    title: 'The Community Living Program:'
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-08-03'
+    abstract: Under this Announcement, AoA will award Cooperative Agreements to assist State Units on Aging (SUA) to strengthen the capacity of the Aging Network to help individuals who are not eligible
+      for Medicaid but at imminent risk of nursing home placement and spend-down to remain at home and in the community and have access to flexible, consumer-directed services. States are expected to use
+      existing federal and state program funds to cover the cost of the home and community-based services provide
+  - id: '111573'
+    grade: null
+    title: 'T2 Translational Research on Aging:  Small Business Innovation Awards (R43/R44)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-04'
+    abstract: The involvement of small businesses in translational aging research could hasten the pace at which scientific advances are transformed into commercial products to improve or maintain the health
+      and functional independence of older adults. Therefore, this funding opportunity announcement (FOA) is intended to support innovative research conducted by small businesses to advance the availability
+      of novel devices, products, health care practices and programs with the potential for commercial success
+  - id: '51665'
+    grade: null
+    title: Pension Counseling and Information Projects
+    agency: Administration on Aging
+    status: archived
+    closes: '2010-04-05'
+    abstract: "Project Relevance & Current Need. The need for trustworthy pension information and assistance has never been greater. The complexities inherent in our nation\x92s retirement system make it\
+      \ practicably inaccessible to the vast majority of its participants and beneficiaries. The system is vast with private employers sponsoring more than 700,000 retirement plans in the United States,\
+      \ each with its own set of complicated rules. Federal State and local government employers bring thousands more plans int"
+  - id: '51664'
+    grade: null
+    title: Pension Resource Center
+    agency: Administration on Aging
+    status: archived
+    closes: '2010-04-05'
+    abstract: "Project Relevance & Current Need. The need for trustworthy pension information and assistance has never been greater. The complexities inherent in our nation\x92s retirement system make it\
+      \ inaccessible, for all practical purposes, to the vast majority of its participants and beneficiaries. The system is vast with private employers sponsoring more than 700,000 retirement plans in the\
+      \ United States, each with its own set of complicated rules. Federal, State, and local government employers bring thou"
+  - id: '160115'
+    grade: null
+    title: National Minority Aging Organizations Technical Assistance Consortium
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-05-14'
+    abstract: On March 23, 2010, President Barack Obama signed the Affordable Care Act in to law. This law puts in place comprehensive health insurance reforms that will roll out over a four year period,
+      with most provisions becoming active in 2014. It is designed to provide consumers with strong protections, more coverage options, and lower costs. The law gives seniors new preventive benefits, prescription
+      drug discounts and more options for long-term care. Simultaneously, the Department of Health and Human
+  - id: '41185'
+    grade: null
+    title: Elder Care Initiative Long-Term Care Grant Program
+    agency: Indian Health Service
+    status: archived
+    closes: '2008-06-20'
+    abstract: The Indian Health Service (IHS) announces the availability of up to $600,000 for competitive grants through the Elder Care Initiative Long Term Care (ECILTC) Grant Program to support planning
+      and implementation of sustainable long-term care services for American Indians and Alaska Native (AI/AN) elders. This program is authorized under the Snyder Act, Indian Health Care Improvement Act,
+      as amended, 25 U.S.C. 1653(c), and Public Health Service Act, Section 301, as amended. This program is descri
+- id: q030
+  text: housing stability and homelessness prevention
+  candidates:
+  - id: '194653'
+    grade: null
+    title: VA Supportive Services for Veteran Families Program
+    agency: VA Office of Mental Health
+    status: archived
+    closes: '2012-09-28'
+    abstract: The Department of Veterans Affairs (VA) requests that eligible entities interested in applying for funding under the Supportive Services for Veteran Families (SSVF) Program submit a letter
+      of intent. The SSVF Program expects to publish a notice of funding availability (NOFA) in fiscal year (FY) 2013. The NOFA will contain information concerning the SSVF Program, initial and renewal
+      supportive services grant application processes, and amount of funding available. For a Copy of the Letter o
+  - id: '58516'
+    grade: null
+    title: Special Needs Assistance Programs (SNAPS) Technical Assistance; Request for Qualifications
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2010-11-22'
+    abstract: 'Estimatated Total Program Funding breakout: Up to $9.9 million in McKinney-Vento Homeless Assistance Act funds for McKinney-Vento Homeless Assistance TA; and up to $1.2 million in American
+      Recovery and Reinvestment Act funds for Homelessness Prevention and Rapid Re-housing Program TA.Program Description: The purpose of the SNAPS-TA NOFA funding is to provide technical assistance to
+      transfer skills and knowledge needed for grantees, applicants, project sponsors, eligible applicants and eligible'
+  - id: '95293'
+    grade: null
+    title: Housing Opportunities for Persons with AIDS
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-08-02'
+    abstract: "Grants funded under this initiative will advance HUD\xEF\xBF\xBDs implementation of the National HIV/AIDS Strategy (NHAS). This NOFA also addresses the Department\xEF\xBF\xBDs Fiscal Year\
+      \ 2010-2015 Strategic Plan and the Opening Doors Federal Strategic Plan to Prevent and End Homelessness. These actions address goals to: prevent and end homelessness; increase the supply of affordable\
+      \ housing; and increase the coordination of mainstream housing resources and other health and human services. This NOFA announces"
+  - id: '236161'
+    grade: null
+    title: HIV/AIDS and Substance Use Among the Homeless and Unstably Housed (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-15'
+    abstract: To improve understanding of the intersection of HIV/AIDS and drug abuse, this Funding Opportunity Announcement (FOA) is part of a multipronged 2014 expansion of HIV and AIDS-related research
+      within the context of drug and alcohol abuse among understudied populations and in understudied settings that show promise for the development of effective prevention and treatment efforts. In addition
+      to this funding opportunity, others included in the 2014 expansion address substance use, HIV, and Black/Af
+  - id: '63114'
+    grade: null
+    title: Affordable Care Act - Health Center Planning Grants
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-03-18'
+    abstract: The purpose of planning grants is to demonstrate the need for health services in the community from public or non-profit organzations seeking a grant to plan for the development of a comprehensive
+      primary care health center under the Health Center Program authorized under Section 330 of the Public Health Service Act. The purpose of the Health Center Program is to extend comprehensive primary
+      and preventive health services (including mental health, substance abuse and oral health services) and
+  - id: '147833'
+    grade: null
+    title: VA Grant and Per Diem Program Notice of Fund Availability
+    agency: Homeless Providers Grant and Per Diem Program
+    status: archived
+    closes: '2012-05-30'
+    abstract: The Department of Veterans Affairs (VA) is announcing the availability of funds for applications for assistance under the Per Diem Only component of VA's Homeless Providers Grant and Per Diem
+      Program. This Notice of Funding Availability (NOFA) includes funding priorities for those applicants who will serve specific homeless veteran populations that are identified in this NOFA, or implement
+      a new ``transition in place'' housing model to facilitate housing stabilization. The NOFA published in
+  - id: '173374'
+    grade: null
+    title: Partnerships to Demonstrate the Effectiveness of Supportive Housing for Families in the Child Welfare System
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2012-07-30'
+    abstract: 'The Administration for Children, Youth and Families (ACYF), Children&apos;s Bureau (CB), announces the availability of competitive grant funds authorized by the Child Abuse Prevention and
+      Treatment Act (CAPTA) Reauthorization Act of 2010 (Public Law (P.L.) 111-320). These targeted five-year grants are to be awarded to support: The development or expansion of triage procedures for a
+      subset of families who come to the attention of the child welfare system due to severe housing issues and high se'
+  - id: '236160'
+    grade: null
+    title: HIV/AIDS and Substance Use among   Black/African American Women and Young MSM (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-15'
+    abstract: To improve understanding of the intersection of HIV/AIDS and drug abuse, this Funding Opportunity Announcement (FOA) is part of a multipronged 2014 expansion of HIV and AIDS related research
+      within the context of drug and alcohol abuse among understudied populations and in understudied settings that show promise for the development of effective prevention and treatment efforts. In addition
+      to this funding opportunity, others included in the 2014 expansion address HIV/AIDS and substance use among
+  - id: '236162'
+    grade: null
+    title: Comorbid HIV, Chronic Pain, and Substance Use among Older Adults (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-15'
+    abstract: To improve understanding of the intersection of HIV/AIDS and drug abuse, this Funding Opportunity Announcement (FOA) is part of a multipronged 2014 expansion of HIV and AIDS related research
+      within the context of drug and alcohol abuse among understudied populations and in understudied settings that show promise for the development of effective prevention and treatment efforts. In addition
+      to this funding opportunity, others included in the 2014 expansion address HIV/AIDS and substance use amon
+  - id: '362364'
+    grade: null
+    title: Authority to Accept Unsolicited Proposals for Research Partnerships Notice of Intent (NOI)
+    agency: Department of Housing and Urban Development
+    status: posted
+    closes: '2027-06-09'
+    abstract: The U.S. Department of Housing and Urban Development"s Office of Policy Development and Research (PD&R) expects to release a Notice inviting eligible organizations to submit unsolicited research
+      proposals focused on HUD"s current housing and community development research priorities. The goal of this Notice is to support independent, high-quality research that helps build reliable evidence
+      and provides practical insights to inform housing policy and program decisions at the local, state, and Fed
+  - id: '132413'
+    grade: null
+    title: Housing Counseling Program
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2012-01-12'
+    abstract: This program supports the delivery of a wide variety of housing counseling services to homebuyers, homeowners, low- to moderate-income renters, and the homeless. The primary objectives of
+      the program are to improve financial literacy, expand homeownership opportunities, improve access to affordable housing and preserve homeownership. Counselors provide guidance and advice to help families
+      and individuals improve their housing conditions and meet the responsibilities of tenancy and homeownershi
+  - id: '356629'
+    grade: null
+    title: GPD Grant Forecast
+    agency: Homeless Providers Grant and Per Diem Program
+    status: forecasted
+    closes: null
+    abstract: "<p>THIS IS NOT A NOTICE OF FUNDING. THIS IS A GENERAL FORECAST ONLY.</p> <p><strong><u>Grant and Per Diem (GPD) Program Introduction</u></strong></p> <p>The GPD Program is VA\u2019s largest\
+      \ transitional housing program for Veterans experiencing homelessness and is permanently authorized under Public Law 109-461.</p> <p>Since 1994, the GPD Program has awarded grants to community-based\
+      \ organizations to provide transitional housing with wraparound supportive services to assist vulnerable Veterans mov"
+  - id: '58097'
+    grade: null
+    title: Continuum of Care Homeless Assistance Program
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2010-11-18'
+    abstract: "The purpose of the CoC Homeless Assistance Programs is to reduce the incidence of homelessness in CoC communities by assisting homeless individuals and families move to self-sufficiency and\
+      \ permanent housing. CoCs that sustain current successful interventions and advance HUD\x92s national goals will be scored higher."
+  - id: '118353'
+    grade: null
+    title: Continuum of Care
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-10-28'
+    abstract: "The purpose of the CoC Homeless Assistance Programs is to reduce the incidence of homelessness in CoC communities by assisting homeless individuals and families move to self-sufficiency and\
+      \ permanent housing. CoCs that sustain current successful interventions and advance HUD\xEF\xBF\xBDs national goals will be scored higher."
+  - id: '357524'
+    grade: null
+    title: Accelerating Solutions to Improve Access and Quality of Empirically-Supported Practices for Youth Mental Healt
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-07'
+    abstract: This NOFO is a call to action in response to the mental health crisis in the United States. We seek applications that will study methods to increase access to evidence-based interventions
+      and services for youth mental health, including those living in rural areas, inner cities, and other under-resourced areas, and youth experiencing housing and food insecurities and out-right homelessness.
+      Applications should address research related to optimizing assessment, intervention and service strategies,
+  - id: '67294'
+    grade: null
+    title: Healthy Homes and Lead Poisoning Prevention Program
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-03-18'
+    abstract: The purpose of the HHLPPP is to reduce or eliminate housing-related health hazards and to promote housing that is healthy, safe, affordable, and accessible. This program will address multiple
+      hazards in homes and prevent diseases and/or injuries that result from housing-related hazards. Priority hazards, diseases and conditions, and high-risk populations should be determined based on programmatic
+      data and other data sources (i.e. census, hospital admissions, or building/sanitary code violation
+  - id: '44776'
+    grade: null
+    title: Service Area Competitions-Additional Areas
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2009-02-16'
+    abstract: The Health Center Program, as authorized by section 330 of the Public Health Service (PHS) Act, promotes the development and operation of community-based primary health care service systems
+      in medically underserved areas and improves the health status of medically underserved populations. The purpose of this activity is to continue to support comprehensive primary and preventive health
+      care service delivery to areas where the existing sectinon 330 grantee's continuation application was not appr
+  - id: '159993'
+    grade: null
+    title: Solicitation for Grant Application for Urban and Non-Urban Homeless Veterans Reintegration Program (HVRP) Gran
+    agency: OASAM
+    status: archived
+    closes: '2012-04-30'
+    abstract: "SummaryThe U.S. Department of Labor (Department of Labor or USDOL), Veterans\x92 Employment and Training Service (VETS) announces a grant competition under 38 U.S.C. Section 2021, which provides\
+      \ that \x93the Secretary of Labor [the Secretary] shall conduct, directly or through grant or contract, such programs as the Secretary determines appropriate to provide job training, counseling, and\
+      \ placement services (including job readiness, literacy, and skills training) to expedite the reintegration of homel"
+  - id: '229053'
+    grade: null
+    title: Urban and Non-Urban Homeless Veterans&iquest; Reintegration Program (HVRP) for Program Year (PY) 2013, July 1,
+    agency: OASAM
+    status: archived
+    closes: '2013-05-03'
+    abstract: "Summary The U.S. Department of Labor (Department of Labor or USDOL), Veterans\x92 Employment and Training Service (VETS) announces a grant competition under 38 U.S.C. Section 2021, which\
+      \ provides that \x93Secretary of Labor [the Secretary] shall conduct, directly or through grant or contract, such programs as the Secretary determines appropriate to provide job training, counseling,\
+      \ and placement services (including job readiness, literacy, and skills training) to expedite the reintegration of homele"
+  - id: '358753'
+    grade: null
+    title: Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) Expansion (Revised)
+    agency: Department of Housing and Urban Development
+    status: closed
+    closes: '2025-08-15'
+    abstract: The Tribal HUD-VASH program provides rental assistance and supportive services to Native American Veterans who are homeless or at risk of homelessness living on or near a reservation or other
+      Indian areas. HUD provides rental and supportive services, and awards renewal grants every year subject to appropriations. The U.S Department of Veterans Affairs (VA) provides case management and
+      clinical services. The goal of the Tribal HUD-VASH program is to reduce the number of Native American Veterans w

@@ -1,32 +1,449 @@
-# Draft gold queries. Review/edit, then run `uv run python -m grantlens_eval.pool` and grade candidates.
 queries:
-  - {id: q001, text: early-career funding for AI in cancer imaging, relevant: {}}
-  - {id: q002, text: machine learning for medical image segmentation, relevant: {}}
-  - {id: q003, text: postdoctoral fellowship in computational neuroscience, relevant: {}}
-  - {id: q004, text: grants for Alzheimer's disease biomarker discovery, relevant: {}}
-  - {id: q005, text: mental health services for rural and underserved communities, relevant: {}}
-  - {id: q006, text: opioid use disorder treatment and recovery research, relevant: {}}
-  - {id: q007, text: health disparities and health equity community interventions, relevant: {}}
-  - {id: q008, text: maternal and infant health outcomes, relevant: {}}
-  - {id: q009, text: cardiovascular disease prevention in minority populations, relevant: {}}
-  - {id: q010, text: diabetes self-management digital health intervention, relevant: {}}
-  - {id: q011, text: infectious disease surveillance and pandemic preparedness, relevant: {}}
-  - {id: q012, text: antimicrobial resistance new therapeutics, relevant: {}}
-  - {id: q013, text: climate change and public health adaptation, relevant: {}}
-  - {id: q014, text: STEM education for undergraduate research experiences, relevant: {}}
-  - {id: q015, text: broadening participation of women in engineering, relevant: {}}
-  - {id: q016, text: quantum computing algorithms and hardware research, relevant: {}}
-  - {id: q017, text: cybersecurity and privacy research for critical infrastructure, relevant: {}}
-  - {id: q018, text: renewable energy storage battery materials, relevant: {}}
-  - {id: q019, text: sustainable agriculture and food security, relevant: {}}
-  - {id: q020, text: water quality and environmental justice, relevant: {}}
-  - {id: q021, text: small business innovation research biotechnology, relevant: {}}
-  - {id: q022, text: veterans health and PTSD treatment, relevant: {}}
-  - {id: q023, text: tribal communities cultural preservation and language, relevant: {}}
-  - {id: q024, text: arts and humanities digital scholarship, relevant: {}}
-  - {id: q025, text: rare disease gene therapy clinical trials, relevant: {}}
-  - {id: q026, text: nursing workforce training and retention, relevant: {}}
-  - {id: q027, text: artificial intelligence ethics and responsible innovation, relevant: {}}
-  - {id: q028, text: research infrastructure and core facilities for universities, relevant: {}}
-  - {id: q029, text: aging and long-term care in older adults, relevant: {}}
-  - {id: q030, text: housing stability and homelessness prevention, relevant: {}}
+- id: q001
+  text: early-career funding for AI in cancer imaging
+  relevant:
+    '230200': 1
+    '96353': 1
+    '359724': 1
+    '357907': 1
+    '357912': 1
+    '46745': 1
+    '44540': 1
+    '357908': 1
+    '357909': 1
+    '363169': 1
+    '135573': 1
+  label_source: llm_pregrade
+- id: q002
+  text: machine learning for medical image segmentation
+  relevant:
+    '176313': 1
+  label_source: llm_pregrade
+- id: q003
+  text: postdoctoral fellowship in computational neuroscience
+  relevant:
+    '53084': 1
+    '68093': 1
+    '70134': 1
+    '358830': 1
+    '53715': 1
+    '164053': 1
+  label_source: llm_pregrade
+- id: q004
+  text: grants for Alzheimer's disease biomarker discovery
+  relevant:
+    '357710': 1
+    '359851': 2
+    '81533': 1
+    '59853': 1
+    '58168': 1
+  label_source: llm_pregrade
+- id: q005
+  text: mental health services for rural and underserved communities
+  relevant:
+    '363687': 2
+    '146394': 1
+    '363533': 1
+    '54304': 1
+    '363581': 1
+    '363812': 1
+    '363601': 2
+    '358145': 1
+  label_source: llm_pregrade
+- id: q006
+  text: opioid use disorder treatment and recovery research
+  relevant:
+    '363807': 1
+    '360048': 2
+    '360366': 2
+    '361204': 1
+    '363601': 1
+    '52854': 1
+    '52855': 1
+    '364043': 1
+    '52856': 1
+    '362672': 2
+    '364057': 1
+    '363810': 1
+  label_source: llm_pregrade
+- id: q007
+  text: health disparities and health equity community interventions
+  relevant:
+    '357942': 2
+    '166673': 2
+    '191153': 2
+    '47335': 2
+    '357666': 1
+    '178673': 2
+    '357713': 1
+    '52761': 2
+    '178674': 2
+    '359138': 1
+    '51141': 2
+    '179853': 1
+    '357904': 1
+    '356690': 1
+    '47774': 1
+    '356543': 1
+    '133533': 1
+    '48755': 2
+    '357572': 1
+  label_source: llm_pregrade
+- id: q008
+  text: maternal and infant health outcomes
+  relevant:
+    '134254': 2
+    '363412': 2
+    '53145': 1
+    '363222': 1
+    '55469': 1
+    '48755': 1
+    '363313': 1
+    '237188': 2
+    '355732': 1
+    '52808': 1
+    '363516': 1
+    '142113': 1
+    '363532': 2
+    '58124': 1
+    '100594': 1
+    '170797': 1
+    '138273': 1
+    '137213': 1
+    '237473': 1
+  label_source: llm_pregrade
+- id: q009
+  text: cardiovascular disease prevention in minority populations
+  relevant:
+    '236462': 1
+    '51905': 1
+    '131095': 1
+    '47774': 1
+    '358870': 1
+  label_source: llm_pregrade
+- id: q010
+  text: diabetes self-management digital health intervention
+  relevant:
+    '129736': 1
+    '119835': 1
+    '119833': 1
+    '119834': 1
+    '92834': 2
+    '92833': 2
+    '92813': 1
+    '92814': 1
+    '131375': 1
+    '357034': 1
+    '59084': 1
+    '167553': 1
+  label_source: llm_pregrade
+- id: q011
+  text: infectious disease surveillance and pandemic preparedness
+  relevant:
+    '77853': 1
+    '61233': 1
+    '80613': 1
+    '81633': 1
+    '52444': 1
+    '171334': 1
+    '134413': 1
+    '65333': 1
+    '51742': 1
+    '48370': 2
+    '46812': 2
+    '52509': 1
+    '171873': 1
+    '46813': 2
+    '75473': 2
+    '45773': 1
+    '52473': 1
+    '116553': 2
+    '61333': 1
+  label_source: llm_pregrade
+- id: q012
+  text: antimicrobial resistance new therapeutics
+  relevant:
+    '231025': 1
+    '52993': 1
+    '361065': 1
+    '360006': 1
+    '356975': 1
+    '96294': 1
+    '48836': 2
+    '48837': 2
+    '363448': 1
+    '97014': 1
+  label_source: llm_pregrade
+- id: q013
+  text: climate change and public health adaptation
+  relevant:
+    '51960': 2
+    '235954': 2
+    '171355': 2
+    '297052': 1
+    '58116': 1
+    '190933': 1
+    '103313': 1
+    '112493': 1
+    '143194': 1
+    '40790': 1
+    '56718': 1
+  label_source: llm_pregrade
+- id: q014
+  text: STEM education for undergraduate research experiences
+  relevant:
+    '176573': 1
+    '90994': 1
+    '89413': 1
+    '50843': 1
+    '363752': 1
+    '360634': 2
+    '133614': 1
+    '47595': 1
+    '45640': 1
+    '353413': 1
+    '63035': 1
+    '51740': 1
+    '52251': 1
+    '45612': 1
+    '45705': 2
+    '135173': 2
+    '344124': 1
+    '334326': 1
+  label_source: llm_pregrade
+- id: q015
+  text: broadening participation of women in engineering
+  relevant:
+    '117397': 1
+    '57102': 1
+    '45637': 1
+    '45739': 2
+    '50819': 1
+    '45845': 1
+    '50662': 2
+    '50319': 1
+    '166435': 1
+    '151877': 1
+  label_source: llm_pregrade
+- id: q016
+  text: quantum computing algorithms and hardware research
+  relevant:
+    '146413': 2
+    '237682': 1
+    '170919': 1
+    '46280': 1
+    '47015': 1
+    '45721': 1
+    '102754': 1
+    '183036': 1
+    '360149': 1
+    '54084': 2
+    '148153': 1
+  label_source: llm_pregrade
+- id: q017
+  text: cybersecurity and privacy research for critical infrastructure
+  relevant:
+    '357554': 2
+    '358004': 1
+  label_source: llm_pregrade
+- id: q018
+  text: renewable energy storage battery materials
+  relevant:
+    '141940': 2
+    '45813': 1
+    '46164': 1
+    '45628': 1
+    '49084': 1
+    '57200': 1
+    '80133': 1
+    '173654': 1
+  label_source: llm_pregrade
+- id: q019
+  text: sustainable agriculture and food security
+  relevant:
+    '53031': 2
+    '202755': 2
+    '53022': 1
+    '53032': 1
+    '125473': 2
+    '150473': 1
+    '123793': 1
+    '56682': 1
+    '46629': 1
+    '51643': 1
+    '42964': 1
+  label_source: llm_pregrade
+- id: q020
+  text: water quality and environmental justice
+  relevant:
+    '81775': 1
+    '52442': 1
+    '41812': 1
+    '58582': 1
+    '42358': 1
+    '182473': 1
+    '46053': 1
+    '65133': 1
+    '100914': 1
+    '41485': 1
+    '54037': 1
+    '66093': 1
+    '115073': 1
+    '66113': 1
+  label_source: llm_pregrade
+- id: q021
+  text: small business innovation research biotechnology
+  relevant:
+    '110353': 1
+    '49632': 1
+    '45682': 1
+    '49279': 1
+    '52431': 1
+    '359671': 2
+    '57018': 1
+    '161253': 1
+    '132093': 1
+    '123733': 1
+    '123753': 1
+    '364020': 1
+    '48927': 1
+    '111573': 1
+    '359758': 2
+    '45668': 1
+    '359757': 2
+    '123854': 1
+    '173453': 1
+  label_source: llm_pregrade
+- id: q022
+  text: veterans health and PTSD treatment
+  relevant:
+    '48806': 1
+    '54158': 2
+  label_source: llm_pregrade
+- id: q023
+  text: tribal communities cultural preservation and language
+  relevant:
+    '63133': 2
+    '47320': 1
+    '105653': 1
+    '121693': 1
+    '117613': 1
+    '63153': 2
+    '52450': 2
+    '355564': 2
+    '44180': 2
+    '167033': 1
+    '96915': 1
+  label_source: llm_pregrade
+- id: q024
+  text: arts and humanities digital scholarship
+  relevant:
+    '163473': 1
+    '53723': 1
+    '85954': 1
+    '46645': 1
+    '175313': 2
+    '48471': 2
+    '58357': 2
+    '41630': 1
+    '50290': 2
+    '58613': 2
+    '50159': 2
+    '56411': 2
+    '109333': 2
+    '181176': 2
+    '171733': 1
+    '40102': 2
+    '104994': 2
+  label_source: llm_pregrade
+- id: q025
+  text: rare disease gene therapy clinical trials
+  relevant:
+    '357817': 2
+    '356054': 1
+    '359987': 1
+    '359645': 1
+    '360008': 1
+    '361394': 1
+    '189254': 1
+    '357570': 1
+    '132073': 1
+    '88633': 1
+    '359985': 1
+  label_source: llm_pregrade
+- id: q026
+  text: nursing workforce training and retention
+  relevant:
+    '341995': 2
+    '135653': 1
+    '59027': 2
+    '50340': 2
+    '55338': 1
+    '52189': 1
+    '133353': 1
+    '52746': 1
+    '144693': 1
+  label_source: llm_pregrade
+- id: q027
+  text: artificial intelligence ethics and responsible innovation
+  relevant:
+    '361238': 1
+    '358687': 1
+  label_source: llm_pregrade
+- id: q028
+  text: research infrastructure and core facilities for universities
+  relevant:
+    '361426': 2
+    '48884': 1
+    '363695': 2
+    '357725': 1
+    '46168': 1
+    '129293': 1
+    '357121': 2
+    '148037': 1
+    '362276': 1
+    '45618': 1
+    '51996': 1
+    '75373': 1
+    '360613': 1
+    '75413': 1
+    '80033': 1
+  label_source: llm_pregrade
+- id: q029
+  text: aging and long-term care in older adults
+  relevant:
+    '103113': 1
+    '51899': 1
+    '203433': 1
+    '67494': 2
+    '47392': 1
+    '50036': 2
+    '174333': 1
+    '47365': 1
+    '158193': 1
+    '158194': 1
+    '180695': 2
+    '47106': 1
+    '47797': 2
+    '111573': 1
+    '160115': 1
+    '41185': 2
+  label_source: llm_pregrade
+- id: q030
+  text: housing stability and homelessness prevention
+  relevant:
+    '194653': 2
+    '58516': 1
+    '95293': 1
+    '236161': 1
+    '147833': 1
+    '173374': 1
+    '362364': 1
+    '132413': 1
+    '356629': 1
+    '58097': 1
+    '118353': 1
+    '159993': 1
+    '229053': 1
+    '358753': 2
+  label_source: llm_pregrade
