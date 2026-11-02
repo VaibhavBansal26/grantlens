@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { API, ApiError, Facets, Hit, SearchParams, getJson, money, searchUrl, sendJson } from "@/lib/api";
 import { useAuth } from "@/lib/auth";
+import WatchButton from "./WatchButton";
 
 const EMPTY: SearchParams = { q: "", mode: "hybrid", status: [], agency: "", closesAfter: "", minAmount: "" };
 const STATUSES = ["posted", "forecasted", "closed", "archived"];
@@ -130,6 +131,7 @@ export default function SearchPage() {
           </div>
           <p className="snippet">{h.snippet}</p>
           <div className="why">matched by {whyMatched(h)}</div>
+          <div className="actions"><WatchButton id={h.id} /></div>
         </article>
       ))}
     </>

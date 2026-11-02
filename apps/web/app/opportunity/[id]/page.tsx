@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { API, Detail, getJson, money } from "@/lib/api";
+import WatchButton from "../../WatchButton";
 
 export default function OpportunityPage() {
   const { id } = useParams<{ id: string }>();
@@ -26,6 +27,7 @@ export default function OpportunityPage() {
         {d.number && <span>{d.number}</span>}
       </div>
       <div className="actions">
+        <WatchButton id={d.id} />
         {d.url && <a href={d.url} target="_blank" rel="noreferrer">View on source site ↗</a>}
         {d.close_date && <a href={`${API}/opportunities/${d.id}.ics`}>Add deadline to calendar</a>}
       </div>

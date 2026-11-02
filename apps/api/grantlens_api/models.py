@@ -91,3 +91,15 @@ class SavedSearch(db.Model):
     params = db.Column(JSON, nullable=False)  # the /search query params, as {name: [values]}
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
     last_seen_at = db.Column(db.DateTime(timezone=True), default=_now)  # "new" = first seen after
+
+
+class WatchedOpportunity(db.Model):
+    __tablename__ = "watched_opportunity"
+    __table_args__ = (UniqueConstraint("user_id", "opportunity_id", name="uq_watch_user_opp"),)
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"),
+                        nullable=False, index=True)
+    opportunity_id = db.Column(db.Integer, db.ForeignKey("opportunity.id", ondelete="CASCADE"),
+                               nullable=False)
+    created_at = db.Column(db.DateTime(timezone=True), default=_now)

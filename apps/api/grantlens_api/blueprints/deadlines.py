@@ -3,7 +3,7 @@ from datetime import date, timedelta
 from flask import Blueprint, Response, g, jsonify, request
 
 from .. import ics
-from ..models import Opportunity, SavedSearch
+from ..models import Opportunity, SavedSearch, WatchedOpportunity
 from ..retrieval.clean import clean_text
 from ..retrieval.service import search
 from .auth import login_required
@@ -38,6 +38,17 @@ def _opportunities(start: date, end: date) -> list[Opportunity]:
                 q = Opportunity.query.filter(Opportunity.id.in_(ids), Opportunity.status.in_(statuses))
                 rows.update({o.id: o for o in q if o.close_date and start <= o.close_date <= end})
         return sorted(rows.values(), key=lambda o: (o.close_date, o.id))[:LIMIT]
+    if request.args.get("scope") == "watchlist":
+        q = (
+            Opportunity.query.join(
+                WatchedOpportunity, WatchedOpportunity.opportunity_id == Opportunity.id
+            )
+            .filter(WatchedOpportunity.user_id == g.user.id)
+            .filter(Opportunity.close_date >= start, Opportunity.close_date <= end)
+        )
+        if request.args.getlist("status"):
+            q = q.filter(Opportunity.status.in_(request.args.getlist("status")))
+        return q.order_by(Opportunity.close_date, Opportunity.id).limit(LIMIT).all()
     q = Opportunity.query.filter(
         Opportunity.close_date >= start, Opportunity.close_date <= end,
         Opportunity.status.in_(statuses),
@@ -48,9 +59,9 @@ def _opportunities(start: date, end: date) -> list[Opportunity]:
 
 
 def _guard(view):
-    """The saved scope needs a login; the public scope does not."""
+    """The personal scopes (saved, watchlist) need a login; the public scope does not."""
     def wrapped():
-        if request.args.get("scope") == "saved":
+        if request.args.get("scope") in ("saved", "watchlist"):
             return login_required(view)()
         return view()
 

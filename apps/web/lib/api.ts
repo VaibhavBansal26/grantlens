@@ -68,7 +68,7 @@ async function parse<T>(res: Response): Promise<T> {
 
 export const getJson = <T,>(url: string): Promise<T> => fetch(url).then((r) => parse<T>(r));
 
-export const sendJson = <T,>(method: "POST" | "DELETE", url: string, body?: unknown): Promise<T> =>
+export const sendJson = <T,>(method: "POST" | "PUT" | "DELETE", url: string, body?: unknown): Promise<T> =>
   fetch(url, {
     method,
     headers: body === undefined ? undefined : { "Content-Type": "application/json" },
@@ -106,3 +106,14 @@ export type Deadline = {
 /** Local calendar date as YYYY-MM-DD (toISOString would shift it by the UTC offset). */
 export const ymd = (d: Date): string =>
   `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+
+export type Watched = {
+  id: number;
+  title: string;
+  agency: string | null;
+  status: string | null;
+  close_date: string | null;
+  days_left: number | null;
+  amount_max: number | null;
+  added_at: string;
+};

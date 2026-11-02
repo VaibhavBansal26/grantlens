@@ -11,7 +11,7 @@ export default function DeadlinesPage() {
   const { user } = useAuth();
   const now = new Date();
   const [cursor, setCursor] = useState(new Date(now.getFullYear(), now.getMonth(), 1));
-  const [scope, setScope] = useState<"all" | "saved">("all");
+  const [scope, setScope] = useState<"all" | "saved" | "watchlist">("all");
   const [agency, setAgency] = useState("");
   const [facets, setFacets] = useState<Facets | null>(null);
   const [items, setItems] = useState<Deadline[] | null>(null);
@@ -26,7 +26,7 @@ export default function DeadlinesPage() {
 
   const query = useMemo(() => {
     const u = new URLSearchParams({ start: ymd(start), end: ymd(end) });
-    if (scope === "saved") u.set("scope", "saved");
+    if (scope !== "all") u.set("scope", scope);
     if (agency && scope === "all") u.set("agency", agency);
     return u.toString();
   }, [cursor, scope, agency]);
@@ -59,8 +59,9 @@ export default function DeadlinesPage() {
       <h1>Deadlines</h1>
       <div className="filters">
         <label>Show
-          <select value={scope} onChange={(e) => setScope(e.target.value as "all" | "saved")}>
+          <select value={scope} onChange={(e) => setScope(e.target.value as "all" | "saved" | "watchlist")}>
             <option value="all">All open grants</option>
+            <option value="watchlist" disabled={!user}>{user ? "My watchlist" : "My watchlist (sign in)"}</option>
             <option value="saved" disabled={!user}>{user ? "Matches from my saved searches" : "My saved searches (sign in)"}</option>
           </select>
         </label>

@@ -10,6 +10,7 @@ export default function Nav() {
       <Link href="/deadlines">Deadlines</Link>
       {ready && user && (
         <>
+          <Link href="/watchlist">Watchlist</Link>
           <Link href="/saved">Saved searches</Link>
           <span className="muted">{user.email}</span>
           <button className="link" onClick={signOut}>Sign out</button>
