@@ -38,3 +38,24 @@ def register(app: Flask) -> None:
         from .quality import report
 
         click.echo("\n".join(report()))
+
+    @app.cli.command("embed")
+    @click.option("--batch", type=int, default=64)
+    def embed(batch: int) -> None:
+        """Embed opportunities that have no embedding yet."""
+        from .extensions import db
+        from .models import Opportunity
+        from .retrieval.embedder import embed_documents
+        from .retrieval.text import doc_text
+
+        done = 0
+        while True:
+            rows = Opportunity.query.filter(Opportunity.embedding.is_(None)).limit(batch).all()
+            if not rows:
+                break
+            vecs = embed_documents([doc_text(r.title, r.abstract) for r in rows])
+            for row, vec in zip(rows, vecs, strict=True):
+                row.embedding = vec
+            db.session.commit()
+            done += len(rows)
+            click.echo(f"embedded {done}")

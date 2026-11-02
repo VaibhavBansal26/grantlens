@@ -1,8 +1,11 @@
 from datetime import UTC, datetime
 
+from pgvector.sqlalchemy import Vector
 from sqlalchemy import JSON, UniqueConstraint
 
 from .extensions import db
+
+EMBED_DIM = 384  # BAAI/bge-small-en-v1.5
 
 
 def _now() -> datetime:
@@ -30,12 +33,10 @@ class Opportunity(db.Model):
     status = db.Column(db.String(32), index=True)
     url = db.Column(db.Text)
     raw_json = db.Column(JSON)
+    embedding = db.Column(Vector(EMBED_DIM).with_variant(JSON(), "sqlite"))
     content_hash = db.Column(db.String(64), nullable=False)
     first_seen_at = db.Column(db.DateTime(timezone=True), default=_now)
     updated_at = db.Column(db.DateTime(timezone=True), default=_now, onupdate=_now)
-
-
-
 
 
 class Award(db.Model):
