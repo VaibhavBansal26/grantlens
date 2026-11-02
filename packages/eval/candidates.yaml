@@ -1,0 +1,3691 @@
+queries:
+- id: q001
+  text: early-career funding for AI in cancer imaging
+  candidates:
+  - id: '230200'
+    grade: null
+    title: Revision Applications to R01 Awards for Research on Imaging and Biomarkers for Early Cancer Detection (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-12-11'
+  - id: '96353'
+    grade: null
+    title: Early Phase Clinical Trials in Imaging and Image-Guided Interventions (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-02-19'
+  - id: '359724'
+    grade: null
+    title: Forecast to Publish a Notice of Funding Opportunity for Small Business Transition Grant For Early Career Scien
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '58932'
+    grade: null
+    title: Biophotonics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '357912'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for Academic Career Excellence (ACE) Award (K32
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+  - id: '357907'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for Academic Career Excellence (ACE) Award (K32
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+  - id: '357075'
+    grade: null
+    title: National Cancer Institute's Investigator-Initiated Early Phase Clinical Trials for Cancer Treatment and Diagno
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-07'
+  - id: '46745'
+    grade: null
+    title: In vivo Cellular and Molecular Imaging Centers (ICMICs) (P50)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-08-24'
+  - id: '45818'
+    grade: null
+    title: Biophotonics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '361275'
+    grade: null
+    title: 'Pancreatic Cancer Detection Consortium: Research Units (U01 Clinical Trial Optional)'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-11-05'
+  - id: '44540'
+    grade: null
+    title: 'Quick-Trials for Imaging and Image-Guided Interventions: Exploratory Grants (R21)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-04-11'
+  - id: '106293'
+    grade: null
+    title: Office of Science Early Career Research Program
+    agency: Chicago Service Center
+    status: archived
+    closes: '2011-11-29'
+  - id: '357908'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for NCI Continuing Umbrella of Research Experie
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+  - id: '357909'
+    grade: null
+    title: Notice of Intent to Publish Funding Opportunity Announcement for NCI Continuing Umbrella of Research Experienc
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+  - id: '98375'
+    grade: null
+    title: Biophotonics
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-09-15'
+  - id: '363169'
+    grade: null
+    title: Early-Stage Innovative Technology Development for Basic and Clinical Cancer Research (R61 Clinical Trial Not A
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '360634'
+    grade: null
+    title: Bioengineering Research, Innovation and Technology Education (BRITE) Program (R25 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '355297'
+    grade: null
+    title: National Cancer Institute Youth Enjoy Science Research Education Program (R25 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: closed
+    closes: '2026-09-28'
+  - id: '135573'
+    grade: null
+    title: Cancer Prevention, Control, Behavioral Sciences, and Population Sciences Career Development Award (K07)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-11-14'
+  - id: '101615'
+    grade: null
+    title: Enhancing Cancer Registries for Early Case Capture of Pediatric and Young Adult Cancer Cases
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-07-29'
+- id: q002
+  text: machine learning for medical image segmentation
+  candidates:
+  - id: '228774'
+    grade: null
+    title: Probabilistic Programming for Advancing Machine Learning (PPAML)
+    agency: DARPA - Information Innovation Office
+    status: archived
+    closes: '2013-05-16'
+  - id: '361275'
+    grade: null
+    title: 'Pancreatic Cancer Detection Consortium: Research Units (U01 Clinical Trial Optional)'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-11-05'
+  - id: '364192'
+    grade: null
+    title: Cooperative Agreement for affiliated Partner with the Great Lakes Northern Forrest Cooperative Ecosystem Studi
+    agency: Geological Survey
+    status: posted
+    closes: '2026-12-02'
+  - id: '361348'
+    grade: null
+    title: Improving Chronic Conditions Through Inexpensive Interventions
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '53951'
+    grade: null
+    title: Active Transfer Learning (ATL)
+    agency: Office of Naval Research
+    status: archived
+    closes: '2010-09-04'
+  - id: '98953'
+    grade: null
+    title: Pre-Doctoral Training in Primary Care
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-07-11'
+  - id: '85576'
+    grade: null
+    title: Basic Research in Calcific Aortic Valve Disease (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-10-11'
+  - id: '46494'
+    grade: null
+    title: Preservation and Access Research and Development Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2009-07-30'
+  - id: '51987'
+    grade: null
+    title: '&quot;Strengthening Graduate and Undergraduate Education and Training for Laboratory Scientists in the Republi'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-04-20'
+  - id: '58850'
+    grade: null
+    title: Indo-US Collaborative Program on Low-Cost Medical Devices (R03)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-24'
+  - id: '351059'
+    grade: null
+    title: Integrating Machine Learning with Computational Fluid Dynamics Models of Orally Inhaled Drug Products (U01) Cl
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+  - id: '272810'
+    grade: null
+    title: Advance Interoperable Health Information Technology Services to Support Health Information Exchange
+    agency: Office of the National Coordinator
+    status: archived
+    closes: '2015-04-06'
+  - id: '53197'
+    grade: null
+    title: Mind's Eye
+    agency: DARPA - Transformational Convergence Technology
+    status: archived
+    closes: '2010-05-10'
+  - id: '228890'
+    grade: null
+    title: Medical Professionals Recruitment and Continuing Education Programs
+    agency: Indian Health Service
+    status: archived
+    closes: '2013-04-30'
+  - id: '176313'
+    grade: null
+    title: 'Decreasing Patient Radiation Dose from CT Imaging:  Achieving Sub-mSv Studies (U01)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-09-11'
+  - id: '320753'
+    grade: null
+    title: Science of Learning and Augmented Intelligence (SL)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-02-10'
+  - id: '48451'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit, Rocky Mountain CESU
+    agency: Geological Survey
+    status: archived
+    closes: '2009-07-24'
+  - id: '173713'
+    grade: null
+    title: 'Information Technology Professionals in Health Care: Community College Consortia to Educate Health Information'
+    agency: Office of the National Coordinator
+    status: closed
+    closes: '2012-06-29'
+  - id: '361008'
+    grade: null
+    title: Collaboratory to Advance Mathematics Education and Learning (CAMEL) for K-12
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2076-10-05'
+  - id: '169778'
+    grade: null
+    title: Affordable Care Act - Grants for School-Based Health Center Capital (SBHCC) Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-06-26'
+- id: q003
+  text: postdoctoral fellowship in computational neuroscience
+  candidates:
+  - id: '53084'
+    grade: null
+    title: NSF Fellowships for Transformative Computational Science using CyberInfrastructure
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-13'
+  - id: '89634'
+    grade: null
+    title: Mathematical Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-19'
+  - id: '188913'
+    grade: null
+    title: Mathematical Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-10-17'
+  - id: '349280'
+    grade: null
+    title: Mathematical Sciences Postdoctoral Research Fellowships (MSPRF)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-10-20'
+  - id: '165473'
+    grade: null
+    title: Resident Postdoctoral Fellowship Program in Microbiology
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-18'
+  - id: '188454'
+    grade: null
+    title: SBE Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '68093'
+    grade: null
+    title: International Neuroscience Fellowship (F05)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-08-16'
+  - id: '70134'
+    grade: null
+    title: Ruth L. Kirschstein National Research Service Awards (NRSA) for Individual Postdoctoral Fellows (Parent F32)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-03-07'
+  - id: '332894'
+    grade: null
+    title: LPS Qubit Collaboratory (LQC)
+    agency: Dept of the Army -- Materiel Command
+    status: posted
+    closes: '2027-04-30'
+  - id: '48516'
+    grade: null
+    title: SBE Minority Postdoctoral Research Fellowships and Follow-up Research Starter Grants
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-17'
+  - id: '358830'
+    grade: null
+    title: Ruth L. Kirschstein National Research Service Award (NRSA) Individual Postdoctoral Fellowship (Parent F32)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2028-05-07'
+  - id: '45648'
+    grade: null
+    title: EAR Postdoctoral Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-07-01'
+  - id: '121593'
+    grade: null
+    title: Ocean Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-13'
+  - id: '204255'
+    grade: null
+    title: Ocean Sciences Postdoctoral Research Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '53715'
+    grade: null
+    title: International Neuroscience Fellowship (F05)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-01-07'
+  - id: '45723'
+    grade: null
+    title: NSF Astronomy and Astrophysics Postdoctoral Fellowships
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '107093'
+    grade: null
+    title: NSF Astronomy and Astrophysics Postdoctoral Fellowships
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-12'
+  - id: '343980'
+    grade: null
+    title: SBE Postdoctoral Research Fellowships (SPRF)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-04'
+  - id: '342747'
+    grade: null
+    title: NSF Astronomy and Astrophysics Postdoctoral Fellowships (AAPF)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-10-15'
+  - id: '164053'
+    grade: null
+    title: NINDS Advanced Postdoctoral Career Transition Award to Promote Diversity in Neuroscience Research (K22)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-08-25'
+- id: q004
+  text: grants for Alzheimer's disease biomarker discovery
+  candidates:
+  - id: '41635'
+    grade: null
+    title: Alzheimer's Disease and Related Disorders
+    agency: Administration on Aging
+    status: archived
+    closes: '2008-06-19'
+  - id: '357529'
+    grade: null
+    title: Alzheimer's Drug-Development Program (U01 Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-11-05'
+  - id: '47198'
+    grade: null
+    title: Alzheimer's Disease Innovation
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-06'
+  - id: '125133'
+    grade: null
+    title: Research Using Biosamples From Selected Type 1 Diabetes Clinical Studies (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-06-07'
+  - id: '53038'
+    grade: null
+    title: Grants for Alzheimers Disease Drug Discovery (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-05-07'
+  - id: '47200'
+    grade: null
+    title: Alzheimer's Disease Evidence Based
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-06'
+  - id: '96613'
+    grade: null
+    title: 'Predictive Biodosimetry: Discovery and Development of Biomarkers for Acute and  Delayed Radiation Injuries (R0'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-02'
+  - id: '357710'
+    grade: null
+    title: Institutional Training Programs to Advance Translational Research on Alzheimer's Disease (AD) and AD-Related D
+    agency: National Institutes of Health
+    status: archived
+    closes: '2026-09-25'
+  - id: '359851'
+    grade: null
+    title: Biomarkers of Cognitive Decline and Dementias of Aging in Individuals within the Autism Spectrum
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '361411'
+    grade: null
+    title: 'Expanding the Therapeutic Pipeline for Treating and Preventing Alzheimer''s Disease and Related Dementias: Prec'
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '124893'
+    grade: null
+    title: Research Using Subjects From The Type 1 Diabetes TrialNet Natural History Study (Living Biobank) (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-06-07'
+  - id: '44758'
+    grade: null
+    title: Chronic Kidney Disease Biomarker Discovery and Validation Consortium (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-04-01'
+  - id: '130973'
+    grade: null
+    title: Alzheimer's Disease Drug Development Program (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-01-07'
+  - id: '64834'
+    grade: null
+    title: Alzheimer's Disease Pilot Clinical Trials (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-01-07'
+  - id: '205093'
+    grade: null
+    title: Research Using Biosamples from Selected Type 1 Diabetes Clinical Studies (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-04-02'
+  - id: '204055'
+    grade: null
+    title: Alzheimer's Disease Phase I Clinical Trials (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-14'
+  - id: '359169'
+    grade: null
+    title: 'Cellular Senescence Network (SenNet): Discovery, Validation Centers (UM1 Clinical Trials Not Allowed)'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2026-11-23'
+  - id: '81533'
+    grade: null
+    title: National Institute on Aging Request for Applications for an Alzheimer's Disease Genetics Data Warehouse (U24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-07'
+  - id: '59853'
+    grade: null
+    title: Limited Competition for the Renewal of the National Cell Repository for Alzheimer's Disease (NCRAD) (U24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-02-25'
+  - id: '58168'
+    grade: null
+    title: Clinical and Data Coordinating Center(s) for Parkinsons Disease Biomarkers Identification Network (PD-BIN) (U0
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-01-18'
+- id: q005
+  text: mental health services for rural and underserved communities
+  candidates:
+  - id: '363687'
+    grade: null
+    title: Rural Communities Opioid Response Program - Child and Adolescent Behavioral Health
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '129754'
+    grade: null
+    title: Community Nutrition and Health Care Project
+    agency: Guatemala USAID-Guatemala City
+    status: closed
+    closes: '2012-01-04'
+  - id: '146394'
+    grade: null
+    title: Telehealth Network Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-04-13'
+  - id: '63114'
+    grade: null
+    title: Affordable Care Act - Health Center Planning Grants
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-03-18'
+  - id: '363533'
+    grade: null
+    title: Healthy Tomorrows Partnership for Children Program (HTPCP)
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '54304'
+    grade: null
+    title: Telehealth Network Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-06-14'
+  - id: '189333'
+    grade: null
+    title: Affordable Care Act - Teaching Health Center Graduate Medical Education (THCGME) Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-09-28'
+  - id: '130613'
+    grade: null
+    title: Area Health Education Centers
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-02-15'
+  - id: '167793'
+    grade: null
+    title: Integrated Social Marketing
+    agency: Madagascar USAID-Antananarivo
+    status: archived
+    closes: '2012-06-08'
+  - id: '67893'
+    grade: null
+    title: 'Part C: CAPACITY DEVELOPMENT'
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-03-18'
+  - id: '51307'
+    grade: null
+    title: 'Part C: CAPACITY DEVELOPMENT'
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-03-05'
+  - id: '363581'
+    grade: null
+    title: Rural Health Network Development Planning Program
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '54038'
+    grade: null
+    title: Area Health Education Centers Point of Service Maintenance and Enhancement Awards
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-05-26'
+  - id: '363812'
+    grade: null
+    title: Children's Mental Health Initiative
+    agency: Substance Abuse and Mental Health Services Adminis
+    status: forecasted
+    closes: null
+  - id: '363601'
+    grade: null
+    title: Rural Communities Opioid Response Program - Community Systems Development
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '54045'
+    grade: null
+    title: Area Health Education Centers (AHEC) Infrastructure Development Awards
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-05-26'
+  - id: '68974'
+    grade: null
+    title: Community Health (CH) Program Component
+    agency: Senegal USAID-Dakar
+    status: archived
+    closes: '2011-04-05'
+  - id: '89393'
+    grade: null
+    title: Area Health Education Centers Point of Service Maintenance and Enhancement
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-06-10'
+  - id: '54636'
+    grade: null
+    title: Innovative Strategies for Serving Children and Youth with Epilepsy (Project Access)
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-06-21'
+  - id: '358145'
+    grade: null
+    title: Rural Communities Opioid Response Program &ndash; Northern Border Rural Workforce
+    agency: Health Resources and Services Administration
+    status: closed
+    closes: '2025-04-11'
+- id: q006
+  text: opioid use disorder treatment and recovery research
+  candidates:
+  - id: '363807'
+    grade: null
+    title: Residential Treatment for Pregnant and Postpartum Women
+    agency: Substance Abuse and Mental Health Services Adminis
+    status: forecasted
+    closes: null
+  - id: '360048'
+    grade: null
+    title: 'HEAL Initiative: Integrative Management of Chronic Pain and OUD for Whole Recovery (IMPOWR): Research Centers '
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-26'
+  - id: '360366'
+    grade: null
+    title: 'HEAL Initiative: Integrative Management of chronic Pain and OUD for Whole Recovery (IMPOWR) - Building Engagem'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-26'
+  - id: '52007'
+    grade: null
+    title: Recovery-Act-BLM-CO-Dolores River Tamarisk Treatment
+    agency: Department of the Interior
+    status: archived
+    closes: '2010-03-15'
+  - id: '52039'
+    grade: null
+    title: Recovery-Act-BLM-CO Invasive Weeds Treatment in Colorado
+    agency: Department of the Interior
+    status: archived
+    closes: '2010-03-15'
+  - id: '52004'
+    grade: null
+    title: Recovery-Act-BLM-CO Invasive Weeds Treatment
+    agency: Department of the Interior
+    status: archived
+    closes: '2010-03-15'
+  - id: '361204'
+    grade: null
+    title: Pilot and Feasibility Studies in Preparation for Substance Use and HIV Prevention Intervention and Services Re
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-07-16'
+  - id: '363601'
+    grade: null
+    title: Rural Communities Opioid Response Program - Community Systems Development
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '52003'
+    grade: null
+    title: Recovery-Act-BLM-CO INVASIVE WEEDS TREATMENT
+    agency: Department of the Interior
+    status: archived
+    closes: '2010-03-15'
+  - id: '52854'
+    grade: null
+    title: 'Alcohol Use Disorders: Treatment, Services Research, and Recovery (R01)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-03-29'
+  - id: '52855'
+    grade: null
+    title: 'Alcohol Use Disorders: Treatment, Services Research, and Recovery (R21)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-03-29'
+  - id: '52011'
+    grade: null
+    title: Recovery-Act-BLM-CO Dolores River Tamarisk Treatment
+    agency: Department of the Interior
+    status: archived
+    closes: '2010-03-15'
+  - id: '364043'
+    grade: null
+    title: BJA FY 2026 Residential Substance Abuse Treatment for State Prisoners &ndash; Formula Grants Program
+    agency: Bureau of Justice Assistance
+    status: posted
+    closes: '2026-11-20'
+  - id: '52856'
+    grade: null
+    title: 'Alcohol Use Disorders:  Treatment, Services Research, and Recovery (R03)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-03-29'
+  - id: '362672'
+    grade: null
+    title: 'HEAL Initiative: Translating Addiction Epidemiology, Prevention, Treatment, and Recovery Research into Practic'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-02-09'
+  - id: '364057'
+    grade: null
+    title: OJJDP FY 2026 Opioid Affected Youth Initiative
+    agency: 'Office of Juvenile Justice Delinquency Prevention '
+    status: posted
+    closes: '2026-11-16'
+  - id: '46220'
+    grade: null
+    title: 'Recovery Act Limited Competition:  Research to Address the Heterogeneity in Autism Spectrum Disorders (Collabo'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-05-12'
+  - id: '46218'
+    grade: null
+    title: 'Recovery Act Limited Competition: Research to Address the Heterogeneity in Autism Spectrum Disorders (R21)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-05-12'
+  - id: '363810'
+    grade: null
+    title: Building Communities of Recovery
+    agency: Substance Abuse and Mental Health Services Adminis
+    status: forecasted
+    closes: null
+  - id: '46219'
+    grade: null
+    title: 'Recovery Act Limited Competition: Research to Address the Heterogeneity in Autism Spectrum Disorders (R34 and '
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-05-12'
+- id: q007
+  text: health disparities and health equity community interventions
+  candidates:
+  - id: '357942'
+    grade: null
+    title: Advancing Vision Health Equity through Multi-level Interventions and Community-Engaged Research (R01 - Clinica
+    agency: National Institutes of Health
+    status: archived
+    closes: '2025-03-13'
+  - id: '166673'
+    grade: null
+    title: 'NIMHD Community-Based Participatory Research (CBPR) Initiative in Reducing and Eliminating Health Disparities:'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-06-27'
+  - id: '191153'
+    grade: null
+    title: 'Limited Competition:  NIMHD Community-Based Participatory Research (CBPR) Initiative in Reducing and Eliminati'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-10-10'
+  - id: '47335'
+    grade: null
+    title: 'Recovery Act Limited Competition: NCMHD Community Participation in Health Disparities Intervention Research Pl'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-06-30'
+  - id: '357666'
+    grade: null
+    title: Transformative Research to Address Health Disparities and Advance Health Equity (U01 Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2025-02-28'
+  - id: '178673'
+    grade: null
+    title: 'PPHF 2012: REACH: Racial and Ethnic Approaches to Community Health financed solely by 2012 Prevention and Publ'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-08-07'
+  - id: '357713'
+    grade: null
+    title: Risk and Protective Factors of Family Health and Family Level Interventions (R01 Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-03-06'
+  - id: '52761'
+    grade: null
+    title: National Program to Eliminate Diabetes-Related Disparities in Vulnerable Populations
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-12'
+  - id: '178674'
+    grade: null
+    title: 'PPHF 2012: REACH: Racial and Ethnic Approaches to Community Health: Obesity and Hypertension Demonstration Pro'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-08-07'
+  - id: '359138'
+    grade: null
+    title: Forecast to Publish a Notice of Funding Opportunity Announcement for Addressing Determinants of Health Dispari
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '51141'
+    grade: null
+    title: NCMHD Innovative Faith-Based Approaches to Health Disparities Research (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2010-03-17'
+  - id: '179853'
+    grade: null
+    title: FY12 National Umbrella Cooperative Agreement Program II (NUCA II Program)
+    agency: Office of the Assistant Secretary for Health
+    status: archived
+    closes: '2012-07-26'
+  - id: '357904'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for Advancing Vision Health Equity through Mult
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+  - id: '356690'
+    grade: null
+    title: Interventions to expand cancer screening and preventive services to ADVANCE health in populations that experie
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-07'
+  - id: '47774'
+    grade: null
+    title: National Organizations that Serve Minority Communities Initiative to Share Racial and Ethnic Approaches to Eli
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-07-16'
+  - id: '356543'
+    grade: null
+    title: Notice of Intent to Publish a Funding Opportunity Announcement for Advancing Health Equity through Interventio
+    agency: National Institutes of Health
+    status: archived
+    closes: null
+  - id: '133533'
+    grade: null
+    title: 'Limited Competition: Comprehensive Partnerships to Advance Cancer Health Equity (CPACHE) (U54)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-01-28'
+  - id: '48755'
+    grade: null
+    title: 'Limited Competition: Addressing Health Disparities in Maternal and Child Health through  Community-Based Parti'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-30'
+  - id: '357434'
+    grade: null
+    title: Effectiveness Trials to Test Mental Health System Interventions (R61/R33 Clinical Trial Required)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-10-15'
+  - id: '357572'
+    grade: null
+    title: Interventions to Reduce Sleep Health Disparities (R01 - Clinical Trials Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-09-07'
+- id: q008
+  text: maternal and infant health outcomes
+  candidates:
+  - id: '134254'
+    grade: null
+    title: 'Maternal Nutrition and Pre-pregnancy Obesity: Effects on Mothers, Infants and Children (R01)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-01-07'
+  - id: '363412'
+    grade: null
+    title: Maternal and Child Health Encounters Networks (MCHEK)
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '53145'
+    grade: null
+    title: 'Maternal Child Health Epidemiology: National and State Coalition Capacity Building to Improve Outcomes'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-18'
+  - id: '363222'
+    grade: null
+    title: 'Tribal Maternal, Infant, and Early Childhood Home Visiting Program: Development and Implementation Grants'
+    agency: Administration for Children and Families
+    status: forecasted
+    closes: null
+  - id: '55469'
+    grade: null
+    title: Affordable Care Act (ACA) Tribal Maternal, Infant, and Early Childhood Home Visiting Grant Program
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2010-07-28'
+  - id: '363713'
+    grade: null
+    title: Innovative Research to Improve Native Hawaiian and Pacific Islander (NHPI) Health Outcomes (R34 - Clinical Tri
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '48755'
+    grade: null
+    title: 'Limited Competition: Addressing Health Disparities in Maternal and Child Health through  Community-Based Parti'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-30'
+  - id: '363313'
+    grade: null
+    title: Maternal-Child Surveillance and Partnerships for Action, Results, and Knowledge
+    agency: Centers for Disease Control - NCBDDD
+    status: forecasted
+    closes: null
+  - id: '237188'
+    grade: null
+    title: Providing Support for the Collaborative Improvement and Innovation Network (CoIIN) to Reduce Infant M
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2013-08-05'
+  - id: '355732'
+    grade: null
+    title: Tribal Maternal, Infant, and Early Childhood Home Visiting Program Grants
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2025-04-04'
+  - id: '52808'
+    grade: null
+    title: Reproductive Health
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-13'
+  - id: '363516'
+    grade: null
+    title: Maternal, Infant, and Early Childhood Home Visiting Program (MIECHV)
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '142113'
+    grade: null
+    title: Biomedical and Behavioral Research Innovations to Ensure Equity (BRITE) in Maternal and Child Health (R15)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-01'
+  - id: '363532'
+    grade: null
+    title: Alliance for Innovation on Maternal Health (AIM) Technical Assistance Center
+    agency: Health Resources and Services Administration
+    status: forecasted
+    closes: null
+  - id: '58124'
+    grade: null
+    title: SUID/SIDS Prevention and Bereavement Support Resource Centers
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-10-25'
+  - id: '100594'
+    grade: null
+    title: Affordable Care Act (ACA) Maternal, Infant and Early Childhood Home Visiting Formula Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-07-21'
+  - id: '137213'
+    grade: null
+    title: Affordable Care Act - Maternal, Infant, and Early Childhood Home Visiting Research Network
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-03-05'
+  - id: '237473'
+    grade: null
+    title: Affordable Care Act &#150; Maternal, Infant and Early Childhood Home Visiting Formula Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2013-08-09'
+  - id: '358967'
+    grade: null
+    title: Environmental influences on Child Health Outcomes (ECHO) Cohort Data and Biospecimen Access (X01 Clinical Tria
+    agency: National Institutes of Health
+    status: posted
+    closes: '2028-03-01'
+  - id: '54179'
+    grade: null
+    title: Increase Awareness of Alveolar Capillary Dysplasia (ACD) Among Health Care Providers
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-06-14'
+- id: q009
+  text: cardiovascular disease prevention in minority populations
+  candidates:
+  - id: '236462'
+    grade: null
+    title: PPHF 2013 Prevention Research Centers Health Promotion and Disease Prevention Research Centers financed in par
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2013-07-15'
+  - id: '51905'
+    grade: null
+    title: 'Health Promotion and Disease Prevention Research Centers: Special Interest Project Competitive Supplements (SI'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-04-20'
+  - id: '200254'
+    grade: null
+    title: HIV/AIDS, Drug Use, and Vulnerable Populations in the US (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2016-01-07'
+  - id: '200273'
+    grade: null
+    title: HIV/AIDS, Drug Use, and Vulnerable Populations in the US (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2016-01-07'
+  - id: '132493'
+    grade: null
+    title: Prevention and Treatment of Obesity, Diabetes, and Chronic Kidney Disease in Military Populations (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-10-15'
+  - id: '162773'
+    grade: null
+    title: Continuing the Expansion of the Overseas Health Assessment and Management of U.S.-Bound Refugees
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-08'
+  - id: '53418'
+    grade: null
+    title: State-Based Oral Disease Prevention Program
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-06-01'
+  - id: '52162'
+    grade: null
+    title: Prevention Research Centers Comparative Effectiveness Research Program U48
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-03-25'
+  - id: '80233'
+    grade: null
+    title: Improving Surveillance for Diseases of Public Health Significance for U.S.-Bound Refugees and Other Mobile Pop
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-05-17'
+  - id: '67294'
+    grade: null
+    title: Healthy Homes and Lead Poisoning Prevention Program
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-03-18'
+  - id: '51502'
+    grade: null
+    title: Research on Alcohol and HIV/AIDS (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-07'
+  - id: '48681'
+    grade: null
+    title: HIV/AIDS, Drug Use, and Vulnerable Populations in the US (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-07'
+  - id: '48680'
+    grade: null
+    title: HIV/AIDS, Drug Use, and Vulnerable Populations in the US (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-07'
+  - id: '131095'
+    grade: null
+    title: Management of HIV-Related Lung Disease and Cardiovascular Co-Morbidity (R34)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-03-15'
+  - id: '363713'
+    grade: null
+    title: Innovative Research to Improve Native Hawaiian and Pacific Islander (NHPI) Health Outcomes (R34 - Clinical Tri
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '47774'
+    grade: null
+    title: National Organizations that Serve Minority Communities Initiative to Share Racial and Ethnic Approaches to Eli
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-07-16'
+  - id: '358870'
+    grade: null
+    title: Forecast to Renew the Notice of Funding Opportunity Announcement for the Multiple Chronic Disease Research Cen
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '97553'
+    grade: null
+    title: FY11 Minority Youth Tobacco Elimination Project (MYTEP)
+    agency: Office of the Assistant Secretary for Health
+    status: archived
+    closes: '2011-07-01'
+  - id: '45963'
+    grade: null
+    title: Capacity Building Assistance (CBA) to Improve the Delivery and Effectiveness of Human Immunodeficiency Virus (
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-05-11'
+  - id: '54798'
+    grade: null
+    title: Instructions for Preparing a Directed Source Award Application
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-06-25'
+- id: q010
+  text: diabetes self-management digital health intervention
+  candidates:
+  - id: '129736'
+    grade: null
+    title: Improving Adherence in Pre-teens, Adolescents and Young Adults with Type 1 Diabetes (DP3)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-03-02'
+  - id: '119835'
+    grade: null
+    title: 'mHealth Tools to Promote Effective PatientProvider Communication, Adherence to Treatment  and Self Management '
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-04-21'
+  - id: '119833'
+    grade: null
+    title: 'mHealth Tools to Promote Effective PatientProvider Communication, Adherence to Treatment  and Self Management '
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-09-07'
+  - id: '119834'
+    grade: null
+    title: 'mHealth Tools to Promote Effective PatientProvider Communication, Adherence to Treatment  and Self Management '
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-04-21'
+  - id: '92834'
+    grade: null
+    title: Virtual Reality Technologies for Research and Education in Obesity and Diabetes (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-05-07'
+  - id: '92833'
+    grade: null
+    title: Virtual Reality Technologies for Research and Education in Obesity and Diabetes (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-05-07'
+  - id: '92814'
+    grade: null
+    title: Virtual Reality Technologies for Research and Education in Obesity and Diabetes (R43/R44)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-07-11'
+  - id: '92813'
+    grade: null
+    title: Virtual Reality Technologies for Research and Education in Obesity and Diabetes (R41/R42)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-07-11'
+  - id: '217073'
+    grade: null
+    title: Delta States Rural Development Network Grant Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2013-03-18'
+  - id: '131375'
+    grade: null
+    title: Behavioral Interventions to Address Multiple Chronic Health Conditions in Primary Care (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-01-07'
+  - id: '357034'
+    grade: null
+    title: Laboratories to Optimize Digital Health (R01 Clinical Trial Required)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2028-01-07'
+  - id: '59084'
+    grade: null
+    title: Chronic Illness Self-Management in Children and Adolescents (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-12-11'
+  - id: '167553'
+    grade: null
+    title: PPHF - 2012 - Empowering Older Adults and Adults with Disabilities through Chronic Disease Self-Management Edu
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-06-11'
+  - id: '196493'
+    grade: null
+    title: Examination of Survivorship Care Planning Efficacy and Impact [R21]
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-10-23'
+  - id: '196494'
+    grade: null
+    title: Examination of Survivorship Care Planning Efficacy and Impact [R01]
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-10-23'
+  - id: '230575'
+    grade: null
+    title: Planning Grants for Translating CKD Research into Improved Clinical Outcomes (R34)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-07-30'
+  - id: '185193'
+    grade: null
+    title: Public Health Nursing
+    agency: Indian Health Service
+    status: archived
+    closes: '2012-08-17'
+  - id: '57270'
+    grade: null
+    title: Planning Grants for Translating Chronic Kidney Disease (CKD) Research into Improved Clinical Outcomes (R34)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-02-28'
+  - id: '363498'
+    grade: null
+    title: Tribal Management Development
+    agency: Indian Health Service
+    status: forecasted
+    closes: null
+  - id: '358870'
+    grade: null
+    title: Forecast to Renew the Notice of Funding Opportunity Announcement for the Multiple Chronic Disease Research Cen
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+- id: q011
+  text: infectious disease surveillance and pandemic preparedness
+  candidates:
+  - id: '77853'
+    grade: null
+    title: Cooperative Agreement with the South Africa National Health Laboratory Service (NHLS)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-05-31'
+  - id: '61233'
+    grade: null
+    title: Cooperative Agreement with the Catholic Relief Services (CRS)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-03-01'
+  - id: '80613'
+    grade: null
+    title: Cooperative Agreement with the Bangkok Metropolitan Administration (BMA) in the Kingdom of Thailand
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-06-17'
+  - id: '81633'
+    grade: null
+    title: Cooperative Agreement with the Ministry of Public Health in the Kingdom of Thailand (MOPH)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-06-17'
+  - id: '52444'
+    grade: null
+    title: Cooperative Agreement with the Kenya Ministry of Public Health and Sanitation (KMOPHS)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-06-09'
+  - id: '75593'
+    grade: null
+    title: Cooperative Agreement with the Direction Nationale de l'Eau Potable et de l'Assainissement (DINEPA)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-05-16'
+  - id: '134413'
+    grade: null
+    title: Conducting Public Health Research in South Africa by the National Health Laboratory Service (NHLS)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2012-03-01'
+  - id: '65333'
+    grade: null
+    title: Conducting Public Health Research in Thailand by the Ministry of Public Health (MOPH) (U01)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2011-03-21'
+  - id: '51742'
+    grade: null
+    title: Conducting Public Health Research in Kenya (U01)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2010-04-15'
+  - id: '48370'
+    grade: null
+    title: Public Health Emergency Response (PHER)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-07-24'
+  - id: '46812'
+    grade: null
+    title: RFI Avian and Pandemic Influenza and Zoonotic Disease Program PREDICT
+    agency: Agency for International Development
+    status: closed
+    closes: '2009-04-27'
+  - id: '52509'
+    grade: null
+    title: Global Partnerships with Non &#150; Governmental Organizations (NGO&#146;s)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-05'
+  - id: '46813'
+    grade: null
+    title: RFI Avian and Pandemic Influenza and Zoonotic Disease Program RESPOND
+    agency: Agency for International Development
+    status: closed
+    closes: '2009-04-27'
+  - id: '75473'
+    grade: null
+    title: Emerging Infections Sentinel Network (EISN)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-04-18'
+  - id: '45773'
+    grade: null
+    title: Addressing Emerging Infectious Diseases and Related Public Health Threats in the People&yacute;s Republic of C
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-05-04'
+  - id: '52473'
+    grade: null
+    title: Developing a Regional Public Health Surveillance and Laboratory Network for Central America with the Secretar&
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-04'
+  - id: '116553'
+    grade: null
+    title: 'Epidemiology and Laboratory Capacity (ELC) for Infectious Diseases: Program Components'
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-08-01'
+  - id: '61333'
+    grade: null
+    title: Spectrum of Respiratory Pathogens in Acute Respiratory Tract Infection Among Children and Adults in India
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2011-03-15'
+  - id: '360199'
+    grade: null
+    title: Emerging Infections Network - Research for Preventing, Detecting, and Managing Travel-associated Infectious Di
+    agency: Centers for Disease Control and Prevention - ERA
+    status: posted
+    closes: '2026-11-05'
+  - id: '47049'
+    grade: null
+    title: Supplemental for Pandemic Flu Aggregate Reporting of Pandemic Influenza Vaccine Doses Administered
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2009-05-28'
+- id: q012
+  text: antimicrobial resistance new therapeutics
+  candidates:
+  - id: '52993'
+    grade: null
+    title: Developing Novel Diagnostic Tests to Improve Surveillance for Antimicrobial Resistant Pathogens (U01)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2010-04-19'
+  - id: '361065'
+    grade: null
+    title: Clinical Research Network on Antimicrobial Resistance (UM1 Clinical Trial Required)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2026-11-10'
+  - id: '347990'
+    grade: null
+    title: Vet-LIRN Capacity-Building Project and Equipment Grants (U18)
+    agency: Food and Drug Administration
+    status: posted
+    closes: '2028-09-04'
+  - id: '360006'
+    grade: null
+    title: NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens
+    agency: Food and Drug Administration
+    status: posted
+    closes: '2027-04-01'
+  - id: '356975'
+    grade: null
+    title: NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+  - id: '96294'
+    grade: null
+    title: Advancing Regulatory Science Through Development of Innovative Methodologies in the area of Antimicrobial Deve
+    agency: Food and Drug Administration
+    status: archived
+    closes: '2011-07-02'
+  - id: '48836'
+    grade: null
+    title: Partnerships for Development of Therapeutics and Diagnostics for Drug-Resistant Bacteria and Eukaryotic Parasi
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-09'
+  - id: '48837'
+    grade: null
+    title: Partnerships for Development of Therapeutics and Diagnostics for Drug-Resistant Bacteria and Eukaryotic Parasi
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-09'
+  - id: '63653'
+    grade: null
+    title: The Incidence and Etiology of Influenza-Associated Community Acquired Pneumonia in Hospitalized Persons Study
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2011-03-15'
+  - id: '119853'
+    grade: null
+    title: Understanding Mechanisms of Terminal Erythroid Maturation (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-02-01'
+  - id: '363448'
+    grade: null
+    title: DHQP Global NOFO
+    agency: Centers for Disease Control - NCEZID
+    status: forecasted
+    closes: null
+  - id: '175354'
+    grade: null
+    title: In Vivo Nanosensors for Therapeutics (IVN:Tx)
+    agency: 'DARPA - Microsystems Technology Office '
+    status: archived
+    closes: '2012-09-18'
+  - id: '78993'
+    grade: null
+    title: NINDS Cooperative Program in Translational Research for Resistant Epilepsy and Epileptogenesis (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-05-07'
+  - id: '163193'
+    grade: null
+    title: Clinical Trials Units for NIAID Networks (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-29'
+  - id: '44378'
+    grade: null
+    title: Strengthening Infectious-Disease Research Capacity for Public- Health Action in Guatemala and Central America
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2009-02-04'
+  - id: '52990'
+    grade: null
+    title: NINDS Cooperative Program in Translational Research for Resistant Epilepsy and Epileptogenesis (U01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-03-15'
+  - id: '361134'
+    grade: null
+    title: 'Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-02-11'
+  - id: '97014'
+    grade: null
+    title: Therapeutics for Neurotropic Biodefense Toxins and Pathogens (R21/R33)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-10-24'
+  - id: '361606'
+    grade: null
+    title: 'Single Source: Coordinating Center (CC) for the Small Cell Lung Cancer (SCLC) Consortium (U24 Clinical Trial N'
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '52989'
+    grade: null
+    title: 'NINDS Exploratory/Developmental Projects in Translational Research for Resistant Epilepsy and Epileptogenesis '
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-05-07'
+- id: q013
+  text: climate change and public health adaptation
+  candidates:
+  - id: '51960'
+    grade: null
+    title: Developing Public Health Capacity and Adaptations to Reduce Human Health Effects of Climate Change
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-04-19'
+  - id: '235954'
+    grade: null
+    title: Building Resilience Against Climate Effects (BRACE)
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2013-06-07'
+  - id: '171355'
+    grade: null
+    title: Building Resilience Against Climate Effects in State, Territorial and Tribal Health Departments
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-18'
+  - id: '297052'
+    grade: null
+    title: Inspire Cooperative Climate Change Adaptation Through Locally-Scaled Vulnerability Analyses
+    agency: National Park Service
+    status: archived
+    closes: '2017-09-11'
+  - id: '58116'
+    grade: null
+    title: Strengthen and Improve the Nation&#146;s Capacity through National, Non-profit, Professional Public Health Org
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-09-23'
+  - id: '190933'
+    grade: null
+    title: Climate Program Office for FY 2013
+    agency: Department of Commerce
+    status: archived
+    closes: '2012-11-16'
+  - id: '103313'
+    grade: null
+    title: Climate Program Office for FY 2012
+    agency: Department of Commerce
+    status: posted
+    closes: null
+  - id: '104973'
+    grade: null
+    title: PSU CESU
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2011-07-27'
+  - id: '56659'
+    grade: null
+    title: Air Quality Monitoring, Surface Water/Ground Water Monitoring, Climate Change Studies
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2010-08-30'
+  - id: '112493'
+    grade: null
+    title: SRLCC - Climate Change Resilience Model in Gunnison Basin
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2011-08-11'
+  - id: '143194'
+    grade: null
+    title: CDC-NCAR Joint Resident Postdoctoral Fellowship Training Program in Public Health &amp; Climate Science
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-04-09'
+  - id: '71393'
+    grade: null
+    title: A Cooperative Agreement to advance our understanding of and ability to anticipate changes in the Earth's envir
+    agency: Department of Commerce
+    status: archived
+    closes: '2011-04-01'
+  - id: '58206'
+    grade: null
+    title: Evaluate Changes in Spruce-Fir Forests to Identify Impacts of Exotic Insect and Climate Change
+    agency: National Park Service
+    status: archived
+    closes: '2010-09-30'
+  - id: '40790'
+    grade: null
+    title: Global Livestock Climate Change CRSP DRAFT
+    agency: Agency for International Development
+    status: closed
+    closes: '2008-03-07'
+  - id: '56668'
+    grade: null
+    title: The U.S. Fish Wildlife Service establishing Landscape Conservation Cooperatives with the California Wildlife F
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2010-08-30'
+  - id: '56718'
+    grade: null
+    title: CAKE
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2010-09-01'
+  - id: '58703'
+    grade: null
+    title: Integrated Assessment of Greenhouse Gases and Climate Impacts
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-01-07'
+  - id: '109013'
+    grade: null
+    title: Sustainable Communities Regional Planning Grant Pre-Application
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-08-25'
+  - id: '120554'
+    grade: null
+    title: Sustainable Communities Regional Planning Grant Program FULL APPLICATION
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-10-06'
+  - id: '53044'
+    grade: null
+    title: Pacific Islands Climate Change Cooperative
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2010-03-26'
+- id: q014
+  text: STEM education for undergraduate research experiences
+  candidates:
+  - id: '176573'
+    grade: null
+    title: Tribal Colleges and Universities Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '45744'
+    grade: null
+    title: Research in Disabilities Education
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '90994'
+    grade: null
+    title: Louis Stokes Alliances for Minority Participation
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-10-07'
+  - id: '89413'
+    grade: null
+    title: Tribal Colleges and Universities Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-17'
+  - id: '48875'
+    grade: null
+    title: FY 2009 NASA K-12 Cooperative Agreements Notice (CAN)
+    agency: NASA Headquarters
+    status: archived
+    closes: '2009-09-25'
+  - id: '50843'
+    grade: null
+    title: Alliances for Broadening Participation in STEM
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2010-10-08'
+  - id: '363752'
+    grade: null
+    title: 'IUSE: Innovation in Two-Year College STEM Education (ITYC)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-12-09'
+  - id: '360634'
+    grade: null
+    title: Bioengineering Research, Innovation and Technology Education (BRITE) Program (R25 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '133614'
+    grade: null
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-12'
+  - id: '47595'
+    grade: null
+    title: GLOBAL CLIMATE CHANGE EDUCATION RESEARCH  EXPERIENCES TEACHING  LEARNING
+    agency: NASA Langley Research Center
+    status: archived
+    closes: null
+  - id: '45640'
+    grade: null
+    title: Alliances for Broadening Participation in STEM
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-08-25'
+  - id: '353413'
+    grade: null
+    title: 'IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-04-13'
+  - id: '63035'
+    grade: null
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-04-06'
+  - id: '51740'
+    grade: null
+    title: GLOBAL CLIMATE CHANGE EDUCATION
+    agency: NASA Langley Research Center
+    status: archived
+    closes: null
+  - id: '52251'
+    grade: null
+    title: Transforming Undergraduate Education in Science, Technology, Engineering and Mathematics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '45612'
+    grade: null
+    title: EAR Education and Human Resources
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '45705'
+    grade: null
+    title: Interdisciplinary Training for Undergraduates in Biological and Mathematical Sciences
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '135173'
+    grade: null
+    title: Professional Research Experience Program &#150; Material Measurement Laboratory (PREP-MML)
+    agency: National Institute of Standards and Technology
+    status: archived
+    closes: null
+  - id: '344124'
+    grade: null
+    title: 'Improving Undergraduate STEM Education: Directorate for STEM Education (IUSE: EDU)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-20'
+  - id: '334326'
+    grade: null
+    title: Tribal Colleges and Universities Program (TCUP)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-11'
+- id: q015
+  text: broadening participation of women in engineering
+  candidates:
+  - id: '117397'
+    grade: null
+    title: Broadening Participation Research Initiation Grants in Engineering
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-20'
+  - id: '57102'
+    grade: null
+    title: Broadening Participation Research Initiation Grants in Engineering
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-01-24'
+  - id: '45637'
+    grade: null
+    title: Partnerships for Research and Education in Materials
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2009-03-05'
+  - id: '45739'
+    grade: null
+    title: Research on Gender in Science and Engineering FY 2009
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-03-30'
+  - id: '45845'
+    grade: null
+    title: Presidential Awards for Excellence in Science, Mathematics and Engineering Mentoring
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-04-21'
+  - id: '50819'
+    grade: null
+    title: Presidential Awards for Excellence in Science, Mathematics and Engineering Mentoring
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '50662'
+    grade: null
+    title: Research on Gender in Science and Engineering FY 2010
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-02-08'
+  - id: '50319'
+    grade: null
+    title: Broadening Participation Research Initiation Grants in Engineering
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-02-25'
+  - id: '166435'
+    grade: null
+    title: Alliances for Graduate Education and the Professoriate
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-10-30'
+  - id: '133614'
+    grade: null
+    title: Historically Black Colleges and Universities - Undergraduate Program
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-12'
+  - id: '45810'
+    grade: null
+    title: Sociology
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2076-10-15'
+  - id: '59814'
+    grade: null
+    title: Cyberinfrastructure Training, Education, Advancement, and Mentoring for Our 21st Century Workforce (CI-TEAM)
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-03-16'
+  - id: '151877'
+    grade: null
+    title: Women and Minorities in Science, Technology, Engineering and Mathematics Fields Program (WAMS)
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-04-12'
+  - id: '202114'
+    grade: null
+    title: Computing Education for the 21st Century
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '204256'
+    grade: null
+    title: Ocean Sciences Research Initiation Grants
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '117399'
+    grade: null
+    title: Ocean Sciences Research Initiation Grants
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-01-13'
+  - id: '350802'
+    grade: null
+    title: Research Experiences for Teachers (RET) in Engineering and Computer Science
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-10-13'
+  - id: '45707'
+    grade: null
+    title: Research Experiences for Teachers (RET) in Engineering
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-11-15'
+  - id: '45617'
+    grade: null
+    title: Workforce Program in the Mathematical Sciences
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '45736'
+    grade: null
+    title: 'ADVANCE:  Increasing the Participation and Advancement of Women in Academic Science and Engineering Careers'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-11-12'
+- id: q016
+  text: quantum computing algorithms and hardware research
+  candidates:
+  - id: '146413'
+    grade: null
+    title: Development of Quantum Computing Algorithms
+    agency: Dept of the Army -- Materiel Command
+    status: archived
+    closes: '2012-05-08'
+  - id: '47221'
+    grade: null
+    title: Joint Mathematics/Computer Science Institute
+    agency: Chicago Service Center
+    status: archived
+    closes: '2009-06-05'
+  - id: '237682'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '46280'
+    grade: null
+    title: Physics at the Information Frontier
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-17'
+  - id: '47015'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-06-08'
+  - id: '45721'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-08-30'
+  - id: '183036'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '102754'
+    grade: null
+    title: 'Computing and Communication Foundations (CCF): Core Programs'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2012-07-17'
+  - id: '360149'
+    grade: null
+    title: 'Computer and Information Science and Engineering (CISE): Future Computing Research (Future CoRe)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-02-04'
+  - id: '60697'
+    grade: null
+    title: Cyber-Physical Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '46282'
+    grade: null
+    title: Communications, Circuits, and Sensing-Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '126653'
+    grade: null
+    title: Communications, Circuits, and Sensing-Systems
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-10-07'
+  - id: '64353'
+    grade: null
+    title: Communications, Circuits, and Sensing-Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '45731'
+    grade: null
+    title: Cyber-Physical Systems
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '46227'
+    grade: null
+    title: Computational Mathematics
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2010-07-30'
+  - id: '54084'
+    grade: null
+    title: Development of Quantum Computing Technology
+    agency: Dept of the Army -- Materiel Command
+    status: archived
+    closes: '2010-07-12'
+  - id: '175314'
+    grade: null
+    title: Resilient Extreme-Scale Solvers (?RX-Solvers?)
+    agency: Office of Science
+    status: archived
+    closes: '2012-08-13'
+  - id: '148153'
+    grade: null
+    title: CISE-MPS Interdisciplinary Faculty Program in Quantum Information Science
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2013-12-03'
+  - id: '48760'
+    grade: null
+    title: Cultural Resource Data Sharing Project - AZSITE
+    agency: Department of the Interior
+    status: archived
+    closes: '2009-08-10'
+  - id: '86293'
+    grade: null
+    title: Terabit Networking for Extreme-Scale Science
+    agency: Chicago Service Center
+    status: archived
+    closes: '2011-05-23'
+- id: q017
+  text: cybersecurity and privacy research for critical infrastructure
+  candidates:
+  - id: '357554'
+    grade: null
+    title: Security, Privacy, and Trust in Cyberspace (NSF SaTC)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-25'
+  - id: '48725'
+    grade: null
+    title: Philadelphia Critical Infrastructure Protection Program
+    agency: Office of Procurement Operations - Grants Division
+    status: archived
+    closes: '2009-08-25'
+  - id: '358004'
+    grade: null
+    title: Cybersecurity Innovation for Cyberinfrastructure (CICI)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-20'
+  - id: '50576'
+    grade: null
+    title: Fiscal Year 2010 Intercity Passenger Rail &#150; Amtrak (IPR)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+  - id: '95577'
+    grade: null
+    title: Fiscal Year (FY) 2011 Intercity Passenger Rail (IPR) - Amtrak
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+  - id: '105474'
+    grade: null
+    title: Securing Critical Underground Infrastructure (SCUI) Pilot Program
+    agency: Office of Procurement Operations - Grants Division
+    status: archived
+    closes: '2011-10-15'
+  - id: '361333'
+    grade: null
+    title: Pathways to Enable Secure Open-Source Ecosystems (PESOSE)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-03-02'
+  - id: '50573'
+    grade: null
+    title: Fiscal Year 2010 Freight Rail Security Grant Program (FRSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+  - id: '95615'
+    grade: null
+    title: Fiscal Year (FY) 2011 Transit Security Grant Program (TSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-07-05'
+  - id: '95560'
+    grade: null
+    title: Fiscal Year (FY) 2011 Freight Rail Security Grant Program (FRSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+  - id: '135674'
+    grade: null
+    title: Training Programs for Critical HIV Research Infrastructure for Low- and Middle-Income Country Institutions (G1
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-04-25'
+  - id: '144975'
+    grade: null
+    title: Fiscal Year (FY) 2012 Intercity Passenger Rail (IPR) - Amtrak
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2012-05-04'
+  - id: '50568'
+    grade: null
+    title: Fiscal Year 2010 Intercity Bus Security Grant Program (IBSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+  - id: '144974'
+    grade: null
+    title: Fiscal Year (FY) 2012 Transit Security Grant Program (TSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2012-05-04'
+  - id: '95558'
+    grade: null
+    title: Fiscal Year (FY) 2011 Intercity Bus Security Grant Program (IBSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+  - id: '50563'
+    grade: null
+    title: Fiscal Year 2010 Port Security Grant Program (PSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2010-02-18'
+  - id: '95576'
+    grade: null
+    title: Fiscal Year (FY) 2011 Port Security Grant Program (PSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2011-06-20'
+  - id: '144976'
+    grade: null
+    title: Fiscal Year 2012 Port Security Grant Program (PSGP)
+    agency: Department of Homeland Security - FEMA
+    status: archived
+    closes: '2012-05-04'
+  - id: '359984'
+    grade: null
+    title: Food Safety Capacity and Infrastructure Building (U2F)
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+  - id: '363242'
+    grade: null
+    title: FY26 US DOT Drone Infrastructure Inspection Grants (DIIG) Program
+    agency: 69A345 Office of the Under Secretary for Policy
+    status: forecasted
+    closes: null
+- id: q018
+  text: renewable energy storage battery materials
+  candidates:
+  - id: '141940'
+    grade: null
+    title: Energy Innovation Hub - Batteries and Energy Storage
+    agency: Chicago Service Center
+    status: archived
+    closes: '2012-05-31'
+  - id: '45813'
+    grade: null
+    title: Energy for Sustainability
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '46164'
+    grade: null
+    title: Recovery Act - Electric Drive Vehicle Battery and Component Manufacturing Initiative
+    agency: National Energy Technology Laboratory
+    status: closed
+    closes: '2009-05-19'
+  - id: '124453'
+    grade: null
+    title: Sustainable Energy Pathways
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '56463'
+    grade: null
+    title: Assistance to High Energy Cost Rural Communities
+    agency: Rural Utilities Service
+    status: archived
+    closes: '2010-09-08'
+  - id: '92633'
+    grade: null
+    title: REAP - Energy Audit and Renewable Energy Development Assistance
+    agency: 'Rural Business-Cooperative Service '
+    status: archived
+    closes: '2011-06-30'
+  - id: '357934'
+    grade: null
+    title: Fiscal Year (FY) 2025 Directors' Research Initiative (DRI)
+    agency: Air Force Office of Scientific Research
+    status: archived
+    closes: '2025-04-01'
+  - id: '98374'
+    grade: null
+    title: Energy for Sustainability
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2012-02-17'
+  - id: '58881'
+    grade: null
+    title: 2011 Woody Biomass Utilization Grant
+    agency: Forest Service
+    status: archived
+    closes: '2011-03-01'
+  - id: '54455'
+    grade: null
+    title: Biomass Research and Development Initiative
+    agency: Golden Field Office
+    status: closed
+    closes: '2010-07-13'
+  - id: '45628'
+    grade: null
+    title: CHE-DMR-DMS Solar Energy Initiative
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-03-09'
+  - id: '49084'
+    grade: null
+    title: CHE-DMR-DMS Solar Energy Initiative
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '57200'
+    grade: null
+    title: CHE-DMR-DMS Solar Energy Initiative
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2011-01-25'
+  - id: '80133'
+    grade: null
+    title: Research and Development for Hydrogen Storage
+    agency: Golden Field Office
+    status: archived
+    closes: '2011-04-29'
+  - id: '48595'
+    grade: null
+    title: Recovery Act - Local Energy Assurance Planning (LEAP) Initiative
+    agency: National Energy Technology Laboratory
+    status: archived
+    closes: '2009-10-22'
+  - id: '47516'
+    grade: null
+    title: RECOVERY ACT, ARL-PHOTOVOLTAICS
+    agency: Dept of the Army -- Materiel Command
+    status: archived
+    closes: '2009-06-30'
+  - id: '173654'
+    grade: null
+    title: Energy Innovation Hub - Critical Materials
+    agency: Golden Field Office
+    status: archived
+    closes: '2012-08-30'
+  - id: '121413'
+    grade: null
+    title: High Energy Density Laboratory Plasmas
+    agency: Chicago Service Center
+    status: archived
+    closes: '2011-11-03'
+  - id: '310029'
+    grade: null
+    title: Renewable Energy Systems and Energy Efficiency Improvements Program
+    agency: 'Rural Business-Cooperative Service '
+    status: posted
+    closes: null
+  - id: '236019'
+    grade: null
+    title: 'Notice of Intent: Research and Development for Hydrogen Storage'
+    agency: Golden Field Office
+    status: archived
+    closes: null
+- id: q019
+  text: sustainable agriculture and food security
+  candidates:
+  - id: '123813'
+    grade: null
+    title: 'Agriculture and Food Research Initiative: Sustainable Bioenergy'
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-12-15'
+  - id: '53031'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Global Food Security
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-08-11'
+  - id: '53028'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Sustainable Bioenergy
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-09-15'
+  - id: '202755'
+    grade: null
+    title: 'Global Hunger and Food Security Research Strategy: Climate Resilience, Nutrition, and Policy'
+    agency: Agency for International Development
+    status: archived
+    closes: '2013-01-31'
+  - id: '63753'
+    grade: null
+    title: Federally Recognized Tribes Extension Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-03-31'
+  - id: '96595'
+    grade: null
+    title: 'Agriculture and Food Research Initiative: Food Safety'
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-10-11'
+  - id: '53033'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Food Safety
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-09-22'
+  - id: '53032'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Climate Change
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-07-16'
+  - id: '53022'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Foundational Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-08-23'
+  - id: '53035'
+    grade: null
+    title: Agriculture and Food Research Initiative &#150; Childhood Obesity Prevention
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-08-03'
+  - id: '125473'
+    grade: null
+    title: 'Agriculture and Food Research Initiative: Food Security'
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-03-14'
+  - id: '150473'
+    grade: null
+    title: Programs to Support Learning Platforms that Facilitate Learning Exchanges for Innovative Food Security Approac
+    agency: Thailand USAID-Bangkok
+    status: archived
+    closes: '2012-09-08'
+  - id: '123793'
+    grade: null
+    title: Community Food Projects Competitive Grants Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-11-17'
+  - id: '66633'
+    grade: null
+    title: Tribal Colleges Extension Service Program---2010 Special Emphasis
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2011-03-16'
+  - id: '56682'
+    grade: null
+    title: Draft Request for Applications for Title II Non-Emergency Food Aid Programs
+    agency: Agency for International Development
+    status: archived
+    closes: '2010-09-17'
+  - id: '99114'
+    grade: null
+    title: Scientific Cooperation Exchange Program
+    agency: Foreign Agricultural Service
+    status: archived
+    closes: '2011-07-08'
+  - id: '46629'
+    grade: null
+    title: Community Food Projects Competitive Grants Program
+    agency: CSREES
+    status: archived
+    closes: '2009-05-18'
+  - id: '51643'
+    grade: null
+    title: Beginning Farmers and Ranchers Development
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-04-06'
+  - id: '42964'
+    grade: null
+    title: 'Strategic Agricultural Initiative: FY09 Request for Applications'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-12-11'
+  - id: '41883'
+    grade: null
+    title: 'Strategic Agricultural Initiative Grant Program:  FY 2008 Request for Proposals'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-07-03'
+- id: q020
+  text: water quality and environmental justice
+  candidates:
+  - id: '81775'
+    grade: null
+    title: 2011 HEALTHY COMMUNITIES GRANT PROGRAM
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-05-02'
+  - id: '52442'
+    grade: null
+    title: Sacramento-San Joaquin Bay Delta Water Quality Cooperative Agreements
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2010-04-12'
+  - id: '84613'
+    grade: null
+    title: PRM NGO Projects in Thailand, Bangladesh and Malaysia
+    agency: Bureau of Population Refugees and Migration
+    status: archived
+    closes: '2011-05-06'
+  - id: '41812'
+    grade: null
+    title: San Francisco Bay Area Water Quality Improvement Fund
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-08-25'
+  - id: '44570'
+    grade: null
+    title: FY09 Bay Watershed Education and Training Program, Adult and Community Watershed Education in the Monterey Bay
+    agency: National Oceanic and Atmospheric Administration
+    status: archived
+    closes: '2009-02-27'
+  - id: '58582'
+    grade: null
+    title: San Francisco Bay Area Water Quality Improvement Fund
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-01-28'
+  - id: '41094'
+    grade: null
+    title: Sustainable Skylines Initiative
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-05-02'
+  - id: '42358'
+    grade: null
+    title: Region 7 &#150; Request for Proposals for EPA Dedicated Water Quality Program Funding
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-08-29'
+  - id: '182473'
+    grade: null
+    title: Water Quality Monitoring in Montana
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2012-08-12'
+  - id: '46053'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit (CESU), Gulf Coast CESU
+    agency: Geological Survey
+    status: archived
+    closes: '2009-03-25'
+  - id: '51469'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit
+    agency: Geological Survey
+    status: archived
+    closes: '2010-03-09'
+  - id: '58295'
+    grade: null
+    title: '&#147;US-Mexico Border Environmental Education, Outreach and Support Program&#148;'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-01-10'
+  - id: '65133'
+    grade: null
+    title: Request for Proposals for EPA Dedicated Water Quality Program  Funding
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-03-04'
+  - id: '100914'
+    grade: null
+    title: Judith Mountains Acid Drainage Characterization
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2011-07-24'
+  - id: '52587'
+    grade: null
+    title: Cooperative Ecosystem Studies Unit, Desert Southwest CESU
+    agency: Geological Survey
+    status: archived
+    closes: '2010-03-24'
+  - id: '41485'
+    grade: null
+    title: Innovative and Integrative Approaches for Advancing Public Health Protection Through Water Infrastructure Sust
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2008-07-29'
+  - id: '54037'
+    grade: null
+    title: Monitoring, Data Management, and Special Studies - South Florida Geographic Initiative, Water Quality Protecti
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2010-06-10'
+  - id: '66093'
+    grade: null
+    title: Extreme Event Impacts on Air Quality and Water Quality with a Changing Global Climate
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-04-18'
+  - id: '115073'
+    grade: null
+    title: Gulf of Mexico Regional Partnerships
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-09-30'
+  - id: '66113'
+    grade: null
+    title: 'Early Career: Extreme Event Impacts on Air Quality and Water Quality with a Changing Global Climate'
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-04-18'
+- id: q021
+  text: small business innovation research biotechnology
+  candidates:
+  - id: '49632'
+    grade: null
+    title: Annual Phase I Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) Funding Opp
+    agency: Chicago Service Center
+    status: archived
+    closes: null
+  - id: '45682'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation FY-2010
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-06-09'
+  - id: '49279'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation-2 FY-2010
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-12-03'
+  - id: '52431'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation FY-2011 (Release 1)
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '359671'
+    grade: null
+    title: NIH, CDC and FDA Small Business Innovation Research Grant (Parent SBIR [R43/R44] Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-04-05'
+  - id: '57018'
+    grade: null
+    title: Small Business Innovation Research Program Phase I Solicitation FY-2011 (Release 2)
+    agency: U.S. National Science Foundation
+    status: closed
+    closes: '2010-12-03'
+  - id: '161253'
+    grade: null
+    title: Small Business Innovation Research (SBIR) Small Business Technology Transfer (STTR) FY 2012 Phase I (Release 3
+    agency: Office of Science
+    status: archived
+    closes: '2012-07-03'
+  - id: '132093'
+    grade: null
+    title: 'Small Business Innovation Research (SBIR)/ Small Business Technology Transfer (STTR) FY 2012 Phase I (Release '
+    agency: Office of Science
+    status: archived
+    closes: '2012-01-31'
+  - id: '123733'
+    grade: null
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-28'
+  - id: '123753'
+    grade: null
+    title: Small Business Innovation Research to Develop New Methods and Technologies able to Identify Individuals at Ris
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-12-22'
+  - id: '364020'
+    grade: null
+    title: Small Business Innovation Research and Small Business Technology Transfer Programs Phase II
+    agency: National Institute of Food and Agriculture
+    status: posted
+    closes: '2026-11-17'
+  - id: '48927'
+    grade: null
+    title: RECOVERY ACT (ARRA)-Applications for Phase I SBIR/STTR Grants Annual Phase I Small Business Innovation Researc
+    agency: Chicago Service Center
+    status: archived
+    closes: '2009-09-04'
+  - id: '111573'
+    grade: null
+    title: 'T2 Translational Research on Aging:  Small Business Innovation Awards (R43/R44)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-04'
+  - id: '359758'
+    grade: null
+    title: NIH Small Business Innovation Research (SBIR) Phase IIB Strategic Breakthrough Award (Parent [R44] Clinical Tr
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-04-05'
+  - id: '45668'
+    grade: null
+    title: Supplemental Opportunity for SBIR/STTR Memberships in I/UCRCs
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: '2009-05-31'
+  - id: '359757'
+    grade: null
+    title: NIH Small Business Technology Transfer Grant (Parent STTR [R41/R42] Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-04-05'
+  - id: '127213'
+    grade: null
+    title: Air Force Defense Research and Development Rapid Innovation Fund (RIF) Program
+    agency: Air Force -- Research Lab
+    status: archived
+    closes: '2012-05-05'
+  - id: '123854'
+    grade: null
+    title: NeuroNEXT Small Business Innovation in Clinical Trials (U44)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-12-02'
+  - id: '357928'
+    grade: null
+    title: FY 2025 Phase I Release 2
+    agency: Office of Science
+    status: archived
+    closes: '2025-03-28'
+  - id: '173576'
+    grade: null
+    title: Multiplex Assay Development for Arthritis and Musculoskeletal and Skin Diseases (SBIR [R43/R44])
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-09-07'
+- id: q022
+  text: veterans health and PTSD treatment
+  candidates:
+  - id: '52981'
+    grade: null
+    title: Texas Tech University Health Science Center
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-05-17'
+  - id: '44333'
+    grade: null
+    title: FY09 Defense Health Program (DHP) HIV/AIDS Prevention, Care, and Treatment in Foreign Militaries
+    agency: Naval Supply Systems Command
+    status: archived
+    closes: '2009-09-30'
+  - id: '48806'
+    grade: null
+    title: Substance Use and Abuse among U.S. Military Personnel, Veterans and their Families (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-12-22'
+  - id: '73673'
+    grade: null
+    title: Urban Indian Health Program
+    agency: Indian Health Service
+    status: archived
+    closes: '2011-03-24'
+  - id: '52220'
+    grade: null
+    title: DEPARTMENT OF DEFENSE HIV/AIDS PREVENTION PROGRAM
+    agency: Naval Supply Systems Command
+    status: archived
+    closes: '2011-09-30'
+  - id: '41490'
+    grade: null
+    title: Urban Indian Health Programs
+    agency: Indian Health Service
+    status: archived
+    closes: '2008-05-21'
+  - id: '73513'
+    grade: null
+    title: Integrating HIV Care and Treatment within the Network of Facilities Offering TB Treatment and Providing Techni
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-04-20'
+  - id: '56864'
+    grade: null
+    title: Burley and Jarbidge Field Office Stewardship Agreement
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2010-09-07'
+  - id: '141153'
+    grade: null
+    title: Support Uganda Ministry of Health Capacity to Address HIV and Other Health Priority Conditions through Strengt
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-03-27'
+  - id: '101913'
+    grade: null
+    title: Effectiveness of Treatment for Oral Diseases in Medically Compromised Patients (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-18'
+  - id: '162033'
+    grade: null
+    title: 'Developing a Plan to Evaluate Delivery of Health Care Treatments and Services for Duchenne Muscular Dystrophy '
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-06-04'
+  - id: '167793'
+    grade: null
+    title: Integrated Social Marketing
+    agency: Madagascar USAID-Antananarivo
+    status: archived
+    closes: '2012-06-08'
+  - id: '54158'
+    grade: null
+    title: Flex Rural Veterans Health Access Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-06-04'
+  - id: '52426'
+    grade: null
+    title: Sickle Cell Treatment Demonstration Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-04-19'
+  - id: '50887'
+    grade: null
+    title: 'Cooperative Agreement Award to the Council for Scientific and Industrial Research to Assist the South African '
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2010-03-02'
+  - id: '101915'
+    grade: null
+    title: Effectiveness of Treatment for Oral Diseases in Medically Compromised Patients (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-18'
+  - id: '152893'
+    grade: null
+    title: Building the capacity of the National AIDS Control Program of the Ministry of Health to Expand Coordinated HIV
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2012-05-14'
+  - id: '364049'
+    grade: null
+    title: NIJ FY 2026 Evaluation of the Effectiveness of the Bureau of Justice Assistance (BJA) Byrne State Crisis Inter
+    agency: National Institute of Justice
+    status: posted
+    closes: '2026-11-16'
+  - id: '69353'
+    grade: null
+    title: Provision of Comprehensive HIV/AIDS Care, Treatment and Prevention Services in Faith-Based Health Facilities a
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-04-08'
+  - id: '48807'
+    grade: null
+    title: Substance Use and Abuse among U.S. Military Personnel, Veterans and their Families (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-12-22'
+- id: q023
+  text: tribal communities cultural preservation and language
+  candidates:
+  - id: '63133'
+    grade: null
+    title: Native American Language Preservation and Maintenance
+    agency: Administration for Children and Families - ANA
+    status: archived
+    closes: '2013-06-06'
+  - id: '47320'
+    grade: null
+    title: Chaco Frontier Communities Project
+    agency: Department of the Interior
+    status: archived
+    closes: '2009-05-20'
+  - id: '105653'
+    grade: null
+    title: Community Histories
+    agency: National Park Service
+    status: archived
+    closes: '2011-07-29'
+  - id: '121693'
+    grade: null
+    title: Community Histories
+    agency: National Park Service
+    status: archived
+    closes: '2011-09-24'
+  - id: '44191'
+    grade: null
+    title: Sustainability for the 7th Generation Initiative (SGI)
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2009-01-23'
+  - id: '63153'
+    grade: null
+    title: Native American Language Preservation and Maintenance - Esther Martinez Initiative
+    agency: Administration for Children and Families - ANA
+    status: archived
+    closes: '2013-06-06'
+  - id: '52450'
+    grade: null
+    title: Native American Language Preservation and Maintenance
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2010-04-09'
+  - id: '103654'
+    grade: null
+    title: NCTA Cooperative Agreement
+    agency: National Park Service
+    status: archived
+    closes: '2011-07-17'
+  - id: '355564'
+    grade: null
+    title: Native American Language Preservation and Maintenance
+    agency: Administration for Children and Families - ANA
+    status: archived
+    closes: '2025-04-14'
+  - id: '44180'
+    grade: null
+    title: Native Language Preservation and Maintenance Implementation
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2009-03-11'
+  - id: '167033'
+    grade: null
+    title: Culturally Responsive School Programs
+    agency: Fish and Wildlife Service
+    status: archived
+    closes: '2012-05-20'
+  - id: '51636'
+    grade: null
+    title: Learn and Serve America School-Based Indian Tribes and U.S. Territories FY 2010
+    agency: Corporation for National and Community Service
+    status: archived
+    closes: '2010-03-09'
+  - id: '96915'
+    grade: null
+    title: Survey for Emergency Habitat Expansion/Improvement and Unknown Archaelogical Sites
+    agency: National Park Service
+    status: archived
+    closes: '2011-06-02'
+  - id: '357186'
+    grade: null
+    title: Advancement and Innovation in Measurement of Language Development and Predictors (R01 Clinical Trial Not Allow
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-09-07'
+  - id: '357187'
+    grade: null
+    title: Advancement and Innovation in Measurement of Language Development and Predictors (R21 Clinical Trial Not Allow
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-09-07'
+  - id: '236341'
+    grade: null
+    title: National Alliance of Faith and Justice
+    agency: National Park Service
+    status: archived
+    closes: '2013-06-27'
+  - id: '184894'
+    grade: null
+    title: Northwest New Mexico Site Stewards
+    agency: Bureau of Land Management
+    status: archived
+    closes: '2012-08-17'
+  - id: '101153'
+    grade: null
+    title: 'Tribal Research Center on Early Childhood under the Affordable Care Act&amp;apos;s (ACA) Maternal, Infant and '
+    agency: Administration for Children and Families
+    status: archived
+    closes: '2011-08-01'
+  - id: '47257'
+    grade: null
+    title: OJJDP FY 09 Tribal Youth Field Initiated Research and Evaluation Program
+    agency: 'Office of Juvenile Justice Delinquency Prevention '
+    status: archived
+    closes: '2009-06-15'
+  - id: '236598'
+    grade: null
+    title: Groundwork USA Bridgeport Weir Farm
+    agency: National Park Service
+    status: closed
+    closes: '2013-07-03'
+- id: q024
+  text: arts and humanities digital scholarship
+  candidates:
+  - id: '163473'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-07-19'
+  - id: '53723'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-07-15'
+  - id: '85954'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-07-20'
+  - id: '41663'
+    grade: null
+    title: 'America''s Media Makers: Production Grants'
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-08-27'
+  - id: '46645'
+    grade: null
+    title: Humanities Collections and Reference Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2009-07-15'
+  - id: '175313'
+    grade: null
+    title: Digital Humanities Start-up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-09-25'
+  - id: '41720'
+    grade: null
+    title: America's Media Makers Development Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-08-27'
+  - id: '48471'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2009-10-06'
+  - id: '58357'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-02-23'
+  - id: '41630'
+    grade: null
+    title: Humanities Collections and Resources
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-07-31'
+  - id: '50290'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-03-23'
+  - id: '50159'
+    grade: null
+    title: Institutes for Advanced Topics in the Digital Humanities
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-02-17'
+  - id: '58613'
+    grade: null
+    title: Institutes for Advanced Topics in the Digital Humanities
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-02-16'
+  - id: '56411'
+    grade: null
+    title: Digital Humanities Start-up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2010-10-05'
+  - id: '109333'
+    grade: null
+    title: Digital Humanities Implementation Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-01-24'
+  - id: '129114'
+    grade: null
+    title: America's Historical and Cultural Organizations
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-01-11'
+  - id: '181176'
+    grade: null
+    title: NEH/DFG Bilateral Digital Humanities Program
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-09-27'
+  - id: '40102'
+    grade: null
+    title: 'Advancing Knowledge: The IMLS/NEH Digital Partnership'
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2008-03-18'
+  - id: '104994'
+    grade: null
+    title: Digital Humanities Start-Up Grants
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2011-09-27'
+  - id: '129115'
+    grade: null
+    title: America's Media Makers
+    agency: National Endowment for the Humanities
+    status: archived
+    closes: '2012-01-11'
+- id: q025
+  text: rare disease gene therapy clinical trials
+  candidates:
+  - id: '357817'
+    grade: null
+    title: 'Translational Efforts to Advance Gene-based Therapies for Ultra-Rare Neurological and Neuromuscular Disorders '
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-10-08'
+  - id: '356054'
+    grade: null
+    title: Clinical Trials Addressing Unmet Needs of Rare Neurodegenerative Diseases (R01) Clinical Trials Required
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+  - id: '359987'
+    grade: null
+    title: Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases (R01 Clinical Trials Required)
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+  - id: '359645'
+    grade: null
+    title: Clinical Trial Readiness for Rare Diseases, Disorders, and Syndromes (R21 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2028-07-20'
+  - id: '360008'
+    grade: null
+    title: Reissue of RFA-FD-23-001- Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases (R01 Cli
+    agency: Food and Drug Administration
+    status: posted
+    closes: '2028-05-16'
+  - id: '361394'
+    grade: null
+    title: NEI Collaborative Clinical Vision Research (UG1 - Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '362752'
+    grade: null
+    title: Exploratory Clinical Trial Grants in Arthritis and Musculoskeletal and Skin Diseases
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '344051'
+    grade: null
+    title: The Intersection of Sex and Gender Influences on Health and Disease (R01 Clinical Trial Optional)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2024-11-22'
+  - id: '189254'
+    grade: null
+    title: Clinical Studies of Safety and Effectiveness of Orphan Products Research Project Grant (R01)
+    agency: Food and Drug Administration
+    status: archived
+    closes: '2014-10-16'
+  - id: '357570'
+    grade: null
+    title: Preclinical Proof of Concept Studies for Rare Diseases (R21 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-07-02'
+  - id: '79993'
+    grade: null
+    title: Phase II Clinical Trials of Novel Therapies for Lung Diseases (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-09-13'
+  - id: '132073'
+    grade: null
+    title: Investigations on Primary Immunodeficiency Diseases (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2015-03-04'
+  - id: '362946'
+    grade: null
+    title: Immune Tolerance Network (UM1 Clinical Trial Required)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-29'
+  - id: '88633'
+    grade: null
+    title: Early-Phase Clinical Trials for Blood Cell Therapies (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-07'
+  - id: '57276'
+    grade: null
+    title: NEI Translational Research Program on Therapy for Visual Disorders (R24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-25'
+  - id: '123854'
+    grade: null
+    title: NeuroNEXT Small Business Innovation in Clinical Trials (U44)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-12-02'
+  - id: '359985'
+    grade: null
+    title: 'Efficient and Innovative Natural History Studies Addressing Unmet Needs in Rare Diseases (R01 Clinical Trials '
+    agency: Food and Drug Administration
+    status: forecasted
+    closes: null
+  - id: '123855'
+    grade: null
+    title: NeuroNEXT Infrastructure Resource Access (X01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2014-12-30'
+  - id: '204055'
+    grade: null
+    title: Alzheimer's Disease Phase I Clinical Trials (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-01-14'
+  - id: '88755'
+    grade: null
+    title: Regional Clinical Centers for the Cardiovascular Cell Therapy Research Network (CCTRN) (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-06-22'
+- id: q026
+  text: nursing workforce training and retention
+  candidates:
+  - id: '341995'
+    grade: null
+    title: DOL Nursing Expansion Grant Program
+    agency: Employment and Training Administration
+    status: closed
+    closes: '2023-01-20'
+  - id: '135653'
+    grade: null
+    title: Faculty Development in General, Pediatric, and Public Health Dentistry and Dental Hygiene
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-02-09'
+  - id: '59027'
+    grade: null
+    title: Nursing Workforce Diversity
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-01-14'
+  - id: '50340'
+    grade: null
+    title: Nursing Workforce Diversity
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-01-20'
+  - id: '55338'
+    grade: null
+    title: Affordable Care Act (ACA) Nursing Assistant and Home Health Aide Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-07-22'
+  - id: '52189'
+    grade: null
+    title: ARRA  - Equipment to Enhance Training for Health Professionals- Nursing Workforce Diversity
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-03-26'
+  - id: '133353'
+    grade: null
+    title: National Training Mechanism (NTM)
+    agency: Kenya USAID-Nairobi
+    status: archived
+    closes: '2012-01-30'
+  - id: '52746'
+    grade: null
+    title: Rural Health Workforce Development Program
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2010-04-30'
+  - id: '103614'
+    grade: null
+    title: Cybersecurity Education and Training Assistance Program (CETAP)
+    agency: Office of Procurement Operations - Grants Division
+    status: archived
+    closes: '2011-07-20'
+  - id: '162013'
+    grade: null
+    title: Women in Apprenticeship and Nontraditional Occupations (WANTO)
+    agency: Employment and Training Administration
+    status: archived
+    closes: '2012-05-21'
+  - id: '59076'
+    grade: null
+    title: MCH  PipelineTraining
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-01-31'
+  - id: '129674'
+    grade: null
+    title: Diabetes Research Training for Behavioral Scientists (T32)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2012-03-02'
+  - id: '144693'
+    grade: null
+    title: Comprehensive Geriatric Education Program (CGEP)
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2012-03-26'
+  - id: '144153'
+    grade: null
+    title: Southern Nevada Agency Partnership, Cultural Site Stewardship Program -- Steward Retention and Program Transfe
+    agency: National Park Service
+    status: archived
+    closes: '2012-02-17'
+  - id: '49815'
+    grade: null
+    title: Recovery Act - Workforce Training For The Electric Power Sector
+    agency: Richland
+    status: archived
+    closes: '2009-11-30'
+  - id: '355417'
+    grade: null
+    title: Occupational Safety and Health Education and Research Centers (T42)
+    agency: Centers for Disease Control and Prevention - ERA
+    status: posted
+    closes: '2028-10-26'
+  - id: '344955'
+    grade: null
+    title: MINORITY SERVING INSTITUTIONS PARTNERSHIP PROGRAM (MSIPP) COMMUNITY AND JUNIOR COLLEGE TRADE OCCUPATION PROGRA
+    agency: NNSA
+    status: archived
+    closes: '2023-02-17'
+  - id: '40270'
+    grade: null
+    title: Cooperative Research Units Training Program
+    agency: Geological Survey
+    status: archived
+    closes: '2008-01-09'
+  - id: '45617'
+    grade: null
+    title: Workforce Program in the Mathematical Sciences
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '60173'
+    grade: null
+    title: ENVIRONMENTAL WORKFORCE DEVELOPMENT AND JOB TRAINING GRANTS
+    agency: Environmental Protection Agency
+    status: archived
+    closes: '2011-03-18'
+- id: q027
+  text: artificial intelligence ethics and responsible innovation
+  candidates:
+  - id: '361604'
+    grade: null
+    title: 'National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions '
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-18'
+  - id: '350230'
+    grade: null
+    title: Research in the Formation of Engineers
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: null
+  - id: '351404'
+    grade: null
+    title: Boosting Innovative GEOINT - Science &amp; Technology  Broad Agency Announcement (BIG-ST BAA)
+    agency: 'National Geospatial-Intelligence Agency '
+    status: posted
+    closes: '2026-12-14'
+  - id: '361249'
+    grade: null
+    title: Postdoctoral Research Fellowships in Biology (PRFB)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-09-28'
+  - id: '361520'
+    grade: null
+    title: 'HEAL Initiative: Optimization of Therapeutic Medical Devices through Team Science Mechanistic Research (RM1)'
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '361238'
+    grade: null
+    title: Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-04-05'
+  - id: '358004'
+    grade: null
+    title: Cybersecurity Innovation for Cyberinfrastructure (CICI)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-01-20'
+  - id: '337347'
+    grade: null
+    title: 2022 Alumni Engagement Innovation Fund (AEIF 2022)
+    agency: U.S. Mission to North Macedonia
+    status: forecasted
+    closes: null
+  - id: '361915'
+    grade: null
+    title: Integrated Data Systems &amp; Services (IDSS)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-07-27'
+  - id: '358687'
+    grade: null
+    title: Broad Agency Announcement for Fundamental AI Research
+    agency: Army Contracting Command Rock Island
+    status: forecasted
+    closes: null
+  - id: '363268'
+    grade: null
+    title: Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-04'
+  - id: '362029'
+    grade: null
+    title: Tribal Colleges Research Grants Program
+    agency: National Institute of Food and Agriculture
+    status: posted
+    closes: '2026-12-31'
+  - id: '92713'
+    grade: null
+    title: C4ISR &amp; Information Dominance Research
+    agency: SPAWAR SYSTEMS CENTER
+    status: archived
+    closes: '2011-06-09'
+  - id: '359003'
+    grade: null
+    title: 'Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial '
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-03-05'
+  - id: '123733'
+    grade: null
+    title: Small Business Innovation Research to Develop New Therapeutics and Monitoring Technologies for Type 1 Diabetes
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-28'
+  - id: '48424'
+    grade: null
+    title: Biosensing
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '363764'
+    grade: null
+    title: 'PFE: Research Initiation in Engineering Formation (PFE: RIEF)'
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2026-11-10'
+  - id: '360910'
+    grade: null
+    title: Novel Approaches to Advance Precision Aging and Cognitive Health
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '362061'
+    grade: null
+    title: Chemical Process Systems (CPS)
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: null
+  - id: '360639'
+    grade: null
+    title: Research Council of Finland (RCF) &ndash; National Institutes of Health (NIH) Partnership Program
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+- id: q028
+  text: research infrastructure and core facilities for universities
+  candidates:
+  - id: '361426'
+    grade: null
+    title: NEI Center Core Grant for Vision Research (P30 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '48884'
+    grade: null
+    title: Population Research Infrastructure Program (PRIP) FY10 (R24)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2009-11-24'
+  - id: '363695'
+    grade: null
+    title: Small Instruments and Modern Equipment for Shared-use Biomedical Research Facilities and Resources (S15 Clinic
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '357725'
+    grade: null
+    title: 'EPSCoR Research Infrastructure Improvement Program: EPSCoR Collaborations for Optimizing Research Ecosystems ('
+    agency: U.S. National Science Foundation
+    status: posted
+    closes: '2027-07-20'
+  - id: '46168'
+    grade: null
+    title: 'Chemistry Research Instrumentation and Facilities: Departmental Multi-user Instrumentation'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '129293'
+    grade: null
+    title: Nuclear Energy University Programs - General Scientific Infrastructure Support
+    agency: Idaho Field Office
+    status: archived
+    closes: '2012-02-08'
+  - id: '42736'
+    grade: null
+    title: New Mexico State University Research for the Brackish Groundwater National Desalination Facility
+    agency: Bureau of Reclamation, Denver Office
+    status: archived
+    closes: '2008-09-16'
+  - id: '357121'
+    grade: null
+    title: Environmental Health Sciences Core Centers Program (P30 Clinical Trials Optional)
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-04-20'
+  - id: '148037'
+    grade: null
+    title: 1890 Facilities Grant Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2012-05-04'
+  - id: '362276'
+    grade: null
+    title: NCI Research Specialist Award for Core and Laboratory-based Scientists (R50 Clinical Trial Not Allowed)
+    agency: National Institutes of Health
+    status: forecasted
+    closes: null
+  - id: '52370'
+    grade: null
+    title: George Mason University Center for Infrastructure Protection
+    agency: National Institute of Standards and Technology
+    status: archived
+    closes: '2010-04-12'
+  - id: '45618'
+    grade: null
+    title: 'Chemistry Research Instrumentation and Facilities: Departmental Multi-user Instrumentation'
+    agency: U.S. National Science Foundation
+    status: archived
+    closes: null
+  - id: '51996'
+    grade: null
+    title: 1890 Facilities Grant Program
+    agency: National Institute of Food and Agriculture
+    status: archived
+    closes: '2010-04-05'
+  - id: '75373'
+    grade: null
+    title: Nuclear Energy University Programs General Scientific Infrastructure Support
+    agency: Idaho Field Office
+    status: archived
+    closes: '2011-04-06'
+  - id: '52380'
+    grade: null
+    title: North Dakota State University - Advanced Nanomaterials Research Facility
+    agency: National Institute of Standards and Technology
+    status: archived
+    closes: '2010-04-12'
+  - id: '83973'
+    grade: null
+    title: FY 2011 University Center Economic Development Program Competition
+    agency: Economic Development Administration
+    status: archived
+    closes: '2011-06-30'
+  - id: '360613'
+    grade: null
+    title: 'Limited Competition: Centers of Biomedical Research Excellence: Expansion/Sustainability Phases (COBRE-E/S) (P'
+    agency: National Institutes of Health
+    status: posted
+    closes: '2029-05-25'
+  - id: '75413'
+    grade: null
+    title: Nuclear Energy University Programs &#150; Reactor Upgrades
+    agency: Idaho Field Office
+    status: archived
+    closes: '2011-04-06'
+  - id: '80033'
+    grade: null
+    title: Core Infrastructure and Methodological Research for Cancer Epidemiology Cohorts (UM1)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-08'
+  - id: '356837'
+    grade: null
+    title: Request for Information &ndash; University Partnership Models
+    agency: Dept of the Army -- Materiel Command
+    status: forecasted
+    closes: null
+- id: q029
+  text: aging and long-term care in older adults
+  candidates:
+  - id: '103113'
+    grade: null
+    title: National Resource Center on Nutrition and Aging
+    agency: Administration on Aging
+    status: closed
+    closes: '2011-08-17'
+  - id: '41147'
+    grade: null
+    title: NEA Creativity and Aging in America
+    agency: National Endowment for the Arts
+    status: archived
+    closes: '2008-05-23'
+  - id: '51899'
+    grade: null
+    title: Research and Evaluation on the Abuse, Neglect, and Exploitation of Elderly Individuals and Residents of Reside
+    agency: National Institute of Justice
+    status: archived
+    closes: '2010-04-16'
+  - id: '203433'
+    grade: null
+    title: 'Limited Competition: Continuation of the National Institute on Aging Multicenter Clinical Trial The LIFE Study'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-04-26'
+  - id: '67494'
+    grade: null
+    title: National Long-Term Care Ombudsman Resource Center
+    agency: Administration on Aging
+    status: archived
+    closes: '2011-03-18'
+  - id: '47392'
+    grade: null
+    title: Community Innovations In Aging In Place (CIAIP)
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-15'
+  - id: '50036'
+    grade: null
+    title: 'Technical Assistance Resource Center: Promoting Appropriate Long Term Care Supports for LGBT Elders'
+    agency: Administration on Aging
+    status: archived
+    closes: '2010-01-06'
+  - id: '174333'
+    grade: null
+    title: 'Information and Planning: Understanding the Capacity of the Aging Network'
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-07-16'
+  - id: '47365'
+    grade: null
+    title: Aging Network Business Practice, Planning and Program Development
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-07-08'
+  - id: '51745'
+    grade: null
+    title: Surveillance, Natural History, Quality of Care and Outcomes of Diabetes Mellitus with Onset in Childhood and A
+    agency: Centers for Disease Control and Prevention - ERA
+    status: archived
+    closes: '2010-04-30'
+  - id: '158194'
+    grade: null
+    title: 'Environmental Exposures and Health: Exploration of Non-Traditional Settings, (R01)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2016-01-07'
+  - id: '158193'
+    grade: null
+    title: 'Environmental Exposures and Health: Exploration of Non-Traditional Settings, (R21)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2016-01-07'
+  - id: '180695'
+    grade: null
+    title: Building the Business Capacity of Aging and Disability Community-Based Networks for Managed Long-Term Services
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-08-01'
+  - id: '47106'
+    grade: null
+    title: Rural Health and Safety Education Competitive Grants Program
+    agency: CSREES
+    status: archived
+    closes: '2009-07-01'
+  - id: '47797'
+    grade: null
+    title: 'The Community Living Program:'
+    agency: Administration on Aging
+    status: archived
+    closes: '2009-08-03'
+  - id: '111573'
+    grade: null
+    title: 'T2 Translational Research on Aging:  Small Business Innovation Awards (R43/R44)'
+    agency: National Institutes of Health
+    status: archived
+    closes: '2011-11-04'
+  - id: '51665'
+    grade: null
+    title: Pension Counseling and Information Projects
+    agency: Administration on Aging
+    status: archived
+    closes: '2010-04-05'
+  - id: '51664'
+    grade: null
+    title: Pension Resource Center
+    agency: Administration on Aging
+    status: archived
+    closes: '2010-04-05'
+  - id: '160115'
+    grade: null
+    title: National Minority Aging Organizations Technical Assistance Consortium
+    agency: Administration on Aging
+    status: archived
+    closes: '2012-05-14'
+  - id: '41185'
+    grade: null
+    title: Elder Care Initiative Long-Term Care Grant Program
+    agency: Indian Health Service
+    status: archived
+    closes: '2008-06-20'
+- id: q030
+  text: housing stability and homelessness prevention
+  candidates:
+  - id: '194653'
+    grade: null
+    title: VA Supportive Services for Veteran Families Program
+    agency: VA Office of Mental Health
+    status: archived
+    closes: '2012-09-28'
+  - id: '58516'
+    grade: null
+    title: Special Needs Assistance Programs (SNAPS) Technical Assistance; Request for Qualifications
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2010-11-22'
+  - id: '95293'
+    grade: null
+    title: Housing Opportunities for Persons with AIDS
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-08-02'
+  - id: '236161'
+    grade: null
+    title: HIV/AIDS and Substance Use Among the Homeless and Unstably Housed (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-15'
+  - id: '63114'
+    grade: null
+    title: Affordable Care Act - Health Center Planning Grants
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2011-03-18'
+  - id: '147833'
+    grade: null
+    title: VA Grant and Per Diem Program Notice of Fund Availability
+    agency: Homeless Providers Grant and Per Diem Program
+    status: archived
+    closes: '2012-05-30'
+  - id: '236160'
+    grade: null
+    title: HIV/AIDS and Substance Use among   Black/African American Women and Young MSM (R01)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-15'
+  - id: '236162'
+    grade: null
+    title: Comorbid HIV, Chronic Pain, and Substance Use among Older Adults (R21)
+    agency: National Institutes of Health
+    status: archived
+    closes: '2013-11-15'
+  - id: '362364'
+    grade: null
+    title: Authority to Accept Unsolicited Proposals for Research Partnerships Notice of Intent (NOI)
+    agency: Department of Housing and Urban Development
+    status: posted
+    closes: '2027-06-09'
+  - id: '132413'
+    grade: null
+    title: Housing Counseling Program
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2012-01-12'
+  - id: '356629'
+    grade: null
+    title: GPD Grant Forecast
+    agency: Homeless Providers Grant and Per Diem Program
+    status: forecasted
+    closes: null
+  - id: '58097'
+    grade: null
+    title: Continuum of Care Homeless Assistance Program
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2010-11-18'
+  - id: '118353'
+    grade: null
+    title: Continuum of Care
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2011-10-28'
+  - id: '357524'
+    grade: null
+    title: Accelerating Solutions to Improve Access and Quality of Empirically-Supported Practices for Youth Mental Healt
+    agency: National Institutes of Health
+    status: posted
+    closes: '2027-01-07'
+  - id: '67294'
+    grade: null
+    title: Healthy Homes and Lead Poisoning Prevention Program
+    agency: Centers for Disease Control and Prevention
+    status: archived
+    closes: '2011-03-18'
+  - id: '44776'
+    grade: null
+    title: Service Area Competitions-Additional Areas
+    agency: Health Resources and Services Administration
+    status: archived
+    closes: '2009-02-16'
+  - id: '159993'
+    grade: null
+    title: Solicitation for Grant Application for Urban and Non-Urban Homeless Veterans Reintegration Program (HVRP) Gran
+    agency: OASAM
+    status: archived
+    closes: '2012-04-30'
+  - id: '229053'
+    grade: null
+    title: Urban and Non-Urban Homeless Veterans&iquest; Reintegration Program (HVRP) for Program Year (PY) 2013, July 1,
+    agency: OASAM
+    status: archived
+    closes: '2013-05-03'
+  - id: '358753'
+    grade: null
+    title: Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) Expansion (Revised)
+    agency: Department of Housing and Urban Development
+    status: closed
+    closes: '2025-08-15'
+  - id: '49606'
+    grade: null
+    title: Healthy Homes Demonstration Program
+    agency: Department of Housing and Urban Development
+    status: archived
+    closes: '2009-11-24'

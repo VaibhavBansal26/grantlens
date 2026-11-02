@@ -1,0 +1,32 @@
+# Draft gold queries. Review/edit, then run `uv run python -m grantlens_eval.pool` and grade candidates.
+queries:
+  - {id: q001, text: early-career funding for AI in cancer imaging, relevant: {}}
+  - {id: q002, text: machine learning for medical image segmentation, relevant: {}}
+  - {id: q003, text: postdoctoral fellowship in computational neuroscience, relevant: {}}
+  - {id: q004, text: grants for Alzheimer's disease biomarker discovery, relevant: {}}
+  - {id: q005, text: mental health services for rural and underserved communities, relevant: {}}
+  - {id: q006, text: opioid use disorder treatment and recovery research, relevant: {}}
+  - {id: q007, text: health disparities and health equity community interventions, relevant: {}}
+  - {id: q008, text: maternal and infant health outcomes, relevant: {}}
+  - {id: q009, text: cardiovascular disease prevention in minority populations, relevant: {}}
+  - {id: q010, text: diabetes self-management digital health intervention, relevant: {}}
+  - {id: q011, text: infectious disease surveillance and pandemic preparedness, relevant: {}}
+  - {id: q012, text: antimicrobial resistance new therapeutics, relevant: {}}
+  - {id: q013, text: climate change and public health adaptation, relevant: {}}
+  - {id: q014, text: STEM education for undergraduate research experiences, relevant: {}}
+  - {id: q015, text: broadening participation of women in engineering, relevant: {}}
+  - {id: q016, text: quantum computing algorithms and hardware research, relevant: {}}
+  - {id: q017, text: cybersecurity and privacy research for critical infrastructure, relevant: {}}
+  - {id: q018, text: renewable energy storage battery materials, relevant: {}}
+  - {id: q019, text: sustainable agriculture and food security, relevant: {}}
+  - {id: q020, text: water quality and environmental justice, relevant: {}}
+  - {id: q021, text: small business innovation research biotechnology, relevant: {}}
+  - {id: q022, text: veterans health and PTSD treatment, relevant: {}}
+  - {id: q023, text: tribal communities cultural preservation and language, relevant: {}}
+  - {id: q024, text: arts and humanities digital scholarship, relevant: {}}
+  - {id: q025, text: rare disease gene therapy clinical trials, relevant: {}}
+  - {id: q026, text: nursing workforce training and retention, relevant: {}}
+  - {id: q027, text: artificial intelligence ethics and responsible innovation, relevant: {}}
+  - {id: q028, text: research infrastructure and core facilities for universities, relevant: {}}
+  - {id: q029, text: aging and long-term care in older adults, relevant: {}}
+  - {id: q030, text: housing stability and homelessness prevention, relevant: {}}
