@@ -25,7 +25,7 @@ def search(
     k: int = 10,
     filters: Filters | None = None,
     mode: str = "hybrid",  # bm25 | dense | hybrid
-    rerank: bool = False,
+    rerank: bool | str = False,  # True = default model, or a name from rerank.MODELS
     depth: int = 100,
 ) -> list[Hit]:
     conditions = filters.conditions() if filters else []
@@ -44,7 +44,11 @@ def search(
         }
         from .rerank import rerank as cross_encode
 
-        fused = cross_encode(query, [(i, doc_text(by_id[i].title, by_id[i].abstract)) for i, _ in fused])
+        fused = cross_encode(
+            query,
+            [(i, doc_text(by_id[i].title, by_id[i].abstract)) for i, _ in fused],
+            **({} if rerank is True else {"model": rerank}),
+        )
     fused = fused[:k]
     rows = {o.id: o for o in db.session.query(Opportunity).filter(Opportunity.id.in_([i for i, _ in fused]))}
     pos = {name: {d: r for r, d in enumerate(ranked, 1)} for name, ranked in rankings.items()}

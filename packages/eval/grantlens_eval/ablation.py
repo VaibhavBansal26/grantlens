@@ -14,11 +14,12 @@ CONFIGS = {
     "bm25": {"mode": "bm25"},
     "dense": {"mode": "dense"},
     "hybrid": {"mode": "hybrid"},
-    "hybrid+rerank": {"mode": "hybrid", "rerank": True},
+    "hybrid+rerank(minilm)": {"mode": "hybrid", "rerank": "minilm"},
+    "hybrid+rerank(bge-base)": {"mode": "hybrid", "rerank": "bge-base"},
 }
 
 
-def main(max_id: int, queries_path: str = "../../packages/eval/queries.yaml",
+def main(max_id: int, only: list[str] | None = None, queries_path: str = "../../packages/eval/queries.yaml",
          out: str = "../../packages/eval/results/ablation.json"):
     from grantlens_api import create_app
     from grantlens_api.retrieval.filters import Filters
@@ -28,16 +29,19 @@ def main(max_id: int, queries_path: str = "../../packages/eval/queries.yaml",
     results = {"max_id": max_id}
     with create_app().app_context():
         for name, cfg in CONFIGS.items():
+            if only and name not in only:
+                continue
             def retrieve(q, k, cfg=cfg):
                 return [h.external_id for h in search(q, k=k, filters=Filters(max_id=max_id), **cfg)]
             results[name] = evaluate(retrieve, queries)
             print(f"done {name}", flush=True)
-    Path(out).write_text(json.dumps(results, indent=2))
+    prev = json.loads(Path(out).read_text()) if Path(out).exists() else {}
+    Path(out).write_text(json.dumps({**prev, **results}, indent=2))
     print(f"\n{'config':<16}{'ndcg@10':>9}{'recall@50':>11}{'mrr':>7}{'top5_hit':>10}")
-    for name in CONFIGS:
+    for name in results.keys() - {"max_id"}:
         m = results[name]
         print(f"{name:<16}{m['ndcg@10']:>9.3f}{m['recall@50']:>11.3f}{m['mrr']:>7.3f}{m['top5_hit']:>10.3f}")
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]))
+    main(int(sys.argv[1]), sys.argv[2:] or None)
