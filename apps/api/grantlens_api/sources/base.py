@@ -24,7 +24,26 @@ class NormalizedOpportunity:
     raw: dict = field(default_factory=dict)
 
 
+@dataclass
+class NormalizedAward:
+    source: str
+    external_id: str
+    title: str
+    project_number: str | None = None
+    abstract: str | None = None
+    agency: str | None = None
+    organization: str | None = None
+    investigators: list[str] = field(default_factory=list)
+    keywords: list[str] = field(default_factory=list)
+    amount: int | None = None
+    fiscal_year: int | None = None
+    start_date: date | None = None
+    end_date: date | None = None
+    url: str | None = None
+    raw: dict = field(default_factory=dict)
+
+
 class Source(Protocol):
     name: str
 
-    def fetch(self, limit: int | None = None) -> Iterator[NormalizedOpportunity]: ...
+    def fetch(self, limit: int | None = None) -> Iterator[NormalizedOpportunity | NormalizedAward]: ...
