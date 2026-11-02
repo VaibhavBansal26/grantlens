@@ -79,6 +79,7 @@ class User(db.Model):
     email = db.Column(db.String(254), nullable=False, unique=True)
     password_hash = db.Column(db.String(255), nullable=False)
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
+    reminders = db.Column(db.Boolean, nullable=False, default=False, server_default=db.false())
 
 
 class SavedSearch(db.Model):
@@ -91,6 +92,8 @@ class SavedSearch(db.Model):
     params = db.Column(JSON, nullable=False)  # the /search query params, as {name: [values]}
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
     last_seen_at = db.Column(db.DateTime(timezone=True), default=_now)  # "new" = first seen after
+    alerts = db.Column(db.Boolean, nullable=False, default=False, server_default=db.false())
+    last_alerted_at = db.Column(db.DateTime(timezone=True))  # emails cover matches after this
 
 
 class WatchedOpportunity(db.Model):
@@ -103,3 +106,20 @@ class WatchedOpportunity(db.Model):
     opportunity_id = db.Column(db.Integer, db.ForeignKey("opportunity.id", ondelete="CASCADE"),
                                nullable=False)
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
+
+
+class DeadlineReminder(db.Model):
+    """One row per reminder email sent, so a watched grant is reminded once per threshold."""
+
+    __tablename__ = "deadline_reminder"
+    __table_args__ = (
+        UniqueConstraint("user_id", "opportunity_id", "days", name="uq_reminder_user_opp_days"),
+    )
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"),
+                        nullable=False, index=True)
+    opportunity_id = db.Column(db.Integer, db.ForeignKey("opportunity.id", ondelete="CASCADE"),
+                               nullable=False)
+    days = db.Column(db.Integer, nullable=False)  # threshold: 7 or 1
+    sent_at = db.Column(db.DateTime(timezone=True), default=_now)

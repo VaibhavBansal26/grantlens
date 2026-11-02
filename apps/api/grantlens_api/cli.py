@@ -59,3 +59,20 @@ def register(app: Flask) -> None:
             db.session.commit()
             done += len(rows)
             click.echo(f"embedded {done}")
+
+    @app.cli.command("send-alerts")
+    @click.option("--dry-run", is_flag=True, help="Print what would be sent; send and record nothing")
+    def send_alerts_cmd(dry_run: bool) -> None:
+        """Email saved-search matches and watchlist deadline reminders. Run on a schedule (e.g. daily)."""
+        from .alerts import send_alerts
+        from .mail import get_mailer
+
+        cfg = app.config
+        stats, mails = send_alerts(get_mailer(cfg), cfg["PUBLIC_URL"], dry_run=dry_run)
+        if dry_run:
+            for m in mails:
+                click.echo(f"--- to {m.to}: {m.subject}\n{m.text}\n")
+        click.echo(
+            f"users={stats.users} sent={stats.sent} failed={stats.failed} "
+            f"nothing_new={stats.nothing_new}{' (dry run)' if dry_run else ''}"
+        )

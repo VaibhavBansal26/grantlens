@@ -34,6 +34,16 @@ export default function SavedPage() {
     setRows((cur) => cur && cur.filter((r) => r.id !== id));
   }
 
+  async function setAlerts(id: number, on: boolean) {
+    setRows((cur) => cur && cur.map((r) => (r.id === id ? { ...r, alerts: on } : r)));
+    try {
+      await sendJson("PATCH", `${API}/saved-searches/${id}`, { alerts: on });
+    } catch {
+      setRows((cur) => cur && cur.map((r) => (r.id === id ? { ...r, alerts: !on } : r)));
+      setError("Could not change the email setting. Try again.");
+    }
+  }
+
   async function markSeen(id: number) {
     await sendJson("POST", `${API}/saved-searches/${id}/seen`);
     setRows((cur) => cur && cur.map((r) => (r.id === id ? { ...r, fresh: [] } : r)));
@@ -59,6 +69,10 @@ export default function SavedPage() {
           {s.fresh && s.fresh.length > 0 && (
             <ul>{s.fresh.slice(0, 5).map((h) => <li key={h.id}><Link href={`/opportunity/${h.id}`}>{h.title}</Link></li>)}</ul>
           )}
+          <label className="check">
+            <input type="checkbox" checked={s.alerts} onChange={(e) => setAlerts(s.id, e.target.checked)} />
+            Email me new matches
+          </label>
           <div className="actions">
             {s.fresh && s.fresh.length > 0 && <button className="link" onClick={() => markSeen(s.id)}>Mark as seen</button>}
             <button className="link" onClick={() => remove(s.id)}>Delete</button>

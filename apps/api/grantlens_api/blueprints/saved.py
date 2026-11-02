@@ -4,9 +4,9 @@ from datetime import UTC, datetime
 from flask import Blueprint, g, jsonify, request
 from werkzeug.datastructures import MultiDict
 
+from ..alerts import new_matches
 from ..extensions import db
-from ..models import Opportunity, SavedSearch
-from ..retrieval.service import search
+from ..models import SavedSearch
 from .auth import login_required
 from .search import parse_search
 
@@ -24,7 +24,10 @@ def _mine(search_id: int) -> SavedSearch | None:
 
 
 def _view(s: SavedSearch) -> dict:
-    return {"id": s.id, "name": s.name, "params": s.params, "created_at": s.created_at.isoformat()}
+    return {
+        "id": s.id, "name": s.name, "params": s.params, "alerts": s.alerts,
+        "created_at": s.created_at.isoformat(),
+    }
 
 
 @bp.get("")
@@ -73,27 +76,30 @@ def delete(search_id: int):
 
 @bp.get("/<int:search_id>/new")
 @login_required
-def new_matches(search_id: int):
+def new_matches_endpoint(search_id: int):
     """Top matches first seen by the system after the user last looked at this search."""
     saved = _mine(search_id)
     if saved is None:
         return jsonify(error="not found"), 404
-    req = parse_search(_args(saved.params))
-    hits = search(req.query, k=50, filters=req.filters, mode=req.mode)
-    since = saved.last_seen_at
-    first_seen = {
-        o.id: o.first_seen_at
-        for o in db.session.query(Opportunity.id, Opportunity.first_seen_at).filter(
-            Opportunity.id.in_([h.id for h in hits])
-        )
-    }
-
-    def is_new(h) -> bool:
-        seen = first_seen.get(h.id)
-        return bool(seen) and seen.replace(tzinfo=seen.tzinfo or UTC) > since.replace(tzinfo=since.tzinfo or UTC)
-
-    new = [asdict(h) for h in hits if is_new(h)]
+    new = [asdict(h) for h in new_matches(saved, saved.last_seen_at)]
     return jsonify(count=len(new), results=new)
+
+
+@bp.patch("/<int:search_id>")
+@login_required
+def update(search_id: int):
+    saved = _mine(search_id)
+    if saved is None:
+        return jsonify(error="not found"), 404
+    body = request.get_json(silent=True) or {}
+    if "alerts" in body:
+        if not isinstance(body["alerts"], bool):
+            return jsonify(error="alerts must be true or false"), 400
+        if body["alerts"] and not saved.alerts:
+            saved.last_alerted_at = datetime.now(UTC)  # only matches from now on, not the backlog
+        saved.alerts = body["alerts"]
+    db.session.commit()
+    return jsonify(_view(saved))
 
 
 @bp.post("/<int:search_id>/seen")

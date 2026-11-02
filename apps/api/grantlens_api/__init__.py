@@ -14,7 +14,7 @@ def create_app(config: type = Config) -> Flask:
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from .blueprints import auth, deadlines, health, opportunities, saved, search, watchlist
+    from .blueprints import alerts, auth, deadlines, health, opportunities, saved, search, watchlist
 
     app.register_blueprint(health.bp)
     app.register_blueprint(search.bp)
@@ -23,6 +23,7 @@ def create_app(config: type = Config) -> Flask:
     app.register_blueprint(saved.bp)
     app.register_blueprint(deadlines.bp)
     app.register_blueprint(watchlist.bp)
+    app.register_blueprint(alerts.bp)
 
     from . import cli, models  # noqa: F401
 

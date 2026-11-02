@@ -68,19 +68,20 @@ async function parse<T>(res: Response): Promise<T> {
 
 export const getJson = <T,>(url: string): Promise<T> => fetch(url).then((r) => parse<T>(r));
 
-export const sendJson = <T,>(method: "POST" | "PUT" | "DELETE", url: string, body?: unknown): Promise<T> =>
+export const sendJson = <T,>(method: "POST" | "PUT" | "PATCH" | "DELETE", url: string, body?: unknown): Promise<T> =>
   fetch(url, {
     method,
     headers: body === undefined ? undefined : { "Content-Type": "application/json" },
     body: body === undefined ? undefined : JSON.stringify(body),
   }).then((r) => parse<T>(r));
 
-export type User = { id: number; email: string };
+export type User = { id: number; email: string; reminders?: boolean };
 
 export type Saved = {
   id: number;
   name: string;
   params: Record<string, string[]>;
+  alerts: boolean;
   created_at: string;
 };
 

@@ -73,4 +73,18 @@ def logout():
 @bp.get("/me")
 def me():
     user = db.session.get(User, session["uid"]) if "uid" in session else None
-    return jsonify(user=None if user is None else {"id": user.id, "email": user.email})
+    return jsonify(
+        user=None if user is None else {"id": user.id, "email": user.email, "reminders": user.reminders}
+    )
+
+
+@bp.patch("/preferences")
+@login_required
+def preferences():
+    body = request.get_json(silent=True) or {}
+    if "reminders" in body:
+        if not isinstance(body["reminders"], bool):
+            return jsonify(error="reminders must be true or false"), 400
+        g.user.reminders = body["reminders"]
+        db.session.commit()
+    return jsonify(reminders=g.user.reminders)

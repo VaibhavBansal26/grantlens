@@ -8,6 +8,7 @@ type Auth = {
   ready: boolean;
   signIn: (mode: "login" | "register", email: string, password: string) => Promise<void>;
   signOut: () => Promise<void>;
+  updateUser: (patch: Partial<User>) => void;
 };
 
 const Ctx = createContext<Auth | null>(null);
@@ -32,7 +33,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser(null);
   }, []);
 
-  return <Ctx.Provider value={{ user, ready, signIn, signOut }}>{children}</Ctx.Provider>;
+  const updateUser = useCallback((patch: Partial<User>) => setUser((u) => (u ? { ...u, ...patch } : u)), []);
+
+  return <Ctx.Provider value={{ user, ready, signIn, signOut, updateUser }}>{children}</Ctx.Provider>;
 }
 
 export const useAuth = (): Auth => {
