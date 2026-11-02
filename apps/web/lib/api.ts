@@ -118,3 +118,22 @@ export type Watched = {
   amount_max: number | null;
   added_at: string;
 };
+
+export type Paper = {
+  id: string;
+  title: string;
+  year: number | null;
+  cited_by: number;
+  doi: string | null;
+  abstract: string;
+  authors: string[];
+  venue: string | null;
+  url: string | null;
+};
+
+export type Match = Hit & { closest_paper: string | null };
+
+export type MatchResponse = {
+  profile: { name: string | null; papers: Paper[]; text_used: string };
+  results: Match[];
+};

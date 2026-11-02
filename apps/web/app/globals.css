@@ -60,3 +60,7 @@ button.watch { padding: 6px 12px; border: 1px solid var(--line); border-radius: 
 button.watch.on { background: var(--chip); border-color: var(--accent); color: var(--accent); }
 .when.soon { color: #b45309; font-weight: 600; } .when.closed { color: #b3261e; }
 label.check { display: flex; gap: 8px; align-items: center; font-size: 14px; margin: 8px 0; }
+.bigtext, .orcid { width: 100%; padding: 12px 14px; font: inherit; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); }
+.orcid { max-width: 320px; }
+.profile { margin: 12px 0; font-size: 14px; }
+.profile ul { margin: 6px 0; color: var(--muted); }

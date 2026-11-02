@@ -7,6 +7,8 @@ export default function Nav() {
   const { user, ready, signOut } = useAuth();
   return (
     <nav className="nav">
+      <Link href="/match">Find grants for my work</Link>
+      <Link href="/papers">Papers</Link>
       <Link href="/deadlines">Deadlines</Link>
       {ready && user && (
         <>
