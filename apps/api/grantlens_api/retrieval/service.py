@@ -62,7 +62,7 @@ def search(
     pos = {name: {d: r for r, d in enumerate(ranked, 1)} for name, ranked in rankings.items()}
     return [
         Hit(
-            id=i, external_id=rows[i].external_id, title=rows[i].title, agency=rows[i].agency,
+            id=i, external_id=rows[i].external_id, title=clean_text(rows[i].title), agency=rows[i].agency,
             status=rows[i].status, close_date=str(rows[i].close_date) if rows[i].close_date else None,
             url=rows[i].url, snippet=_snippet(rows[i].abstract),
             amount_max=rows[i].amount_max, score=score, ranks={n: p[i] for n, p in pos.items() if i in p},

@@ -14,13 +14,14 @@ def create_app(config: type = Config) -> Flask:
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from .blueprints import auth, health, opportunities, saved, search
+    from .blueprints import auth, deadlines, health, opportunities, saved, search
 
     app.register_blueprint(health.bp)
     app.register_blueprint(search.bp)
     app.register_blueprint(opportunities.bp)
     app.register_blueprint(auth.bp)
     app.register_blueprint(saved.bp)
+    app.register_blueprint(deadlines.bp)
 
     from . import cli, models  # noqa: F401
 

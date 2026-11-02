@@ -93,3 +93,16 @@ export const savedHref = (s: Saved): string => {
 
 export const money = (n: number | null) =>
   n == null ? "n/a" : n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+
+export type Deadline = {
+  id: number;
+  title: string;
+  agency: string | null;
+  status: string | null;
+  close_date: string;
+  amount_max: number | null;
+};
+
+/** Local calendar date as YYYY-MM-DD (toISOString would shift it by the UTC offset). */
+export const ymd = (d: Date): string =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
