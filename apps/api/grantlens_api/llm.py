@@ -1,6 +1,7 @@
 """Provider-neutral LLM access. Callers ask for JSON that matches a schema; only this module knows OpenAI."""
 import json
 import os
+import threading
 from typing import Protocol
 
 
@@ -17,13 +18,16 @@ class LLM(Protocol):
 
 
 class OpenAILLM:
-    def __init__(self, model: str | None = None):
+    def __init__(self, model: str | None = None, temperature: float | None = None):
         if not os.environ.get("OPENAI_API_KEY"):
             raise LLMNotConfigured("AI answers are not configured: set OPENAI_API_KEY on the server")
         from openai import OpenAI  # reads OPENAI_API_KEY from the environment
 
         self.client = OpenAI(timeout=60, max_retries=2)
         self.model = model or os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+        self.temperature = temperature  # None = the model's default; the evaluations pass 0 to be repeatable
+        self.usage = {"calls": 0, "prompt_tokens": 0, "completion_tokens": 0}  # running totals, for cost reports
+        self._usage_lock = threading.Lock()
 
     def complete_json(self, system: str, user: str, schema: dict, max_tokens: int = 1500) -> dict:
         import openai
@@ -32,6 +36,7 @@ class OpenAILLM:
             res = self.client.chat.completions.create(
                 model=self.model,
                 max_completion_tokens=max_tokens,
+                **({"temperature": self.temperature} if self.temperature is not None else {}),
                 messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
                 response_format={
                     "type": "json_schema",
@@ -48,6 +53,11 @@ class OpenAILLM:
             raise LLMError("could not reach the AI service") from e
         except openai.APIStatusError as e:
             raise LLMError(f"the AI service returned an error ({e.status_code})") from e
+        if res.usage:
+            with self._usage_lock:
+                self.usage["calls"] += 1
+                self.usage["prompt_tokens"] += res.usage.prompt_tokens
+                self.usage["completion_tokens"] += res.usage.completion_tokens
         choice = res.choices[0]
         if getattr(choice.message, "refusal", None):
             raise LLMError("the model declined to answer this request")

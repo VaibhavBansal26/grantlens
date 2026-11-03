@@ -57,6 +57,18 @@ def test_request_shape_and_parsing(server):
     assert fmt["json_schema"]["schema"] == SCHEMA
 
 
+def test_temperature_is_sent_only_when_asked_and_usage_is_counted(server):
+    server["body"]["usage"] = {"prompt_tokens": 120, "completion_tokens": 30, "total_tokens": 150}
+    default = OpenAILLM("m")
+    default.complete_json("s", "u", SCHEMA)
+    assert "temperature" not in server["requests"][-1][2]  # production behaviour is unchanged
+    pinned = OpenAILLM("m", temperature=0)
+    pinned.complete_json("s", "u", SCHEMA)
+    pinned.complete_json("s", "u", SCHEMA)
+    assert server["requests"][-1][2]["temperature"] == 0
+    assert pinned.usage == {"calls": 2, "prompt_tokens": 240, "completion_tokens": 60}
+
+
 def test_model_comes_from_env_when_not_given(server, monkeypatch):
     monkeypatch.setenv("OPENAI_MODEL", "env-model")
     OpenAILLM().complete_json("s", "u", SCHEMA)

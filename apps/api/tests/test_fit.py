@@ -18,8 +18,9 @@ ME = "I am a postdoctoral fellow at a public university studying deep learning f
 class FakeLLM:
     """Answers the literature-query request with `queries`, and everything else with `result`."""
 
-    def __init__(self, result=None, error=None, queries=None):
+    def __init__(self, result=None, error=None, queries=None, verdict=True):
         self.result, self.error, self.queries, self.calls = result, error, queries or [], []
+        self.verdict = verdict  # what the strict second opinion says about every claim (or a function of the prompt)
 
     def complete_json(self, system, user, schema, max_tokens=1500):
         self.calls.append((system, user, schema))
@@ -27,11 +28,15 @@ class FakeLLM:
             raise self.error
         if "queries" in schema["properties"]:
             return {"queries": self.queries}
+        if "verdicts" in schema["properties"]:
+            n = user.count("REQUIREMENT:")
+            flags = self.verdict(user) if callable(self.verdict) else [self.verdict] * n
+            return {"verdicts": [{"index": i, "establishes": f} for i, f in enumerate(flags, 1)]}
         return self.result(user) if callable(self.result) else self.result
 
     @property
     def main(self):
-        return self.calls[-1]  # the fit request is always the last call
+        return next(c for c in reversed(self.calls) if "summary" in c[2]["properties"])  # the fit request itself
 
 
 def paper(i):
@@ -48,7 +53,8 @@ def app(monkeypatch):
         db.create_all()
         upsert([N("s", "1", "Cancer Imaging Awards (R21 Clinical Trial Optional)", abstract="<p>Fund AI imaging.</p>",
                   agency="NIH", status="posted", close_date=date(2030, 1, 1), amount_max=300000,
-                  eligibility=["Public and State controlled institutions of higher education", "Small businesses"],
+                  eligibility=["Public and State controlled institutions of higher education", "Small businesses",
+                       'Others (see text field entitled "Additional Information on Eligibility" for clarification)'],
                   funding_instruments=["Grant"])])
         yield app
 
@@ -114,6 +120,67 @@ def test_aims_are_capped_whatever_the_model_returns(app):
     many = [{"aim": f"Aim {i}", "rationale": "r", "papers": []} for i in range(7)]
     out = fit.assess(opp(), ME, FakeLLM(model(aims=many)))
     assert [a["aim"] for a in out.aims] == ["Aim 0", "Aim 1", "Aim 2", "Aim 3"]
+
+
+def met_claims(user):
+    return user.count("REQUIREMENT:")
+
+
+def test_a_strict_second_opinion_downgrades_claims_the_statement_does_not_establish(app):
+    # The model says "met" for E1 on a vague statement; the strict checker says that statement does not settle it.
+    items = [{"ref": "E1", "requirement": "x", "requirement_quote": "", "status": "met", "researcher_quote": "at a public university", "note": ""},
+             {"ref": "E2", "requirement": "x", "requirement_quote": "", "status": "unclear", "researcher_quote": "", "note": ""}]
+    kept = fit.assess(opp(), ME, FakeLLM(model(eligibility=items), verdict=True))
+    assert [e["status"] for e in kept.eligibility] == ["met", "unclear"] and kept.downgraded == 0
+    refused = fit.assess(opp(), ME, FakeLLM(model(eligibility=items), verdict=False))
+    assert [e["status"] for e in refused.eligibility] == ["unclear", "unclear"] and refused.downgraded == 1
+    assert refused.eligibility[0]["researcher_quote"] == "" and "does not clearly settle" in refused.eligibility[0]["note"]
+
+
+def test_the_checker_sees_only_claims_and_is_skipped_when_there_are_none(app):
+    only_unclear = [{"ref": "E1", "requirement": "x", "requirement_quote": "", "status": "unclear", "researcher_quote": "", "note": ""}]
+    llm = FakeLLM(model(eligibility=only_unclear))
+    fit.assess(opp(), ME, llm)
+    assert not any("verdicts" in c[2]["properties"] for c in llm.calls)  # nothing to check, so no extra call
+    llm = FakeLLM(model())
+    fit.assess(opp(), ME, llm)
+    asked = [c for c in llm.calls if "verdicts" in c[2]["properties"]]
+    assert len(asked) == 1 and "REQUIREMENT:" in asked[0][1] and "STATEMENT:" in asked[0][1]
+    assert "unclear" not in asked[0][1].split("CLAIM:")[1].split("\n")[0]  # unclear items are never sent
+
+
+def test_the_checker_fails_closed(app):
+    class Broken(FakeLLM):
+        def complete_json(self, system, user, schema, max_tokens=1500):
+            if "verdicts" in schema["properties"]:
+                raise LLMError("down")
+            return super().complete_json(system, user, schema, max_tokens)
+
+    out = fit.assess(opp(), ME, Broken(model()))
+    assert all(e["status"] == "unclear" for e in out.eligibility)  # unconfirmed claims never survive an outage
+    short = fit.assess(opp(), ME, FakeLLM(model(), verdict=lambda user: []))  # a checker that returns nothing
+    assert all(e["status"] == "unclear" for e in short.eligibility)
+
+
+def test_catch_all_entries_can_never_be_met_whatever_the_model_says(app):
+    items = [
+        {"ref": "E3", "requirement": "x", "requirement_quote": "", "status": "met", "researcher_quote": "at a public university", "note": ""},
+        {"ref": "E3", "requirement": "x", "requirement_quote": "", "status": "not_met", "researcher_quote": "at a public university", "note": ""},
+    ]
+    out = fit.assess(opp(), ME, FakeLLM(model(eligibility=items)))
+    assert [e["status"] for e in out.eligibility] == ["unclear", "unclear"]
+    assert all("read the eligibility section" in e["note"] and e["researcher_quote"] == "" for e in out.eligibility)
+    assert out.downgraded == 0  # a catch-all is not a "no verifiable quote" case; it is simply undecidable
+
+
+def test_prompt_demands_specific_evidence(app):
+    llm = FakeLLM(model())
+    fit.assess(opp(), ME, llm)
+    system = llm.main[0]
+    assert "'a university' alone is NOT enough" in system and "catch-alls" in system
+    # The model must be told how to point at an applicant type, or every requirement it returns is discarded.
+    # (An edit once dropped this sentence; the fake model used in other tests never reads the prompt, so it went unnoticed.)
+    assert "give `ref` = that id" in system and "E3" in system and '`ref` = "other"' in system
 
 
 def test_prompt_lists_papers_and_marks_untrusted_text(app):
