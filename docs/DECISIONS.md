@@ -10,7 +10,8 @@
 | Paper metadata and abstracts | OpenAlex | Public API |
 | Vector and keyword search, all data | Postgres 16 with pgvector (HNSW) plus an in-process BM25 index | Self-hosted container |
 
-Not used: the Hugging Face Inference API or Spaces, any Llama model, Pinecone, Vertex AI. Nothing in this build is fine-tuned.
+Optional, tested but not the default: Llama 3.1 8B through Hugging Face Inference Providers (`LLM_BACKEND=hf`); see `LLAMA_COMPARISON.md`.
+Not used: Hugging Face Spaces, Pinecone, Vertex AI. Nothing in this build is fine-tuned.
 
 ## Why pgvector and not Pinecone
 
@@ -32,8 +33,8 @@ scaling past tens of millions of vectors would mean revisiting this. Search is i
 - **No training data for a generation task.** There are 84,000 grants but no labelled examples of "good answers" to fine-tune on.
   The more promising fine-tune is the *embedding* model, using the labelled search pairs; it is measurable with the
   existing ablation harness, and not done yet.
-- **The `LLM` interface makes a Llama backend a contained change** (an implementation of `complete_json`), and the evaluation
-  harness would then compare it fairly. Structured-JSON reliability and the cost of hosting are the main unknowns.
+- **A Llama backend was then built and measured** (the `LLM` interface made it a contained change): it matches gpt-4o-mini at reading but is worse
+  at declining, at structure and at speed, so it is optional and not the default. Results: `LLAMA_COMPARISON.md`.
 
 Note on the resume: the Llama fine-tuning and Pinecone described for the CUBS project are not part of this rebuild. This repository
 contains none of that work, so describe each project for what it actually contains.

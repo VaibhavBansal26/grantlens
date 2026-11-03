@@ -8,6 +8,7 @@ models tend to rate their own writing generously, so the support rate is more li
 import time
 
 from grantlens_api import reviews
+from grantlens_api.llm import LLMError
 from grantlens_api.retrieval.clean import clean_text
 
 from .common import row
@@ -35,7 +36,8 @@ def judge(llm, source: str, claim: str) -> dict:
     return {"verdict": out["verdict"], "reason": out["reason"], "claim": claim, "source": source[:900]}
 
 
-def run(llm, topics: list[str] | None = None, papers: int = 16) -> dict:
+def run(llm, topics: list[str] | None = None, papers: int = 16, judge_llm=None) -> dict:
+    judge_llm = judge_llm or llm  # use one fixed judge for every backend, so scores are comparable
     results = {"reviews": [], "annotations": [], "themes": []}
     for topic in topics or TOPICS:
         # One search, reused: searching again would return a different set and order, so "P3" would no longer be
@@ -48,6 +50,10 @@ def run(llm, topics: list[str] | None = None, papers: int = 16) -> dict:
             t0 = time.perf_counter()
             r = reviews.build(topic, llm, year_from=2021, max_papers=papers)
             elapsed = time.perf_counter() - t0
+        except LLMError:
+            results["reviews"].append({"topic": topic, "papers": 0, "themes": 0, "annotated": 0, "unverified_first_pass": 0,
+                                       "removed_refs": 0, "seconds": round(time.perf_counter() - t0), "failed": True})
+            continue
         finally:
             reviews.gather = original
         by_id = {p["id"]: p for p in r.papers}
@@ -55,16 +61,16 @@ def run(llm, topics: list[str] | None = None, papers: int = 16) -> dict:
         results["reviews"].append({
             "topic": topic, "papers": len(r.papers), "themes": len(r.themes),
             "annotated": sum(1 for p in r.papers if p["annotation"]), "unverified_first_pass": r.unverified_annotations,
-            "removed_refs": r.removed_citations, "seconds": round(elapsed),
+            "removed_refs": r.removed_citations, "seconds": round(elapsed), "failed": False,
         })
         for p in r.papers:
             if p["annotation"] and p["id"] in abstracts and by_id[p["id"]]["title"]:
-                results["annotations"].append({"topic": topic, "id": p["id"], **judge(llm, abstracts[p["id"]], p["annotation"])})
+                results["annotations"].append({"topic": topic, "id": p["id"], **judge(judge_llm, abstracts[p["id"]], p["annotation"])})
         for t in r.themes:
             if t["summary"] and t["title"] != reviews.OTHER:
                 source = "\n\n".join(f"{pid}: {abstracts[pid][:700]}" for pid in t["papers"] if pid in abstracts)
                 if source:
-                    results["themes"].append({"topic": topic, **judge(llm, source, t["summary"])})
+                    results["themes"].append({"topic": topic, **judge(judge_llm, source, t["summary"])})
     return results
 
 
@@ -74,6 +80,7 @@ def report(res: dict) -> list[str]:
     retried = sum(r["unverified_first_pass"] for r in revs)
     out = ["### Literature review builder", "", f"{len(revs)} topics, {papers} papers in total.", "",
            "| Measure | Result |", "|---|---|",
+           row("Reviews that could be built at all (no usable JSON = failed)", sum(not r.get("failed") for r in revs), len(revs)),
            row("Papers that ended up with a verified annotation", annotated, papers),
            row("Annotation judged **fully supported** by its abstract", sum(a["verdict"] == "supported" for a in ann), len(ann)),
            row("Annotation judged **partly** supported", sum(a["verdict"] == "partial" for a in ann), len(ann)),

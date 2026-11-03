@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from grantlens_api import fit
 from grantlens_api.extensions import db
+from grantlens_api.llm import LLMError
 from grantlens_api.models import Opportunity
 
 from .common import rate, row
@@ -54,14 +55,19 @@ def pick_grants(listed_per_type: int = 4, unlisted_per_type: int = 8, seed: str 
 
 def run_one(o: Opportunity, name: str, text: str, expected: str | None, llm) -> dict:
     present = expected in (o.eligibility or []) if expected else False
-    out = fit.assess(o, text, llm)
+    try:
+        out = fit.assess(o, text, llm)
+    except LLMError:  # no usable answer: nothing is claimed, which is a failure of usefulness but never a false "met"
+        return {"profile": name, "grant": o.id, "ambiguous": expected is None, "listed": present, "failed": True,
+                "says_met": False, "says_not_met": False, "omitted_or_unclear": True, "any_met": False, "wrong_met": 0,
+                "dropped": 0, "downgraded": 0, "aims": 0, "met_entries": []}
     by = {e["requirement"]: e for e in out.eligibility}
     mine = by.get(expected) if expected else None
     # An "Unrestricted" entry (open to any type of entity) is truly met for every applicant, so it is never a mistake.
     met = [e["requirement"] for e in out.eligibility if e["status"] == "met" and not e["requirement"].startswith("Unrestricted")]
     others_met = [m for m in met if m != expected]
     return {
-        "profile": name, "grant": o.id, "ambiguous": expected is None, "listed": present,
+        "profile": name, "grant": o.id, "ambiguous": expected is None, "listed": present, "failed": False,
         "says_met": bool(mine and mine["status"] == "met"),
         "says_not_met": bool(mine and mine["status"] == "not_met"),
         "omitted_or_unclear": not mine or mine["status"] == "unclear",
@@ -95,6 +101,7 @@ def report(rows: list[dict]) -> list[str]:
            row("**Type is NOT listed but it said met for some entry** (false assurance)", sum(r["any_met"] for r in unlisted), len(unlisted)),
            row("Said a *different* type was met (any check)", sum(r["wrong_met"] > 0 for r in typed), len(typed)),
            row("**Vague applicant: said met for something anyway** (should be unclear)", sum(r["any_met"] for r in amb), len(amb)),
+           row("Checks that produced no usable answer at all", sum(r.get("failed", False) for r in rows), len(rows)),
            row("Model proposed requirements the grant does not state (caught and dropped)", sum(r["dropped"] > 0 for r in rows), len(rows)),
            row("A met / not met had no verifiable quote (downgraded to unclear)", sum(r["downgraded"] > 0 for r in rows), len(rows)),
            "", "Per applicant type:", "", "| Applicant | Said met when listed | False assurance when not listed |", "|---|---|---|"]

@@ -21,13 +21,13 @@ def completion(content, finish="stop", refusal=None):
 
 @pytest.fixture
 def server(monkeypatch):
-    state = {"requests": [], "status": 200, "body": completion('{"answer": "ok"}')}
+    state = {"requests": [], "status": 200, "body": completion('{"answer": "ok"}'), "queue": []}
 
     class Handler(BaseHTTPRequestHandler):
         def do_POST(self):
             length = int(self.headers["Content-Length"])
             state["requests"].append((self.path, self.headers.get("Authorization"), json.loads(self.rfile.read(length))))
-            payload = json.dumps(state["body"]).encode()
+            payload = json.dumps(state["queue"].pop(0) if state["queue"] else state["body"]).encode()
             self.send_response(state["status"])
             self.send_header("Content-Type", "application/json")
             self.send_header("Content-Length", str(len(payload)))
@@ -103,3 +103,70 @@ def test_missing_key_is_reported_before_any_request(monkeypatch):
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
     with pytest.raises(LLMNotConfigured, match="OPENAI_API_KEY"):
         OpenAILLM("m")
+
+
+# ---- providers that cannot force a schema (Llama through Hugging Face): prompt + validate + retry once ------
+
+def compat(server_url_env="OPENAI_BASE_URL"):
+    import os
+
+    return OpenAILLM("llama-test", base_url=os.environ[server_url_env], structured="json_object",
+                     token_param="max_tokens", service="Hugging Face")
+
+
+def test_json_object_mode_puts_the_schema_in_the_prompt_and_uses_max_tokens(server):
+    out = compat().complete_json("SYS", "USER", SCHEMA, max_tokens=77)
+    assert out == {"answer": "ok"}
+    body = server["requests"][0][2]
+    assert body["response_format"] == {"type": "json_object"} and body["max_tokens"] == 77
+    assert "max_completion_tokens" not in body
+    system = body["messages"][0]["content"]
+    assert system.startswith("SYS") and "JSON Schema" in system and '"answer"' in system  # the schema is stated in words
+
+
+def test_fenced_json_is_accepted(server):
+    server["body"] = completion('```json\n{"answer": "fenced"}\n```')
+    assert compat().complete_json("s", "u", SCHEMA) == {"answer": "fenced"}
+
+
+def test_an_invalid_reply_is_retried_once_with_the_error_shown(server):
+    server["body"]["usage"] = {"prompt_tokens": 10, "completion_tokens": 5, "total_tokens": 15}
+    server["queue"] = [completion('{"wrong_key": 1}'), completion('{"answer": "fixed"}')]
+    llm = compat()
+    assert llm.complete_json("s", "u", SCHEMA) == {"answer": "fixed"}
+    retry = server["requests"][1][2]["messages"]
+    assert [m["role"] for m in retry] == ["system", "user", "assistant", "user"]
+    assert "not valid" in retry[-1]["content"] and retry[2]["content"] == '{"wrong_key": 1}'  # it sees its own mistake
+
+
+def test_two_invalid_replies_give_up_without_looping(server):
+    server["queue"] = [completion("not json at all"), completion('{"answer": 5}')]  # wrong type the second time
+    with pytest.raises(LLMError, match="unreadable"):
+        compat().complete_json("s", "u", SCHEMA)
+    assert len(server["requests"]) == 2  # exactly one retry, never more
+
+
+def test_strict_provider_mode_never_retries(server):
+    server["body"] = completion("not json")
+    with pytest.raises(LLMError, match="unreadable"):
+        OpenAILLM("m").complete_json("s", "u", SCHEMA)
+    assert len(server["requests"]) == 1
+
+
+def test_hugging_face_backend_is_selected_by_config_and_needs_its_own_key(monkeypatch):
+    from grantlens_api.llm import HF_BASE_URL, get_llm
+
+    monkeypatch.delenv("HF_TOKEN", raising=False)
+    with pytest.raises(LLMNotConfigured, match="HF_TOKEN"):
+        get_llm({"LLM_BACKEND": "hf"})
+    monkeypatch.setenv("HF_TOKEN", "hf_test_not_real")
+    llm = get_llm({"LLM_BACKEND": "hf", "HF_MODEL": "meta-llama/Llama-3.1-8B-Instruct"})
+    assert llm.structured == "json_object" and llm.token_param == "max_tokens" and llm.model == "meta-llama/Llama-3.1-8B-Instruct"
+    assert str(llm.client.base_url).startswith(HF_BASE_URL)
+
+
+def test_service_name_appears_in_key_errors(server):
+    server["status"], server["body"] = 401, {"error": {"message": "bad key"}}
+    with pytest.raises(LLMError, match="Hugging Face API key was rejected") as e:
+        compat().complete_json("s", "u", SCHEMA)
+    assert "test-key-not-real" not in str(e.value)

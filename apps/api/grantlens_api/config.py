@@ -14,6 +14,7 @@ class Config:
     LLM_BACKEND = os.environ.get("LLM_BACKEND", "openai")
     LLM_DAILY_LIMIT = int(os.environ.get("LLM_DAILY_LIMIT", "50"))  # AI requests per user per day
     OPENAI_MODEL = os.environ.get("OPENAI_MODEL")
+    HF_MODEL = os.environ.get("HF_MODEL")  # with LLM_BACKEND=hf (needs HF_TOKEN); default meta-llama/Llama-3.1-8B-Instruct
     # Email: "file" (dev, writes .eml files) or "smtp" (needs SMTP_* set). Nothing is sent by default.
     MAIL_BACKEND = os.environ.get("MAIL_BACKEND", "file")
     MAIL_FROM = os.environ.get("MAIL_FROM", "GrantLens <alerts@localhost>")

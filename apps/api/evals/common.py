@@ -43,10 +43,21 @@ def row(label: str, k: int, n: int) -> str:
     return f"| {label} | {rate(k, n)} |"
 
 
-def make_llm():
-    from grantlens_api.llm import OpenAILLM
+def load_hf_token() -> None:
+    """For the evaluations only: use the saved Hugging Face login if HF_TOKEN is not set. The server itself
+    requires HF_TOKEN in its environment."""
+    token_file = Path.home() / ".cache" / "huggingface" / "token"
+    if not os.environ.get("HF_TOKEN") and token_file.exists():
+        os.environ["HF_TOKEN"] = token_file.read_text().strip()
+
+
+def make_llm(backend: str = "openai"):
+    from grantlens_api.llm import OpenAILLM, huggingface_llm
 
     load_openai_key()
+    if backend == "hf":
+        load_hf_token()
+        return huggingface_llm(temperature=0)
     return OpenAILLM(temperature=0)
 
 
@@ -59,6 +70,8 @@ def make_app():
 def cost_estimate(usage: dict, model: str) -> str:
     # USD per million tokens (input, output). gpt-4o-mini's list price; others are unknown here, so say so.
     prices = {"gpt-4o-mini": (0.15, 0.60)}
+    if model.startswith("meta-llama/") and usage["calls"]:
+        return f"{usage['calls']} calls, {usage['prompt_tokens']:,} prompt + {usage['completion_tokens']:,} completion tokens (billed by the provider, a few cents at most)"
     p = prices.get(model)
     tokens = f"{usage['calls']} calls, {usage['prompt_tokens']:,} prompt + {usage['completion_tokens']:,} completion tokens"
     if not p:

@@ -15,10 +15,12 @@ Rates show the count, the percentage and a 95% confidence interval. **With sampl
 | Correct answer, with a verified citation | 66/68 = 97% (95% CI 90 to 99%) |
 | Citation actually contains the planted fact | 66/68 = 97% (95% CI 90 to 99%) |
 | **Wrong answer given with a verified citation** (the dangerous one) | 0/68 = 0% (95% CI 0 to 5%) |
-| Refused when the answer is not in the document | 64/64 = 100% (95% CI 94 to 100%) |
-| **Made up an answer to an unanswerable question** | 0/64 = 0% (95% CI 0 to 6%) |
+| Unanswerable: clean refusal ("couldn't find support") | 64/64 = 100% (95% CI 94 to 100%) |
+| Unanswerable: said "not specified" but attached an unrelated quote (confusing, not false) | 0/64 = 0% (95% CI 0 to 6%) |
+| **Unanswerable: asserted an answer about something that does not exist** (hallucination) | 0/64 = 0% (95% CI 0 to 6%) |
 | Model obeyed the planted injection (raw output was PWNED) | 0/32 = 0% (95% CI 0 to 11%) |
 | ...and that obedience **reached the user** | 0/32 = 0% (95% CI 0 to 11%) |
+| Calls that produced no usable answer at all (counted as failures above) | 0/132 = 0% (95% CI 0 to 3%) |
 
 By document size (correct answer with verified citation):
 
@@ -43,6 +45,7 @@ Answerable questions not answered correctly: 2. Of those, 0 had the fact in fron
 | **Type is NOT listed but it said met for some entry** (false assurance) | 0/33 = 0% (95% CI 0 to 10%) |
 | Said a *different* type was met (any check) | 0/57 = 0% (95% CI 0 to 6%) |
 | **Vague applicant: said met for something anyway** (should be unclear) | 0/16 = 0% (95% CI 0 to 19%) |
+| Checks that produced no usable answer at all | 0/73 = 0% (95% CI 0 to 5%) |
 | Model proposed requirements the grant does not state (caught and dropped) | 3/73 = 4% (95% CI 1 to 11%) |
 | A met / not met had no verifiable quote (downgraded to unclear) | 32/73 = 44% (95% CI 33 to 55%) |
 
@@ -63,6 +66,7 @@ Per applicant type:
 
 | Measure | Result |
 |---|---|
+| Reviews that could be built at all (no usable JSON = failed) | 3/3 = 100% (95% CI 44 to 100%) |
 | Papers that ended up with a verified annotation | 48/48 = 100% (95% CI 93 to 100%) |
 | Annotation judged **fully supported** by its abstract | 47/48 = 98% (95% CI 89 to 100%) |
 | Annotation judged **partly** supported | 1/48 = 2% (95% CI 0 to 11%) |
