@@ -31,8 +31,10 @@ The API refuses to start in production with a missing, placeholder or short (< 3
 Run a job with: `docker compose -f docker-compose.prod.yml --env-file .env.prod exec api flask <command>`.
 
 **Do not skip `flask embed`.** Rows without an embedding are invisible to semantic search (keyword search still
-finds them). At the time of writing the development database had 80,960 opportunities but only 24,960 embedded,
-so semantic search could see about a third of the corpus. Embedding ~55,000 rows on CPU takes roughly 40 minutes.
+finds them). Once, after a large archive sync, semantic search could see only about a third of the corpus (24,960 of
+80,960 rows) because the embedding step had not been re-run. Embedding the 58,698 missing rows took about 20 minutes on
+a laptop CPU (the pace was 35 to 70 rows per second). Check coverage any time with:
+`select count(*) - count(embedding) as without_embedding from opportunity;` (it should be 0 after a run).
 
 ## Backups
 
