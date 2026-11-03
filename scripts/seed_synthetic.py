@@ -17,26 +17,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "apps" / "api"))  #
 import numpy as np  # noqa: E402
 from sqlalchemy import insert  # noqa: E402
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from synthetic_vocab import vocabulary, zipf_weights  # noqa: E402
 from grantlens_api import create_app  # noqa: E402
 from grantlens_api.extensions import db  # noqa: E402
 from grantlens_api.models import EMBED_DIM, Opportunity  # noqa: E402
 
 AGENCIES = ["HHS-NIH", "NSF", "DOE", "USDA", "NASA", "DOD", "ED", "EPA", "DOT", "DOC"]
 STATUSES = ["posted"] * 6 + ["forecasted"] * 3 + ["closed"] * 40 + ["archived"] * 51  # about 9% open, like the real data
-SYLLABLES = ["ba", "ko", "ri", "tu", "me", "la", "no", "se", "vi", "da", "pe", "gu", "ha", "zo", "ni", "fa"]
-
-
-def vocabulary(n: int, rng: random.Random) -> list[str]:
-    words = set()
-    while len(words) < n:
-        words.add("".join(rng.choice(SYLLABLES) for _ in range(rng.randint(2, 4))))
-    return sorted(words)
 
 
 def main(total: int, batch: int = 1000) -> None:
     rng, np_rng = random.Random(1), np.random.default_rng(1)
     vocab = vocabulary(6000, rng)
-    weights = [1 / (i + 1) for i in range(len(vocab))]  # Zipf: a few very common words, a long tail
+    weights = zipf_weights(len(vocab))
     today = date.today()
     with create_app().app_context():
         if db.session.query(Opportunity).count():

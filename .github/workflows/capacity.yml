@@ -48,7 +48,7 @@ jobs:
       - name: Load test
         run: |
           uv run python ../../scripts/loadtest.py --base http://127.0.0.1:5000 --api-prefix "" \
-            -c "${{ inputs.users }}" -s "${{ inputs.seconds }}" --assert-p95 "${{ inputs.p95_ms }}" \
+            -c "${{ inputs.users }}" -s "${{ inputs.seconds }}" --assert-p95 "${{ inputs.p95_ms }}" --synthetic-queries \
             --json /tmp/capacity.json | tee /tmp/capacity.txt
       - name: Report
         if: always()

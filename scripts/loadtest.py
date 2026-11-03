@@ -65,11 +65,20 @@ async def main():
     ap.add_argument("--mix", default="search=70,detail=20,deadlines=10")
     ap.add_argument("--assert-p95", type=float, default=None, metavar="MS",
                     help="exit 1 unless search p95 is under MS and there were no errors (for CI)")
+    ap.add_argument("--synthetic-queries", action="store_true",
+                    help="query with words from the synthetic corpus (scripts/seed_synthetic.py), not English")
     ap.add_argument("--json", default=None, help="also write the results to this file")
     ap.add_argument("--api-prefix", default="/api", help="path prefix of the API; '' to hit Flask directly")
     a = ap.parse_args()
     global PREFIX
     PREFIX = a.api_prefix
+    if a.synthetic_queries:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from synthetic_vocab import vocabulary, zipf_weights
+
+        vocab = vocabulary()
+        rng = random.Random(5)
+        QUERIES[:] = [" ".join(rng.choices(vocab, zipf_weights(len(vocab)), k=rng.randint(2, 6))) for _ in range(200)]
     mix = {k: int(v) for k, v in (kv.split("=") for kv in a.mix.split(","))}
     limits = httpx.Limits(max_connections=a.concurrency)
     async with httpx.AsyncClient(base_url=a.base, timeout=120, limits=limits) as client:
