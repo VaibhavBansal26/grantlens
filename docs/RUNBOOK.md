@@ -57,7 +57,50 @@ the same disk is not a backup. Deleted accounts remain in older backups until th
 - **`POSTGRES_PASSWORD`**: changing it in `.env.prod` alone does not change the password inside an existing database;
   change it in Postgres first (`ALTER USER`), then in `.env.prod`.
 
+## Background jobs
+
+Building a literature review takes 15 to 60 seconds, so it does not run inside the web request. `POST /reviews`
+validates, takes one AI request from the user's daily allowance and queues a row in the `job` table; the browser polls
+`GET /reviews/jobs/<id>`. A job that fails gives the allowance back, and a job a crashed worker left "running" is failed
+and refunded after 15 minutes. At most two reviews per user are in flight.
+
+`JOBS_MODE` decides who runs the queue: `worker` (production: the `worker` service in `docker-compose.prod.yml`, which
+also keeps this work off the processes that serve search), `thread` (development default: a thread in the web process,
+nothing extra to start) or `sync` (tests). With `worker`, jobs stay queued until the worker is up, so check
+`docker compose logs worker` if reviews sit at "waiting to start". Document Q&A and the fit check take a few seconds and
+stay synchronous.
+
+## Deploying
+
+CI (`ci.yml`) must pass first. Then `release.yml` publishes `grantlens-api` and `grantlens-web` to GitHub's container
+registry (`ghcr.io/<owner>/...`, tagged with the commit and `latest`) and deploys: a push to `master` goes to the
+`staging` environment, a tag like `v1.2.0` goes to `production`. Add required reviewers to `production`
+(Settings, Environments) to make every production deploy wait for an approval.
+
+One-time server setup (any Linux host with Docker):
+
+1. Clone the repository to the path you will give as `DEPLOY_PATH`; copy `.env.prod.example` to `.env.prod` and fill it
+   in (including `GHCR_OWNER`, lower-case).
+2. If the image packages are private, run `docker login ghcr.io` once with a token that can read packages.
+3. Create a deploy-only SSH key and add the public half to the server. In each GitHub environment add the secrets
+   `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_PATH`, `DEPLOY_SSH_KEY` (the private key) and `DEPLOY_KNOWN_HOSTS`
+   (`ssh-keyscan <host>`). Without `DEPLOY_HOST` the deploy job only reports that no server is configured.
+4. First deploy by hand: `BACKUP=0 scripts/deploy.sh <git sha or tag>`.
+
+`scripts/deploy.sh <ref>` checks out the ref, takes a database backup, pulls the images, starts them, waits for
+`scripts/smoke.sh` to pass and records the version. If the new version does not come up healthy it puts the previous one
+back and exits non-zero. Migrations run when the new API starts and are additive, so rolling images back is safe; if a
+migration itself went wrong, restore the backup that was just taken (`scripts/restore.sh`). `DRY_RUN=1` prints the
+steps. The script is tested against stand-in tools (`sh scripts/test_deploy.sh`, part of CI). To roll back by hand:
+`scripts/deploy.sh <older sha>`.
+
 ## Capacity (measured)
+
+For a number you can trust, run the **capacity** workflow (Actions tab, or `gh workflow run capacity.yml -f users=50`).
+It starts Postgres and the API on a clean GitHub runner, loads a synthetic corpus the size of the real one
+(`scripts/seed_synthetic.py`: realistic keyword statistics and index size, meaningless relevance), runs the load test and
+fails unless search p95 stays under the target with no errors. The laptop figures below predate that and were measured
+on a machine that was also running a database, a browser and the load generator.
 
 Measured with `scripts/loadtest.py` against this stack on a laptop (8 CPUs available to Docker, also running the
 database, the load generator and a data sync), mixed traffic of 70% search, 20% detail pages, 10% deadlines, with
@@ -100,7 +143,6 @@ a user includes it, so you can find the matching line (and, for 500s, the stack 
 
 ## Not done yet
 
-Distributed tracing (OpenTelemetry) and metrics/alerting; changing an account's email address (so verification is
-only on sign-up); moving PDF parsing and AI calls into background jobs with
-progress (they are synchronous, so a slow request holds a worker thread); off-site backup automation; a staging
-environment and a deploy pipeline (CI builds the images but nothing publishes or deploys them).
+Distributed tracing (OpenTelemetry) and metrics/alerting; changing an account's email address (so verification is only
+on sign-up); off-site backup automation; background jobs for PDF upload and document Q&A (only review building is queued);
+and an actual staging or production server: the pipeline deploys to whatever host you configure, but none exists yet.

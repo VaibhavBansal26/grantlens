@@ -10,8 +10,10 @@ import argparse
 import asyncio
 import random
 import statistics
+import sys
 import time
 from collections import Counter
+from pathlib import Path
 
 import httpx
 
@@ -28,11 +30,14 @@ QUERIES = [
 ]
 
 
+PREFIX = "/api"  # "" when talking to the Flask API directly instead of through the web app
+
+
 async def one(client: httpx.AsyncClient, kind: str, ids: list[int]) -> tuple[str, int, float]:
-    path = {
-        "search": lambda: f"/api/search?q={random.choice(QUERIES)}&mode=hybrid&k=10",
-        "detail": lambda: f"/api/opportunities/{random.choice(ids)}",
-        "deadlines": lambda: "/api/deadlines?start=2026-11-01&end=2026-12-31",
+    path = PREFIX + {
+        "search": lambda: f"/search?q={random.choice(QUERIES)}&mode=hybrid&k=10",
+        "detail": lambda: f"/opportunities/{random.choice(ids)}",
+        "deadlines": lambda: "/deadlines?start=2026-11-01&end=2026-12-31",
     }[kind]()
     t0 = time.perf_counter()
     try:
@@ -58,11 +63,17 @@ async def main():
     ap.add_argument("-c", "--concurrency", type=int, default=8)
     ap.add_argument("-s", "--seconds", type=int, default=30)
     ap.add_argument("--mix", default="search=70,detail=20,deadlines=10")
+    ap.add_argument("--assert-p95", type=float, default=None, metavar="MS",
+                    help="exit 1 unless search p95 is under MS and there were no errors (for CI)")
+    ap.add_argument("--json", default=None, help="also write the results to this file")
+    ap.add_argument("--api-prefix", default="/api", help="path prefix of the API; '' to hit Flask directly")
     a = ap.parse_args()
+    global PREFIX
+    PREFIX = a.api_prefix
     mix = {k: int(v) for k, v in (kv.split("=") for kv in a.mix.split(","))}
     limits = httpx.Limits(max_connections=a.concurrency)
     async with httpx.AsyncClient(base_url=a.base, timeout=120, limits=limits) as client:
-        warm = await client.get("/api/search?q=cancer+imaging&k=20")  # also builds the keyword index
+        warm = await client.get(f"{PREFIX}/search?q=cancer+imaging&k=20")  # also builds the keyword index
         ids = [r["id"] for r in warm.json()["results"]] or [1]
         out: list[tuple[str, int, float]] = []
         stop = time.monotonic() + a.seconds
@@ -78,6 +89,20 @@ async def main():
                   f"p99={pct(ok, 99):6.0f} ms  max={ok[-1]:6.0f} ms")
     bad = sum(1 for _, s, _ in out if s not in (200, 429))
     print(f"errors (not 200/429): {bad}")
+    search_ok = sorted(ms for k, s, ms in out if k == "search" and s == 200)
+    p95 = pct(search_ok, 95) if search_ok else float("inf")
+    if a.json:
+        import json
+
+        Path(a.json).write_text(json.dumps({
+            "concurrency": a.concurrency, "seconds": a.seconds, "requests": len(out), "errors": bad,
+            "req_per_s": round(len(out) / elapsed, 1),
+            "search_p50_ms": round(statistics.median(search_ok)) if search_ok else None,
+            "search_p95_ms": round(p95) if search_ok else None,
+            "rate_limited": sum(1 for _, s, _ in out if s == 429)}, indent=1))
+    if a.assert_p95 is not None and (bad or p95 >= a.assert_p95):
+        print(f"FAILED: search p95 {p95:.0f} ms (limit {a.assert_p95:.0f}), errors {bad}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

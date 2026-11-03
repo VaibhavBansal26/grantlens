@@ -55,3 +55,19 @@ that did not hold up.
 - **What is not measured:** answer quality on real researchers' real documents (tables, equations, two columns), scanned PDFs, other
   models, and search relevance across the full 84,000-opportunity corpus (the labelled set predates it).
 - **Run-to-run variation:** temperature 0 is not fully deterministic. Small differences between runs are noise.
+
+## Review theme summaries: what was tried (2026-11-03)
+
+Original: summaries written in the same call as the grouping, 7/11 (64%) judged fully supported.
+1. Rewrite from the verified paper notes, then a model check of each sentence against the cited abstracts: 10/13 (77%).
+   The check was gpt-4o-mini, the same model as the judge, and it dropped **zero** sentences, so it added nothing.
+2. Same, plus rules the model cannot argue with (one paper per sentence; a verbatim quote from that paper; every number
+   and 80% of the longer words must appear in that quote), a stricter check prompt, and one repair round for themes where
+   every sentence was rejected: 6/8 (75%) fully supported, but **7 of 15 themes (47%) were left without a summary**, and
+   38 sentences were rejected on the way.
+
+Conclusion: the faithfulness of the summaries that are shown did not measurably improve (75% vs 77%, samples of 8 and 13),
+and the cost is a summary on only about half the themes. The strict version is what ships, because an unsupported
+sentence in a research tool is worse than a missing one, and each paper still has its own verified annotation and quote.
+Nothing here shows the strict rules beat the simple ones; a proper test needs more topics and a human check of the
+judge's "partly supported" verdicts, several of which were about wording rather than claims.

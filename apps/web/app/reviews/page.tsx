@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { API, ReviewResult, ReviewSummary, getJson, sendJson } from "@/lib/api";
+import { API, ReviewJob, ReviewResult, ReviewSummary, getJson, sendJson } from "@/lib/api";
 import { useAuth } from "@/lib/auth";
 
 export default function ReviewsPage() {
@@ -12,30 +12,59 @@ export default function ReviewsPage() {
   const [topic, setTopic] = useState("");
   const [recent, setRecent] = useState(true);
   const [review, setReview] = useState<ReviewResult | null>(null);
-  const [busy, setBusy] = useState(false);
+  const [jobs, setJobs] = useState<ReviewJob[]>([]);
+  const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const active = jobs.filter((j) => j.status === "queued" || j.status === "running");
+  const busy = submitting || active.length > 0;
 
   useEffect(() => {
     if (!ready) return;
     if (!user) { router.replace("/login?next=/reviews"); return; }
-    getJson<{ reviews: ReviewSummary[] }>(`${API}/reviews`).then((r) => setList(r.reviews)).catch((e) => setError((e as Error).message));
+    getJson<{ reviews: ReviewSummary[]; pending: ReviewJob[] }>(`${API}/reviews`)
+      .then((r) => { setList(r.reviews); setJobs(r.pending); })  // picks up builds that were running when the page was closed
+      .catch((e) => setError((e as Error).message));
   }, [ready, user, router]);
+
+  // The review is built in the background: ask how each unfinished one is doing every two seconds.
+  useEffect(() => {
+    if (active.length === 0) return;
+    const timer = setInterval(async () => {
+      for (const j of active) {
+        try {
+          const { job } = await getJson<{ job: ReviewJob }>(`${API}/reviews/jobs/${j.id}`);
+          if (job.status === "done" && job.review_id) {
+            const r = await getJson<ReviewResult>(`${API}/reviews/${job.review_id}`);
+            setReview(r);
+            setList((cur) => [{ id: r.id, topic: r.topic, created_at: r.created_at, papers: r.papers.length }, ...(cur ?? [])]);
+            setJobs((cur) => cur.filter((x) => x.id !== job.id));
+          } else if (job.status === "failed") {
+            setError(job.error ?? "The review could not be built.");
+            setJobs((cur) => cur.filter((x) => x.id !== job.id));
+          } else {
+            setJobs((cur) => cur.map((x) => (x.id === job.id ? job : x)));
+          }
+        } catch { /* a missed poll is retried on the next tick */ }
+      }
+    }, 2000);
+    return () => clearInterval(timer);
+  }, [active.map((j) => `${j.id}:${j.status}`).join(",")]); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function build(e: React.FormEvent) {
     e.preventDefault();
-    setBusy(true);
+    setSubmitting(true);
     setError("");
     setReview(null);
     try {
       const body: Record<string, unknown> = { topic };
       if (recent) body.year_from = new Date().getFullYear() - 5;
-      const r = await sendJson<ReviewResult>("POST", `${API}/reviews`, body);
-      setReview(r);
-      setList((cur) => [{ id: r.id, topic: r.topic, created_at: r.created_at, papers: r.papers.length }, ...(cur ?? [])]);
+      const { job } = await sendJson<{ job: ReviewJob }>("POST", `${API}/reviews`, body);
+      setJobs((cur) => [...cur, job]);
+      setTopic("");
     } catch (err) {
       setError((err as Error).message);
     } finally {
-      setBusy(false);
+      setSubmitting(false);
     }
   }
 
@@ -61,11 +90,16 @@ export default function ReviewsPage() {
       <form onSubmit={build}>
         <div className="searchbar">
           <input aria-label="Review topic" placeholder="e.g. deep learning for tumor segmentation" maxLength={300} value={topic} onChange={(e) => setTopic(e.target.value)} />
-          <button className="primary" disabled={busy || topic.trim().length < 3}>{busy ? "Reading papers…" : "Build review"}</button>
+          <button className="primary" disabled={busy || topic.trim().length < 3}>{busy ? "Building…" : "Build review"}</button>
         </div>
         <label className="check"><input type="checkbox" checked={recent} onChange={(e) => setRecent(e.target.checked)} /> Last five years only</label>
       </form>
-      {busy && <p className="muted">This takes up to a minute: searching, reading abstracts and organising themes.</p>}
+      {active.length > 0 && (
+        <p className="muted" role="status">
+          Building “{active[0].topic}”: {active[0].status === "queued" ? "waiting to start" : "reading abstracts and organising themes"}.
+          This takes up to a minute and keeps going if you leave this page.
+        </p>
+      )}
       {error && <p className="error" role="alert">{error}</p>}
 
       {list.length > 0 && (

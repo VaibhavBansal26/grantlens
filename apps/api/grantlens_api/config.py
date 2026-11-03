@@ -18,6 +18,9 @@ class Config:
     # Error reporting to Sentry, only if a DSN is set and the optional `observability` extra is installed.
     SENTRY_DSN = os.environ.get("SENTRY_DSN", "")
     SENTRY_TRACES_SAMPLE_RATE = float(os.environ.get("SENTRY_TRACES_SAMPLE_RATE", "0"))
+    # Where background jobs (review building) run: "worker" = a separate `flask worker` process (production),
+    # "thread" = a thread in the web process (development, nothing extra to start), "sync" = inside the request (tests).
+    JOBS_MODE = os.environ.get("JOBS_MODE", "thread")
     # Automatic expiry (retention.py, `flask retention`); a value of 0 turns that cleanup off.
     RETENTION_DOCUMENT_DAYS = int(os.environ.get("RETENTION_DOCUMENT_DAYS", "90"))
     RETENTION_USAGE_DAYS = int(os.environ.get("RETENTION_USAGE_DAYS", "30"))
@@ -47,6 +50,7 @@ class TestConfig(Config):
     RATELIMIT_ENABLED = False  # the rate-limit tests switch it on
     LEXICAL_REFRESH_SECONDS = 0  # tests insert rows and search at once
     MAIL_BACKEND = "memory"
+    JOBS_MODE = "sync"
     LLM_BACKEND = "fake"
     LLM_FAKE = None  # each test installs its own
     MAIL_MEMORY = MemoryMailer()

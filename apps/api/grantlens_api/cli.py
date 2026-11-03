@@ -86,5 +86,15 @@ def register(app: Flask) -> None:
         cfg = app.config
         out = purge(cfg["RETENTION_DOCUMENT_DAYS"], cfg["RETENTION_USAGE_DAYS"], cfg["RETENTION_REMINDER_DAYS"],
                     dry_run=dry_run)
-        click.echo(f"documents={out.documents} usage_rows={out.usage_rows} reminder_rows={out.reminder_rows}"
+        click.echo(f"documents={out.documents} usage_rows={out.usage_rows} reminder_rows={out.reminder_rows} job_rows={out.job_rows}"
                    f"{' (dry run)' if dry_run else ''}")
+
+    @app.cli.command("worker")
+    @click.option("--once", is_flag=True, help="Run what is queued, then exit")
+    def worker_cmd(once: bool) -> None:
+        """Run background jobs (literature reviews). Start one of these next to the API when JOBS_MODE=worker."""
+        from .jobs import work
+
+        done = work(app, once=once)
+        if once:
+            click.echo(f"jobs run: {done}")

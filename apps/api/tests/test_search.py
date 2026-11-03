@@ -81,3 +81,25 @@ def test_clean_text_strips_html():
     out = clean_text("<p><strong>Summary:</strong>&nbsp;Early&nbsp;career &rsquo;26</p><p>Next</p>")
     assert out == "Summary: Early career ’26\n\nNext"
     assert clean_text(None) == ""
+
+
+def test_query_embeddings_are_cached_and_callers_get_their_own_copy(monkeypatch):
+    from grantlens_api.retrieval import embedder
+
+    calls = []
+
+    class Model:
+        def encode(self, texts, normalize_embeddings):
+            calls.append(texts)
+            import numpy as np
+
+            return np.array([[0.5, 0.25]])
+
+    embedder._embed_query.cache_clear()
+    monkeypatch.setattr(embedder, "_model", lambda: Model())
+    first = embedder.embed_query("same words")
+    first.append(99.0)  # mutating the result must not poison the cache
+    assert embedder.embed_query("same words") == [0.5, 0.25] and len(calls) == 1
+    embedder.embed_query("other words")
+    assert len(calls) == 2
+    embedder._embed_query.cache_clear()

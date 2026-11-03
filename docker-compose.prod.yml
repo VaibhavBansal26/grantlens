@@ -3,6 +3,29 @@
 # The web app, the API, Postgres and Redis are internal.
 #   docker compose -f docker-compose.prod.yml --env-file .env.prod up -d --build
 name: grantlens-prod
+x-api-env: &api-env
+    FLASK_ENV: ${FLASK_ENV:-production}
+    SECRET_KEY: ${SECRET_KEY:?set SECRET_KEY (32+ random characters) in .env.prod}
+    DATABASE_URL: postgresql+psycopg://grantlens:${POSTGRES_PASSWORD}@db:5432/grantlens
+    RATELIMIT_STORAGE_URI: redis://redis:6379/1
+    TRUSTED_PROXY_HOPS: "1"
+    PUBLIC_URL: ${PUBLIC_URL:-http://localhost:3000}
+    OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+    LLM_DAILY_LIMIT: ${LLM_DAILY_LIMIT:-50}
+    MAIL_BACKEND: ${MAIL_BACKEND:-file}
+    MAIL_FROM: ${MAIL_FROM:-GrantLens <alerts@localhost>}
+    SMTP_HOST: ${SMTP_HOST:-}
+    SMTP_PORT: ${SMTP_PORT:-587}
+    SMTP_USER: ${SMTP_USER:-}
+    SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+    OPENALEX_EMAIL: ${OPENALEX_EMAIL:-}
+    OPENALEX_API_KEY: ${OPENALEX_API_KEY:-}
+    SENTRY_DSN: ${SENTRY_DSN:-}
+    RETENTION_DOCUMENT_DAYS: ${RETENTION_DOCUMENT_DAYS:-90}
+    # 2 workers measured best (see docs/RUNBOOK.md): 4 were about twice as slow on the same machine.
+    WEB_CONCURRENCY: ${WEB_CONCURRENCY:-2}
+    RATELIMIT_ENABLED: ${RATELIMIT_ENABLED:-1}  # only ever set to 0 for a capacity test
 services:
   db:
     image: pgvector/pgvector:pg16
@@ -26,37 +49,29 @@ services:
       interval: 5s
       retries: 10
   api:
+    image: grantlens-api:local
     build:
       context: ./apps/api
       args: {UV_EXTRAS: "${UV_EXTRAS:-}"}
     restart: unless-stopped
     environment:
-      FLASK_ENV: ${FLASK_ENV:-production}
-      SECRET_KEY: ${SECRET_KEY:?set SECRET_KEY (32+ random characters) in .env.prod}
-      DATABASE_URL: postgresql+psycopg://grantlens:${POSTGRES_PASSWORD}@db:5432/grantlens
-      RATELIMIT_STORAGE_URI: redis://redis:6379/1
-      TRUSTED_PROXY_HOPS: "1"
-      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:3000}
-      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
-      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
-      LLM_DAILY_LIMIT: ${LLM_DAILY_LIMIT:-50}
-      MAIL_BACKEND: ${MAIL_BACKEND:-file}
-      MAIL_FROM: ${MAIL_FROM:-GrantLens <alerts@localhost>}
-      SMTP_HOST: ${SMTP_HOST:-}
-      SMTP_PORT: ${SMTP_PORT:-587}
-      SMTP_USER: ${SMTP_USER:-}
-      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
-      OPENALEX_EMAIL: ${OPENALEX_EMAIL:-}
-      OPENALEX_API_KEY: ${OPENALEX_API_KEY:-}
-      SENTRY_DSN: ${SENTRY_DSN:-}
-      RETENTION_DOCUMENT_DAYS: ${RETENTION_DOCUMENT_DAYS:-90}
-      # 2 workers measured best (see docs/RUNBOOK.md): 4 were about twice as slow on the same machine.
-      WEB_CONCURRENCY: ${WEB_CONCURRENCY:-2}
-      RATELIMIT_ENABLED: ${RATELIMIT_ENABLED:-1}  # only ever set to 0 for a capacity test
+      <<: *api-env
+      JOBS_MODE: worker  # review building runs in the worker service below, not in the request
     depends_on:
       db: {condition: service_healthy}
       redis: {condition: service_healthy}
     mem_limit: ${API_MEM_LIMIT:-4g}
+  worker:
+    # Runs slow background jobs (literature reviews) so they never occupy the workers that serve search.
+    image: grantlens-api:local
+    restart: unless-stopped
+    entrypoint: ["flask", "--app", "grantlens_api:create_app", "worker"]
+    environment:
+      <<: *api-env
+      JOBS_MODE: worker
+    depends_on:
+      api: {condition: service_healthy}  # the API applies the database migrations on start
+    mem_limit: ${WORKER_MEM_LIMIT:-2g}
   web:
     build:
       context: ./apps/web

@@ -1,0 +1,66 @@
+# Manual capacity test on a clean GitHub runner (4 vCPU, 16 GB), because a laptop running a database, a browser and the
+# load generator at once gives numbers nobody can trust. Fails unless search p95 stays under the target with no errors.
+# The corpus is synthetic but the size of the real one (see scripts/seed_synthetic.py): query embedding, the keyword
+# index, the vector index and the database work per request are close to real; the relevance of results is not.
+#   gh workflow run capacity.yml -f users=50
+name: capacity
+on:
+  workflow_dispatch:
+    inputs:
+      users: {description: "Concurrent users", default: "50"}
+      corpus: {description: "Synthetic opportunities to load", default: "83000"}
+      seconds: {description: "Test duration", default: "60"}
+      workers: {description: "Gunicorn workers (WEB_CONCURRENCY)", default: "2"}
+      p95_ms: {description: "Fail if search p95 is not under this (ms)", default: "800"}
+
+jobs:
+  capacity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env: {POSTGRES_USER: grantlens, POSTGRES_PASSWORD: grantlens, POSTGRES_DB: grantlens}
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U grantlens" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql+psycopg://grantlens:grantlens@localhost:5432/grantlens
+      FLASK_APP: grantlens_api:create_app
+      RATELIMIT_ENABLED: "0"   # we are measuring the server, not the limiter
+      SECRET_KEY: capacity-test-only
+    defaults: {run: {working-directory: apps/api}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv sync --frozen --no-dev
+      - name: Migrate and load the synthetic corpus
+        run: |
+          uv run flask db upgrade
+          uv run python ../../scripts/seed_synthetic.py "${{ inputs.corpus }}" | tail -3
+      - name: Start the API the way production does
+        run: |
+          nohup uv run gunicorn "grantlens_api:create_app()" --config gunicorn.conf.py --bind 127.0.0.1:5000 \
+            --worker-class gthread --workers "${{ inputs.workers }}" --threads 4 --timeout 180 \
+            --access-logfile /dev/null --error-logfile /tmp/gunicorn.log > /dev/null 2>&1 &
+          for i in $(seq 1 180); do curl -sf http://127.0.0.1:5000/auth/me > /dev/null && exit 0; sleep 2; done
+          cat /tmp/gunicorn.log; exit 1
+      - name: Load test
+        run: |
+          uv run python ../../scripts/loadtest.py --base http://127.0.0.1:5000 --api-prefix "" \
+            -c "${{ inputs.users }}" -s "${{ inputs.seconds }}" --assert-p95 "${{ inputs.p95_ms }}" \
+            --json /tmp/capacity.json | tee /tmp/capacity.txt
+      - name: Report
+        if: always()
+        run: |
+          { echo "### Capacity: ${{ inputs.users }} users, ${{ inputs.corpus }} synthetic opportunities, ${{ inputs.workers }} workers"
+            echo '```'; cat /tmp/capacity.txt 2>/dev/null; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: capacity
+          path: |
+            /tmp/capacity.json
+            /tmp/capacity.txt
+            /tmp/gunicorn.log
+          if-no-files-found: ignore

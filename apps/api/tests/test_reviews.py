@@ -1,8 +1,9 @@
 import re
+from datetime import timedelta
 
 import pytest
 
-from grantlens_api import create_app, reviews
+from grantlens_api import create_app, jobs, reviews
 from grantlens_api.config import TestConfig
 from grantlens_api.extensions import db
 from grantlens_api.literature import openalex
@@ -42,12 +43,13 @@ class FakeLLM:
         if system == reviews.SUMMARY_SYSTEM:  # default: one sentence per theme citing that theme's first paper
             if self.sentences is not None:
                 return {"themes": self.sentences}
-            blocks = re.findall(r"THEME (\d+): [^\n]*\n(P\d+):", user)
-            return {"themes": [{"theme": int(i), "sentences": [{"text": f"Theme {i} work [P99].", "papers": [p]}]}
-                               for i, p in blocks]}
+            blocks = re.findall(r'THEME (\d+): [^\n]*\n(P\d+): [^\n]*Quote: "([^"]+)"', user)
+            return {"themes": [{"theme": int(i), "sentences": [
+                {"text": f"{q}. [P99]", "papers": [p], "quote_paper": p, "quote": q}]} for i, p, q in blocks]}
         if system == reviews.CHECK_SYSTEM:  # default: everything supported
             keys = re.findall(r"SENTENCE (\S+):", user)
-            return {"verdicts": [{"key": k, "supported": self.supported is None or k in self.supported} for k in keys]}
+            return {"verdicts": [{"key": k, "reason": "nothing", "supported": self.supported is None or k in self.supported}
+                                 for k in keys]}
         return self.result(user) if callable(self.result) else self.result
 
     @property
@@ -104,6 +106,13 @@ def app(monkeypatch):
         yield app
 
 
+def build_review(client, **body):
+    """POST /reviews (JOBS_MODE=sync runs the job inside the request) and return (response, finished job view)."""
+    res = client.post("/reviews", json={"topic": "tumor segmentation", **body})
+    job = res.get_json().get("job") if res.status_code == 202 else None
+    return res, (client.get(f"/reviews/jobs/{job['id']}").get_json()["job"] if job else None)
+
+
 def login(app, email="a@example.com"):
     c = app.test_client()
     assert c.post("/auth/register", json={"email": email, "password": PW}).status_code == 201
@@ -121,8 +130,8 @@ def test_build_verifies_annotations_themes_and_markers(app):
     assert [t["title"] for t in r.themes] == ["Architectures", "Data and training"]  # no "Other": all placed
     assert r.themes[0]["papers"] == ["P1", "P2"]  # P1 stays in its first theme; P7 never existed
     assert r.themes[1]["papers"] == ["P3", "P4"]  # P4 joined the existing theme, matched by title ignoring case
-    assert r.themes[0]["summary"] == "Theme 0 work. [P1]"  # rebuilt from the verified notes; the model's own markers go
-    assert r.themes[1]["summary"] == "Theme 1 work. [P3]"
+    assert r.themes[0]["summary"] == "segments brain tumors in MRI with high accuracy. [P1]"  # rebuilt from the verified notes; the model's own markers go
+    assert r.themes[1]["summary"] == "lets hospitals train segmentation models without sharing patient scans. [P3]"
     assert r.removed_citations == 2  # the P7 member and the [P9] marker (in the grouping step's own summary)
     assert r.unverified_annotations == 1  # P3's first, invented quote; its second attempt verified
     assert by_id["P3"]["annotation"] == "Federated training." and by_id["P4"]["annotation"] == "A loss benchmark."
@@ -251,10 +260,10 @@ def test_markdown_contains_themes_annotations_and_quotes(app):
 
 def test_create_get_list_export_delete(app):
     c = login(app)
-    res = c.post("/reviews", json={"topic": "tumor segmentation"})
-    assert res.status_code == 201
-    body = res.get_json()
-    rid = body["id"]
+    res, job = build_review(c)
+    assert res.status_code == 202 and job["status"] == "done" and job["error"] is None
+    rid = job["review_id"]
+    body = c.get(f"/reviews/{rid}").get_json()
     assert body["themes"][0]["title"] == "Architectures" and len(body["papers"]) == 4
     assert c.get(f"/reviews/{rid}").get_json()["topic"] == "tumor segmentation"
     assert c.get("/reviews").get_json()["reviews"][0]["papers"] == 4
@@ -277,20 +286,21 @@ def test_validation_and_failures(app, monkeypatch):
     assert c.post("/reviews", json={"topic": "valid topic", "max_papers": 99}).status_code == 400
 
     app.config["LLM_FAKE"] = FakeLLM(error=LLMError("the AI service is rate limited or out of quota; try again later"))
-    assert c.post("/reviews", json={"topic": "valid topic"}).status_code == 502
+    res, job = build_review(c, topic="valid topic")
+    assert res.status_code == 202 and job["status"] == "failed" and "rate limited" in job["error"]
     assert LlmUsage.query.one().count == 0  # refunded
 
     app.config["LLM_FAKE"] = FakeLLM(two_step())
     monkeypatch.setattr(openalex, "search_works", lambda q, limit, year_from: [])
-    res = c.post("/reviews", json={"topic": "valid topic"})
-    assert res.status_code == 404 and "broader words" in res.get_json()["error"]
-    assert LlmUsage.query.one().count == 0
+    _, job = build_review(c, topic="valid topic")
+    assert job["status"] == "failed" and "broader words" in job["error"] and LlmUsage.query.one().count == 0
 
     def down(q, limit, year_from):
         raise openalex.OpenAlexError("boom")
 
     monkeypatch.setattr(openalex, "search_works", down)
-    assert c.post("/reviews", json={"topic": "valid topic"}).status_code == 502
+    _, job = build_review(c, topic="valid topic")
+    assert job["status"] == "failed" and "could not be reached" in job["error"] and LlmUsage.query.one().count == 0
 
     app.config["LLM_BACKEND"] = "openai"
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
@@ -301,34 +311,70 @@ def test_limits_and_privacy(app, monkeypatch):
     from grantlens_api.blueprints import reviews as bp
 
     a, b = login(app), login(app, "b@example.com")
-    rid = a.post("/reviews", json={"topic": "tumor segmentation"}).get_json()["id"]
+    rid = build_review(a)[1]["review_id"]
     assert b.get("/reviews").get_json()["reviews"] == []
     for url in (f"/reviews/{rid}", f"/reviews/{rid}.bib", f"/reviews/{rid}.md"):
         assert b.get(url).status_code == 404
     assert b.delete(f"/reviews/{rid}").status_code == 404 and len(a.get("/reviews").get_json()["reviews"]) == 1
     monkeypatch.setattr(bp, "MAX_REVIEWS", 1)
     assert a.post("/reviews", json={"topic": "another topic"}).status_code == 409
+    monkeypatch.setattr(bp, "MAX_REVIEWS", 20)
     app.config["LLM_DAILY_LIMIT"] = 1
-    assert b.post("/reviews", json={"topic": "tumor segmentation"}).status_code == 201
-    assert b.post("/reviews", json={"topic": "tumor again"}).status_code in (409, 429)
+    assert build_review(b)[1]["status"] == "done"
+    assert b.post("/reviews", json={"topic": "tumor again"}).status_code == 429
+
+
+def sentence(text, papers, quote_paper=None, quote="segments brain tumors in MRI with high accuracy"):
+    return {"text": text, "papers": papers, "quote_paper": quote_paper or papers[0], "quote": quote}
 
 
 def test_summary_sentences_must_cite_the_themes_papers_and_pass_the_check(app):
     sentences = [
         {"theme": 0, "sentences": [
-            {"text": "P1 segments tumors [P1].", "papers": ["P1"]},
-            {"text": "Cites a paper from another theme.", "papers": ["P3"]},  # P3 is not in theme 0
+            sentence("P1 segments tumors [P1].", ["P1"]),
+            sentence("Cites a paper from another theme.", ["P3"]),  # P3 is not in theme 0
         ]},
-        {"theme": 1, "sentences": [{"text": "Federated work.", "papers": ["P3"]}, {"text": "Overreach.", "papers": ["P4"]}]},
-        {"theme": 7, "sentences": [{"text": "No such theme.", "papers": ["P1"]}]},
+        {"theme": 1, "sentences": [
+            sentence("Lets hospitals train segmentation models.", ["P3"], quote="lets hospitals train segmentation models"),
+            sentence("Reveals large gaps between datasets.", ["P4"], quote="reveals large gaps between datasets"),
+        ]},
+        {"theme": 7, "sentences": [sentence("No such theme.", ["P1"])]},
     ]
     llm = FakeLLM(two_step(), sentences=sentences, supported={"0.0", "1.0"})  # "Overreach." (1.1) fails the check
     r = reviews.build("tumor segmentation", llm)
     assert r.themes[0]["summary"] == "P1 segments tumors. [P1]"  # the model's own marker is stripped and re-added
-    assert r.themes[1]["summary"] == "Federated work. [P3]"
+    assert r.themes[1]["summary"] == "Lets hospitals train segmentation models. [P3]"
     assert r.dropped_summary_sentences == 2  # the wrong-theme citation and the failed check; an unknown theme is just skipped
     check = llm.calls[-1]
-    assert "P1 abstract: " in check[1] and "untrusted" in check[0]
+    assert "P1 abstract: " in check[1] and "untrusted" in check[0] and "when unsure" in check[0]
+
+
+def test_a_summary_sentence_needs_a_real_quote_from_its_own_papers_and_grounded_words(app):
+    ok = sentence("Segments brain tumors in MRI with high accuracy.", ["P1"])
+    invented = sentence("Segments brain tumors.", ["P1"], quote="outperforms every radiologist")  # not in P1
+    other_paper = sentence("Segments brain tumors.", ["P1"], quote_paper="P2")  # P2 is not the cited paper
+    two_papers = sentence("Segments brain tumors in MRI with high accuracy.", ["P1", "P2"])  # one paper per sentence
+    extra_detail = sentence("Segments brain tumors in MRI with high accuracy across public datasets worldwide.", ["P1"])
+    number = sentence("Segments brain tumors in 97% of cases.", ["P1"])  # no 97 in the abstract
+    ungrounded = sentence("Revolutionised oncology pipelines worldwide dramatically.", ["P1"])
+    llm = FakeLLM(two_step(), sentences=[{"theme": 0, "sentences": [ok, invented]},
+                                         {"theme": 1, "sentences": [number, ungrounded]}])
+    r = reviews.build("tumor segmentation", llm)
+    assert r.themes[0]["summary"] == "Segments brain tumors in MRI with high accuracy. [P1]"
+    assert r.themes[1]["summary"] == "" and r.dropped_summary_sentences == 3 + 2  # theme 1 got one repair round too
+    assert reviews.quote_is_verbatim("with high accuracy", ABSTRACTS[1])
+    llm = FakeLLM(two_step(), sentences=[{"theme": 0, "sentences": [other_paper, two_papers]},
+                                         {"theme": 1, "sentences": [extra_detail]}])
+    built = reviews.build("tumor segmentation", llm)
+    assert [t["summary"] for t in built.themes] == ["", ""] and built.dropped_summary_sentences == 3 + 3
+
+
+def test_grounded_compares_numbers_exactly_and_words_by_stem():
+    src = ["Segmentation networks improved accuracy by 12.5 percent across hospitals."]
+    assert reviews.grounded("Segmentation networks improve accuracy across hospital sites.", src)
+    assert not reviews.grounded("Accuracy improved by 12 percent.", ["Accuracy improved by 7 percent."])
+    assert not reviews.grounded("Networks improved accuracy by 13 percent.", src)
+    assert not reviews.grounded("Quantum blockchain disrupts everything universally.", src)
 
 
 def test_a_failed_summary_step_leaves_no_summary_not_an_unchecked_one(app, monkeypatch):
@@ -343,3 +389,98 @@ def test_a_failed_summary_step_leaves_no_summary_not_an_unchecked_one(app, monke
     llm.complete_json = flaky
     r = reviews.build("tumor segmentation", llm)
     assert [t["summary"] for t in r.themes] == ["", ""] and all(p["annotation"] for p in r.papers)
+
+
+# ---- background jobs ----------------------------------------------------------------------
+
+def test_a_job_can_only_be_polled_by_its_owner_and_failures_show_in_the_list(app, monkeypatch):
+    a, b = login(app), login(app, "b@example.com")
+    monkeypatch.setattr(openalex, "search_works", lambda q, limit, year_from: [])
+    _, job = build_review(a)
+    assert job["status"] == "failed"
+    assert b.get(f"/reviews/jobs/{job['id']}").status_code == 404 and a.get("/reviews/jobs/999").status_code == 404
+    listing = a.get("/reviews").get_json()
+    assert listing["reviews"] == [] and [p["error"] is not None for p in listing["pending"]] == [True]
+    assert b.get("/reviews").get_json()["pending"] == []
+
+
+def test_worker_mode_queues_and_the_worker_runs_it_once(app):
+    app.config["JOBS_MODE"] = "worker"
+    c = login(app)
+    res, job = build_review(c)
+    assert res.status_code == 202 and job["status"] == "queued" and job["review_id"] is None
+    assert c.get("/reviews").get_json()["pending"][0]["status"] == "queued"
+    assert jobs.work(app, once=True) == 1 and jobs.work(app, once=True) == 0  # nothing left for a second pass
+    done = c.get(f"/reviews/jobs/{job['id']}").get_json()["job"]
+    assert done["status"] == "done" and c.get(f"/reviews/{done['review_id']}").status_code == 200
+    assert c.get("/reviews").get_json()["pending"] == []
+
+
+def test_only_one_worker_can_claim_a_job(app):
+    app.config["JOBS_MODE"] = "worker"
+    build_review(login(app))
+    first, second = jobs.claim(), jobs.claim()
+    assert first is not None and first.status == "running" and second is None
+
+
+def test_two_active_jobs_per_user_and_a_crashed_worker_is_reaped_and_refunded(app):
+    app.config["JOBS_MODE"] = "worker"
+    c = login(app)
+    assert build_review(c)[0].status_code == 202 and build_review(c)[0].status_code == 202
+    third = build_review(c)[0]
+    assert third.status_code == 409 and "already being built" in third.get_json()["error"]
+    assert LlmUsage.query.one().count == 2  # the refused third did not use an AI request
+    job = jobs.claim()  # a worker takes it and dies
+    assert jobs.reap() == 0
+    later = job.started_at.replace(tzinfo=None) + jobs.STALE_AFTER + timedelta(seconds=1)
+    assert jobs.reap(now=later) == 1
+    db.session.refresh(job)
+    assert job.status == "failed" and "too long" in job.error and LlmUsage.query.one().count == 1
+
+
+def test_a_crash_inside_a_job_is_recorded_and_refunded_not_left_running(app, monkeypatch):
+    c = login(app)
+
+    def boom(*a, **k):
+        raise RuntimeError("bug")
+
+    monkeypatch.setattr(reviews, "build", boom)
+    _, job = build_review(c)
+    assert job["status"] == "failed" and "something went wrong" in job["error"]
+    assert LlmUsage.query.one().count == 0
+
+
+def test_thread_mode_finishes_in_the_background(app):
+    import time
+
+    app.config["JOBS_MODE"] = "thread"
+    c = login(app)
+    res = c.post("/reviews", json={"topic": "tumor segmentation"})
+    jid = res.get_json()["job"]["id"]
+    for _ in range(100):
+        job = c.get(f"/reviews/jobs/{jid}").get_json()["job"]
+        if job["status"] in ("done", "failed"):
+            break
+        time.sleep(0.05)
+    assert job["status"] == "done"
+
+
+def test_a_theme_whose_sentences_were_all_rejected_gets_one_repair_round(app):
+    bad = sentence("Revolutionised oncology pipelines worldwide dramatically.", ["P1"])
+    good = sentence("Segments brain tumors in MRI with high accuracy.", ["P1"])
+    llm = FakeLLM(two_step())
+    answers = iter([[{"theme": 0, "sentences": [bad]}, {"theme": 1, "sentences": [bad]}],
+                    [{"theme": 0, "sentences": [good]}]])  # the repair round only has to fix theme 0 (1 stays empty)
+    real = llm.complete_json
+
+    def scripted(system, user, schema, max_tokens=1500):
+        if system == reviews.SUMMARY_SYSTEM:
+            llm.sentences = next(answers)
+            llm.calls.append(("summary-prompt", user, None))
+        return real(system, user, schema, max_tokens)
+
+    llm.complete_json = scripted
+    r = reviews.build("tumor segmentation", llm)
+    prompts = [c[1] for c in llm.calls if c[0] == "summary-prompt"]
+    assert len(prompts) == 2 and reviews.RETRY_NOTE in prompts[1] and "THEME 1" in prompts[1] and "THEME 0" in prompts[1]
+    assert r.themes[0]["summary"] == "Segments brain tumors in MRI with high accuracy. [P1]" and r.themes[1]["summary"] == ""

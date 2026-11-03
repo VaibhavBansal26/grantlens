@@ -1,0 +1,14 @@
+# Run the published images instead of building on the server. Layer it over the production stack:
+#   IMAGE_TAG=<git sha, first 12> docker compose -f docker-compose.prod.yml -f docker-compose.images.yml --env-file .env.prod up -d --no-build
+# GHCR_OWNER is the lower-case GitHub user or organisation that owns the images (set it in .env.prod).
+# scripts/deploy.sh does all of this, with a backup first and a rollback if the smoke test fails.
+services:
+  api:
+    image: ghcr.io/${GHCR_OWNER:?set GHCR_OWNER in .env.prod}/grantlens-api:${IMAGE_TAG:-latest}
+    pull_policy: always
+  worker:
+    image: ghcr.io/${GHCR_OWNER:?set GHCR_OWNER in .env.prod}/grantlens-api:${IMAGE_TAG:-latest}
+    pull_policy: always
+  web:
+    image: ghcr.io/${GHCR_OWNER:?set GHCR_OWNER in .env.prod}/grantlens-web:${IMAGE_TAG:-latest}
+    pull_policy: always

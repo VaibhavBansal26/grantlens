@@ -181,3 +181,21 @@ class Review(db.Model):
     topic = db.Column(db.String(300), nullable=False)
     result = db.Column(JSON, nullable=False)
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
+
+
+class Job(db.Model):
+    """Slow work (building a literature review) run outside the web request. See jobs.py."""
+
+    __tablename__ = "job"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"),
+                        nullable=False, index=True)
+    kind = db.Column(db.String(20), nullable=False)
+    status = db.Column(db.String(10), nullable=False, default="queued", index=True)  # queued|running|done|failed
+    params = db.Column(JSON, nullable=False)
+    result_id = db.Column(db.Integer)  # the review this job produced
+    error = db.Column(db.String(300))  # safe to show to the user
+    created_at = db.Column(db.DateTime(timezone=True), default=_now)
+    started_at = db.Column(db.DateTime(timezone=True))
+    finished_at = db.Column(db.DateTime(timezone=True))

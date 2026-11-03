@@ -49,6 +49,17 @@ jobs:
       - run: docker build apps/api
       - run: docker build apps/web
 
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sh scripts/test_deploy.sh
+      - name: The production compose files are valid, with and without the published-image overlay
+        env: {SECRET_KEY: "0123456789012345678901234567890123456789", POSTGRES_PASSWORD: ci, GHCR_OWNER: ci}
+        run: |
+          docker compose -f docker-compose.prod.yml config -q
+          docker compose -f docker-compose.prod.yml -f docker-compose.images.yml config -q
+
   secrets:
     runs-on: ubuntu-latest
     steps:

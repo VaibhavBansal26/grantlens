@@ -11,6 +11,7 @@ from .models import (
     DeadlineReminder,
     DocChunk,
     Document,
+    Job,
     LlmUsage,
     Review,
     SavedSearch,
@@ -91,7 +92,7 @@ def delete_user_data(user: User) -> None:
     doc_ids = [d for (d,) in db.session.query(Document.id).filter_by(user_id=user.id)]
     if doc_ids:
         DocChunk.query.filter(DocChunk.document_id.in_(doc_ids)).delete(synchronize_session=False)
-    for model in (Document, SavedSearch, WatchedOpportunity, DeadlineReminder, Review, LlmUsage):
+    for model in (Document, SavedSearch, WatchedOpportunity, DeadlineReminder, Review, LlmUsage, Job):
         model.query.filter_by(user_id=user.id).delete(synchronize_session=False)
     db.session.delete(user)
     db.session.commit()

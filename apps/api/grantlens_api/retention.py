@@ -8,7 +8,9 @@ from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
 
 from .extensions import db
-from .models import DeadlineReminder, DocChunk, Document, LlmUsage
+from .models import DeadlineReminder, DocChunk, Document, Job, LlmUsage
+
+JOB_DAYS = 7
 
 
 @dataclass
@@ -16,6 +18,7 @@ class Purged:
     documents: int = 0
     usage_rows: int = 0
     reminder_rows: int = 0
+    job_rows: int = 0
 
 
 def purge(document_days: int, usage_days: int, reminder_days: int, now: datetime | None = None,
@@ -40,6 +43,10 @@ def purge(document_days: int, usage_days: int, reminder_days: int, now: datetime
         out.reminder_rows = rows.count()
         if not dry_run:
             rows.delete(synchronize_session=False)
+    # Finished jobs only matter while the browser is polling for them.
+    finished = Job.query.filter(Job.status.in_(("done", "failed")), Job.finished_at < now - timedelta(days=JOB_DAYS))
+    out.job_rows = finished.count()
     if not dry_run:
+        finished.delete(synchronize_session=False)
         db.session.commit()
     return out

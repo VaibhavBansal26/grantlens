@@ -196,4 +196,5 @@ export type ReviewResult = {
   literature_available: boolean;
 };
 
+export type ReviewJob = { id: number; topic: string; status: "queued" | "running" | "done" | "failed"; review_id: number | null; error: string | null };
 export type ReviewSummary = { id: number; topic: string; created_at: string; papers: number };
