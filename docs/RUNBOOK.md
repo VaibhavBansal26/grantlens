@@ -116,8 +116,8 @@ rate limits **off**. Results varied by up to about 30% from run to run, so treat
   synthetic opportunities, queries drawn from the corpus' own vocabulary: **201 req/s, search p50 241 ms / p95 464 ms**
   (target: p95 under 800 ms), detail p95 402 ms, deadlines p95 501 ms, 0 errors. **The target is met on that setup.**
   Caveats: the corpus is synthetic (vector-search and keyword-index cost are realistic, relevance is not), it is one
-  60-second run on a shared 4-CPU runner, and an earlier run that used English queries (which matched nothing) looked
-  better (p95 536 ms vs 464 ms was noise, not a regression), a reminder that the test must exercise the keyword index.
+  60-second run on a shared 4-CPU runner, and an earlier run whose English queries matched nothing in the corpus gave p95 536 ms at
+  173 req/s, so run-to-run variation is at least that large, and the test must use queries that exercise the keyword index.
 - Before that, on the laptop, the target was **not** met: that setup ran the database, a browser and the load
   generator on 8 GB of memory that was already swapping, and every worker used 4 torch threads. The code now limits torch
   to one thread per process and caches repeated query embeddings.
