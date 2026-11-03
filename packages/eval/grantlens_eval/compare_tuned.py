@@ -42,55 +42,66 @@ def per_query(retrieve, queries):
     return np.array(rows)
 
 
-def main(model_dir: str):
+def build(model_dir: str):
+    """(docs, labelled queries, {system name: retriever}) for base and tuned, dense and hybrid."""
     from sentence_transformers import SentenceTransformer
 
-    docs, ids = load_docs(), None
+    docs = load_docs()
     ids = [d["id"] for d in docs]
     queries = [q for q in load_queries(Path("queries.yaml")) if q["relevant"]]
     device = "mps" if torch.backends.mps.is_available() else "cpu"
     tuned_path = Path("data/embeddings_tuned.npy")
     tuned = SentenceTransformer(model_dir, device=device)
-    if tuned_path.exists():
-        tv = np.load(tuned_path)
-    else:
-        tv = embed(tuned, docs, device)
+    tv = np.load(tuned_path) if tuned_path.exists() else embed(tuned, docs, device)
+    if not tuned_path.exists():
         np.save(tuned_path, tv)
-    bv = np.load(EMB)
     base = SentenceTransformer("BAAI/bge-small-en-v1.5", device="cpu")
 
     def dense(model, vecs):
         cache = {}
+
         def r(q, k):
             if q not in cache:
                 cache[q] = model.encode([QUERY_PREFIX + q], normalize_embeddings=True)[0]
             return [ids[i] for i in np.argsort(-(vecs @ cache[q]))[:k]]
+
         return r
 
     bm25 = bm25_retriever(docs)
     systems = {}
-    for tag, model, vecs in (("base", base, bv), ("tuned", tuned, tv)):
+    for tag, model, vecs in (("base", base, np.load(EMB)), ("tuned", tuned, tv)):
         d = dense(model, vecs)
         systems[f"dense/{tag}"] = d
         systems[f"hybrid/{tag}"] = lambda q, k, d=d: rrf([bm25(q, 100), d(q, 100)])[:k]
+    return docs, queries, systems
+
+
+def main(model_dir: str, labels: str | None = None, out: str = "results/finetune.json"):
+    """`labels`: a JSON {query id: {doc id: grade}} that REPLACES the queries.yaml labels (one grader for the whole pool)."""
+    _docs, queries, systems = build(model_dir)
+    if labels:
+        extra = json.loads(Path(labels).read_text())
+        for q in queries:
+            q["relevant"] = {k: v for k, v in extra.get(q["id"], {}).items() if v > 0}  # replaces, one grader
+        queries = [q for q in queries if q["relevant"]]
     rows = {n: per_query(r, queries) for n, r in systems.items()}
 
     rng = np.random.default_rng(0)
-    out = {"queries": len(queries), "systems": {}, "paired": {}}
+    report = {"queries": len(queries), "systems": {}, "paired": {}}
     print(f"{'system':<14}" + "".join(f"{n:>11}" for n in NAMES) + f"{'unjudged@10':>13}")
     for n, m in rows.items():
-        out["systems"][n] = {**dict(zip(NAMES, m[:, :4].mean(0).round(4).tolist())), "unjudged_top10": float(m[:, 4].sum())}
+        report["systems"][n] = {**dict(zip(NAMES, m[:, :4].mean(0).round(4).tolist())), "unjudged_top10": float(m[:, 4].sum())}
         print(f"{n:<14}" + "".join(f"{v:>11.3f}" for v in m[:, :4].mean(0)) + f"{int(m[:, 4].sum()):>13}")
     for kind in ("dense", "hybrid"):
         diff = rows[f"{kind}/tuned"][:, 0] - rows[f"{kind}/base"][:, 0]
         boots = [diff[rng.integers(0, len(diff), len(diff))].mean() for _ in range(10000)]
         lo, hi = np.percentile(boots, [2.5, 97.5])
-        out["paired"][kind] = {"ndcg@10_delta": round(float(diff.mean()), 4), "ci95": [round(float(lo), 4), round(float(hi), 4)],
+        report["paired"][kind] = {"ndcg@10_delta": round(float(diff.mean()), 4), "ci95": [round(float(lo), 4), round(float(hi), 4)],
                                "queries_better": int((diff > 1e-9).sum()), "queries_worse": int((diff < -1e-9).sum())}
         print(f"{kind}: nDCG@10 tuned-base = {diff.mean():+.3f} (95% CI {lo:+.3f} to {hi:+.3f}); "
               f"better on {(diff > 1e-9).sum()}, worse on {(diff < -1e-9).sum()} of {len(diff)}")
-    Path("results/finetune.json").write_text(json.dumps(out, indent=2))
+    Path(out).write_text(json.dumps(report, indent=2))
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], *(sys.argv[2:4]))

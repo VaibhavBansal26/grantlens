@@ -1,0 +1,53 @@
+{
+  "queries": 30,
+  "systems": {
+    "dense/base": {
+      "ndcg@10": 0.8,
+      "recall@50": 0.561,
+      "mrr": 0.9389,
+      "top5_hit": 1.0,
+      "unjudged_top10": 68.0
+    },
+    "hybrid/base": {
+      "ndcg@10": 0.8614,
+      "recall@50": 0.6051,
+      "mrr": 0.95,
+      "top5_hit": 1.0,
+      "unjudged_top10": 50.0
+    },
+    "dense/tuned": {
+      "ndcg@10": 0.8245,
+      "recall@50": 0.6227,
+      "mrr": 0.9611,
+      "top5_hit": 1.0,
+      "unjudged_top10": 62.0
+    },
+    "hybrid/tuned": {
+      "ndcg@10": 0.8676,
+      "recall@50": 0.645,
+      "mrr": 1.0,
+      "top5_hit": 1.0,
+      "unjudged_top10": 50.0
+    }
+  },
+  "paired": {
+    "dense": {
+      "ndcg@10_delta": 0.0245,
+      "ci95": [
+        -0.0208,
+        0.0697
+      ],
+      "queries_better": 14,
+      "queries_worse": 11
+    },
+    "hybrid": {
+      "ndcg@10_delta": 0.0062,
+      "ci95": [
+        -0.0226,
+        0.0339
+      ],
+      "queries_better": 15,
+      "queries_worse": 10
+    }
+  }
+}
