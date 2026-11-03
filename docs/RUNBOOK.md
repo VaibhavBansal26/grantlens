@@ -112,7 +112,15 @@ rate limits **off**. Results varied by up to about 30% from run to run, so treat
 | 16 | 30 to 46 req/s | 360 to 500 ms / 650 to 1,250 ms | 400 to 830 ms | 410 to 800 ms | 0 |
 | 48 | ~30 req/s | ~1.6 s / ~3 s | ~2.7 s | ~4 s | 0 |
 
-- **The original target (50 users with search p95 under 800 ms) is not met** on this hardware with this setup.
+- **Clean-runner result (the `capacity` workflow, 2026-11-03):** 50 concurrent users, 60 seconds, 2 workers, 83,000
+  synthetic opportunities, queries drawn from the corpus' own vocabulary: **201 req/s, search p50 241 ms / p95 464 ms**
+  (target: p95 under 800 ms), detail p95 402 ms, deadlines p95 501 ms, 0 errors. **The target is met on that setup.**
+  Caveats: the corpus is synthetic (vector-search and keyword-index cost are realistic, relevance is not), it is one
+  60-second run on a shared 4-CPU runner, and an earlier run that used English queries (which matched nothing) looked
+  better (p95 536 ms vs 464 ms was noise, not a regression), a reminder that the test must exercise the keyword index.
+- Before that, on the laptop, the target was **not** met: that setup ran the database, a browser and the load
+  generator on 8 GB of memory that was already swapping, and every worker used 4 torch threads. The code now limits torch
+  to one thread per process and caches repeated query embeddings.
   Up to roughly 16 concurrent users it is met or close. Memory is steady at about 1.3 GB and nothing restarted.
 - The API is CPU-bound. **Two workers measured best**; four workers were about twice as slow (about 20 req/s), and
   the cause was not found. To go beyond ~45 req/s, run more API replicas on separate machines or move query embedding
