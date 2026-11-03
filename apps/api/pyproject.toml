@@ -29,6 +29,7 @@ ml = [
     "numpy>=2.5.4",
     "rank-bm25>=0.2.2",
     "sentence-transformers>=6.2.0",
+    "torch>=2.4",  # direct, so the CPU-only index below applies to it
 ]
 
 [tool.ruff]
@@ -41,3 +42,13 @@ filterwarnings = ["ignore:builtin type .* has no __module__ attribute:Deprecatio
 
 [tool.uv]
 default-groups = ["dev", "ml"]
+
+# On Linux (the containers) use PyTorch's CPU-only wheels: the default ones pull in about 4 GB of CUDA
+# libraries a CPU server can never use. macOS keeps the normal PyPI build.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

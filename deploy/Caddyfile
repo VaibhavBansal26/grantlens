@@ -1,0 +1,25 @@
+# The only public entry point. It terminates TLS and owns X-Forwarded-For, which the API's rate limits
+# depend on (TRUSTED_PROXY_HOPS=1 means "trust the last address in that header, written by this proxy").
+#   SITE_ADDRESS=grants.example.edu   -> automatic HTTPS (needs ports 80 and 443 reachable from the internet)
+#   SITE_ADDRESS=:80                  -> plain HTTP, for local testing or when another proxy terminates TLS
+# If you put a different load balancer here instead, it must REPLACE X-Forwarded-For with the client's
+# address and not append to what the client sent, or limits can be dodged by forging the header.
+{
+	admin off
+}
+
+{$SITE_ADDRESS::80} {
+	encode zstd gzip
+	reverse_proxy web:3000 {
+		header_up X-Forwarded-For {remote_host}
+		header_up -X-Real-IP
+		transport http {
+			response_header_timeout 180s  # AI requests can run for a minute or more
+		}
+	}
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Frame-Options "DENY"
+		-Server
+	}
+}

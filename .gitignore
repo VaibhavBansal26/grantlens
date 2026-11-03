@@ -12,3 +12,5 @@ results/tmp/
 *.tsbuildinfo
 next-env.d.ts
 outbox/
+.env.prod
+backups/

@@ -1,0 +1,77 @@
+# Production-shaped stack. Only the Caddy proxy is published. It terminates TLS and writes X-Forwarded-For
+# (see deploy/Caddyfile), which is what makes TRUSTED_PROXY_HOPS=1 correct and the rate limits honest.
+# The web app, the API, Postgres and Redis are internal.
+#   docker compose -f docker-compose.prod.yml --env-file .env.prod up -d --build
+name: grantlens-prod
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: grantlens
+      POSTGRES_DB: grantlens
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env.prod}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U grantlens -d grantlens"]
+      interval: 5s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    # Rate-limit counters only: nothing here needs to survive a restart.
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "128mb", "--maxmemory-policy", "allkeys-lru"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      retries: 10
+  api:
+    build: ./apps/api
+    restart: unless-stopped
+    environment:
+      FLASK_ENV: ${FLASK_ENV:-production}
+      SECRET_KEY: ${SECRET_KEY:?set SECRET_KEY (32+ random characters) in .env.prod}
+      DATABASE_URL: postgresql+psycopg://grantlens:${POSTGRES_PASSWORD}@db:5432/grantlens
+      RATELIMIT_STORAGE_URI: redis://redis:6379/1
+      TRUSTED_PROXY_HOPS: "1"
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:3000}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      LLM_DAILY_LIMIT: ${LLM_DAILY_LIMIT:-50}
+      MAIL_BACKEND: ${MAIL_BACKEND:-file}
+      MAIL_FROM: ${MAIL_FROM:-GrantLens <alerts@localhost>}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      OPENALEX_EMAIL: ${OPENALEX_EMAIL:-}
+      # 2 workers measured best (see docs/RUNBOOK.md): 4 were about twice as slow on the same machine.
+      WEB_CONCURRENCY: ${WEB_CONCURRENCY:-2}
+      RATELIMIT_ENABLED: ${RATELIMIT_ENABLED:-1}  # only ever set to 0 for a capacity test
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    mem_limit: ${API_MEM_LIMIT:-4g}
+  web:
+    build:
+      context: ./apps/web
+      args: {API_INTERNAL_URL: "http://api:5000"}
+    restart: unless-stopped
+    depends_on:
+      api: {condition: service_healthy}
+  proxy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["${HTTP_PORT:-80}:80", "${HTTPS_PORT:-443}:443"]
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      web: {condition: service_healthy}
+volumes:
+  pgdata:
+  caddy_data:
+  caddy_config:

@@ -14,17 +14,19 @@ services:
   redis:
     image: redis:7-alpine
     ports: ["6379:6379"]
+  # Development: `docker compose up -d db redis`, then run the API and web app on the host (see README).
+  # The production-shaped stack, with hardened images and no published database port, is docker-compose.prod.yml.
   api:
     build: ./apps/api
     env_file: .env
-    ports: ["5000:5000"]
+    ports: ["5055:5000"]
     depends_on:
       db: {condition: service_healthy}
       redis: {condition: service_started}
   web:
-    build: ./apps/web
-    environment:
-      NEXT_PUBLIC_API_URL: http://localhost:5000
+    build:
+      context: ./apps/web
+      args: {API_INTERNAL_URL: "http://api:5000"}
     ports: ["3000:3000"]
     depends_on: [api]
 volumes:

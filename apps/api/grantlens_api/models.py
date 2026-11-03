@@ -2,6 +2,7 @@ from datetime import UTC, datetime
 
 from pgvector.sqlalchemy import Vector
 from sqlalchemy import JSON, Index, UniqueConstraint
+from sqlalchemy.orm import deferred
 
 from .extensions import db
 
@@ -16,6 +17,7 @@ class Opportunity(db.Model):
     __tablename__ = "opportunity"
     __table_args__ = (
         UniqueConstraint("source", "external_id", name="uq_opportunity_source_ext"),
+        Index("ix_opportunity_close_date", "close_date"),  # the deadlines calendar filters on it
         Index(
             "ix_opportunity_embedding", "embedding",
             postgresql_using="hnsw", postgresql_ops={"embedding": "vector_cosine_ops"},
@@ -38,8 +40,9 @@ class Opportunity(db.Model):
     close_date = db.Column(db.Date)
     status = db.Column(db.String(32), index=True)
     url = db.Column(db.Text)
-    raw_json = db.Column(JSON)
-    embedding = db.Column(Vector(EMBED_DIM).with_variant(JSON(), "sqlite"))
+    # Large and rarely needed: loaded only when a row's attribute is actually touched, not with every query.
+    raw_json = deferred(db.Column(JSON))
+    embedding = deferred(db.Column(Vector(EMBED_DIM).with_variant(JSON(), "sqlite")))
     content_hash = db.Column(db.String(64), nullable=False)
     first_seen_at = db.Column(db.DateTime(timezone=True), default=_now)
     updated_at = db.Column(db.DateTime(timezone=True), default=_now, onupdate=_now)
