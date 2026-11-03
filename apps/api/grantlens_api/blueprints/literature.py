@@ -2,12 +2,14 @@ from dataclasses import asdict
 
 from flask import Blueprint, jsonify, request
 
+from ..extensions import limiter
 from ..literature import openalex
 
 bp = Blueprint("literature", __name__, url_prefix="/literature")
 
 
 @bp.get("/search")
+@limiter.limit("30/minute")
 def search():
     q = (request.args.get("q") or "").strip()
     if not q or len(q) > 300:

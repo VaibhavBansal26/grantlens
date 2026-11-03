@@ -80,6 +80,8 @@ class User(db.Model):
     password_hash = db.Column(db.String(255), nullable=False)
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
     reminders = db.Column(db.Boolean, nullable=False, default=False, server_default=db.false())
+    # Bumped on password reset: every login cookie carries the version it was issued under, so old ones die.
+    session_version = db.Column(db.Integer, nullable=False, default=0, server_default="0")
 
 
 class SavedSearch(db.Model):

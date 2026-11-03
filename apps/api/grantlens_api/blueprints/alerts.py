@@ -1,11 +1,13 @@
 from flask import Blueprint, jsonify, request
 
 from ..alerts import unsubscribe_all, user_from_token
+from ..extensions import limiter
 
 bp = Blueprint("alerts", __name__, url_prefix="/alerts")
 
 
 @bp.post("/unsubscribe")
+@limiter.limit("20/hour")
 def unsubscribe():
     """Works without a login (the link is in the email). POST so link previewers can't trigger it;
     the token may be in the query string, as RFC 8058 one-click unsubscribe requires."""

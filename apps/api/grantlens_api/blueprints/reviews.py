@@ -4,7 +4,7 @@ from datetime import date
 from flask import Blueprint, Response, current_app, g, jsonify, request
 
 from .. import reviews, usage
-from ..extensions import db
+from ..extensions import db, limiter
 from ..llm import LLMError, LLMNotConfigured, get_llm
 from ..models import Review
 from .auth import login_required
@@ -32,6 +32,7 @@ def list_reviews():
 
 
 @bp.post("")
+@limiter.limit("10/hour")
 @login_required
 def create():
     """Body: {"topic": "...", "year_from": 2019, "max_papers": 20}."""

@@ -4,6 +4,7 @@ from datetime import date
 from flask import Blueprint, jsonify, request
 from werkzeug.datastructures import MultiDict
 
+from ..extensions import limiter
 from ..retrieval.filters import Filters
 from ..retrieval.service import search
 
@@ -49,6 +50,7 @@ def parse_search(args: MultiDict) -> SearchRequest:
 
 
 @bp.get("/search")
+@limiter.limit("120/minute")
 def search_endpoint():
     try:
         req = parse_search(request.args)

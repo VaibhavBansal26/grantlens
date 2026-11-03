@@ -4,6 +4,11 @@ from .mail import MemoryMailer
 
 
 class Config:
+    # Production hardening (see hardening.py). Behind Next.js set TRUSTED_PROXY_HOPS=1, and never expose the API directly.
+    TRUSTED_PROXY_HOPS = int(os.environ.get("TRUSTED_PROXY_HOPS", "0"))
+    CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "")  # comma-separated; empty = same-origin only
+    RATELIMIT_ENABLED = os.environ.get("RATELIMIT_ENABLED", "1") == "1"
+    RATELIMIT_STORAGE_URI = os.environ.get("RATELIMIT_STORAGE_URI", "memory://")
     # AI answers: OPENAI_API_KEY (and optionally OPENAI_MODEL) are read from the environment.
     LLM_BACKEND = os.environ.get("LLM_BACKEND", "openai")
     LLM_DAILY_LIMIT = int(os.environ.get("LLM_DAILY_LIMIT", "50"))  # AI requests per user per day
@@ -30,6 +35,7 @@ class Config:
 
 class TestConfig(Config):
     TESTING = True
+    RATELIMIT_ENABLED = False  # the rate-limit tests switch it on
     MAIL_BACKEND = "memory"
     LLM_BACKEND = "fake"
     LLM_FAKE = None  # each test installs its own

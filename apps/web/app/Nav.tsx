@@ -16,7 +16,7 @@ export default function Nav() {
           <Link href="/documents">Documents</Link>
           <Link href="/watchlist">Watchlist</Link>
           <Link href="/saved">Saved searches</Link>
-          <span className="muted">{user.email}</span>
+          <Link href="/account" className="muted">{user.email}</Link>
           <button className="link" onClick={signOut}>Sign out</button>
         </>
       )}

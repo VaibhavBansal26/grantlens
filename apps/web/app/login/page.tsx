@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useAuth } from "@/lib/auth";
@@ -43,6 +44,7 @@ export default function LoginPage() {
       </label>
       {error && <p className="error" role="alert">{error}</p>}
       <button className="primary" disabled={busy}>{mode === "login" ? "Sign in" : "Create account"}</button>
+      {mode === "login" && <p className="muted"><Link href="/forgot">Forgot your password?</Link></p>}
       <p className="muted">
         {mode === "login" ? "New here? " : "Already have an account? "}
         <button type="button" className="link" onClick={() => { setMode(mode === "login" ? "register" : "login"); setError(""); }}>

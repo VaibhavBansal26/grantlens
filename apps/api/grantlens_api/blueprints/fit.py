@@ -1,7 +1,7 @@
 from flask import Blueprint, current_app, g, jsonify, request
 
 from .. import fit, match, usage
-from ..extensions import db
+from ..extensions import db, limiter
 from ..literature import openalex
 from ..llm import LLMError, LLMNotConfigured, get_llm
 from ..models import Opportunity
@@ -12,6 +12,7 @@ MIN_TEXT, MAX_TEXT = 40, 4000
 
 
 @bp.post("/opportunities/<int:opp_id>/fit")
+@limiter.limit("10/minute")
 @login_required
 def fit_endpoint(opp_id: int):
     """Body: {"text": "about me / my project"} or {"orcid": "0000-..."}."""

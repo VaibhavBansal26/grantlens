@@ -1,16 +1,15 @@
 from flask import Flask
-from flask_cors import CORS
 
 from .config import Config
-from .extensions import db, migrate
+from .extensions import db, limiter, migrate
+from .hardening import harden
 
 
 def create_app(config: type = Config) -> Flask:
     app = Flask(__name__)
     app.config.from_object(config)
-    if app.config["SESSION_COOKIE_SECURE"] and app.config["SECRET_KEY"] == "dev":
-        raise RuntimeError("set SECRET_KEY before running in production")
-    CORS(app)
+    harden(app)
+    limiter.init_app(app)
     db.init_app(app)
     migrate.init_app(app, db)
 

@@ -3,6 +3,7 @@ from datetime import date, timedelta
 from flask import Blueprint, Response, g, jsonify, request
 
 from .. import ics
+from ..extensions import limiter
 from ..models import Opportunity, SavedSearch, WatchedOpportunity
 from ..retrieval.clean import clean_text
 from ..retrieval.service import search
@@ -70,6 +71,7 @@ def _guard(view):
 
 
 @bp.get("/deadlines")
+@limiter.limit("60/minute")
 @_guard
 def deadlines():
     try:
@@ -88,6 +90,7 @@ def deadlines():
 
 
 @bp.get("/deadlines.ics")
+@limiter.limit("60/minute")
 @_guard
 def deadlines_ics():
     try:

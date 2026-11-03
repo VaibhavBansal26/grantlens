@@ -4,7 +4,7 @@ from dataclasses import asdict
 from flask import Blueprint, current_app, g, jsonify, request
 
 from .. import docqa, usage
-from ..extensions import db
+from ..extensions import db, limiter
 from ..llm import LLMError, LLMNotConfigured, get_llm
 from ..models import DocChunk, Document
 from ..retrieval import embedder
@@ -32,6 +32,7 @@ def list_documents():
 
 
 @bp.post("")
+@limiter.limit("20/hour")
 @login_required
 def upload():
     file = request.files.get("file")
@@ -73,6 +74,7 @@ def delete(doc_id: int):
 
 
 @bp.post("/<int:doc_id>/ask")
+@limiter.limit("10/minute")
 @login_required
 def ask(doc_id: int):
     doc = _mine(doc_id)

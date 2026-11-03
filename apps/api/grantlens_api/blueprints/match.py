@@ -3,12 +3,14 @@ from dataclasses import asdict
 from flask import Blueprint, jsonify, request
 
 from .. import match
+from ..extensions import limiter
 from ..literature import openalex
 
 bp = Blueprint("match", __name__)
 
 
 @bp.post("/match")
+@limiter.limit("20/minute;200/hour")
 def match_endpoint():
     """Body: {"text": "..."} or {"orcid": "0000-..."}; optional {"status": [...], "k": 15}."""
     body = request.get_json(silent=True) or {}

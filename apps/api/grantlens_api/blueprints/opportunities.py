@@ -2,7 +2,7 @@ from flask import Blueprint, Response, jsonify
 from sqlalchemy import func
 
 from .. import ics
-from ..extensions import db
+from ..extensions import db, limiter
 from ..models import Opportunity
 from ..retrieval.clean import clean_text
 
@@ -22,11 +22,13 @@ def _detail(o: Opportunity) -> dict:
 
 
 @bp.get("/opportunities/<int:opp_id>")
+@limiter.limit("120/minute")
 def detail(opp_id: int):
     return jsonify(_detail(db.get_or_404(Opportunity, opp_id)))
 
 
 @bp.get("/opportunities/<int:opp_id>.ics")
+@limiter.limit("60/minute")
 def deadline_ics(opp_id: int):
     o = db.get_or_404(Opportunity, opp_id)
     if not o.close_date:
@@ -38,6 +40,7 @@ def deadline_ics(opp_id: int):
 
 
 @bp.get("/facets")
+@limiter.limit("60/minute")
 def facets():
     statuses = db.session.query(Opportunity.status, func.count()).group_by(Opportunity.status)
     agencies = (
