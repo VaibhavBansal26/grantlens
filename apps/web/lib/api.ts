@@ -75,7 +75,7 @@ export const sendJson = <T,>(method: "POST" | "PUT" | "PATCH" | "DELETE", url: s
     body: body === undefined ? undefined : JSON.stringify(body),
   }).then((r) => parse<T>(r));
 
-export type User = { id: number; email: string; reminders?: boolean; email_verified?: boolean };
+export type User = { id: number; email: string; reminders?: boolean; email_verified?: boolean; is_admin?: boolean };
 
 export type Saved = {
   id: number;
@@ -198,3 +198,18 @@ export type ReviewResult = {
 
 export type ReviewJob = { id: number; topic: string; status: "queued" | "running" | "done" | "failed"; review_id: number | null; error: string | null };
 export type ReviewSummary = { id: number; topic: string; created_at: string; papers: number };
+
+export type SyncParams = { query?: string; limit?: number; days?: number; statuses?: string };
+export type SyncRun = {
+  id: number; source: string; params: SyncParams; trigger: "manual" | "schedule";
+  status: "queued" | "running" | "done" | "failed";
+  fetched: number; inserted: number; updated: number; unchanged: number; embedded: number;
+  error: string | null; created_at: string | null; started_at: string | null; finished_at: string | null;
+};
+export type SyncSchedule = {
+  id: number; source: string; params: SyncParams; interval_hours: number; enabled: boolean; last_run_at: string | null;
+};
+export type SyncOverview = {
+  runs: SyncRun[]; schedules: SyncSchedule[]; sources: string[]; statuses: string[]; scheduler: boolean;
+  corpus: { opportunities: number; awards: number; waiting_for_embedding: number };
+};

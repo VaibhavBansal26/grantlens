@@ -17,7 +17,7 @@ from datetime import UTC, datetime, timedelta
 from flask import Flask, current_app
 from sqlalchemy import update
 
-from . import reviews, usage
+from . import reviews, syncer, usage
 from .extensions import db
 from .llm import LLMError, get_llm
 from .models import Job, Review
@@ -134,8 +134,9 @@ def work(app: Flask, once: bool = False, poll: float = 2.0) -> int:
             if job:
                 execute(job)
                 done += 1
+            loaded = syncer.tick()  # grant loads: start due schedules, run a queued one
             db.session.remove()
-        if job:
+        if job or loaded:
             continue
         if once:
             return done

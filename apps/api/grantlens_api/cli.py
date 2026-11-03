@@ -2,11 +2,7 @@ import click
 from flask import Flask
 
 from .ingest import upsert
-from .sources.grants_gov import GrantsGovSource
-from .sources.nih_reporter import NihReporterSource
-from .sources.nsf import NsfSource
-
-SOURCES = {"grants_gov": GrantsGovSource, "nih_reporter": NihReporterSource, "nsf": NsfSource}
+from .syncer import SOURCES
 
 
 def register(app: Flask) -> None:
@@ -43,22 +39,24 @@ def register(app: Flask) -> None:
     @click.option("--batch", type=int, default=64)
     def embed(batch: int) -> None:
         """Embed opportunities that have no embedding yet."""
-        from .extensions import db
-        from .models import Opportunity
-        from .retrieval.embedder import embed_documents
-        from .retrieval.text import doc_text
+        from .syncer import embed_missing
 
-        done = 0
-        while True:
-            rows = Opportunity.query.filter(Opportunity.embedding.is_(None)).limit(batch).all()
-            if not rows:
-                break
-            vecs = embed_documents([doc_text(r.title, r.abstract) for r in rows])
-            for row, vec in zip(rows, vecs, strict=True):
-                row.embedding = vec
-            db.session.commit()
-            done += len(rows)
-            click.echo(f"embedded {done}")
+        embed_missing(batch, on_progress=lambda n: click.echo(f"embedded {n}"))
+
+    @app.cli.command("make-admin")
+    @click.argument("email")
+    @click.option("--revoke", is_flag=True, help="Remove admin rights instead")
+    def make_admin(email: str, revoke: bool) -> None:
+        """Let a registered user load grants and manage schedules at /admin. Only this command can grant it."""
+        from .extensions import db
+        from .models import User
+
+        user = User.query.filter_by(email=email.strip().lower()).first()
+        if user is None:
+            raise click.ClickException("no account with that email; register it first")
+        user.is_admin = not revoke
+        db.session.commit()
+        click.echo(f"{user.email}: admin={user.is_admin}")
 
     @app.cli.command("send-alerts")
     @click.option("--dry-run", is_flag=True, help="Print what would be sent; send and record nothing")

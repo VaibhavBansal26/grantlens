@@ -87,6 +87,8 @@ class User(db.Model):
     email_verified = db.Column(db.Boolean, nullable=False, default=False, server_default=db.false())
     # Bumped on password reset: every login cookie carries the version it was issued under, so old ones die.
     session_version = db.Column(db.Integer, nullable=False, default=0, server_default="0")
+    # Can load grants and set up scheduled loads (/admin). Granted only from the server: `flask make-admin EMAIL`.
+    is_admin = db.Column(db.Boolean, nullable=False, default=False, server_default=db.false())
 
 
 class SavedSearch(db.Model):
@@ -199,3 +201,40 @@ class Job(db.Model):
     created_at = db.Column(db.DateTime(timezone=True), default=_now)
     started_at = db.Column(db.DateTime(timezone=True))
     finished_at = db.Column(db.DateTime(timezone=True))
+
+
+class SyncRun(db.Model):
+    """One load of grants from a source, started by an admin or by a schedule. See syncer.py."""
+
+    __tablename__ = "sync_run"
+
+    id = db.Column(db.Integer, primary_key=True)
+    source = db.Column(db.String(20), nullable=False)
+    params = db.Column(JSON, nullable=False)
+    trigger = db.Column(db.String(10), nullable=False)  # manual | schedule
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="SET NULL"))
+    schedule_id = db.Column(db.Integer, db.ForeignKey("sync_schedule.id", ondelete="SET NULL"))
+    status = db.Column(db.String(10), nullable=False, default="queued", index=True)  # queued|running|done|failed
+    fetched = db.Column(db.Integer, nullable=False, default=0, server_default="0")
+    inserted = db.Column(db.Integer, nullable=False, default=0, server_default="0")
+    updated = db.Column(db.Integer, nullable=False, default=0, server_default="0")
+    unchanged = db.Column(db.Integer, nullable=False, default=0, server_default="0")
+    embedded = db.Column(db.Integer, nullable=False, default=0, server_default="0")
+    error = db.Column(db.String(300))
+    created_at = db.Column(db.DateTime(timezone=True), default=_now)
+    started_at = db.Column(db.DateTime(timezone=True))
+    finished_at = db.Column(db.DateTime(timezone=True))
+
+
+class SyncSchedule(db.Model):
+    """Load again every `interval_hours`. The worker process starts due ones; see syncer.fire_due."""
+
+    __tablename__ = "sync_schedule"
+
+    id = db.Column(db.Integer, primary_key=True)
+    source = db.Column(db.String(20), nullable=False)
+    params = db.Column(JSON, nullable=False)
+    interval_hours = db.Column(db.Integer, nullable=False)
+    enabled = db.Column(db.Boolean, nullable=False, default=True, server_default=db.true())
+    last_run_at = db.Column(db.DateTime(timezone=True))
+    created_at = db.Column(db.DateTime(timezone=True), default=_now)

@@ -16,6 +16,7 @@ export default function Nav() {
           <Link href="/documents">Documents</Link>
           <Link href="/watchlist">Watchlist</Link>
           <Link href="/saved">Saved searches</Link>
+          {user.is_admin && <Link href="/admin">Admin</Link>}
           <Link href="/account" className="muted">{user.email}</Link>
           <button className="link" onClick={signOut}>Sign out</button>
         </>

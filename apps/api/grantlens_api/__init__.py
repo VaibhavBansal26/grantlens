@@ -14,6 +14,7 @@ def create_app(config: type = Config) -> Flask:
     migrate.init_app(app, db)
 
     from .blueprints import (
+        admin,
         alerts,
         auth,
         deadlines,
@@ -42,6 +43,7 @@ def create_app(config: type = Config) -> Flask:
     app.register_blueprint(reviews.bp)
     app.register_blueprint(literature.bp)
     app.register_blueprint(match.bp)
+    app.register_blueprint(admin.bp)
 
     from . import cli, models  # noqa: F401
 

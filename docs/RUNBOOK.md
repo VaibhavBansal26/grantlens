@@ -57,6 +57,22 @@ the same disk is not a backup. Deleted accounts remain in older backups until th
 - **`POSTGRES_PASSWORD`**: changing it in `.env.prod` alone does not change the password inside an existing database;
   change it in Postgres first (`ALTER USER`), then in `.env.prod`.
 
+## Loading grants (admin page)
+
+An administrator can load grants from the browser instead of the command line. Make an account first (register as usual), then grant it admin rights from the server, the only place that can:
+
+```
+docker compose -f docker-compose.prod.yml exec api flask make-admin you@example.edu
+```
+
+The account then sees **Admin** in the menu (`/admin`). There it can:
+
+- **Load now**: pick a source (Grants.gov, NIH RePORTER, NSF), an optional keyword and a maximum number of records, and start a load. New records are embedded afterwards so meaning-based search finds them. One load runs at a time.
+- **Schedule it**: repeat a load every 6 hours to a week. Schedules are started by the `worker` container, so they only fire while it is running (the page warns when no worker is configured).
+- See the corpus size, recent loads with their counts, and any error.
+
+`flask sync` and `flask embed` still work and do the same thing. `flask make-admin --revoke EMAIL` removes the rights.
+
 ## Background jobs
 
 Building a literature review takes 15 to 60 seconds, so it does not run inside the web request. `POST /reviews`

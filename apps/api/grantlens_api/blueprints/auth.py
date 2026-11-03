@@ -99,7 +99,8 @@ def me():
     user = _session_user()
     return jsonify(
         user=None if user is None else {"id": user.id, "email": user.email, "reminders": user.reminders,
-                                        "email_verified": user.email_verified}
+                                        "email_verified": user.email_verified,
+                                        "is_admin": user.is_admin}
     )
 
 
