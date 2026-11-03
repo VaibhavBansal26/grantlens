@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { API, Detail, getJson, money } from "@/lib/api";
 import WatchButton from "../../WatchButton";
+import FitPanel from "../FitPanel";
 
 export default function OpportunityPage() {
   const { id } = useParams<{ id: string }>();
@@ -42,6 +43,7 @@ export default function OpportunityPage() {
       </dl>
       <h2>Description</h2>
       <p style={{ whiteSpace: "pre-wrap" }}>{d.abstract ?? "No description available."}</p>
+      <FitPanel id={d.id} />
     </article>
   );
 }

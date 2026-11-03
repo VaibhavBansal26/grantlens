@@ -148,3 +148,16 @@ class DocChunk(db.Model):
     page = db.Column(db.Integer, nullable=False)  # 1-based page the chunk starts on
     text = db.Column(db.Text, nullable=False)
     embedding = db.Column(Vector(EMBED_DIM).with_variant(JSON(), "sqlite"))
+
+
+class LlmUsage(db.Model):
+    """How many AI requests a user made on a given UTC day (cost guard)."""
+
+    __tablename__ = "llm_usage"
+    __table_args__ = (UniqueConstraint("user_id", "day", name="uq_llm_usage_user_day"),)
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"),
+                        nullable=False, index=True)
+    day = db.Column(db.Date, nullable=False)
+    count = db.Column(db.Integer, nullable=False, default=0)

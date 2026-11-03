@@ -152,3 +152,17 @@ export async function uploadFile<T>(url: string, file: File): Promise<T> {
   body.append("file", file);
   return fetch(url, { method: "POST", body }).then((r) => parse<T>(r));
 }
+
+export type FitResult = {
+  summary: string;
+  eligibility: { requirement: string; requirement_quote: string; status: "met" | "unclear" | "not_met"; researcher_quote: string; note: string }[];
+  strengths: string[];
+  gaps: string[];
+  aims: { aim: string; rationale: string; papers: string[] }[];
+  papers: { id: string; title: string; year: number | null; url: string | null; authors: string[] }[];
+  downgraded: number;
+  dropped_requirements: number;
+  removed_citations: number;
+  literature_available: boolean;
+  grant_closed: boolean;
+};

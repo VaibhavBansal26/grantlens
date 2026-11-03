@@ -6,6 +6,7 @@ from .mail import MemoryMailer
 class Config:
     # AI answers: OPENAI_API_KEY (and optionally OPENAI_MODEL) are read from the environment.
     LLM_BACKEND = os.environ.get("LLM_BACKEND", "openai")
+    LLM_DAILY_LIMIT = int(os.environ.get("LLM_DAILY_LIMIT", "50"))  # AI requests per user per day
     OPENAI_MODEL = os.environ.get("OPENAI_MODEL")
     # Email: "file" (dev, writes .eml files) or "smtp" (needs SMTP_* set). Nothing is sent by default.
     MAIL_BACKEND = os.environ.get("MAIL_BACKEND", "file")

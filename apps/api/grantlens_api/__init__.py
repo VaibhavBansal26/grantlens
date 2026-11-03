@@ -19,6 +19,7 @@ def create_app(config: type = Config) -> Flask:
         auth,
         deadlines,
         documents,
+        fit,
         health,
         literature,
         match,
@@ -37,6 +38,7 @@ def create_app(config: type = Config) -> Flask:
     app.register_blueprint(watchlist.bp)
     app.register_blueprint(alerts.bp)
     app.register_blueprint(documents.bp)
+    app.register_blueprint(fit.bp)
     app.register_blueprint(literature.bp)
     app.register_blueprint(match.bp)
 

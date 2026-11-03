@@ -3,7 +3,7 @@ from dataclasses import asdict
 
 from flask import Blueprint, current_app, g, jsonify, request
 
-from .. import docqa
+from .. import docqa, usage
 from ..extensions import db
 from ..llm import LLMError, LLMNotConfigured, get_llm
 from ..models import DocChunk, Document
@@ -85,11 +85,14 @@ def ask(doc_id: int):
         llm = get_llm(current_app.config)
     except LLMNotConfigured as e:
         return jsonify(error=str(e)), 503
+    if not usage.consume(g.user.id):
+        return jsonify(error="you have reached today's limit of AI requests; try again tomorrow"), 429
     chunks = DocChunk.query.filter_by(document_id=doc.id).order_by(DocChunk.idx).all()
     excerpts = docqa.retrieve(question, chunks, embedder.embed_query)
     try:
         result = docqa.ask(question, excerpts, llm)
     except LLMError as e:
+        usage.refund(g.user.id)  # a failed call produced nothing, so it shouldn't use up the allowance
         return jsonify(error=str(e)), 502
     return jsonify(
         answer=result.answer, supported=result.supported, removed_citations=result.removed,

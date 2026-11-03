@@ -230,3 +230,19 @@ def test_ask_errors(app, monkeypatch):
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
     res = c.post(url, json={"question": "What happened?"})
     assert res.status_code == 503 and "OPENAI_API_KEY" in res.get_json()["error"]
+
+
+def test_ask_respects_the_daily_cap_and_refunds_failures(app):
+    from grantlens_api.models import LlmUsage
+
+    c = login(app)
+    doc_id = upload(c, make_pdf(PAPER)).get_json()["id"]
+    url = f"/documents/{doc_id}/ask"
+    app.config["LLM_DAILY_LIMIT"] = 1
+    app.config["LLM_FAKE"] = FakeLLM(error=LLMError("the AI service could not be reached"))
+    assert c.post(url, json={"question": "What happened?"}).status_code == 502
+    assert LlmUsage.query.one().count == 0  # the failed call did not use up the allowance
+    app.config["LLM_FAKE"] = FakeLLM({"answer": "x", "citations": []})
+    assert c.post(url, json={"question": "What happened?"}).status_code == 200
+    res = c.post(url, json={"question": "And again?"})
+    assert res.status_code == 429 and "limit" in res.get_json()["error"]
