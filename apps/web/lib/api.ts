@@ -166,3 +166,31 @@ export type FitResult = {
   literature_available: boolean;
   grant_closed: boolean;
 };
+
+export type ReviewPaper = {
+  id: string;
+  title: string;
+  year: number | null;
+  authors: string[];
+  venue: string | null;
+  url: string | null;
+  cited_by: number;
+  theme: number;
+  annotation: string;
+  evidence_quote: string;
+};
+
+export type ReviewResult = {
+  id: number;
+  topic: string;
+  created_at: string;
+  themes: { title: string; summary: string; papers: string[] }[];
+  papers: ReviewPaper[];
+  open_questions: string[];
+  skipped_no_abstract: number;
+  unverified_annotations: number;
+  removed_citations: number;
+  literature_available: boolean;
+};
+
+export type ReviewSummary = { id: number; topic: string; created_at: string; papers: number };

@@ -71,3 +71,4 @@ label.check { display: flex; gap: 8px; align-items: center; font-size: 14px; mar
 .fitresult h3 { margin: 18px 0 6px; font-size: 15px; } .fitresult ul, .fitresult ol { padding-left: 20px; }
 .elig { list-style: none; padding-left: 0 !important; } .elig li { margin: 8px 0; }
 .badge.st-met { background: #d8efe2; color: #0e4a2c; } .badge.st-unclear { background: #fdf0c9; color: #6a4a00; } .badge.st-not_met { background: #f8d7d3; color: #7a1f17; }
+.review section h3 { margin: 22px 0 6px; } .reading { padding-left: 18px; } .reading li { margin: 10px 0; }

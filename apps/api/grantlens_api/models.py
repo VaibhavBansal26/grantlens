@@ -161,3 +161,16 @@ class LlmUsage(db.Model):
                         nullable=False, index=True)
     day = db.Column(db.Date, nullable=False)
     count = db.Column(db.Integer, nullable=False, default=0)
+
+
+class Review(db.Model):
+    """A saved literature review: themes plus an annotated reading list, stored as JSON."""
+
+    __tablename__ = "review"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"),
+                        nullable=False, index=True)
+    topic = db.Column(db.String(300), nullable=False)
+    result = db.Column(JSON, nullable=False)
+    created_at = db.Column(db.DateTime(timezone=True), default=_now)

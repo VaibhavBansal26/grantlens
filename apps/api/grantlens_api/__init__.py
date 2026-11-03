@@ -24,6 +24,7 @@ def create_app(config: type = Config) -> Flask:
         literature,
         match,
         opportunities,
+        reviews,
         saved,
         search,
         watchlist,
@@ -39,6 +40,7 @@ def create_app(config: type = Config) -> Flask:
     app.register_blueprint(alerts.bp)
     app.register_blueprint(documents.bp)
     app.register_blueprint(fit.bp)
+    app.register_blueprint(reviews.bp)
     app.register_blueprint(literature.bp)
     app.register_blueprint(match.bp)
 

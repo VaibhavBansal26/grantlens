@@ -54,7 +54,7 @@ def normalize(work: dict) -> Paper | None:
         cited_by=work.get("cited_by_count") or 0,
         doi=doi,
         abstract=rebuild_abstract(work.get("abstract_inverted_index")),
-        authors=[a["author"]["display_name"] for a in (work.get("authorships") or [])[:6]
+        authors=[a["author"]["display_name"] for a in (work.get("authorships") or [])[:20]
                  if a.get("author", {}).get("display_name")],
         venue=source.get("display_name"),
         url=doi or work["id"],

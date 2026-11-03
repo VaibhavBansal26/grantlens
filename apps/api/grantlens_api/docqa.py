@@ -112,7 +112,9 @@ def _norm(text: str) -> str:
 
 
 def quote_is_verbatim(quote: str, source: str) -> bool:
-    q = _norm(quote)
+    """True if the quoted words appear in the source. Punctuation around the quote is ignored: models
+    often end a quoted sentence with a full stop where the source goes on, but never change the words."""
+    q = _norm(quote).strip(" .,;:!?\"'()[]")
     return len(q) >= MIN_QUOTE and q in _norm(source)
 
 

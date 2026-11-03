@@ -123,6 +123,15 @@ def test_quote_verification_tolerates_pdf_formatting_but_not_invention():
     assert docqa.quote_is_verbatim("", src) is False
 
 
+def test_punctuation_around_a_quote_is_ignored_but_changed_words_are_not():
+    src = "Deep networks gained attention, particularly for segmentation tasks; results varied by site."
+    assert docqa.quote_is_verbatim("Deep networks gained attention.", src)  # a full stop where the source has a comma
+    assert docqa.quote_is_verbatim('"particularly for segmentation tasks"', src)
+    assert docqa.quote_is_verbatim("particularly for segmentation tasks.", src)  # ...and where it has a semicolon
+    assert docqa.quote_is_verbatim("Deep networks gained notice, particularly for segmentation tasks.", src) is False
+    assert docqa.quote_is_verbatim("...", src) is False and docqa.quote_is_verbatim(".....?!", src) is False
+
+
 def chunks_for(texts):
     return [DocChunk(id=i + 1, document_id=1, idx=i, page=i + 1, text=t) for i, t in enumerate(texts)]
 
