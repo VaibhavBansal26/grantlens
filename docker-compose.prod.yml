@@ -26,7 +26,9 @@ services:
       interval: 5s
       retries: 10
   api:
-    build: ./apps/api
+    build:
+      context: ./apps/api
+      args: {UV_EXTRAS: "${UV_EXTRAS:-}"}
     restart: unless-stopped
     environment:
       FLASK_ENV: ${FLASK_ENV:-production}
@@ -45,6 +47,9 @@ services:
       SMTP_USER: ${SMTP_USER:-}
       SMTP_PASSWORD: ${SMTP_PASSWORD:-}
       OPENALEX_EMAIL: ${OPENALEX_EMAIL:-}
+      OPENALEX_API_KEY: ${OPENALEX_API_KEY:-}
+      SENTRY_DSN: ${SENTRY_DSN:-}
+      RETENTION_DOCUMENT_DAYS: ${RETENTION_DOCUMENT_DAYS:-90}
       # 2 workers measured best (see docs/RUNBOOK.md): 4 were about twice as slow on the same machine.
       WEB_CONCURRENCY: ${WEB_CONCURRENCY:-2}
       RATELIMIT_ENABLED: ${RATELIMIT_ENABLED:-1}  # only ever set to 0 for a capacity test

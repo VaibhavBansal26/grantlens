@@ -75,7 +75,7 @@ export const sendJson = <T,>(method: "POST" | "PUT" | "PATCH" | "DELETE", url: s
     body: body === undefined ? undefined : JSON.stringify(body),
   }).then((r) => parse<T>(r));
 
-export type User = { id: number; email: string; reminders?: boolean };
+export type User = { id: number; email: string; reminders?: boolean; email_verified?: boolean };
 
 export type Saved = {
   id: number;
@@ -141,7 +141,7 @@ export type MatchResponse = {
   results: Match[];
 };
 
-export type Doc = { id: number; title: string; pages: number; created_at: string };
+export type Doc = { id: number; title: string; pages: number; created_at: string; expires_at?: string | null };
 
 export type Answer = {
   answer: string;

@@ -27,7 +27,11 @@ def app():
 def make_user(app, email="a@example.com"):
     c = app.test_client()
     assert c.post("/auth/register", json={"email": email, "password": PW}).status_code == 201
-    return c, User.query.filter_by(email=email).one()
+    user = User.query.filter_by(email=email).one()
+    user.email_verified = True  # alerts only go to confirmed addresses; test_account_lifecycle covers the flow itself
+    db.session.commit()
+    app.config["MAIL_MEMORY"].sent.clear()  # forget the confirmation email
+    return c, user
 
 
 def add_opp(ext, title, first_seen, **kw):

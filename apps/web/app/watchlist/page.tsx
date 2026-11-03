@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { API, Watched, getJson, money, sendJson } from "@/lib/api";
+import { API, ApiError, Watched, getJson, money, sendJson } from "@/lib/api";
 import { useAuth } from "@/lib/auth";
 import WatchButton from "../WatchButton";
 
@@ -19,6 +19,7 @@ export default function WatchlistPage() {
   const router = useRouter();
   const [items, setItems] = useState<Watched[] | null>(null);
   const [error, setError] = useState("");
+  const [notice, setNotice] = useState("");
 
   useEffect(() => {
     if (!ready) return;
@@ -27,12 +28,14 @@ export default function WatchlistPage() {
   }, [ready, user, router]);
 
   async function setReminders(on: boolean) {
+    setNotice("");
     updateUser({ reminders: on });
     try {
       await sendJson("PATCH", `${API}/auth/preferences`, { reminders: on });
-    } catch {
+    } catch (e) {
       updateUser({ reminders: !on });
-      setError("Could not change the email setting. Try again.");
+      if (e instanceof ApiError && e.status === 403) setNotice(e.message);
+      else setError("Could not change the email setting. Try again.");
     }
   }
 
@@ -42,6 +45,7 @@ export default function WatchlistPage() {
   return (
     <>
       <h1>Watchlist</h1>
+      {notice && <p className="error" role="alert">{notice}</p>}
       <label className="check">
         <input type="checkbox" checked={!!user?.reminders} onChange={(e) => setReminders(e.target.checked)} />
         Email me a week before, and again on the last day, when a watched grant is closing

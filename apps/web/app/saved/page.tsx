@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { API, Hit, Saved, getJson, savedHref, sendJson } from "@/lib/api";
+import { API, ApiError, Hit, Saved, getJson, savedHref, sendJson } from "@/lib/api";
 import { useAuth } from "@/lib/auth";
 
 type Row = Saved & { fresh: Hit[] | null };
@@ -13,6 +13,7 @@ export default function SavedPage() {
   const router = useRouter();
   const [rows, setRows] = useState<Row[] | null>(null);
   const [error, setError] = useState("");
+  const [notice, setNotice] = useState("");
 
   useEffect(() => {
     if (!ready) return;
@@ -35,12 +36,14 @@ export default function SavedPage() {
   }
 
   async function setAlerts(id: number, on: boolean) {
+    setNotice("");
     setRows((cur) => cur && cur.map((r) => (r.id === id ? { ...r, alerts: on } : r)));
     try {
       await sendJson("PATCH", `${API}/saved-searches/${id}`, { alerts: on });
-    } catch {
+    } catch (e) {
       setRows((cur) => cur && cur.map((r) => (r.id === id ? { ...r, alerts: !on } : r)));
-      setError("Could not change the email setting. Try again.");
+      if (e instanceof ApiError && e.status === 403) setNotice(e.message);
+      else setError("Could not change the email setting. Try again.");
     }
   }
 
@@ -55,6 +58,7 @@ export default function SavedPage() {
   return (
     <>
       <h1>Saved searches</h1>
+      {notice && <p className="error" role="alert">{notice}</p>}
       {rows.length === 0 && <p className="empty">Nothing saved yet. Run a search and choose “Save this search”.</p>}
       {rows.map((s) => (
         <article className="result" key={s.id}>

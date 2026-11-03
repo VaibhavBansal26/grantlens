@@ -150,3 +150,40 @@ def test_limits_follow_the_forwarded_client_address_only_behind_a_trusted_proxy(
     for _ in range(10):
         direct.post("/auth/login", json={"email": "a@example.com", "password": "x" * 12}, headers=xff("203.0.113.7"))
     assert direct.post("/auth/login", json={"email": "d@example.com", "password": "x" * 12}, headers=xff("203.0.113.8")).status_code == 429
+
+
+def test_sentry_is_off_by_default_and_events_are_scrubbed(monkeypatch):
+    import sys
+    import types
+
+    from grantlens_api.hardening import scrub_event
+
+    calls = []
+    fake = types.SimpleNamespace(init=lambda **kw: calls.append(kw))
+    monkeypatch.setitem(sys.modules, "sentry_sdk", fake)
+    create_app(TestConfig)
+    assert calls == []  # no DSN, nothing initialised
+
+    class WithDsn(TestConfig):
+        SENTRY_DSN = "https://key@example.invalid/1"
+
+    create_app(WithDsn)
+    assert calls[0]["dsn"] == WithDsn.SENTRY_DSN and calls[0]["send_default_pii"] is False
+    event = {"message": "boom", "user": {"id": 1, "ip_address": "1.2.3.4"},
+             "request": {"url": "http://x/search", "method": "GET", "query_string": "q=secret", "data": "pw",
+                         "cookies": {"session": "abc"}, "headers": {"Cookie": "abc"}, "env": {"REMOTE_ADDR": "1.2.3.4"}}}
+    assert scrub_event(event) == {"message": "boom", "request": {"url": "http://x/search", "method": "GET"}}
+    assert calls[0]["before_send"] is scrub_event
+
+
+def test_sentry_dsn_without_the_sdk_installed_only_warns(monkeypatch, caplog):
+    import sys
+
+    monkeypatch.setitem(sys.modules, "sentry_sdk", None)  # makes `import sentry_sdk` raise ImportError
+
+    class WithDsn(TestConfig):
+        SENTRY_DSN = "https://key@example.invalid/1"
+
+    with caplog.at_level("WARNING", logger="grantlens"):
+        create_app(WithDsn)
+    assert "sentry-sdk is not installed" in caplog.text

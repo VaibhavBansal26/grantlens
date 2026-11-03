@@ -26,6 +26,7 @@ The API refuses to start in production with a missing, placeholder or short (< 3
 | Pull new opportunities | `flask sync --source grants_gov` (add `--statuses "closed\|archived"` for the archive) | daily |
 | Embed new rows | `flask embed` | **after every sync** |
 | Send alerts and reminders | `flask send-alerts` | daily |
+| Delete expired documents and old counters | `flask retention` (`--dry-run` to count first) | daily |
 | Back up the database | `scripts/backup.sh` | daily |
 
 Run a job with: `docker compose -f docker-compose.prod.yml --env-file .env.prod exec api flask <command>`.
@@ -92,13 +93,14 @@ a user includes it, so you can find the matching line (and, for 500s, the stack 
 | Everyone gets 429 on login | The proxy is not setting `X-Forwarded-For`, so all users look like one address. Run `scripts/smoke.sh --limits`. |
 | 502 "AI service ..." from AI features | OpenAI error, quota or key. The message says which; failed calls are refunded from the daily allowance. |
 | 503 "AI answers are not configured" | `OPENAI_API_KEY` is empty in `.env.prod`. |
+| Paper search, "find grants for my work" or the review builder say OpenAlex's budget is used up | Anonymous OpenAlex use shares a small daily budget per IP address (resets at midnight UTC). Get a free key and set `OPENALEX_API_KEY`. |
 | Semantic search misses recent grants | `flask embed` has not run since the last sync. |
 | Page shows an error after ~30 s on slow AI requests | A proxy in front of Caddy has a short timeout; AI requests can take a minute. Caddy allows 180 s, the web app 150 s. |
 | API unhealthy for ~2 minutes after start | Normal: migrations, then warm-up. |
 
 ## Not done yet
 
-Error tracking (Sentry) and tracing (OpenTelemetry) need an external account and are not wired in; metrics/alerting;
-email verification; automatic data-retention limits; moving PDF parsing and AI calls into background jobs with
+Distributed tracing (OpenTelemetry) and metrics/alerting; changing an account's email address (so verification is
+only on sign-up); moving PDF parsing and AI calls into background jobs with
 progress (they are synchronous, so a slow request holds a worker thread); off-site backup automation; a staging
 environment and a deploy pipeline (CI builds the images but nothing publishes or deploys them).

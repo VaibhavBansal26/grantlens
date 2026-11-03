@@ -68,6 +68,32 @@ def test_search_and_orcid_requests(monkeypatch):
         openalex.works_by_orcid("not-an-orcid")
 
 
+def test_get_sends_the_api_key_and_explains_an_exhausted_budget(monkeypatch):
+    import httpx
+
+    seen = {}
+
+    def fake_get(url, params, headers, timeout):
+        seen.update(headers=headers)
+        status = seen.get("status", 200)
+        return httpx.Response(status, json={"results": []}, request=httpx.Request("GET", url))
+
+    monkeypatch.setattr(httpx, "get", fake_get)
+    monkeypatch.setattr(openalex, "_cache", {})
+    monkeypatch.delenv("OPENALEX_API_KEY", raising=False)
+    openalex._get("/works", {"search": "a"})
+    assert seen["headers"] == {}
+    monkeypatch.setenv("OPENALEX_API_KEY", "k-123")
+    openalex._get("/works", {"search": "b"})
+    assert seen["headers"] == {"Authorization": "Bearer k-123"}
+    seen["status"] = 429
+    with pytest.raises(openalex.OpenAlexError, match="budget is used up"):
+        openalex._get("/works", {"search": "c"})
+    seen["status"] = 500
+    with pytest.raises(openalex.OpenAlexError, match="HTTP 500"):
+        openalex._get("/works", {"search": "d"})
+
+
 def test_literature_endpoint(app, monkeypatch):
     c = app.test_client()
     assert c.get("/literature/search").status_code == 400

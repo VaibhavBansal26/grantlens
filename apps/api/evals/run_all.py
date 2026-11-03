@@ -62,6 +62,8 @@ def main() -> None:
                "(see the top of `evals/run_all.py`).")
     header = ["# AI quality measurements", "", measured, "", caution, ""]
     suffix = "" if args.backend == "openai" else "_llama"
+    if set(args.only) != {"qa", "fit", "review"}:  # a partial run must not overwrite the full report
+        suffix += "_" + "_".join(args.only)
     (ROOT / "docs" / f"AI_QUALITY{suffix}.md").write_text("\n".join(header + sections))
     out = ROOT / "packages" / "eval" / "results"
     out.mkdir(exist_ok=True, parents=True)

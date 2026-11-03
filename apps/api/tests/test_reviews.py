@@ -29,8 +29,9 @@ def paper(i, abstract=None, title=None, authors=None):
 
 
 class FakeLLM:
-    def __init__(self, result=None, error=None, queries=None):
+    def __init__(self, result=None, error=None, queries=None, sentences=None, supported=None):
         self.result, self.error, self.queries, self.calls = result, error, queries or [], []
+        self.sentences, self.supported = sentences, supported  # overrides for the summary and check steps
 
     def complete_json(self, system, user, schema, max_tokens=1500):
         self.calls.append((system, user, schema))
@@ -38,6 +39,15 @@ class FakeLLM:
             raise self.error
         if "queries" in schema["properties"]:
             return {"queries": self.queries}
+        if system == reviews.SUMMARY_SYSTEM:  # default: one sentence per theme citing that theme's first paper
+            if self.sentences is not None:
+                return {"themes": self.sentences}
+            blocks = re.findall(r"THEME (\d+): [^\n]*\n(P\d+):", user)
+            return {"themes": [{"theme": int(i), "sentences": [{"text": f"Theme {i} work [P99].", "papers": [p]}]}
+                               for i, p in blocks]}
+        if system == reviews.CHECK_SYSTEM:  # default: everything supported
+            keys = re.findall(r"SENTENCE (\S+):", user)
+            return {"verdicts": [{"key": k, "supported": self.supported is None or k in self.supported} for k in keys]}
         return self.result(user) if callable(self.result) else self.result
 
     @property
@@ -111,9 +121,9 @@ def test_build_verifies_annotations_themes_and_markers(app):
     assert [t["title"] for t in r.themes] == ["Architectures", "Data and training"]  # no "Other": all placed
     assert r.themes[0]["papers"] == ["P1", "P2"]  # P1 stays in its first theme; P7 never existed
     assert r.themes[1]["papers"] == ["P3", "P4"]  # P4 joined the existing theme, matched by title ignoring case
-    assert "[P9]" not in r.themes[0]["summary"] and "[P1] [P2]" in r.themes[0]["summary"]
-    assert r.themes[1]["summary"] == "Federated and loss-focused work [P3]."  # the follow-up cannot rewrite it
-    assert r.removed_citations == 2  # the P7 member and the [P9] marker
+    assert r.themes[0]["summary"] == "Theme 0 work. [P1]"  # rebuilt from the verified notes; the model's own markers go
+    assert r.themes[1]["summary"] == "Theme 1 work. [P3]"
+    assert r.removed_citations == 2  # the P7 member and the [P9] marker (in the grouping step's own summary)
     assert r.unverified_annotations == 1  # P3's first, invented quote; its second attempt verified
     assert by_id["P3"]["annotation"] == "Federated training." and by_id["P4"]["annotation"] == "A loss benchmark."
     assert all(p["annotation"] for p in r.papers)
@@ -124,7 +134,7 @@ def test_build_verifies_annotations_themes_and_markers(app):
 def test_followup_only_asks_about_missing_papers_and_names_existing_themes(app):
     llm = FakeLLM(two_step())
     reviews.build("tumor segmentation", llm)
-    assert len(llm.calls) == 3  # queries, first request, follow-up
+    assert len(llm.calls) == 5  # queries, first request, follow-up, summaries, check
     first, follow = llm.calls[1][1], llm.calls[2][1]
     assert all(f"P{i}: " in first for i in (1, 2, 3, 4))
     assert "P3: " in follow and "P4: " in follow and "P1: " not in follow and "P2: " not in follow
@@ -143,7 +153,7 @@ def test_no_followup_when_the_first_answer_is_complete(app):
     )
     llm = FakeLLM(two_step(first=full))
     r = reviews.build("tumor segmentation", llm)
-    assert len(llm.calls) == 2 and r.unverified_annotations == 0 and len(r.themes) == 1
+    assert len(llm.calls) == 4 and r.unverified_annotations == 0 and len(r.themes) == 1
 
 
 def test_papers_the_model_never_places_land_in_other_and_bad_quotes_stay_blank(app):
@@ -301,3 +311,35 @@ def test_limits_and_privacy(app, monkeypatch):
     app.config["LLM_DAILY_LIMIT"] = 1
     assert b.post("/reviews", json={"topic": "tumor segmentation"}).status_code == 201
     assert b.post("/reviews", json={"topic": "tumor again"}).status_code in (409, 429)
+
+
+def test_summary_sentences_must_cite_the_themes_papers_and_pass_the_check(app):
+    sentences = [
+        {"theme": 0, "sentences": [
+            {"text": "P1 segments tumors [P1].", "papers": ["P1"]},
+            {"text": "Cites a paper from another theme.", "papers": ["P3"]},  # P3 is not in theme 0
+        ]},
+        {"theme": 1, "sentences": [{"text": "Federated work.", "papers": ["P3"]}, {"text": "Overreach.", "papers": ["P4"]}]},
+        {"theme": 7, "sentences": [{"text": "No such theme.", "papers": ["P1"]}]},
+    ]
+    llm = FakeLLM(two_step(), sentences=sentences, supported={"0.0", "1.0"})  # "Overreach." (1.1) fails the check
+    r = reviews.build("tumor segmentation", llm)
+    assert r.themes[0]["summary"] == "P1 segments tumors. [P1]"  # the model's own marker is stripped and re-added
+    assert r.themes[1]["summary"] == "Federated work. [P3]"
+    assert r.dropped_summary_sentences == 2  # the wrong-theme citation and the failed check; an unknown theme is just skipped
+    check = llm.calls[-1]
+    assert "P1 abstract: " in check[1] and "untrusted" in check[0]
+
+
+def test_a_failed_summary_step_leaves_no_summary_not_an_unchecked_one(app, monkeypatch):
+    llm = FakeLLM(two_step())
+    real = llm.complete_json
+
+    def flaky(system, user, schema, max_tokens=1500):
+        if system == reviews.CHECK_SYSTEM:
+            raise LLMError("down")
+        return real(system, user, schema, max_tokens)
+
+    llm.complete_json = flaky
+    r = reviews.build("tumor segmentation", llm)
+    assert [t["summary"] for t in r.themes] == ["", ""] and all(p["annotation"] for p in r.papers)

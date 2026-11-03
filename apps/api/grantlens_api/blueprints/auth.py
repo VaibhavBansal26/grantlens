@@ -71,6 +71,7 @@ def register():
         db.session.rollback()
         return jsonify(error="that email is already registered"), 409
     _sign_in(user)
+    accounts.send_verification_email(user)
     return jsonify(id=user.id, email=user.email), 201
 
 
@@ -97,8 +98,32 @@ def logout():
 def me():
     user = _session_user()
     return jsonify(
-        user=None if user is None else {"id": user.id, "email": user.email, "reminders": user.reminders}
+        user=None if user is None else {"id": user.id, "email": user.email, "reminders": user.reminders,
+                                        "email_verified": user.email_verified}
     )
+
+
+@bp.post("/verify")
+@limiter.limit("20/hour")
+def verify():
+    """Follows the emailed link. Needs no login (it may be opened on another device); the token is the proof."""
+    user = accounts.user_from_verify_token(str((request.get_json(silent=True) or {}).get("token", "")))
+    if user is None:
+        return jsonify(error="this confirmation link is invalid or has expired"), 400
+    if not user.email_verified:
+        user.email_verified = True
+        db.session.commit()
+    return jsonify(ok=True, email=user.email)
+
+
+@bp.post("/resend-verification")
+@limiter.limit("5/hour")
+@login_required
+def resend_verification():
+    if g.user.email_verified:
+        return jsonify(ok=True, already_verified=True)
+    accounts.send_verification_email(g.user)
+    return jsonify(ok=True), 202
 
 
 @bp.post("/forgot")
@@ -148,6 +173,8 @@ def preferences():
     if "reminders" in body:
         if not isinstance(body["reminders"], bool):
             return jsonify(error="reminders must be true or false"), 400
+        if body["reminders"] and not g.user.email_verified:
+            return jsonify(error="confirm your email address first"), 403
         g.user.reminders = body["reminders"]
         db.session.commit()
     return jsonify(reminders=g.user.reminders)

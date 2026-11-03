@@ -73,9 +73,17 @@ def _get(path: str, params: dict) -> dict:
             return hit[1]
     if mailto := os.environ.get("OPENALEX_EMAIL"):
         params = {**params, "mailto": mailto}
+    # OpenAlex meters anonymous traffic with a small daily budget shared by everyone on the same IP address; a free
+    # key (OPENALEX_API_KEY) has its own.
+    headers = {"Authorization": f"Bearer {key}"} if (key := os.environ.get("OPENALEX_API_KEY")) else {}
     try:
-        res = httpx.get(f"{BASE}{path}", params=params, timeout=20)
+        res = httpx.get(f"{BASE}{path}", params=params, headers=headers, timeout=20)
         res.raise_for_status()
+    except httpx.HTTPStatusError as e:
+        if e.response.status_code == 429:
+            raise OpenAlexError("OpenAlex's request budget is used up for now; try again later "
+                                "(the operator can set OPENALEX_API_KEY)") from e
+        raise OpenAlexError(f"OpenAlex request failed: HTTP {e.response.status_code}") from e
     except httpx.HTTPError as e:
         raise OpenAlexError(f"OpenAlex request failed: {e.__class__.__name__}") from e
     data = res.json()

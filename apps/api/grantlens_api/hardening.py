@@ -33,6 +33,30 @@ def _setup_logging(app: Flask) -> None:
     log.propagate = False
 
 
+def scrub_event(event: dict, hint=None) -> dict:
+    """Keep what is needed to debug (route, status, stack) and drop what the privacy notes promise is never kept:
+    query strings, bodies, cookies, headers, IP addresses and any user details."""
+    req = event.get("request") or {}
+    for key in ("query_string", "data", "cookies", "headers", "env"):
+        req.pop(key, None)
+    event["request"] = req
+    event.pop("user", None)
+    return event
+
+
+def _setup_sentry(app: Flask) -> None:
+    dsn = app.config.get("SENTRY_DSN")
+    if not dsn:
+        return
+    try:
+        import sentry_sdk
+    except ImportError:
+        log.warning("SENTRY_DSN is set but sentry-sdk is not installed (uv sync --extra observability)")
+        return
+    sentry_sdk.init(dsn=dsn, send_default_pii=False, before_send=scrub_event,
+                    traces_sample_rate=app.config.get("SENTRY_TRACES_SAMPLE_RATE", 0.0))
+
+
 def check_secret(app: Flask) -> None:
     """In production the session key signs login cookies and reset links, so it must not be guessable."""
     if not app.config["SESSION_COOKIE_SECURE"]:
@@ -45,6 +69,7 @@ def check_secret(app: Flask) -> None:
 def harden(app: Flask) -> None:
     check_secret(app)
     _setup_logging(app)
+    _setup_sentry(app)
     if hops := app.config["TRUSTED_PROXY_HOPS"]:
         # Only valid when the API is reachable solely through that many proxies; otherwise the
         # client could forge X-Forwarded-For and dodge the rate limits.

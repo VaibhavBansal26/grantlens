@@ -12,10 +12,10 @@ ENV_FILE = Path(__file__).resolve().parents[3] / ".env"
 
 
 def load_openai_key() -> None:
-    """Read only OPENAI_API_KEY (and OPENAI_MODEL) from .env into this process. The rest of that file points
+    """Read only OPENAI_API_KEY, OPENAI_MODEL and OPENALEX_API_KEY from .env into this process. The rest of that file points
     at Docker-internal hosts, so it is deliberately not loaded; the key is never printed."""
     for line in ENV_FILE.read_text().splitlines() if ENV_FILE.exists() else []:
-        m = re.match(r"^\s*(OPENAI_API_KEY|OPENAI_MODEL)\s*=\s*([^#\s]*)", line)
+        m = re.match(r"^\s*(OPENAI_API_KEY|OPENAI_MODEL|OPENALEX_API_KEY)\s*=\s*([^#\s]*)", line)
         if m and m.group(2):
             os.environ.setdefault(m.group(1), m.group(2))
 

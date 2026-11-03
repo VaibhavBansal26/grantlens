@@ -62,6 +62,9 @@ def run(llm, topics: list[str] | None = None, papers: int = 16, judge_llm=None) 
             "topic": topic, "papers": len(r.papers), "themes": len(r.themes),
             "annotated": sum(1 for p in r.papers if p["annotation"]), "unverified_first_pass": r.unverified_annotations,
             "removed_refs": r.removed_citations, "seconds": round(elapsed), "failed": False,
+            "summarised_themes": sum(1 for t in r.themes if t["title"] != reviews.OTHER),
+            "themes_without_summary": sum(1 for t in r.themes if t["title"] != reviews.OTHER and not t["summary"]),
+            "dropped_summary_sentences": r.dropped_summary_sentences,
         })
         for p in r.papers:
             if p["annotation"] and p["id"] in abstracts and by_id[p["id"]]["title"]:
@@ -87,6 +90,10 @@ def report(res: dict) -> list[str]:
            row("Annotation judged **unsupported**", sum(a["verdict"] == "unsupported" for a in ann), len(ann)),
            row("Theme summary judged fully supported by its papers' abstracts", sum(t["verdict"] == "supported" for t in th), len(th)),
            row("Theme summary judged unsupported or only partly", sum(t["verdict"] != "supported" for t in th), len(th)),
+           row("Themes left **without** a summary (every sentence failed the check)",
+               sum(r.get("themes_without_summary", 0) for r in revs), sum(r.get("summarised_themes", 0) for r in revs)),
+           "", ("Theme sentences dropped because the check found them unsupported: "
+                f"{sum(r.get('dropped_summary_sentences', 0) for r in revs)}."),
            "", f"First-attempt quotes that failed the check (and were retried): {retried} across all topics.", "",
            "| Topic | Papers | Themes | Annotated | Seconds |", "|---|---|---|---|---|"]
     out += [f"| {r['topic']} | {r['papers']} | {r['themes']} | {r['annotated']} | {r['seconds']} |" for r in revs]

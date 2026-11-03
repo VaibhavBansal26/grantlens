@@ -19,6 +19,7 @@ from .models import (
 )
 
 RESET_MAX_AGE = 3600  # seconds a reset link stays valid
+VERIFY_MAX_AGE = 3 * 86400  # seconds an email-verification link stays valid
 log = logging.getLogger("grantlens")
 
 
@@ -55,6 +56,33 @@ def send_reset_email(user: User) -> None:
         get_mailer(current_app.config).send(Mail(user.email, "Reset your GrantLens password", text, html))
     except Exception:
         log.exception("password reset email failed", extra={"fields": {"user": user.id}})
+
+
+def verify_token(user: User) -> str:
+    # Bound to the address it was sent to: if the email ever changes, an old link verifies nothing.
+    return URLSafeTimedSerializer(current_app.config["SECRET_KEY"], salt="email-verify").dumps([user.id, user.email])
+
+
+def user_from_verify_token(token: str, max_age: int = VERIFY_MAX_AGE) -> User | None:
+    try:
+        uid, email = URLSafeTimedSerializer(current_app.config["SECRET_KEY"], salt="email-verify").loads(
+            token, max_age=max_age)
+    except (BadSignature, SignatureExpired, ValueError, TypeError):
+        return None
+    user = db.session.get(User, uid)
+    return user if user and user.email == email else None
+
+
+def send_verification_email(user: User) -> None:
+    link = f"{current_app.config['PUBLIC_URL']}/verify-email?token={verify_token(user)}"
+    text = (f"Confirm this email address for your GrantLens account: {link}\n\nThe link works for three days. "
+            f"If you did not create an account, ignore this email.")
+    html = (f'<p><a href="{link}">Confirm this email address</a> for your GrantLens account. '
+            f"The link works for three days.</p><p>If you did not create an account, ignore this email.</p>")
+    try:
+        get_mailer(current_app.config).send(Mail(user.email, "Confirm your GrantLens email", text, html))
+    except Exception:
+        log.exception("verification email failed", extra={"fields": {"user": user.id}})
 
 
 def delete_user_data(user: User) -> None:

@@ -76,3 +76,15 @@ def register(app: Flask) -> None:
             f"users={stats.users} sent={stats.sent} failed={stats.failed} "
             f"nothing_new={stats.nothing_new}{' (dry run)' if dry_run else ''}"
         )
+
+    @app.cli.command("retention")
+    @click.option("--dry-run", is_flag=True, help="Count what would be deleted; delete nothing")
+    def retention_cmd(dry_run: bool) -> None:
+        """Delete expired documents and old bookkeeping rows. Run on a schedule (e.g. daily)."""
+        from .retention import purge
+
+        cfg = app.config
+        out = purge(cfg["RETENTION_DOCUMENT_DAYS"], cfg["RETENTION_USAGE_DAYS"], cfg["RETENTION_REMINDER_DAYS"],
+                    dry_run=dry_run)
+        click.echo(f"documents={out.documents} usage_rows={out.usage_rows} reminder_rows={out.reminder_rows}"
+                   f"{' (dry run)' if dry_run else ''}")

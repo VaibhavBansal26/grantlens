@@ -15,6 +15,13 @@ class Config:
     LLM_DAILY_LIMIT = int(os.environ.get("LLM_DAILY_LIMIT", "50"))  # AI requests per user per day
     OPENAI_MODEL = os.environ.get("OPENAI_MODEL")
     HF_MODEL = os.environ.get("HF_MODEL")  # with LLM_BACKEND=hf (needs HF_TOKEN); default meta-llama/Llama-3.1-8B-Instruct
+    # Error reporting to Sentry, only if a DSN is set and the optional `observability` extra is installed.
+    SENTRY_DSN = os.environ.get("SENTRY_DSN", "")
+    SENTRY_TRACES_SAMPLE_RATE = float(os.environ.get("SENTRY_TRACES_SAMPLE_RATE", "0"))
+    # Automatic expiry (retention.py, `flask retention`); a value of 0 turns that cleanup off.
+    RETENTION_DOCUMENT_DAYS = int(os.environ.get("RETENTION_DOCUMENT_DAYS", "90"))
+    RETENTION_USAGE_DAYS = int(os.environ.get("RETENTION_USAGE_DAYS", "30"))
+    RETENTION_REMINDER_DAYS = int(os.environ.get("RETENTION_REMINDER_DAYS", "180"))
     # Email: "file" (dev, writes .eml files) or "smtp" (needs SMTP_* set). Nothing is sent by default.
     MAIL_BACKEND = os.environ.get("MAIL_BACKEND", "file")
     MAIL_FROM = os.environ.get("MAIL_FROM", "GrantLens <alerts@localhost>")

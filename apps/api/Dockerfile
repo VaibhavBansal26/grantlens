@@ -5,7 +5,8 @@ WORKDIR /app
 RUN pip install --no-cache-dir uv
 # Dependencies first, from the lockfile, so this layer is cached until they change.
 COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev --no-install-project
+ARG UV_EXTRAS=""  # e.g. "--extra observability" to include the Sentry SDK
+RUN uv sync --frozen --no-dev --no-install-project $UV_EXTRAS
 # Bake the embedding model into the image: otherwise the first user request downloads 130 MB.
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('BAAI/bge-small-en-v1.5')"
 COPY . .

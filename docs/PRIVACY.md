@@ -31,6 +31,7 @@ Shared grant and award data (Grants.gov, NIH RePORTER, NSF) is public and is not
 |---|---|---|
 | **OpenAI** | Document passages and your question (document Q&A); the grant text and what you wrote about yourself or your ORCID papers (fit check); paper titles and abstracts (review builder); short topic strings (search-query writing) | Only when you use those AI features, and only if the operator has set `OPENAI_API_KEY`. Retention is governed by the operator's OpenAI account settings and OpenAI's terms: check them before uploading anything confidential. |
 | **OpenAlex** | Search text and ORCID iDs | Paper search, "find grants for my work" with an ORCID, fit check, review builder. |
+| **Sentry** (optional) | Error reports: stack trace, route and status. Query strings, bodies, cookies, headers, IP addresses and user details are removed before sending. | Only if the operator sets `SENTRY_DSN` and installs the `observability` extra. Off by default. |
 | **Email provider (SMTP)** | Your address and the alert or reset message | Only when alerts or password resets are used. |
 
 **Do not upload unpublished or confidential documents unless you are comfortable with them being sent to
@@ -47,8 +48,11 @@ OpenAI.** The Documents page says documents are read by an AI service; keep that
 
 ## Retention
 
-- There is **no automatic expiry**: documents, reviews and saved searches stay until you delete them.
-  If the deployment needs a retention period, add a scheduled cleanup first.
+- **Uploaded documents expire automatically** after `RETENTION_DOCUMENT_DAYS` (default 90; 0 turns it off), when
+  `flask retention` runs (schedule it daily). Each document in the app shows its deletion date. AI usage counters
+  are deleted after 30 days and sent-reminder markers after 180.
+- Saved searches, the watchlist and reviews are things you curate on purpose, so they stay until you delete them.
+- Alert and reminder emails go only to addresses confirmed through the link we email at sign-up.
 - **Backups** (`scripts/backup.sh`) contain whatever existed when they were taken. A deleted account
   disappears from backups only as old backups are rotated out (14 by default). Keep that in mind when answering deletion requests.
 

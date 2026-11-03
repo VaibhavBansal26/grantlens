@@ -1,5 +1,6 @@
 import os
 from dataclasses import asdict
+from datetime import UTC, timedelta
 
 from flask import Blueprint, current_app, g, jsonify, request
 
@@ -21,7 +22,10 @@ def _mine(doc_id: int) -> Document | None:
 
 
 def _view(d: Document) -> dict:
-    return {"id": d.id, "title": d.title, "pages": d.page_count, "created_at": d.created_at.isoformat()}
+    days = current_app.config["RETENTION_DOCUMENT_DAYS"]
+    created = d.created_at if d.created_at.tzinfo else d.created_at.replace(tzinfo=UTC)
+    return {"id": d.id, "title": d.title, "pages": d.page_count, "created_at": d.created_at.isoformat(),
+            "expires_at": (created + timedelta(days=days)).isoformat() if days > 0 else None}
 
 
 @bp.get("")

@@ -20,6 +20,10 @@ dependencies = [
   "jsonschema>=4.26.0",
 ]
 
+[project.optional-dependencies]
+# Error reporting, off unless SENTRY_DSN is set:  uv sync --extra observability
+observability = ["sentry-sdk[flask]>=2.0"]
+
 [dependency-groups]
 dev = [
     "pytest>=8.0",

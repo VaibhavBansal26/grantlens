@@ -52,6 +52,7 @@ def token_from_last_email(app) -> str:
 
 def test_forgot_answers_identically_and_only_mails_real_accounts(app):
     register(app)
+    app.config["MAIL_MEMORY"].sent.clear()  # the confirmation email sent at registration
     c = app.test_client()
     known = c.post("/auth/forgot", json={"email": "A@Example.com"})
     unknown = c.post("/auth/forgot", json={"email": "nobody@example.com"})
@@ -162,3 +163,66 @@ def test_delete_removes_the_account_and_every_trace_of_its_data(app):
     assert WatchedOpportunity.query.filter_by(user_id=keeper_id).count() == 1  # nor is anyone else's data
     assert Review.query.filter_by(user_id=keeper_id).count() == 1 and Review.query.filter_by(user_id=uid).count() == 0
     assert c.delete("/auth/account", json={"password": PW}).status_code == 401  # already gone
+
+
+# ---- email verification -------------------------------------------------------------------
+
+def link_token(mail):
+    return re.search(r"token=([\w.\-]+)", mail.text).group(1)
+
+
+def test_register_sends_a_confirmation_link_and_following_it_verifies(app):
+    c = register(app)
+    assert c.get("/auth/me").get_json()["user"]["email_verified"] is False
+    sent = app.config["MAIL_MEMORY"].sent
+    assert [m.to for m in sent] == ["a@example.com"] and "/verify-email?token=" in sent[0].html
+    anon = app.test_client()  # opened on another device: no login needed
+    assert anon.post("/auth/verify", json={"token": link_token(sent[0])}).get_json() == {"ok": True, "email": "a@example.com"}
+    assert c.get("/auth/me").get_json()["user"]["email_verified"] is True
+    assert anon.post("/auth/verify", json={"token": link_token(sent[0])}).status_code == 200  # harmless to repeat
+
+
+def test_bad_expired_or_stale_confirmation_links_are_refused(app):
+    register(app)
+    c = app.test_client()
+    assert c.post("/auth/verify", json={"token": "garbage"}).status_code == 400
+    assert c.post("/auth/verify", json={}).status_code == 400
+    user = User.query.one()
+    token = accounts.verify_token(user)
+    assert accounts.user_from_verify_token(token, max_age=-1) is None  # expired
+    user.email = "new@example.com"  # the address changed after the link was sent
+    db.session.commit()
+    assert c.post("/auth/verify", json={"token": token}).status_code == 400
+    assert User.query.one().email_verified is False
+
+
+def test_resend_needs_login_and_stops_once_verified(app):
+    assert app.test_client().post("/auth/resend-verification").status_code == 401
+    c = register(app)
+    sent = app.config["MAIL_MEMORY"].sent
+    assert c.post("/auth/resend-verification").status_code == 202 and len(sent) == 2
+    c.post("/auth/verify", json={"token": link_token(sent[1])})
+    assert c.post("/auth/resend-verification").get_json() == {"ok": True, "already_verified": True} and len(sent) == 2
+
+
+def test_alerts_and_reminders_need_a_verified_address(app):
+    c = register(app)
+    assert c.patch("/auth/preferences", json={"reminders": True}).status_code == 403
+    sid = c.post("/saved-searches", json={"name": "x", "params": {"q": "imaging"}}).get_json()["id"]
+    assert c.patch(f"/saved-searches/{sid}", json={"alerts": True}).status_code == 403
+    assert c.patch(f"/saved-searches/{sid}", json={"alerts": False}).status_code == 200  # turning off is always allowed
+    User.query.one().email_verified = True
+    db.session.commit()
+    assert c.patch("/auth/preferences", json={"reminders": True}).get_json() == {"reminders": True}
+    assert c.patch(f"/saved-searches/{sid}", json={"alerts": True}).status_code == 200
+
+
+def test_unverified_users_with_alerts_already_on_get_no_mail(app):
+    from grantlens_api import alerts as alerts_mod
+
+    register(app)
+    user = User.query.one()
+    user.reminders = True  # e.g. switched on before verification existed
+    db.session.commit()
+    stats, mails = alerts_mod.send_alerts(app.config["MAIL_MEMORY"], "http://app.test", dry_run=True)
+    assert stats.users == 0 and mails == []

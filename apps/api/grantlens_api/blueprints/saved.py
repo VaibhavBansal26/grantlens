@@ -95,6 +95,8 @@ def update(search_id: int):
     if "alerts" in body:
         if not isinstance(body["alerts"], bool):
             return jsonify(error="alerts must be true or false"), 400
+        if body["alerts"] and not g.user.email_verified:
+            return jsonify(error="confirm your email address first"), 403
         if body["alerts"] and not saved.alerts:
             saved.last_alerted_at = datetime.now(UTC)  # only matches from now on, not the backlog
         saved.alerts = body["alerts"]

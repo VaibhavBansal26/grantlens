@@ -87,7 +87,7 @@ export default function DocumentsPage() {
       {docs.map((d) => (
         <article className={`result${d.id === selected ? " picked" : ""}`} key={d.id}>
           <h3>{d.title}</h3>
-          <div className="meta"><span>{d.pages} page{d.pages === 1 ? "" : "s"}</span></div>
+          <div className="meta"><span>{d.pages} page{d.pages === 1 ? "" : "s"}</span>{d.expires_at && <span>deleted automatically on {new Date(d.expires_at).toLocaleDateString()}</span>}</div>
           <div className="actions">
             <button className="watch" onClick={() => { setSelected(d.id); setAnswer(null); }} aria-pressed={d.id === selected}>
               {d.id === selected ? "Selected" : "Ask about this"}

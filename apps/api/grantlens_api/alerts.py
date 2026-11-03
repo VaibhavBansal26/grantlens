@@ -166,8 +166,9 @@ def send_alerts(mailer: Mailer, public_url: str, now: datetime | None = None,
     now = now or datetime.now(UTC)
     stats, mails = Stats(), []
     wanted = db.session.query(User.id).filter(
+        User.email_verified.is_(True),
         User.reminders.is_(True)
-        | User.id.in_(db.session.query(SavedSearch.user_id).filter(SavedSearch.alerts.is_(True)))
+        | User.id.in_(db.session.query(SavedSearch.user_id).filter(SavedSearch.alerts.is_(True))),
     )
     for (uid,) in wanted.all():
         user = db.session.get(User, uid)

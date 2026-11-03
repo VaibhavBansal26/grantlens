@@ -72,3 +72,5 @@ label.check { display: flex; gap: 8px; align-items: center; font-size: 14px; mar
 .elig { list-style: none; padding-left: 0 !important; } .elig li { margin: 8px 0; }
 .badge.st-met { background: #d8efe2; color: #0e4a2c; } .badge.st-unclear { background: #fdf0c9; color: #6a4a00; } .badge.st-not_met { background: #f8d7d3; color: #7a1f17; }
 .review section h3 { margin: 22px 0 6px; } .reading { padding-left: 18px; } .reading li { margin: 10px 0; }
+
+.banner { margin: 0; padding: 8px 24px; background: var(--card, #fff8e1); border-bottom: 1px solid var(--line, #e6d9a8); font-size: 14px; }
