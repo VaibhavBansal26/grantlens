@@ -15,6 +15,7 @@
 		header_up -X-Real-IP
 		transport http {
 			response_header_timeout 180s  # AI requests can run for a minute or more
+			keepalive 4s  # shorter than the web server's 5 s idle limit, or a reused connection can arrive already closed (502)
 		}
 	}
 	header {
