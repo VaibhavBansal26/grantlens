@@ -89,6 +89,9 @@ export type Saved = {
 export const savedHref = (s: Saved): string => {
   const u = new URLSearchParams();
   Object.entries(s.params).forEach(([k, vs]) => vs.forEach((v) => u.append(k, v)));
+  // A saved search without a status filter means "every status". The search page now defaults to open
+  // grants, so spell it out; otherwise opening an older saved search would quietly show different results.
+  if (!s.params.status?.length) ["posted", "forecasted", "closed", "archived"].forEach((v) => u.append("status", v));
   return `/?${u}`;
 };
 

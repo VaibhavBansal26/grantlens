@@ -7,8 +7,12 @@ import { API, ApiError, Facets, Hit, SearchParams, getJson, money, searchUrl, se
 import { useAuth } from "@/lib/auth";
 import WatchButton from "./WatchButton";
 
-const EMPTY: SearchParams = { q: "", mode: "hybrid", status: [], agency: "", closesAfter: "", minAmount: "" };
-const STATUSES = ["posted", "forecasted", "closed", "archived"];
+// Most of the corpus is closed or archived (91% at the time of writing), and people searching for funding
+// want grants they can still apply to. Those are the default; older ones are one switch away.
+const OPEN = ["posted", "forecasted"];
+const ALL = [...OPEN, "closed", "archived"];
+const EMPTY: SearchParams = { q: "", mode: "hybrid", status: OPEN, agency: "", closesAfter: "", minAmount: "" };
+const includesOld = (status: string[]) => status.includes("closed") || status.includes("archived");
 
 function whyMatched(h: Hit): string {
   const parts = [];
@@ -33,7 +37,7 @@ export default function SearchPage() {
     if (u.get("q")) {
       const init: SearchParams = {
         q: u.get("q") ?? "", mode: (u.get("mode") as SearchParams["mode"]) ?? "hybrid",
-        status: u.getAll("status"), agency: u.get("agency") ?? "",
+        status: u.getAll("status").length ? u.getAll("status") : OPEN, agency: u.get("agency") ?? "",
         closesAfter: u.get("closes_after") ?? "", minAmount: u.get("min_amount") ?? "",
       };
       setP(init);
@@ -74,7 +78,14 @@ export default function SearchPage() {
   }
 
   const set = <K extends keyof SearchParams>(k: K, v: SearchParams[K]) => setP((s) => ({ ...s, [k]: v }));
-  const toggle = (s: string) => set("status", p.status.includes(s) ? p.status.filter((x) => x !== s) : [...p.status, s]);
+  const older = (facets?.statuses ?? []).filter((x) => x.value === "closed" || x.value === "archived").reduce((n, x) => n + x.count, 0);
+  const withOld = includesOld(p.status);
+  // Changing the switch re-runs the current search at once, so the results always match what is shown.
+  function setOld(on: boolean) {
+    const next = { ...p, status: on ? ALL : OPEN };
+    setP(next);
+    if (p.q.trim()) run(next);
+  }
 
   return (
     <>
@@ -87,12 +98,9 @@ export default function SearchPage() {
       </form>
 
       <div className="filters">
-        <label>Status
-          <span className="checks">
-            {STATUSES.map((s) => (
-              <span key={s}><input type="checkbox" checked={p.status.includes(s)} onChange={() => toggle(s)} /> {s}</span>
-            ))}
-          </span>
+        <label className="check">
+          <input type="checkbox" checked={withOld} onChange={(e) => setOld(e.target.checked)} />
+          Include closed and archived grants{older > 0 ? ` (${older.toLocaleString("en-US")} more)` : ""}
         </label>
         <label>Agency
           <select value={p.agency} onChange={(e) => set("agency", e.target.value)}>
@@ -119,7 +127,12 @@ export default function SearchPage() {
       {hits && hits.length > 0 && (
         <p className="actions"><button className="link" onClick={save}>Save this search</button>{notice && <span className="muted">{notice}</span>}</p>
       )}
-      {hits && hits.length === 0 && <p className="empty">No grants matched. Try fewer filters.</p>}
+      {hits && hits.length === 0 && (
+        <p className="empty">
+          No grants matched. Try fewer filters{!withOld && older > 0 ? <> or <button className="link" onClick={() => setOld(true)}>include closed and archived grants</button></> : ""}.
+        </p>
+      )}
+      {hits && hits.length > 0 && !withOld && <p className="muted">Showing grants you can still apply to (open or forecasted).</p>}
       {hits?.map((h) => (
         <article className="result" key={h.id}>
           <h3><Link href={`/opportunity/${h.id}`}>{h.title}</Link></h3>

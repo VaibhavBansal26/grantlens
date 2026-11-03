@@ -61,7 +61,7 @@ export default function SavedPage() {
           <h3><Link href={savedHref(s)}>{s.name}</Link></h3>
           <div className="meta">
             <span>“{s.params.q?.[0]}”</span>
-            {s.params.status && <span>{s.params.status.join(", ")}</span>}
+            <span>{s.params.status?.length ? s.params.status.join(", ") : "all statuses"}</span>
             {s.fresh === null ? <span>checking for new grants…</span>
               : s.fresh.length > 0 ? <span className="badge posted">{s.fresh.length} new since you last looked</span>
               : <span>no new matches</span>}
