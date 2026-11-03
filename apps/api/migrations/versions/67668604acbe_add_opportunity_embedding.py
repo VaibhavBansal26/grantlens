@@ -5,6 +5,7 @@ Revises: c15920d6e0e5
 Create Date: 2026-11-02 15:27:58.255852
 
 """
+
 import sqlalchemy as sa
 from alembic import op
 from pgvector.sqlalchemy import Vector

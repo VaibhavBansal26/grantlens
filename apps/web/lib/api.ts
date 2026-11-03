@@ -137,3 +137,18 @@ export type MatchResponse = {
   profile: { name: string | null; papers: Paper[]; text_used: string };
   results: Match[];
 };
+
+export type Doc = { id: number; title: string; pages: number; created_at: string };
+
+export type Answer = {
+  answer: string;
+  supported: boolean;
+  removed_citations: number;
+  citations: { n: number; page: number; quote: string }[];
+};
+
+export async function uploadFile<T>(url: string, file: File): Promise<T> {
+  const body = new FormData();
+  body.append("file", file);
+  return fetch(url, { method: "POST", body }).then((r) => parse<T>(r));
+}

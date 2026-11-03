@@ -123,3 +123,28 @@ class DeadlineReminder(db.Model):
                                nullable=False)
     days = db.Column(db.Integer, nullable=False)  # threshold: 7 or 1
     sent_at = db.Column(db.DateTime(timezone=True), default=_now)
+
+
+class Document(db.Model):
+    """A PDF a user uploaded for Q&A. Only extracted text is kept, never the file."""
+
+    __tablename__ = "document"
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey("user_account.id", ondelete="CASCADE"),
+                        nullable=False, index=True)
+    title = db.Column(db.String(255), nullable=False)
+    page_count = db.Column(db.Integer, nullable=False)
+    created_at = db.Column(db.DateTime(timezone=True), default=_now)
+
+
+class DocChunk(db.Model):
+    __tablename__ = "doc_chunk"
+
+    id = db.Column(db.Integer, primary_key=True)
+    document_id = db.Column(db.Integer, db.ForeignKey("document.id", ondelete="CASCADE"),
+                            nullable=False, index=True)
+    idx = db.Column(db.Integer, nullable=False)  # order within the document
+    page = db.Column(db.Integer, nullable=False)  # 1-based page the chunk starts on
+    text = db.Column(db.Text, nullable=False)
+    embedding = db.Column(Vector(EMBED_DIM).with_variant(JSON(), "sqlite"))

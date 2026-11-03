@@ -64,3 +64,6 @@ label.check { display: flex; gap: 8px; align-items: center; font-size: 14px; mar
 .orcid { max-width: 320px; }
 .profile { margin: 12px 0; font-size: 14px; }
 .profile ul { margin: 6px 0; color: var(--muted); }
+.result.picked { border-color: var(--accent); }
+.answer { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 4px 16px 12px; margin: 16px 0; }
+.answer h3 { font-size: 14px; margin: 12px 0 4px; } .answer ul { margin: 0; padding-left: 18px; font-size: 14px; }
